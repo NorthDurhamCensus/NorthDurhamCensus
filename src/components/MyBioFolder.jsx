@@ -41,26 +41,21 @@ function MyBioFolder() {
     <>
         <strong>Objective:</strong>
         <br />
-        <span>Welcome to the</span>
-        <span>North Durham Census terminal.</span>
+        <span>Welcome to the North Durham Census terminal.</span>
         <br />
         <br />
         <strong>Information:</strong>
         <br />
-        <span>This platform is an independent</span>
-        <br />
-        <span>community-driven space built explicitly for grassroots advocacy, mutual aid networksy.</span>
-        <br />
-        <span>and hyper-local connection across our rural northern townships.</span>
+        <span>This platform is an independent community-driven space built explicitly for grassroots advocacy, mutual aid networks and hyper-local connection across our rural northern townships.</span>
         <br />
         <br />
         <strong>Location: </strong>
         <br />
         <span>North Durham Region</span>
         <br />
-        <span>Open to work</span>
+        <span>Ontario</span>
         <br />
-        <span>On Site / Remote</span>
+        <span>Canada</span>
     </>
   );
 

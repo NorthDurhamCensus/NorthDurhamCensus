@@ -35,7 +35,7 @@ const form = useRef();
 
     emailjs
       .sendForm('service_3jp9sce', 'template_mwqeuol', form.current, {
-        publicKey: 'VEMHa6EGtulAzDYSH',
+        publicKey: '0EKjvlHHI958kjiPa',
       })
       .then(
         () => {

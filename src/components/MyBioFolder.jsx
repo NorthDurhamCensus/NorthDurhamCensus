@@ -41,22 +41,22 @@ function MyBioFolder() {
     <>
         <strong>Objective:</strong>
         <br />
-        <span>Building pixel perfect web </span>
-        <span>application.</span>
+        <span>Welcome to the</span>
+        <span>North Durham Census terminal.</span>
         <br />
         <br />
         <strong>Information:</strong>
         <br />
-        <span>Yute S. Lilitprapun</span>
+        <span>This platform is an independent</span>
         <br />
-        <span>Front-end developer</span>
+        <span>community-driven space built explicitly for grassroots advocacy, mutual aid networksy.</span>
         <br />
-        <span>929-235-5371</span>
+        <span>and hyper-local connection across our rural northern townships.</span>
         <br />
         <br />
         <strong>Location: </strong>
         <br />
-        <span>New York City, Queens</span>
+        <span>North Durham Region</span>
         <br />
         <span>Open to work</span>
         <br />

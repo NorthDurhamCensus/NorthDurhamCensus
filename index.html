@@ -34,6 +34,36 @@
   </div>
 </div>
 
+<!-- ---------------------------------------------------------------------------
+     Evict any stale service worker.
+
+     This address previously hosted a different site — a React app that
+     registered a service worker. A service worker outlives the site that
+     installed it: it keeps answering from its own cache, so a visitor can go on
+     being served the old page indefinitely, however many times they reload.
+
+     The census registers no service worker at all, so anything found here is a
+     leftover and is removed, along with whatever it cached. Harmless when there
+     is nothing to remove, which is the normal case.
+     --------------------------------------------------------------------------- -->
+<script>
+(function () {
+  if (!("serviceWorker" in navigator)) return;
+  navigator.serviceWorker.getRegistrations().then(function (registrations) {
+    if (!registrations.length) return;
+    Promise.all(registrations.map(function (r) { return r.unregister(); })).then(function () {
+      if (window.caches && caches.keys) {
+        caches.keys().then(function (names) {
+          return Promise.all(names.map(function (n) { return caches.delete(n); }));
+        }).then(function () { location.reload(); });
+      } else {
+        location.reload();
+      }
+    });
+  }).catch(function () { /* nothing we can do, and nothing that should break the page */ });
+})();
+</script>
+
 <!-- Data. Plain files anyone can edit — see CONTRIBUTING.md -->
 <script src="config.js"></script>
 <script src="data/listings.js"></script>

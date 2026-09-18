@@ -537,3 +537,13 @@ a { color: #0000ee; }
 .ms-cell.mine::after    { content: "✱"; color: #000; font-size: 12px; }
 .ms-cell.boom           { background: #ff0000; }
 .ms-cell.wrong::after   { content: "✗"; color: #000; font-size: 11px; }
+
+/* Webamp draws its own windows, so it gets a layer of the desktop to float on
+   rather than living inside one of ours. */
+#winamp-layer {
+  position: absolute;
+  inset: 0 0 var(--taskbar-h) 0;
+  z-index: 8000;
+  pointer-events: none;
+}
+#winamp-layer > * { pointer-events: auto; }

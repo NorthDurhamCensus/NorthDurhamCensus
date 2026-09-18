@@ -59,6 +59,28 @@ window.NDC.config = {
     }
   },
 
+  // --- Winamp ---------------------------------------------------------------
+  // Webamp ships no music, so the playlist is whatever is listed here. Files
+  // must sit in this repository (or be served with permissive CORS headers),
+  // and must be something we actually have the right to redistribute.
+  //
+  // `duration` is in seconds and is optional; Webamp reads the real length once
+  // a track starts, it just makes the playlist look right before you press play.
+  //
+  // An empty list is fine: Winamp opens and you can drag an MP3 onto it.
+  winamp: {
+    tracks: [
+      {
+        url: "assets/audio/reaching-out.mp3",
+        title: "Reaching Out",
+        artist: "Kevin MacLeod",
+        duration: 61
+      }
+      // Placeholder music. See assets/audio/README.md — a local recording would
+      // suit a census of the senses far better than stock instrumental.
+    ]
+  },
+
   // --- Links ----------------------------------------------------------------
   repoUrl: "https://github.com/NorthDurhamCensus/NorthDurhamCensus",
   licenceUrl: "https://github.com/NorthDurhamCensus/NorthDurhamCensus/blob/main/LICENSE",

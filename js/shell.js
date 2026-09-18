@@ -21,7 +21,11 @@
     /* Games live in the Start menu rather than on the desktop, so the census
        stays the first thing a visitor sees. */
     { id: "minesweeper", label: "Minesweeper", icon: "bulb", desktop: false, game: true,
-      run: function () { window.NDC.apps.minesweeper(); } }
+      run: function () { window.NDC.apps.minesweeper(); } },
+    { id: "paint", label: "Paint", icon: "notepad", desktop: false, game: true,
+      run: function () { window.NDC.apps.paint(); } },
+    { id: "winamp", label: "Winamp", icon: "chat", desktop: false, game: true,
+      run: function () { window.NDC.apps.winamp(); } }
   ];
 
   /* --- Desktop icons -------------------------------------------------------- */

@@ -21,3 +21,4 @@ data/email-drop/*
 # Screenshots and scratch files the desktop app drops into the project folder.
 # Kept on disk, kept out of the repository.
 Claude outputs/
+PUSH-TO-GITHUB.md

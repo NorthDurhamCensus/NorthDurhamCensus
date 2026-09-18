@@ -16,7 +16,12 @@
     { id: "stories",  label: "Stories",       icon: "book",     desktop: true,  run: function () { window.NDC.apps.stories(); } },
     { id: "resources",label: "Resources",     icon: "folder",   desktop: true,  run: function () { window.NDC.apps.resources(); } },
     { id: "mail",     label: "Send a Tip",    icon: "mail",     desktop: true,  run: function () { window.NDC.apps.mail(); } },
-    { id: "about",    label: "About",         icon: "info",     desktop: true,  run: function () { window.NDC.apps.about(); } }
+    { id: "about",    label: "About",         icon: "info",     desktop: true,  run: function () { window.NDC.apps.about(); } },
+
+    /* Games live in the Start menu rather than on the desktop, so the census
+       stays the first thing a visitor sees. */
+    { id: "minesweeper", label: "Minesweeper", icon: "bulb", desktop: false, game: true,
+      run: function () { window.NDC.apps.minesweeper(); } }
   ];
 
   /* --- Desktop icons -------------------------------------------------------- */
@@ -94,10 +99,14 @@
       return li;
     }
 
-    var programs = PROGRAMS.map(function (p) { return { label: p.label, icon: p.icon, run: p.run }; });
+    var programs = PROGRAMS.filter(function (p) { return !p.game; })
+      .map(function (p) { return { label: p.label, icon: p.icon, run: p.run }; });
+    var games = PROGRAMS.filter(function (p) { return p.game; })
+      .map(function (p) { return { label: p.label, icon: p.icon, run: p.run }; });
 
     var items = [
       submenuItem("Programs", "folder-open", programs),
+      games.length ? submenuItem("Games", "bulb", games) : null,
       submenuItem("Settings", "settings", [
         { label: "Control Panel", icon: "settings", run: function () { window.NDC.apps.controlPanel(); } },
         { label: "Show the assistant", icon: "question", run: function () { window.NDC.settings.set("assistant", true); window.NDC.assistant.say(); } },
@@ -119,7 +128,8 @@
     ];
 
     menu.appendChild(el("div", { class: "start-banner", "aria-hidden": "true", text: "North Durham" }));
-    menu.appendChild(el("ul", { class: "start-list", role: "none" }, items));
+    menu.appendChild(el("ul", { class: "start-list", role: "none" },
+      items.filter(Boolean)));
 
     button.addEventListener("click", function (event) {
       event.stopPropagation();

@@ -42,7 +42,7 @@ window.NDC.config = {
   // Whichever is chosen, if the send fails the window falls back to "mailto"
   // so a submission is never simply lost.
   mail: {
-    provider: "formsubmit",
+    provider: "emailjs",
 
     formsubmit: {
       endpoint: "https://formsubmit.co/ajax/NorthDurhamCensus@outlook.com"
@@ -50,8 +50,8 @@ window.NDC.config = {
 
     emailjs: {
       serviceId: "service_kyx39u5",
-      templateId: "",     // Email Templates → the template's ID
-      publicKey: "",      // Account → General → Public Key
+      templateId: "template_wv6adad",
+      publicKey: "0EKjvlHHI958kjiPa",
       // The template in the EmailJS dashboard must use these variable names.
       // Any it does not use are simply ignored:
       //   {{kind}} {{place}} {{message}} {{from_name}} {{reply_to}} {{subject}}
@@ -60,8 +60,8 @@ window.NDC.config = {
   },
 
   // --- Links ----------------------------------------------------------------
-  repoUrl: "https://github.com/NorthDurhamCensus",
-  licenceUrl: "https://github.com/NorthDurhamCensus",
+  repoUrl: "https://github.com/NorthDurhamCensus/NorthDurhamCensus",
+  licenceUrl: "https://github.com/NorthDurhamCensus/NorthDurhamCensus/blob/main/LICENSE",
 
   // --- The eight senses -----------------------------------------------------
   // Order here is the order folders appear in. `subtitle` is the plain-language

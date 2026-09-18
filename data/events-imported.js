@@ -3,8 +3,8 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-18T14:44:04.729Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library
+// Generated 2026-09-18T15:42:25.698Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
@@ -729,6 +729,24 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-09-21-VXhicmlk",
+    "title": "Uxbridge - Rouge National Urban Park, Glasgow, slow-moderate, Scott Heaslip (Mon, September 21, 2026)",
+    "date": "2026-09-21",
+    "time": "9:30am",
+    "location": "",
+    "description": "Members and non-members welcome ORTA Map 5; 2 hours; slow-moderate pace. This is an out-and-back hike on the Rouge Park trail starting at the Glasgow Day Use Area. This trail has a granular surface and only a few gentle slopes, ideal for those wanting a less aggressive hike. Lunch option after the hike at Annina’s Bakeshop in Goodwood. Parking: meet at the Rouge Park Glasgow Day Use Area at 1867…",
+    "category": "Smell",
+    "url": "https://members.oakridgestrail.org/event-6841756",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {

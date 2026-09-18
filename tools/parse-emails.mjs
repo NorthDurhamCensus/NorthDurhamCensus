@@ -150,7 +150,7 @@ function main() {
     for (const event of found) {
       if (!event.start || isNaN(event.start)) continue;
       if (event.start < windowStart || event.start > windowEnd) continue;
-      if (shouldFilter && !isNorthDurham(`${event.title} ${event.location}`)) continue;
+      if (shouldFilter && !isNorthDurham(event.title, event.location)) continue;
 
       collected.push({
         id: `eml-${parserId}-${isoDate(event.start)}-${

@@ -19,6 +19,7 @@ import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseIcs, parseRss, parseTribe, parseJsonLd, stripTags } from "./lib/parsers.mjs";
+import { isNorthDurham } from "./lib/geography.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, "..");
@@ -206,6 +207,13 @@ async function main() {
         if (!event.start || isNaN(event.start)) continue;
         if (event.start < windowStart || event.start > windowEnd) continue;
 
+        // Regional and provincial feeds carry a lot that is not ours.
+        if (source.filterToNorthDurham &&
+            !isNorthDurham(event.title, `${event.location} ${event.description}`)) {
+          line.filtered = (line.filtered || 0) + 1;
+          continue;
+        }
+
         const normalised = {
           id: `imp-${source.id}-${isoDate(event.start)}-${
             Buffer.from(event.title).toString("base64url").slice(0, 8)}`,
@@ -232,7 +240,8 @@ async function main() {
         line.kept += 1;
       }
 
-      console.log(`  ok   ${source.name} — ${line.count} found, ${line.kept} in window`);
+      console.log(`  ok   ${source.name} — ${line.count} found, ${line.kept} kept` +
+                  (line.filtered ? `, ${line.filtered} outside North Durham` : ""));
       if (verbose) {
         for (const e of collected.filter(c => c.source.id === source.id)) {
           console.log(`         ${e.date}  ${e.title}  [${e.category}]`);

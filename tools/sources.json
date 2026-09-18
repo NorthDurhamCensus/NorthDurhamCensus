@@ -19,7 +19,6 @@
     "          RSS feeds that publish a post date rather than an event date, and",
     "          expect the odd miss."
   ],
-
   "sources": [
     {
       "id": "uxbridge-township",
@@ -77,7 +76,6 @@
       "enabled": true,
       "note": "Insignia ILS feed. Was returning stale 2022 items when last checked — ask the library whether it is configured correctly."
     },
-
     {
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
@@ -110,7 +108,6 @@
       "enabled": false,
       "note": "Probably Squarespace, same check as Sideroads."
     },
-
     {
       "id": "scugog-township",
       "name": "Township of Scugog",
@@ -182,6 +179,150 @@
       "township": "Region",
       "enabled": false,
       "note": "DO NOT SCRAPE. Metroland/Torstar, commercially licensed content, and the site blocks automated access. Written permission would be needed before importing anything from here."
+    },
+    {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "type": "rss",
+      "url": "https://www.thecosmos.ca/events?format=rss",
+      "page": "https://www.thecosmos.ca/events",
+      "township": "Uxbridge",
+      "enabled": false,
+      "note": "ASK THEM. The best aggregator in Uxbridge — it already carries the Studio Tour, the Fall Fair, the Historical Centre, the horticultural society and guided trail walks. But their Squarespace RSS publishes the date each entry was POSTED, not the date of the event, so importing it would put everything on the wrong day. The dates do exist at ?format=json, and Squarespace's robots.txt explicitly disallows that URL, so we do not use it. Worth emailing to ask whether they would share their listings another way."
+    },
+    {
+      "id": "lsrca",
+      "name": "Lake Simcoe Region Conservation Authority",
+      "type": "rss",
+      "url": "https://lsrca.on.ca/?post_type=ajde_events&feed=rss2",
+      "page": "https://lsrca.on.ca/events/",
+      "township": "Brock",
+      "defaultCategory": "Smell",
+      "filterToNorthDurham": true,
+      "enabled": true,
+      "note": "WordPress + EventON. The watershed reaches Barrie and Newmarket, so this is filtered to North Durham. Carries Brock tree plantings and Cannington horticultural events."
+    },
+    {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "type": "rss",
+      "url": "https://orta.wildapricot.org/Register-for-Hike/RSS",
+      "page": "https://www.oakridgestrail.org/hikes/",
+      "township": "Uxbridge",
+      "defaultCategory": "Smell",
+      "filterToNorthDurham": true,
+      "enabled": true,
+      "note": "Wild Apricot. Guided hikes along the whole moraine, so filtered to ours — Uxbridge is the Trail Capital of Canada and gets a good share."
+    },
+    {
+      "id": "ontario-conservation-areas",
+      "name": "Ontario Conservation Areas",
+      "type": "tribe",
+      "url": "https://ontarioconservationareas.ca/wp-json/tribe/events/v1/events",
+      "page": "https://ontarioconservationareas.ca/events/",
+      "township": "Region",
+      "defaultCategory": "Smell",
+      "filterToNorthDurham": true,
+      "enabled": true,
+      "note": "Province-wide, so heavily filtered. Endpoint is live but was returning zero upcoming events when added — that is an empty calendar, not a broken feed."
+    },
+    {
+      "id": "discover-uxbridge",
+      "name": "Discover Uxbridge",
+      "type": "rss",
+      "url": "https://discoveruxbridge.ca/?post_type=mec-events&feed=rss2",
+      "page": "https://discoveruxbridge.ca/events/",
+      "township": "Uxbridge",
+      "enabled": false,
+      "note": "BLOCKED. The feed URL now returns a SiteGround bot-protection captcha page (HTTP 202 with an sgcaptcha redirect) rather than RSS. It parsed once, so the block may be new or intermittent. Their calendar content was a year stale anyway. Leave off unless they confirm they are happy for us to read it."
+    },
+    {
+      "id": "artists-of-uxbridge",
+      "name": "Artists of Uxbridge",
+      "type": "rss",
+      "url": "",
+      "page": "https://artistsofuxbridge.com/events-7/",
+      "township": "Uxbridge",
+      "defaultCategory": "Sight",
+      "enabled": false,
+      "note": "NEEDS A FEED. Very active — shows, AGM, monthly figure-drawing workshops — but every event is hand-typed. They already run WordPress, so an events plugin would give them a feed for free."
+    },
+    {
+      "id": "town-hall-1873-restapi",
+      "name": "Town Hall 1873 (feed switched off)",
+      "type": "tribe",
+      "url": "",
+      "page": "https://townhalltheatre.ca/calendar/",
+      "township": "Scugog",
+      "defaultCategory": "Sound",
+      "enabled": false,
+      "note": "HIGHEST-LEVERAGE ASK. They already have The Events Calendar installed, but its REST and iCal outputs are switched off. For their webmaster this is a settings checkbox, not a project."
+    },
+    {
+      "id": "blue-heron-books",
+      "name": "Blue Heron Books",
+      "type": "jsonld",
+      "url": "",
+      "page": "https://blueheronbooks.com/events",
+      "township": "Uxbridge",
+      "defaultCategory": "Common Sense",
+      "enabled": false,
+      "note": "Many author events plus the Book Drunkard Festival. The page is drawn by JavaScript so no feed could be confirmed — open it in a browser and view source before emailing them."
+    },
+    {
+      "id": "lake-scugog-historical",
+      "name": "Lake Scugog Historical Society",
+      "type": "rss",
+      "url": "https://lakescugoghistoricalsociety.com/?post_type=mec-events&feed=rss2",
+      "page": "https://lakescugoghistoricalsociety.com/events-and-meetings/",
+      "township": "Scugog",
+      "defaultCategory": "Common Sense",
+      "enabled": false,
+      "note": "The feed URL returns valid RSS with zero items, and their plain blog feed is also empty, so it is unclear whether the plugin is installed. Three real 2026 events sit on the page. Re-test before emailing."
+    },
+    {
+      "id": "beaverton-town-hall-players",
+      "name": "Beaverton Town Hall Players",
+      "type": "rss",
+      "url": "",
+      "page": "https://www.bthp.ca/blog",
+      "township": "Brock",
+      "defaultCategory": "Sound",
+      "enabled": false,
+      "note": "Full 2026 season, blog only, no feed tags. They sell through Eventbrite, which may be an easier route to ask about than their website."
+    },
+    {
+      "id": "ontario-nature",
+      "name": "Ontario Nature",
+      "type": "tribe",
+      "url": "",
+      "page": "https://ontarionature.org/events-calendar/",
+      "township": "Region",
+      "defaultCategory": "Smell",
+      "enabled": false,
+      "note": "Runs The Events Calendar with REST and iCal returning 404 while the HTML renders — deliberately switched off. Carries Durham Region Field Naturalists listings. Worth one polite ask."
+    },
+    {
+      "id": "north-durham-nature",
+      "name": "North Durham Nature",
+      "type": "rss",
+      "url": "",
+      "page": "https://www.northdurhamnature.com/",
+      "township": "North Durham",
+      "defaultCategory": "Smell",
+      "enabled": false,
+      "note": "DORMANT — do not revisit. Newest content on the site is from June 2017. Any current activity is on Facebook only, which has no public events API."
+    },
+    {
+      "id": "uxbridge-studio-tour",
+      "name": "Uxbridge Studio Tour",
+      "type": "rss",
+      "url": "",
+      "page": "https://www.uxbridgestudiotour.com/site/home",
+      "township": "Uxbridge",
+      "defaultCategory": "Sight",
+      "enabled": false,
+      "note": "Runs on Tymbrel, which publishes nothing machine-readable. No need to chase it: The Uxbridge Cosmos feed already carries the tour."
     }
   ]
 }

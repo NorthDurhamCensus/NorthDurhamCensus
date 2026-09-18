@@ -1,6 +1,6 @@
 {
-  "at": "2026-09-18T14:44:04.729Z",
-  "kept": 115,
+  "at": "2026-09-18T15:42:25.698Z",
+  "kept": 116,
   "duplicates": 31,
   "sources": [
     {
@@ -41,6 +41,31 @@
       "ok": true,
       "count": 43,
       "kept": 40,
+      "error": null
+    },
+    {
+      "id": "lsrca",
+      "name": "Lake Simcoe Region Conservation Authority",
+      "ok": true,
+      "count": 10,
+      "kept": 0,
+      "error": null
+    },
+    {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "ok": true,
+      "count": 7,
+      "kept": 1,
+      "error": null,
+      "filtered": 6
+    },
+    {
+      "id": "ontario-conservation-areas",
+      "name": "Ontario Conservation Areas",
+      "ok": true,
+      "count": 0,
+      "kept": 0,
       "error": null
     }
   ]

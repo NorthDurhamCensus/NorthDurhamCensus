@@ -15,41 +15,15 @@
      { title, start, end, allDay, location, description, url, uid, recurring }
    --------------------------------------------------------------------------- */
 
+import { isNorthDurham } from "./geography.mjs";
+export { isNorthDurham };
+
 const MONTHS = {
   january: 0, february: 1, march: 2, april: 3, may: 4, june: 5,
   july: 6, august: 7, september: 8, october: 9, november: 10, december: 11,
   jan: 0, feb: 1, mar: 2, apr: 3, jun: 5, jul: 6, aug: 7, sept: 8, sep: 8,
   oct: 9, nov: 10, dec: 11
 };
-
-/* ---------------------------------------------------------------------------
-   Which events are ours
-   ---------------------------------------------------------------------------
-   The Durham Tourism newsletter covers the whole region, and most of it is
-   Pickering, Ajax, Whitby, Oshawa and Bowmanville — not North Durham. Without
-   this filter the census would quietly fill up with events an hour away.
-
-   Matching is on place and venue names, because that is what the listings
-   actually contain. Add to it freely; a missed venue means a missed event. */
-
-const NORTH_DURHAM = [
-  // Scugog
-  "port perry", "scugog", "blackstock", "caesarea", "greenbank", "seagrave",
-  "nestleton", "prince albert", "epsom", "utica", "manchester",
-  // Uxbridge
-  "uxbridge", "leaskdale", "goodwood", "sandford", "zephyr", "coppins corners",
-  // Brock
-  "beaverton", "cannington", "sunderland", "brock township", "wilfrid",
-  // Venues that do not carry a place name in their title
-  "bounty from the boonies", "the second wedge", "town hall 1873",
-  "borelians", "onstage uxbridge", "music hall", "the boonies",
-  "durham forest", "oak ridges moraine", "nonquon", "purple woods"
-];
-
-export function isNorthDurham(text) {
-  const haystack = String(text).toLowerCase();
-  return NORTH_DURHAM.some(place => haystack.includes(place));
-}
 
 /* ---------------------------------------------------------------------------
    Durham Tourism monthly e-newsletter

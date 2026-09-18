@@ -51,6 +51,61 @@
         "&body=" + encodeURIComponent(lines.join("\n"));
     }
 
+    /* --- The two relays -----------------------------------------------------
+       Each returns a promise. Neither needs a server of our own, and neither
+       is trusted to succeed: the caller falls back to the visitor's mail app.
+       Which one runs is set by `mail.provider` in config.js. */
+
+    function sendViaFormSubmit(settings, fields) {
+      return fetch(settings.endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          _subject: fields.subject,
+          _template: "table",
+          kind: fields.kind,
+          place: fields.place,
+          message: fields.message,
+          name: fields.name,
+          email: fields.email
+        })
+      }).then(function (response) {
+        if (!response.ok) throw new Error("FormSubmit returned HTTP " + response.status);
+      });
+    }
+
+    function sendViaEmailJs(settings, fields) {
+      if (!settings.publicKey || !settings.templateId) {
+        return Promise.reject(new Error("EmailJS is selected but templateId or publicKey is blank in config.js"));
+      }
+      return fetch("https://api.emailjs.com/api/v1.0/email/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          service_id: settings.serviceId,
+          template_id: settings.templateId,
+          user_id: settings.publicKey,
+          template_params: {
+            // These names must match the variables in the EmailJS template.
+            to_name: settings.toName || "North Durham Census",
+            subject: fields.subject,
+            kind: fields.kind,
+            place: fields.place,
+            message: fields.message,
+            from_name: fields.name || "(no name given)",
+            reply_to: fields.email || cfg.contactEmail
+          }
+        })
+      }).then(function (response) {
+        // EmailJS answers with plain text, so surface it when it complains.
+        if (!response.ok) {
+          return response.text().then(function (body) {
+            throw new Error("EmailJS said: " + (body || response.status));
+          });
+        }
+      });
+    }
+
     function submit(event) {
       event.preventDefault();
       if (!message.value.trim()) {
@@ -59,33 +114,41 @@
         return;
       }
 
-      var payload = {
-        _subject: "[North Durham Census] " + kind.value,
+      var fields = {
+        subject: "[North Durham Census] " + kind.value,
         kind: kind.value,
-        name: name.value,
-        email: from.value,
         place: place.value,
-        message: message.value
+        message: message.value,
+        name: name.value,
+        email: from.value
       };
 
-      if (!cfg.formEndpoint) { mailtoFallback(); return; }
+      // Older configs set formEndpoint at the top level; honour them.
+      var mail = cfg.mail || {};
+      var provider = mail.provider || (cfg.formEndpoint ? "formsubmit" : "mailto");
+      if (!mail.formsubmit && cfg.formEndpoint) {
+        mail.formsubmit = { endpoint: cfg.formEndpoint };
+      }
+
+      var send;
+      if (provider === "emailjs") send = sendViaEmailJs(mail.emailjs || {}, fields);
+      else if (provider === "formsubmit") send = sendViaFormSubmit(mail.formsubmit || {}, fields);
+      else { mailtoFallback(); return; }
 
       sendButton.disabled = true;
       statusText.textContent = "Sending…";
 
-      fetch(cfg.formEndpoint, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "Accept": "application/json" },
-        body: JSON.stringify(payload)
-      }).then(function (response) {
-        if (!response.ok) throw new Error("HTTP " + response.status);
+      send.then(function () {
         statusText.textContent = "Sent — thank you";
         window.NDC.wm.alert("Message sent",
           "Thank you. A volunteer reads every submission and verifies it before it joins the census.", "mail");
         window.NDC.wm.close(rec);
-      }).catch(function () {
+      }).catch(function (error) {
         sendButton.disabled = false;
         statusText.textContent = "Could not send";
+        // Worth logging: the relay's own message says whether it is an unconfirmed
+        // address, a spent quota or a misconfigured template.
+        if (window.console) window.console.warn("North Durham Census — send failed:", error);
         window.NDC.wm.alert("Could not send",
           "The form could not be reached. Your mail program will open instead, with the message ready to send.", "info");
         mailtoFallback();

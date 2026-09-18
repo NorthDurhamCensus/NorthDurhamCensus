@@ -10,3 +10,10 @@ desktop.ini
 
 # Nothing here needs building, but just in case
 node_modules/
+
+# Newsletter emails saved for the parser. These stay on your own computer:
+# an email carries unsubscribe links tied to your address, and those do not
+# belong in a public repository. Only the parsed result (data/events-email.js)
+# is committed. See tools/README.md.
+data/email-drop/*
+!data/email-drop/README.md

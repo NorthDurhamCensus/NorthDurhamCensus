@@ -75,7 +75,11 @@
   };
 
   U.eventsImported = function () {
-    return (window.NDC.data && window.NDC.data.eventsImported) || [];
+    var data = window.NDC.data || {};
+    // Two machines fill this tier: the nightly feed importer, and the
+    // newsletter reader someone runs by hand. Both are unverified, so the
+    // calendar treats them the same.
+    return (data.eventsImported || []).concat(data.eventsEmail || []);
   };
 
   U.events = function () {

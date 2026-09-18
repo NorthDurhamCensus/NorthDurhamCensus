@@ -125,6 +125,71 @@ and skipped, and the last good `events-imported.js` stays in place.
 - A source that stays broken should be set `enabled: false` with a note, not
   deleted. The note saves the next person the same investigation.
 
+## Reading newsletters, when there is no feed
+
+Some organisations publish no feed but will happily email you. The three
+township calendars are exactly that case. `tools/parse-emails.mjs` reads those
+emails.
+
+```bash
+# 1. Save the email into data/email-drop/ as 2026-10-01-durham-tourism.txt
+# 2. Then:
+node tools/parse-emails.mjs --dry-run    # see what it found
+node tools/parse-emails.mjs              # write data/events-email.js
+# 3. Commit data/events-email.js
+```
+
+**The raw emails never enter the repository.** `data/email-drop/` is gitignored,
+because a newsletter carries unsubscribe and tracking links tied to a personal
+address. Only the parsed events are committed.
+
+That also means GitHub Actions cannot do this job — a runner has no mailbox. So
+there are two generated files and they never collide:
+
+| File | Written by | When |
+|---|---|---|
+| `data/events-imported.js` | the Action | nightly, automatically |
+| `data/events-email.js` | a person running the parser | whenever a newsletter arrives |
+
+Both land in the imported tier, so both appear outlined with their source named.
+
+### Which newsletters are worth subscribing to
+
+Subscribe with the project address, not a personal one, so anyone can take the
+job over later.
+
+- **Durham Tourism monthly e-newsletter** — a parser already exists. It ends
+  with a clean "Upcoming Events" list of forty-odd events. Roughly a third are
+  North Durham; the rest are filtered out by place name.
+- **Durham Region calendar subscriptions** — `calendar.durham.ca/default/Subscription`
+  lets you pick categories. Take **Tourism Festival and Events**, not the
+  general news list.
+- **Township of Scugog and Township of Brock** — take the *events* subscription
+  if one is offered. The plain "News Update" list is press releases about
+  strategic plans and election nominations, with no event details in it, so it
+  parses to nothing.
+
+### Writing a parser for a new newsletter
+
+Add one to `tools/lib/email-parsers.mjs` and register it in `NEWSLETTERS` at the
+top of `tools/parse-emails.mjs`. A parser takes the plain-text body and returns
+the same shape the feed parsers do.
+
+Start by saving two or three real emails and looking at what is actually
+consistent between them. Newsletters are written for people, so the format
+drifts; a parser that leans on one month's layout will break in the next.
+
+The generic fallback catches `Month Day: Title` lines and little else. It is
+better than nothing and worse than a real parser.
+
+### Why this is a fallback, not a favourite
+
+A calendar feed states a date. A newsletter mentions one in a sentence, so
+everything from here carries `dateConfidence` and the calendar says openly that
+the date was read from prose and may be wrong.
+
+Use it where there is no feed. Keep asking for feeds.
+
 ## Feeds we still need
 
 Several sources have `enabled: false` because no feed exists yet, not because

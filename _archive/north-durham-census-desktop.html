@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Durham Census OS</title>
+    <style>
+        :root {
+            --bg-color: #008080; /* Classic Teal */
+            --win-bg: #ced4da;
+            --win-border-light: #ffffff;
+            --win-border-dark: #868e96;
+            --win-text: #000000;
+            --title-bg: #000080;
+            --title-text: #ffffff;
+            --font-family: 'Courier New', Courier, monospace;
+        }
+
+        body.theme-charcoal {
+            --bg-color: #343a40;
+            --title-bg: #212529;
+        }
+
+        body.theme-forest {
+            --bg-color: #2d6a4f;
+            --title-bg: #1b4332;
+        }
+
+        body.font-sans {
+            --font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color);
+            font-family: var(--font-family);
+            font-size: 14px;
+            color: var(--win-text);
+            overflow: hidden;
+        }
+
+        /* Desktop Grid Layout */
+        .desktop {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 40px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 100px);
+            grid-template-rows: repeat(auto-fill, 90px);
+            grid-auto-flow: column;
+            gap: 15px;
+            align-content: start;
+        }
+
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            cursor: pointer;
+            width: 90px;
+            height: 80px;
+            border: 1px solid transparent;
+        }
+
+        .icon:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 1px dashed rgba(255, 255, 255, 0.5);
+        }
+
+        .icon-image {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        .icon-label {
+            color: white;
+            font-size: 12px;
+            text-shadow: 1px 1px 2px black;
+            word-break: break-word;
+            line-height: 1.2;
+        }
+
+        /* Win32 Window Styles */
+        .window {
+            position: absolute;
+            background-color: var(--win-bg);
+            border-top: 2px solid var(--win-border-light);
+            border-left: 2px solid var(--win-border-light);
+            border-right: 2px solid var(--win-border-dark);
+            border-bottom: 2px solid var(--win-border-dark);
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+            display: none;
+            flex-direction: column;
+            min-width: 300px;
+            z-index: 10;
+        }
+
+        .window-header {
+            background-color: var(--title-bg);
+            color: var(--title-text);
+            padding: 4px 8px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: move;
+        }
+
+        .window-title {
+            font-size: 13px;
+        }
+
+        .window-controls button {
+            background-color: var(--win-bg);
+            border-top: 1px solid var(--win-border-light);
+            border-left: 1px solid var(--win-border-light);
+            border-right: 1px solid var(--win-border-dark);
+            border-bottom: 1px solid var(--win-border-dark);
+            width: 18px;
+            height: 18px;
+            font-size: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 0;
+            line-height: 14px;
+        }
+
+        .window-controls button:active {
+            border-top: 1px solid var(--win-border-dark);
+            border-left: 1px solid var(--win-border-dark);
+            border-right: 1px solid var(--win-border-light);
+            border-bottom: 1px solid var(--win-border-light);
+        }
+
+        .window-body {
+            padding: 10px;
+            flex-grow: 1;
+            overflow-y: auto;
+            background: white;
+            margin: 4px;
+            border-top: 2px solid var(--win-border-dark);
+            border-left: 2px solid var(--win-border-dark);
+            border-right: 2px solid var(--win-border-light);
+            border-bottom: 2px solid var(--win-border-light);
+        }
+
+        /* Form & List Custom Styles */
+        .wiki-item {
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px dashed #ccc;
+        }
+        .wiki-tag {
+            display: inline-block;
+            background: #e1e1e1;
+            padding: 2px 6px;
+            font-size: 11px;
+            border-radius: 3px;
+            margin-right: 5px;
+            border: 1px solid var(--win-border-dark);
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        select, input, textarea {
+            width: 100%;
+            margin-top: 4px;
+            padding: 4px;
+            font-family: inherit;
+            border-top: 2px solid var(--win-border-dark);
+            border-left: 2px solid var(--win-border-dark);
+            border-right: 2px solid var(--win-border-light);
+            border-bottom: 2px solid var(--win-border-light);
+        }
+
+        /* Taskbar Layout */
+        .taskbar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 40px;
+            background-color: var(--win-bg);
+            border-top: 2px solid var(--win-border-light);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10px;
+            z-index: 100;
+        }
+
+        .start-btn {
+            font-weight: bold;
+            background-color: var(--win-bg);
+            border-top: 2px solid var(--win-border-light);
+            border-left: 2px solid var(--win-border-light);
+            border-right: 2px solid var(--win-border-dark);
+            border-bottom: 2px solid var(--win-border-dark);
+            padding: 4px 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .system-tray {
+            font-size: 12px;
+            border-top: 2px solid var(--win-border-dark);
+            border-left: 2px solid var(--win-border-dark);
+            border-right: 2px solid var(--win-border-light);
+            border-bottom: 2px solid var(--win-border-light);
+            padding: 4px 8px;
+            background: var(--win-bg);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="desktop">
+        <div class="icon" onclick="openWindow('win-readme')">
+            <div class="icon-image">📄</div>
+            <div class="icon-label">READ_ME.txt</div>
+        </div>
+        <div class="icon" onclick="openWindow('win-map')">
+            <div class="icon-image">🗺️</div>
+            <div class="icon-label">Sensory Map</div>
+        </div>
+        <div class="icon" onclick="openWindow('win-wiki')">
+            <div class="icon-image">🌐</div>
+            <div class="icon-label">TiddlyWiki Archive</div>
+        </div>
+        <div class="icon" onclick="openWindow('win-docs')">
+            <div class="icon-image">📁</div>
+            <div class="icon-label">Reference Library</div>
+        </div>
+        <div class="icon" onclick="openWindow('win-pics')">
+            <div class="icon-image">🖼️</div>
+            <div class="icon-label">Pictures</div>
+        </div>
+        <div class="icon" onclick="openWindow('win-email')">
+            <div class="icon-image">✉️</div>
+            <div class="icon-label">Contact Liaison</div>
+        </div>
+        <div class="icon" onclick="openWindow('win-settings')">
+            <div class="icon-image">⚙️</div>
+            <div class="icon-label">Control Panel Settings</div>
+        </div>
+    </div>
+
+    <!-- READ_ME Window -->
+    <div id="win-readme" class="window" style="width: 450px; left: 15%; top: 15%; display: flex;">
+        <div class="window-header">
+            <span class="window-title">READ_ME.txt - Notepad</span>
+            <div class="window-controls"><button onclick="closeWindow('win-readme')">X</button></div>
+        </div>
+        <div class="window-body">
+            <h3>Welcome to North Durham Census</h3>
+            <p><strong>Tagline:</strong> Mapping the heart, history, and five (plus) senses of our rural townships.</p>
+            <p>This is a community dashboard explicitly built for grassroots advocacy, mutual aid, and hyper-local connection across <strong>Scugog, Uxbridge, and Brock</strong>.</p>
+            <p>Double-click icons on the desktop to see data records grouped by our sensory index panels.</p>
+        </div>
+    </div>
+
+    <!-- Settings / Control Panel Window -->
+    <div id="win-settings" class="window" style="width: 350px; left: 50%; top: 20%;">
+        <div class="window-header">
+            <span class="window-title">Control Panel Settings</span>
+            <div class="window-controls"><button onclick="closeWindow('win-settings')">X</button></div>
+        </div>
+        <div class="window-body">
+            <h4>System Theme Customizer</h4>
+            <label for="theme-select">Desktop Background Color:</label>
+            <select id="theme-select" onchange="changeTheme(this.value)">
+                <option value="classic">Classic Teal (Default)</option>
+                <option value="charcoal">Slate Charcoal</option>
+                <option value="forest">Rural Forest Green</option>
+            </select>
+
+            <label for="font-select">System Interface Font:</label>
+            <select id="font-select" onchange="changeFont(this.value)">
+                <option value="monospace">Fixed Monospace (Retro)</option>
+                <option value="sans">Standard Sans-Serif (Modern)</option>
+            </select>
+            <p style="font-size:11px; margin-top:15px; color:#555;">Changes will instantly alter systemic layout arrays mimicking live Win32.run modules.</p>
+        </div>
+    </div>
+
+    <!-- Sensory Map Window -->
+    <div id="win-map" class="window" style="width: 500px; height: 380px; left: 30%; top: 10%;">
+        <div class="window-header">
+            <span class="window-title">Sensory Map Tracker v1.0</span>
+            <div class="window-controls"><button onclick="closeWindow('win-map')">X</button></div>
+        </div>
+        <div class="window-body" style="background:#e9ecef; display: flex; flex-direction:column; height: calc(100% - 40px);">
+            <div style="background:white; padding:8px; border:1px solid #ccc; margin-bottom:10px;">
+                <strong>Filter Plot Points by Sense:</strong><br>
+                <input type="checkbox" checked style="width:auto;"> Sight & Trails 
+                <input type="checkbox" checked style="width:auto;"> Taste (Farm Markets)
+                <input type="checkbox" checked style="width:auto;"> Justice & Advocacy
+            </div>
+            <div style="flex-grow:1; background:#9ec1e8; border:2px inset #fff; position:relative; display:flex; align-items:center; justify-content:center; color:#333; font-weight:bold;">
+                [ SIMULATED MAP INTERFACE CONTAINER ]
+                <div style="position:absolute; top:20%; left:30%; background:yellow; padding:2px; font-size:11px; border:1px solid black; cursor:pointer;" onclick="alert('Wiki Entry: Uxbridge Main Trail Registry')">📍 Trailhead (Uxbridge)</div>
+                <div style="position:absolute; top:50%; left:60%; background:yellow; padding:2px; font-size:11px; border:1px solid black; cursor:pointer;" onclick="alert('Wiki Entry: Port Perry Organic Hub')">📍 Farm Stand (Scugog)</div>
+                <div style="position:absolute; top:75%; left:40%; background:red; color:white; padding:2px; font-size:11px; border:1px solid black; cursor:pointer;" onclick="alert('Wiki Entry: Emergency Bypass Protection Campaign')">📍 Advocacy (Brock)</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wiki Archive Window -->
+    <div id="win-wiki" class="window" style="width: 550px; left: 20%; top: 25%;">
+        <div class="window-header">
+            <span class="window-title">TiddlyWiki Knowledge Registry</span>
+            <div class="window-controls"><button onclick="closeWindow('win-wiki')">X</button></div>
+        </div>
+        <div class="window-body">
+            <h4>Deep-Linked Wiki Tiddlers</h4>
+            <div class="wiki-item">
+                <h5>📁 Land Zoning Protest Guidelines</h5>
+                <span class="wiki-tag">#Brock</span><span class="wiki-tag">#SenseOfJustice</span><span class="wiki-tag">#Document</span>
+                <p style="font-size:12px; margin-top:4px;">Community advocacy tracking local layout adjustments bypassing standard agricultural preservation buffers.</p>
+            </div>
+            <div class="wiki-item">
+                <h5>📁 Community Orchard Initiative</h5>
+                <span class="wiki-tag">#Scugog</span><span class="wiki-tag">#SenseOfTaste</span><span class="wiki-tag">#Grassroots</span>
+                <p style="font-size:12px; margin-top:4px;">Did you know you can harvest heritage apples along public pathways? Registry listings updated weekly.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reference Docs Window -->
+    <div id="win-docs" class="window" style="width: 400px; left: 40%; top: 30%;">
+        <div class="window-header">
+            <span class="window-title">Reference Library - File Explorer</span>
+            <div class="window-controls"><button onclick="closeWindow('win-docs')">X</button></div>
+        </div>
+        <div class="window-body" style="background:#fff;">
+            <p>📄 Town_Council_Minutes_2026.txt</p>
+            <p>📄 Moraine_Zoning_Bylaws.pdf</p>
+            <p>📄 Grassroots_Advocacy_Toolkit.doc</p>
+        </div>
+    </div>
+
+    <!-- Pictures Window -->
+    <div id="win-pics" class="window" style="width: 400px; left: 42%; top: 35%;">
+        <div class="window-header">
+            <span class="window-title">Pictures - Image View</span>
+            <div class="window-controls"><button onclick="closeWindow('win-pics')">X</button></div>
+        </div>
+        <div class="window-body" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; background:#fff;">
+            <div style="border:1px solid #ccc; padding:20px; text-align:center; background:#eee;">🖼️<br><span style="font-size:10px;">trail.jpg</span></div>
+            <div style="border:1px solid #ccc; padding:20px; text-align:center; background:#eee;">🖼️<br><span style="font-size:10px;">farm.jpg</span></div>
+            <div style="border:1px solid #ccc; padding:20px; text-align:center; background:#eee;">🖼️<br><span style="font-size:10px;">protest.jpg</span></div>
+        </div>
+    </div>
+
+    <!-- Email Contact Window -->
+    <div id="win-email" class="window" style="width: 420px; left: 25%; top: 20%;">
+        <div class="window-header">
+            <span class="window-title">Compose Citizen Despatch</span>
+            <div class="window-controls"><button onclick="closeWindow('win-email')">X</button></div>
+        </div>
+        <div class="window-body">
+            <label>To: liaison@northdurhamcensus.ca</label>
+            <label for="mail-subject">Subject Matter / Core Issue:</label>
+            <input type="text" id="mail-subject" value="Advocacy Data / Local 'Did You Know?' Fact">
+            <label for="mail-body">Message Body:</label>
+            <textarea id="mail-body" rows="5" placeholder="Type community insights or neighborhood support queries here..."></textarea>
+            <button style="margin-top:10px; padding:6px; font-family:inherit; cursor:pointer;" onclick="alert('Simulated Email Dispatched!')">Send Secure Packet</button>
+        </div>
+    </div>
+
+    <!-- System Taskbar -->
+    <div class="taskbar">
+        <div class="start-btn">🕹️ Start</div>
+        <div class="system-tray">🟢 Scugog, Uxbridge & Brock Grid Online</div>
+    </div>
+
+    <script>
+        function openWindow(id) {
+            const win = document.getElementById(id);
+            win.style.display = 'flex';
+            // Bring to front
+            document.querySelectorAll('.window').forEach(w => w.style.zIndex = 10);
+            win.style.zIndex = 99;
+        }
+
+        function closeWindow(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+
+        function changeTheme(val) {
+            document.body.className = document.body.className.replace(/\btheme-\w+\b/g, '');
+            if(val !== 'classic') {
+                document.body.classList.add('theme-' + val);
+            }
+        }
+
+        function changeFont(val) {
+            document.body.classList.remove('font-sans');
+            if(val === 'sans') {
+                document.body.classList.add('font-sans');
+            }
+        }
+
+        // Simplistic script allowing elements to be dragged mimicking real GUI layout structures
+        document.querySelectorAll('.window-header').forEach(header => {
+            header.addEventListener('mousedown', function(e) {
+                const win = header.parentElement;
+                document.querySelectorAll('.window').forEach(w => w.style.zIndex = 10);
+                win.style.zIndex = 99;
+                
+                let shiftX = e.clientX - win.getBoundingClientRect().left;
+                let shiftY = e.clientY - win.getBoundingClientRect().top;
+
+                function moveAt(clientX, clientY) {
+                    win.style.left = clientX - shiftX + 'px';
+                    win.style.top = clientY - shiftY + 'px';
+                }
+
+                function onMouseMove(event) {
+                    moveAt(event.clientX, event.clientY);
+                }
+
+                document.addEventListener('mousemove', onMouseMove);
+
+                document.addEventListener('mouseup', function() {
+                    document.removeEventListener('mousemove', onMouseMove);
+                }, {once: true});
+            });
+        });
+    </script>
+</body>
+</html>

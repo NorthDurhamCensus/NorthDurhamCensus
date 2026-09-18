@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>North Durham Census</title>
+<meta name="description" content="A community census of the senses across Scugog, Uxbridge and Brock Townships — what we taste, see, hear, make and share.">
+<link rel="icon" href="assets/icons/computer-16.png">
+<link rel="stylesheet" href="css/98.css">
+<link rel="stylesheet" href="css/desktop.css">
+</head>
+<body>
+
+<!-- Everything below is drawn by JavaScript into these three shells. -->
+
+<div id="desktop" aria-label="North Durham Census desktop">
+  <ul id="desktop-icons" class="icon-grid" role="list"></ul>
+</div>
+
+<div id="windows" aria-live="polite"></div>
+
+<div id="taskbar">
+  <button id="start-button" aria-haspopup="menu" aria-expanded="false">
+    <span class="start-flag" aria-hidden="true"></span><span class="start-label">Start</span>
+  </button>
+  <div id="start-menu" role="menu" hidden></div>
+  <div class="taskbar-divider" aria-hidden="true"></div>
+  <ul id="task-buttons" role="list"></ul>
+  <div id="tray">
+    <button id="tray-assistant" title="Show the assistant" aria-label="Show the assistant">
+      <img src="assets/icons/question.png" alt="" width="16" height="16">
+    </button>
+    <span id="clock" role="status" aria-label="Clock">--:--</span>
+  </div>
+</div>
+
+<!-- Data. Plain files anyone can edit — see CONTRIBUTING.md -->
+<script src="config.js"></script>
+<script src="data/listings.js"></script>
+<script src="data/events.js"></script>
+<script src="data/stories.js"></script>
+<script src="data/resources.js"></script>
+
+<!-- Shell -->
+<script src="js/util.js"></script>
+<script src="js/wm.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/apps/folders.js"></script>
+<script src="js/apps/calendar.js"></script>
+<script src="js/apps/stories.js"></script>
+<script src="js/apps/mail.js"></script>
+<script src="js/apps/notepad.js"></script>
+<script src="js/apps/about.js"></script>
+<script src="js/apps/control-panel.js"></script>
+<script src="js/clippy.js"></script>
+<script src="js/shell.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

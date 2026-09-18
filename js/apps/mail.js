@@ -93,7 +93,15 @@
             place: fields.place,
             message: fields.message,
             from_name: fields.name || "(no name given)",
-            reply_to: fields.email || cfg.contactEmail
+            reply_to: fields.email || cfg.contactEmail,
+            // EmailJS's own starter template uses {{name}} and {{time}}, so
+            // send those as well. It means an untouched default template still
+            // produces a readable email, and nothing here is wasted if the
+            // template is later rewritten to use the fuller set above.
+            name: fields.name || "(no name given)",
+            time: new Date().toLocaleString("en-CA", {
+              dateStyle: "full", timeStyle: "short"
+            })
           }
         })
       }).then(function (response) {

@@ -1,0 +1,47 @@
+{
+  "at": "2026-09-18T14:44:04.729Z",
+  "kept": 115,
+  "duplicates": 31,
+  "sources": [
+    {
+      "id": "uxbridge-township",
+      "name": "Township of Uxbridge",
+      "ok": true,
+      "count": 325,
+      "kept": 4,
+      "error": null
+    },
+    {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "ok": true,
+      "count": 300,
+      "kept": 102,
+      "error": null
+    },
+    {
+      "id": "brock-libraries",
+      "name": "Brock Township Public Library",
+      "ok": true,
+      "count": 0,
+      "kept": 0,
+      "error": null
+    },
+    {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "ok": true,
+      "count": 0,
+      "kept": 0,
+      "error": null
+    },
+    {
+      "id": "uxbridge-library",
+      "name": "Uxbridge Public Library",
+      "ok": true,
+      "count": 43,
+      "kept": 40,
+      "error": null
+    }
+  ]
+}

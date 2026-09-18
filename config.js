@@ -19,8 +19,8 @@ window.NDC.config = {
   // formEndpoint posts the Mail window straight to the inbox below, with no
   // server of our own. Swap the address to change where mail lands.
   // Set formEndpoint to "" to fall back to opening the visitor's own mail app.
-  contactEmail: "jodijanwin@gmail.com",
-  formEndpoint: "https://formsubmit.co/ajax/jodijanwin@gmail.com",
+  contactEmail: "NorthDurhamCensus@outlook.com",
+  formEndpoint: "https://formsubmit.co/ajax/NorthDurhamCensus@outlook.com",
 
   // --- Links ----------------------------------------------------------------
   repoUrl: "https://github.com/NorthDurhamCensus",

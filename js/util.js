@@ -54,7 +54,33 @@
   };
 
   U.listings = function () { return (window.NDC.data && window.NDC.data.listings) || []; };
-  U.events = function () { return (window.NDC.data && window.NDC.data.events) || []; };
+
+  /* --- Verified and imported --------------------------------------------------
+     The census keeps two tiers, and never blurs them:
+
+       verified   a neighbour checked it, by visit, call or message.
+                  Lives in data/events.js, edited by hand.
+       imported   pulled automatically from a calendar an organisation
+                  publishes. Lives in data/events-imported.js, which is
+                  overwritten by tools/fetch-events.mjs and never hand-edited.
+
+     Listings and, later, the map will use the same split. U.events() gives you
+     both tiers tagged, so an app can filter without caring where they came from. */
+
+  U.eventsVerified = function () {
+    return ((window.NDC.data && window.NDC.data.events) || [])
+      .map(function (event) {
+        return event.imported ? event : Object.assign({}, event, { imported: false });
+      });
+  };
+
+  U.eventsImported = function () {
+    return (window.NDC.data && window.NDC.data.eventsImported) || [];
+  };
+
+  U.events = function () {
+    return U.eventsVerified().concat(U.eventsImported());
+  };
   U.stories = function () { return (window.NDC.data && window.NDC.data.stories) || []; };
   U.resources = function () { return (window.NDC.data && window.NDC.data.resources) || { local: [], organizing: [] }; };
 

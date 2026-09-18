@@ -1,0 +1,187 @@
+{
+  "_readme": [
+    "The list of event calendars the importer reads. Adding a source is a one-line",
+    "pull request — see tools/README.md for the fields and how to test one.",
+    "",
+    "Nothing in here is scraped against a site's wishes. Every entry is either a feed",
+    "the organisation publishes on purpose (ICS, RSS, a REST API) or structured data",
+    "they embed for machines to read. Sources with enabled:false are ones we have not",
+    "got permission or a working feed for yet; the note says what is needed.",
+    "",
+    "type: ics | rss | tribe | jsonld",
+    "  ics     an iCalendar feed (.ics). The most reliable kind.",
+    "  rss     an RSS or Atom feed.",
+    "  tribe   WordPress 'The Events Calendar' REST API.",
+    "  jsonld  schema.org Event markup embedded in a normal web page.",
+    "",
+    "dateFrom: 'feed' (default) reads the real event date from the feed.",
+    "          'content' hunts for a date in the title and description. Use only for",
+    "          RSS feeds that publish a post date rather than an event date, and",
+    "          expect the odd miss."
+  ],
+
+  "sources": [
+    {
+      "id": "uxbridge-township",
+      "name": "Township of Uxbridge",
+      "type": "ics",
+      "url": "https://www.uxbridge.ca/public/ics/8605",
+      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
+      "township": "Uxbridge",
+      "enabled": true,
+      "note": "Loop municipal CMS. Publishes a real subscribe-to-calendar ICS feed."
+    },
+    {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "type": "rss",
+      "dateFrom": "content",
+      "url": "https://scugogarts.ca/?post_type=mec-events&feed=rss2",
+      "page": "https://scugogarts.ca/events/",
+      "township": "Scugog",
+      "defaultCategory": "Sight",
+      "enabled": true,
+      "note": "WordPress + Modern Events Calendar. The feed carries post dates, so event dates are read out of the text."
+    },
+    {
+      "id": "brock-libraries",
+      "name": "Brock Township Public Library",
+      "type": "tribe",
+      "url": "https://brocklibraries.ca/wp-json/tribe/events/v1/events",
+      "page": "https://brocklibraries.ca/events/",
+      "township": "Brock",
+      "defaultCategory": "Common Sense",
+      "enabled": true,
+      "note": "WordPress + The Events Calendar. Endpoint works; calendar was empty when last checked."
+    },
+    {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "type": "tribe",
+      "url": "https://onstageuxbridge.com/wp-json/tribe/events/v1/events",
+      "page": "https://onstageuxbridge.com/events/list/",
+      "township": "Uxbridge",
+      "defaultCategory": "Sound",
+      "enabled": true,
+      "note": "Uxbridge Music Hall programming. WordPress + The Events Calendar."
+    },
+    {
+      "id": "uxbridge-library",
+      "name": "Uxbridge Public Library",
+      "type": "rss",
+      "dateFrom": "content",
+      "url": "https://uxlib.insigniails.com/Library/EventsRss",
+      "page": "https://uxlib.insigniails.com/Library/Event",
+      "township": "Uxbridge",
+      "defaultCategory": "Common Sense",
+      "enabled": true,
+      "note": "Insignia ILS feed. Was returning stale 2022 items when last checked — ask the library whether it is configured correctly."
+    },
+
+    {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "type": "rss",
+      "url": "https://www.sideroadsofscugog.ca/events-1?format=rss",
+      "page": "https://www.sideroadsofscugog.ca/events-1",
+      "township": "Scugog",
+      "enabled": false,
+      "note": "Squarespace. If the events page is a real Squarespace Events collection, ?format=rss works — open that URL in a browser to check, then set enabled:true. Could not be verified automatically."
+    },
+    {
+      "id": "uxbridge-historical-centre",
+      "name": "Uxbridge Historical Centre",
+      "type": "ics",
+      "url": "https://calendar.google.com/calendar/ical/uxbridgehistoricalcentre%40uxlib.com/public/basic.ics",
+      "page": "http://www.uxlib.com/modules/museum/events.html",
+      "township": "Uxbridge",
+      "defaultCategory": "Sight",
+      "enabled": false,
+      "note": "Embedded Google Calendar. The ICS works only if the calendar is shared publicly. Open the URL in a browser; if it downloads a file, set enabled:true."
+    },
+    {
+      "id": "uxbridge-legion",
+      "name": "Royal Canadian Legion Branch 170, Uxbridge",
+      "type": "rss",
+      "url": "https://www.uxbridgelegion.ca/events?format=rss",
+      "page": "https://www.uxbridgelegion.ca/calendar",
+      "township": "Uxbridge",
+      "defaultCategory": "Sense of Belonging",
+      "enabled": false,
+      "note": "Probably Squarespace, same check as Sideroads."
+    },
+
+    {
+      "id": "scugog-township",
+      "name": "Township of Scugog",
+      "type": "ics",
+      "url": "",
+      "page": "https://events.scugog.ca/",
+      "township": "Scugog",
+      "enabled": false,
+      "note": "NEEDS A FEED. Runs on Govstack, which offers email subscriptions only. This is the most valuable missing source — the main calendar for Port Perry, Blackstock and Caesarea. See tools/feed-request-letter.md."
+    },
+    {
+      "id": "brock-township",
+      "name": "Township of Brock",
+      "type": "ics",
+      "url": "",
+      "page": "https://events.townshipofbrock.ca/",
+      "township": "Brock",
+      "enabled": false,
+      "note": "NEEDS A FEED. Govstack, email subscriptions only. Covers Beaverton, Cannington and Sunderland."
+    },
+    {
+      "id": "durham-region",
+      "name": "Durham Region",
+      "type": "ics",
+      "url": "",
+      "page": "https://calendar.durham.ca/tourismevents",
+      "township": "Region",
+      "enabled": false,
+      "note": "NEEDS A FEED. Govstack. Already aggregates North Durham events, so one feed here would cover many organisations at once."
+    },
+    {
+      "id": "north-durham-chamber",
+      "name": "North Durham Chamber of Commerce",
+      "type": "rss",
+      "url": "",
+      "page": "https://business.northdurhamchamber.ca/event-calendar",
+      "township": "North Durham",
+      "enabled": false,
+      "note": "NEEDS A FEED. Runs GrowthZone, which can publish feeds — this is likely just a setting for them to switch on. Well-populated calendar, worth asking."
+    },
+    {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "type": "rss",
+      "url": "",
+      "page": "https://www.scugoglibrary.ca/whats-on/calendar/",
+      "township": "Scugog",
+      "defaultCategory": "Common Sense",
+      "enabled": false,
+      "note": "NEEDS A FEED. Full programme calendar published as a monthly PDF; the site blocks automated access."
+    },
+    {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "type": "jsonld",
+      "url": "",
+      "page": "https://townhalltheatre.ca/calendar/",
+      "township": "Scugog",
+      "defaultCategory": "Sound",
+      "enabled": false,
+      "note": "NEEDS A FEED. Busy theatre, calendar rendered by JavaScript, ticketing through Arts People which may offer an export."
+    },
+    {
+      "id": "durhamregion-com",
+      "name": "durhamregion.com events",
+      "type": "rss",
+      "url": "",
+      "page": "https://www.durhamregion.com/events/",
+      "township": "Region",
+      "enabled": false,
+      "note": "DO NOT SCRAPE. Metroland/Torstar, commercially licensed content, and the site blocks automated access. Written permission would be needed before importing anything from here."
+    }
+  ]
+}

@@ -45,9 +45,12 @@ index.html          the desktop
 config.js           site name, contact address, the eight senses  ← start here
 data/               listings, events, stories, resources          ← and here
   listings.js         every place in the census
-  events.js           the community calendar
+  events.js           the community calendar, verified by neighbours
+  events-imported.js  events pulled from other calendars (generated nightly)
   stories.js          reported stories of solidarity
   resources.js        links out, local and further afield
+tools/              the event importer — sources.json lists every feed
+.github/workflows/  the nightly import, run by GitHub Actions
 js/
   util.js             small shared helpers
   wm.js               the window manager (drag, resize, minimise, stack)
@@ -63,6 +66,18 @@ css/
 assets/icons/       the 16px and 32px icons
 geo/                Durham Region map layers, for the map window to come
 ```
+
+## Two tiers of data
+
+Everything the census shows is either **verified** — a neighbour checked it, by
+visit, call or message — or **imported** — pulled automatically from a calendar
+an organisation publishes. The two never mix. Imported events appear outlined
+rather than filled, name their source, and can be switched off entirely with the
+View buttons in the Calendar window.
+
+The importer runs every morning through GitHub Actions and writes
+`data/events-imported.js`. It never touches the hand-verified files.
+See [tools/README.md](tools/README.md).
 
 ## Contributing
 

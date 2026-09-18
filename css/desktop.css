@@ -405,3 +405,40 @@ table.listing-table td:nth-child(2) { white-space: nowrap; }
 }
 a { color: #0000ee; }
 .window-body a:visited { color: #551a8b; }
+
+/* --- Calendar: verified vs imported ---------------------------------------- */
+
+.tier-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+  padding: 2px 0 4px;
+  flex: 0 0 auto;
+}
+.tier-label { font-weight: 700; }
+.tier-option { display: inline-flex; align-items: center; }
+
+/* Imported events are outlined rather than filled, so a glance tells you which
+   entries the census has actually stood behind. */
+.cal-dot.imported {
+  background: #fff;
+  font-style: italic;
+}
+.cal-dot.imported::before { content: "· "; }
+
+.provenance {
+  margin-top: 4px;
+  padding: 3px 5px;
+  background: #ffffe1;
+  box-shadow: inset -1px -1px #dfdfdf, inset 1px 1px grey;
+  line-height: 1.4;
+}
+.cal-more {
+  display: block;
+  margin-top: 1px;
+  padding: 0 2px;
+  color: #000080;
+  text-decoration: underline;
+  cursor: pointer;
+}

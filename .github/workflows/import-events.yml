@@ -1,0 +1,78 @@
+name: Import community events
+
+# Pulls every enabled feed in tools/sources.json and commits the refreshed
+# data/events-imported.js. Hand-verified events in data/events.js are never
+# touched by this workflow.
+
+on:
+  schedule:
+    # 06:20 UTC daily — about 2:20am Eastern, so the calendar is fresh by morning.
+    # Off-the-hour on purpose: GitHub's shared runners are busiest at :00.
+    - cron: "20 6 * * *"
+  workflow_dispatch:          # lets anyone with write access run it on demand
+  push:
+    paths:
+      - "tools/sources.json"  # re-import as soon as a source is added or changed
+      - "tools/**.mjs"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-events
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch events
+        run: node tools/fetch-events.mjs
+
+      - name: Show what changed
+        run: git --no-pager diff --stat -- data/events-imported.js || true
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet -- data/events-imported.js; then
+            echo "No change — the feeds said the same thing as yesterday."
+            exit 0
+          fi
+          COUNT=$(node -e "
+            const fs = require('fs');
+            const src = fs.readFileSync('data/events-imported.js', 'utf8');
+            const events = JSON.parse(src.slice(src.indexOf('[')).replace(/;\s*$/, ''));
+            process.stdout.write(String(events.length));
+          ")
+          git config user.name  "north-durham-census-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events-imported.js tools/runs/last-run.json
+          git commit -m "Import community events (${COUNT} events)"
+          git push
+
+      - name: Report failed sources
+        if: always()
+        run: |
+          if [ -f tools/runs/last-run.json ]; then
+            node -e "
+              const run = require('./tools/runs/last-run.json');
+              const failed = run.sources.filter(s => !s.ok);
+              const empty  = run.sources.filter(s => s.ok && s.kept === 0);
+              if (failed.length) {
+                console.log('::warning::Feeds that failed: ' +
+                  failed.map(s => s.name + ' (' + s.error + ')').join('; '));
+              }
+              if (empty.length) {
+                console.log('::notice::Feeds that returned nothing: ' +
+                  empty.map(s => s.name).join('; '));
+              }
+              console.log('Kept ' + run.kept + ' events from ' +
+                run.sources.filter(s => s.ok).length + ' working sources.');
+            "
+          fi

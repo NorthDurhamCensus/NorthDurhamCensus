@@ -111,6 +111,28 @@ In `data/events.js`:
 - For something weekly, one entry with a `recurring` note reads better than one
   entry per week.
 
+### Two kinds of event: verified and imported
+
+The calendar holds two tiers, and they are never mixed.
+
+| | Verified | Imported |
+|---|---|---|
+| File | `data/events.js` | `data/events-imported.js` |
+| Comes from | A neighbour checked it | A calendar an organisation publishes |
+| Edited by | You, by hand | A script, overwritten every night |
+| On the calendar | Solid colour | Outlined, italic, source named |
+
+**Only ever edit `data/events.js`.** The imported file is regenerated every
+morning, so any change you make there is wiped by the next run.
+
+If you check an imported event yourself — you rang the hall, or you were there —
+that is exactly how it should graduate. Copy it into `data/events.js`, drop the
+`imported` and `source` fields, correct anything that was wrong, and it becomes
+part of the census proper.
+
+Adding a new calendar source, or asking an organisation for a feed, is covered
+in [tools/README.md](tools/README.md).
+
 ### Adding a story
 
 In `data/stories.js`:

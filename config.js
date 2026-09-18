@@ -23,8 +23,8 @@ window.NDC.config = {
   formEndpoint: "https://formsubmit.co/ajax/NorthDurhamCensus@outlook.com",
 
   // --- Links ----------------------------------------------------------------
-  repoUrl: "https://github.com/NorthDurhamCensus",
-  licenceUrl: "https://github.com/NorthDurhamCensus",
+  repoUrl: "https://github.com/NorthDurhamCensus/NorthDurhamCensus",
+  licenceUrl: "https://github.com/NorthDurhamCensus/NorthDurhamCensus/blob/main/LICENSE",
 
   // --- The eight senses -----------------------------------------------------
   // Order here is the order folders appear in. `subtitle` is the plain-language

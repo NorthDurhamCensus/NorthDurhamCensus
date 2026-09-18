@@ -17,3 +17,7 @@ node_modules/
 # is committed. See tools/README.md.
 data/email-drop/*
 !data/email-drop/README.md
+
+# Screenshots and scratch files the desktop app drops into the project folder.
+# Kept on disk, kept out of the repository.
+Claude outputs/

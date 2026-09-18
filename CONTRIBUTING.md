@@ -15,7 +15,7 @@ A volunteer reads every submission and verifies it before it is listed.
 ## 2. Open an issue
 
 Spotted something wrong but don't want to edit files?
-[Open an issue](https://github.com/NorthDurhamCensus) describing the place, the
+[Open an issue](https://github.com/NorthDurhamCensus/NorthDurhamCensus/issues) describing the place, the
 problem and, if you have it, a phone number or address we can check.
 
 ## 3. Edit the data yourself

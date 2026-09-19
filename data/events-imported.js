@@ -3,35 +3,17 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-18T15:42:25.698Z by tools/fetch-events.mjs
+// Generated 2026-09-19T06:36:06.178Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
   {
-    "id": "imp-uxbridge-township-2026-09-11-VXhicmlk",
-    "title": "Uxbridge Fair",
-    "date": "2026-09-11",
-    "time": "5:00pm, runs to Sep 13",
-    "location": "Elgin Park",
-    "description": "The Uxbridge Fair returns Friday September 11th, through to Sunday September 13th, 2026 at Elgin Park. Visit https://uxbridgefair.ca/ for details!",
-    "category": "Sense of Belonging",
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
     "id": "imp-uxbridge-township-2026-09-12-Q291bnRy",
     "title": "Countryside Preserve Guided Trail Walk",
     "date": "2026-09-12",
-    "time": "9:00am – 10:00am",
+    "time": "1:00pm – 2:00pm",
     "location": "Countryside Preserve",
     "description": "This fall, the Township of Uxbridge invites residents to discover the beauty of the Countryside Preserve through a series of guided trail walks. Participants will discover the preserve’s unique natural features, gain confidence using trail maps, and find their favourite trail loops while enjoying the changing colours of the season.Dates:September 12 | 9:00 a.m.September 19 | 9:00 a.m.September 26…",
     "category": "Smell",
@@ -87,7 +69,7 @@ window.NDC.data.eventsImported =
     "id": "imp-uxbridge-township-2026-09-17-T2FrIFJp",
     "title": "Oak Ridges Moraine Trail: Community Workshop (Uxbridge)",
     "date": "2026-09-17",
-    "time": "6:30pm – 8:30pm",
+    "time": "10:30pm, runs to Sep 18",
     "location": "Uxbridge Senior Centre, 75 Marietta Street, Uxbridge",
     "description": "The Oak Ridges Moraine Trail has the potential to become one of Ontario’s signature trail experiences – connecting communities, nature, and the landscapes that make the Moraine unique. As we look to the future of the Trail, we want to understand what matters most to the people who use it and care about it. Your input will help identify opportunities to create a Trail that is more connected,…",
     "category": "Touch",
@@ -99,42 +81,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-uxbridge-township-2026-09-18-RFJFQU1T",
-    "title": "DREAMS! Music Awards 2026 presented by Invest Durham",
-    "date": "2026-09-18",
-    "time": "8:00pm – 10:00pm",
-    "location": "Biltmore Theatre, 39 King St. E., Oshawa,",
-    "description": "Marking its seventh year, the DREAMS! Music Awards 2026 presented by Invest Durham returns to celebrate musical excellence across Durham Region and the artists, creators and industry professionals shaping its vibrant music scene. The evening will feature 14 awards and six live performances, showcasing the top talent, creativity and collaboration that continue to strengthen Durham Region's growing…",
-    "category": "Sound",
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-18-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-09-18",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
     }
   },
   {
@@ -182,6 +128,24 @@ window.NDC.data.eventsImported =
     "description": "Visit Kids Art Talks in Port Perry and enjoy a space filled with art supplies and sensory materials for creative building! Set up like a buffet, youth from all ages and abilities can explore from a variety of materials to create their own unique masterpiece. Don’t miss this inspiring and inclusive event!",
     "category": "Sight",
     "url": "https://scugogarts.ca/events/art-buffet-with-kids-art-talks-3/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-09-19-QXJ0aXN0",
+    "title": "Artist Demos with Port Perry Artist Association",
+    "date": "2026-09-19",
+    "time": "10:00am – 5:00pm",
+    "location": "",
+    "description": "Come out and see the creativity and skill of local artists through live demonstrations throughout the day. Members of the Port Perry Artist Association will showcase their techniques, creative processes, and artistic styles, offering visitors an opportunity to watch, learn and ask any questions you may have and further connect with the talented artists who […]",
+    "category": "Sight",
+    "url": "https://scugogarts.ca/events/artist-demos-with-port-perry-artist-association/",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -261,6 +225,60 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-09-19-Q3VsdHVy",
+    "title": "Culture Days Open Mic",
+    "date": "2026-09-19",
+    "time": "1:00pm – 4:00pm",
+    "location": "",
+    "description": "Come out and showcase your talents at Culture Days Open Mic which is held in the Gazebo at Palmer Park! Culture Days Open Mic warmly welcomes a wide variety of performances including music, poetry, comedy, and spoken word. Sign up about 30 minutes prior to your performance with our amazing Open Mic organizers Nicolette and […]",
+    "category": "Sound",
+    "url": "https://scugogarts.ca/events/culture-days-open-mic-3/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-09-19-RElZIEZy",
+    "title": "DIY Fruit Cups",
+    "date": "2026-09-19",
+    "time": "11:00am – 4:00pm",
+    "location": "",
+    "description": "Come join Anyway Fruit in with this delicious and imaginative activity! Build colorful fruit cups with fresh fruit and put your design skills to the test. Also join in seeing the employees get creative in a Fruit House building competition and pick your favorite! Create something fun, unique, and tasty while celebrating healthy food and […]",
+    "category": "Taste",
+    "url": "https://scugogarts.ca/events/diy-fruit-cups/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-uxbridge-township-2026-09-19-RFJFQU1T",
+    "title": "DREAMS! Music Awards 2026 presented by Invest Durham",
+    "date": "2026-09-19",
+    "time": "12:00am – 2:00am",
+    "location": "Biltmore Theatre, 39 King St. E., Oshawa,",
+    "description": "Marking its seventh year, the DREAMS! Music Awards 2026 presented by Invest Durham returns to celebrate musical excellence across Durham Region and the artists, creators and industry professionals shaping its vibrant music scene. The evening will feature 14 awards and six live performances, showcasing the top talent, creativity and collaboration that continue to strengthen Durham Region's growing…",
+    "category": "Sound",
+    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-township",
+      "name": "Township of Uxbridge",
+      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
     }
   },
   {
@@ -344,6 +362,24 @@ window.NDC.data.eventsImported =
     "description": "Informed by a late Modern interpretation of abstraction, my current practice typically moves between painterly and post-painterly interpretations of cultural history and biomorphic forms. The age and patina of old walls, scraps of manuscripts, natural forms, etc. provide sources for the textures and compositions I use in my work. Whatever the source, I attempt to […]",
     "category": "Smell",
     "url": "https://scugogarts.ca/events/garden-stories-by-michael-j-black/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-09-19-R3Vlc3Mg",
+    "title": "Guess that Candy with RoyPop Candy",
+    "date": "2026-09-19",
+    "time": "11:00am – 5:00pm",
+    "location": "",
+    "description": "Come and enjoy Roy Pop Candy’s candy bar and put your taste buds and candy knowledge to the test! Sample, identify, and guess a variety of sweet treats in this interactive game! Bring your friends, trust your senses, and see who can correctly identify the most candies in this delicious Culture Days activity!",
+    "category": "Sight",
+    "url": "https://scugogarts.ca/events/guess-that-candy-with-roypop-candy/",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -452,6 +488,24 @@ window.NDC.data.eventsImported =
     "description": "Put on your dancing shoes and join Chloe from Theatre Dance Academy in an energetic intro to line dancing! Learn some easy-to-follow steps, dance along with the group, and enjoy some great music. No experience or partners are necessary, just bring yourself some enthusiasm and get ready to dance along!",
     "category": "Sound",
     "url": "https://scugogarts.ca/events/line-dancing-with-chloe/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-09-19-TWFrZSB5",
+    "title": "Make your own Tote Bag!",
+    "date": "2026-09-19",
+    "time": "11:00am – 5:00pm",
+    "location": "",
+    "description": "Design and create your very own reusable Tote Bag! Use Acrylic Paint markers or fabric paint to add colors, patterns, artwork, or writing to make this bag uniquely yours. This fun, hands-on activity encourages creativity while giving you a practical keepsake to take home and use long after Culture Days is over!",
+    "category": "Sight",
+    "url": "https://scugogarts.ca/events/make-your-own-tote-bag/",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -606,6 +660,42 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-arts-2026-09-19-WW9nYSB3",
+    "title": "Yoga with Lotus Loft",
+    "date": "2026-09-19",
+    "time": "11:00am – 12:00pm",
+    "location": "",
+    "description": "Join Lotus loft for yoga in the park! Lotus Loft, your sanctuary for mindful living in the heart of beautiful Port Perry. Here, your wellness journey is nurtured with intention. Our space is designed to support the whole you — mind, body, and soul — through practices that inspire connection, healing, and growth. Explore group […]",
+    "category": "Smell",
+    "url": "https://scugogarts.ca/events/yoga-with-lotus-loft/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-09-19-WW9nYSB3",
+    "title": "Yoga with North End Fitness",
+    "date": "2026-09-19",
+    "time": "12:00pm – 2:00pm",
+    "location": "",
+    "description": "Join North End Fitness in the park for some yoga! Have some quiet time to relax and wind down amidst the craziness of Culture Days!",
+    "category": "Smell",
+    "url": "https://scugogarts.ca/events/yoga-with-north-end-fitness/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2026-09-20-QXJ0aWZh",
     "title": "Artifact Exploration – Organized by the Scugog Shores Museum",
     "date": "2026-09-20",
@@ -735,7 +825,7 @@ window.NDC.data.eventsImported =
     "id": "imp-oak-ridges-trail-2026-09-21-VXhicmlk",
     "title": "Uxbridge - Rouge National Urban Park, Glasgow, slow-moderate, Scott Heaslip (Mon, September 21, 2026)",
     "date": "2026-09-21",
-    "time": "9:30am",
+    "time": "1:30pm",
     "location": "",
     "description": "Members and non-members welcome ORTA Map 5; 2 hours; slow-moderate pace. This is an out-and-back hike on the Rouge Park trail starting at the Glasgow Day Use Area. This trail has a granular surface and only a few gentle slopes, ideal for those wanting a less aggressive hike. Lunch option after the hike at Annina’s Bakeshop in Goodwood. Parking: meet at the Rouge Park Glasgow Day Use Area at 1867…",
     "category": "Smell",
@@ -1035,6 +1125,24 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-10-02-VXhicmlk",
+    "title": "Uxbridge - Countryside Preserve and Uxbridge Urban Provincial Park - Mod to Fast - Sheila King (Fri, October 02, 2026)",
+    "date": "2026-10-02",
+    "time": "1:30pm",
+    "location": "",
+    "description": "Members, guests, and non-members welcome. Pre-registration is required. Non-members and new members are required to contact the hike leader by NOON the day before to discuss the hike in advance and ensure the hike is suitable for them. ORTA Map 5; 10kms+; 2.5+ hrs; moderate to fast pace with minimal hills. Our loop hike will start at the Countryside Preserve Trailhead behind Walmart and continue…",
+    "category": "Smell",
+    "url": "https://members.oakridgestrail.org/event-6846595",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -1536,6 +1644,24 @@ window.NDC.data.eventsImported =
     "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
     "category": "Sound",
     "url": "https://scugogarts.ca/events/small-town-open-mic/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-11-20-QXJ0IFN3",
+    "title": "Art Swap",
+    "date": "2026-11-20",
+    "time": "7:00pm – 8:00pm",
+    "location": "",
+    "description": "Join us at the Scugog Arts Space for an Art Swap! A social evening where artists in our community have the chance to trade their artwork with one another. Whether you’re a longtime artist or just getting started, you’re invited to join in! Come meet other creatives, hang out, and see what everyone has been making. Bring one or more wrapped pieces of your artwork […]",
+    "category": "Sight",
+    "url": "https://scugogarts.ca/events/art-swap-2/",
     "recurring": "",
     "contact": "",
     "imported": true,

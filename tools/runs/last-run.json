@@ -1,6 +1,6 @@
 {
-  "at": "2026-09-19T06:36:06.178Z",
-  "kept": 123,
+  "at": "2026-09-20T06:36:47.147Z",
+  "kept": 90,
   "duplicates": 31,
   "sources": [
     {
@@ -8,7 +8,7 @@
       "name": "Township of Uxbridge",
       "ok": true,
       "count": 326,
-      "kept": 3,
+      "kept": 2,
       "error": null
     },
     {
@@ -16,7 +16,7 @@
       "name": "Scugog Council for the Arts",
       "ok": true,
       "count": 300,
-      "kept": 109,
+      "kept": 78,
       "error": null
     },
     {
@@ -40,7 +40,7 @@
       "name": "Uxbridge Public Library",
       "ok": true,
       "count": 43,
-      "kept": 40,
+      "kept": 39,
       "error": null
     },
     {
@@ -55,10 +55,10 @@
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "ok": true,
-      "count": 8,
+      "count": 6,
       "kept": 2,
       "error": null,
-      "filtered": 6
+      "filtered": 4
     },
     {
       "id": "ontario-conservation-areas",

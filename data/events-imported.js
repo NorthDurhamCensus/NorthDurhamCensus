@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-20T06:36:47.147Z by tools/fetch-events.mjs
+// Generated 2026-09-21T06:41:17.279Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -47,24 +47,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-scugog-arts-2026-09-19-QXBwbGV3",
-    "title": "Applewood Farm – Meet the Maker & Live Music",
-    "date": "2026-09-19",
-    "time": "11:00am, runs to Sep 20",
-    "location": "",
-    "description": "Craving some good local wine and a fun day with your friends? Applewood Farm and Winery has the perfect event for you. They will host a day of live music on the patio as well as an opportunity to meet the wine curator for Applewood Farm. This event is FREE so please come and enjoy! […]",
-    "category": "Sound",
-    "url": "https://scugogarts.ca/events/applewood-farm-meet-the-maker-live-music/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
     "id": "imp-uxbridge-township-2026-09-19-RFJFQU1T",
     "title": "DREAMS! Music Awards 2026 presented by Invest Durham",
     "date": "2026-09-19",
@@ -80,132 +62,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-19-TGF2ZW5k",
-    "title": "Lavender-Blu Eco Garden Tour & Make-and-Take Crafts",
-    "date": "2026-09-19",
-    "time": "10:00am, runs to Sep 20",
-    "location": "",
-    "description": "Lavender-Blu will be offering educational and interactive eco garden tours of our lavender garden, we will have an interactive activity, as well as a make and take project. Our studio that features over 80 artisanal lavender products will be open during the weekend and will offer hand-crafted lavender and lavender-inspired products.",
-    "category": "Smell",
-    "url": "https://scugogarts.ca/events/lavender-blu-eco-garden-tour-make-and-take-crafts/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-20-QXJ0aWZh",
-    "title": "Artifact Exploration – Organized by the Scugog Shores Museum",
-    "date": "2026-09-20",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Have you ever been curious about the history of Scugog? If so, come down to the Scugog Arts Space and join staff from Scugog Shores Museum Village & Archives for an interactive booth exploring Scugog’s past. The booth will include info on the township’s museum and history, some historical artifacts from the townships, as well […]",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/artifact-exploration-organized-by-the-scugog-shores-museum/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-20-Q3VsdHVy",
-    "title": "Culture Days 2026",
-    "date": "2026-09-20",
-    "time": "10:00am – 4:00pm",
-    "location": "",
-    "description": "ADMISSION: FREE Join us for two days of free arts and culture programming during Culture Days in Port Perry. Taking place across Palmer Park, the Latcham Centre, and venues throughout Scugog, this national celebration brings communities together through creativity. Enjoy family-friendly activities including live performances, artist talks, hands-on art experiences, and programming celebrating…",
-    "category": "Sound",
-    "url": "https://scugogarts.ca/events/culture-days-2026/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-20-T2xkIEZs",
-    "title": "Old Flame – Live Music & Food Pop-Ups",
-    "date": "2026-09-20",
-    "time": "2:00pm – 6:00pm",
-    "location": "",
-    "description": "Craving a fun afternoon of drinks, live music, and food with your friends or family? Come visit the local Old Flames brewery on September 19th from 1pm to 5pm or September 20th from 2pm to 6pm. There will be a variety of food popups available to satiate your hunger. This event is FREE to attend!",
-    "category": "Taste",
-    "url": "https://scugogarts.ca/events/old-flame-live-music-food-pop-ups/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-20-Um9jayBQ",
-    "title": "Rock Painting with Jasmine",
-    "date": "2026-09-20",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Join Jasmine from Scugog Arts in turning an ordinary rock into a miniature work of art! Use color, patterns, words, and imagination to create a unique design that you can take home or share with the community. This relaxing, family friendly activity is perfect for artists of all ages and experience levels.",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/rock-painting-with-jasmine/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-20-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-09-20",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-20-U3BsYXR0",
-    "title": "Splatter Mural",
-    "date": "2026-09-20",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Join Scugog Arts and make a mess and make some art at the same time! Join fellow community members in creating a collaborative splatter mural with acrylic paint and water balloons! Grab a balloon, throw it at a large canvas and watch a beautiful and unique mural come to life!",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/splatter-mural/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
     }
   },
   {

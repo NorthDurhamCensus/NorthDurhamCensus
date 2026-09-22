@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-21T06:41:17.279Z by tools/fetch-events.mjs
+// Generated 2026-09-22T06:38:26.000Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -62,42 +62,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-21-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-09-21",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-09-21-VXhicmlk",
-    "title": "Uxbridge - Rouge National Urban Park, Glasgow, slow-moderate, Scott Heaslip (Mon, September 21, 2026)",
-    "date": "2026-09-21",
-    "time": "1:30pm",
-    "location": "",
-    "description": "Members and non-members welcome ORTA Map 5; 2 hours; slow-moderate pace. This is an out-and-back hike on the Rouge Park trail starting at the Glasgow Day Use Area. This trail has a granular surface and only a few gentle slopes, ideal for those wanting a less aggressive hike. Lunch option after the hike at Annina’s Bakeshop in Goodwood. Parking: meet at the Rouge Park Glasgow Day Use Area at 1867…",
-    "category": "Smell",
-    "url": "https://members.oakridgestrail.org/event-6841756",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -224,6 +188,24 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-09-26-VXhicmlk",
+    "title": "Uxbridge - Three Rocks (Concession Rd 7) moderate, Amir Alemohammad (Sat, September 26, 2026)",
+    "date": "2026-09-26",
+    "time": "12:00pm",
+    "location": "",
+    "description": "Members and non-members welcome. ORTA Map ; 14-15 km; moderate; 4 hours; end by 12 noon. Loop hike from Three Rocks Concession Rd 7. Hilly. Boots mandatory, poles recommended, bring 2 litres of water and snacks ,dress according to weather conditions. Amir is leading this hike for the Toronto Bruce Trail and ORTA members and non-members are welcome. Meet at the at 1120 Concession Rd 7, Uxbridge,…",
+    "category": "Smell",
+    "url": "https://members.oakridgestrail.org/event-6850459",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {

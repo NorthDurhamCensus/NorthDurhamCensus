@@ -3,31 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-23T06:39:13.446Z by tools/fetch-events.mjs
+// Generated 2026-09-24T06:39:00.077Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-library-2026-09-16-VGhlIFlF",
-    "title": "The YES Chess Club",
-    "date": "2026-09-16",
-    "time": "",
-    "location": "",
-    "description": "Sept. 16 | Oct. 21 | Nov. 18 | Jan. 20 | Feb. 17",
-    "category": "Sense of Belonging",
-    "url": "https://uxlib.insigniails.com/Library/Event",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-library",
-      "name": "Uxbridge Public Library",
-      "page": "https://uxlib.insigniails.com/Library/Event"
-    },
-    "dateConfidence": "medium"
-  },
   {
     "id": "imp-uxbridge-township-2026-09-17-T2FrIFJp",
     "title": "Oak Ridges Moraine Trail: Community Workshop (Uxbridge)",
@@ -62,24 +43,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-23-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-09-23",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
     }
   },
   {

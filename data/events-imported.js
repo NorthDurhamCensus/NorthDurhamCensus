@@ -3,30 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-24T06:39:00.077Z by tools/fetch-events.mjs
+// Generated 2026-09-25T06:39:34.807Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-township-2026-09-17-T2FrIFJp",
-    "title": "Oak Ridges Moraine Trail: Community Workshop (Uxbridge)",
-    "date": "2026-09-17",
-    "time": "10:30pm, runs to Sep 18",
-    "location": "Uxbridge Senior Centre, 75 Marietta Street, Uxbridge",
-    "description": "The Oak Ridges Moraine Trail has the potential to become one of Ontario’s signature trail experiences – connecting communities, nature, and the landscapes that make the Moraine unique. As we look to the future of the Trail, we want to understand what matters most to the people who use it and care about it. Your input will help identify opportunities to create a Trail that is more connected,…",
-    "category": "Touch",
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
   {
     "id": "imp-uxbridge-township-2026-09-19-RFJFQU1T",
     "title": "DREAMS! Music Awards 2026 presented by Invest Durham",
@@ -46,42 +28,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-scugog-arts-2026-09-24-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-09-24",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-24-U21hbGwg",
-    "title": "Small Town Open Mic",
-    "date": "2026-09-24",
-    "time": "7:00pm – 10:00pm",
-    "location": "",
-    "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
-    "category": "Sound",
-    "url": "https://scugogarts.ca/events/small-town-open-mic/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
     "id": "imp-scugog-arts-2026-09-25-U2N1Z29n",
     "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
     "date": "2026-09-25",
@@ -90,24 +36,6 @@ window.NDC.data.eventsImported =
     "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
     "category": "Sight",
     "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-26-Rmx1aWQg",
-    "title": "Fluid Art Workshop",
-    "date": "2026-09-26",
-    "time": "10:00am – 1:00pm",
-    "location": "",
-    "description": "Immerse yourself in the world of abstract acrylic pouring. If you are interested in an art practice that allows for unlimited exploration and creativity, then this is the workshop for you. An introduction to fluid pouring allows the user to create and engage with their emotions in an enveloping experience with colour, texture, and other […]",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/fluid-art-workshop/",
     "recurring": "",
     "contact": "",
     "imported": true,

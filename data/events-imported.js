@@ -3,48 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-25T06:39:34.807Z by tools/fetch-events.mjs
+// Generated 2026-09-26T06:37:47.375Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-township-2026-09-19-RFJFQU1T",
-    "title": "DREAMS! Music Awards 2026 presented by Invest Durham",
-    "date": "2026-09-19",
-    "time": "12:00am – 2:00am",
-    "location": "Biltmore Theatre, 39 King St. E., Oshawa,",
-    "description": "Marking its seventh year, the DREAMS! Music Awards 2026 presented by Invest Durham returns to celebrate musical excellence across Durham Region and the artists, creators and industry professionals shaping its vibrant music scene. The evening will feature 14 awards and six live performances, showcasing the top talent, creativity and collaboration that continue to strengthen Durham Region's growing…",
-    "category": "Sound",
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-09-25-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-09-25",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-09-26-U2N1Z29n",
     "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",

@@ -3,48 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-26T06:37:47.375Z by tools/fetch-events.mjs
+// Generated 2026-09-27T06:38:20.068Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-09-26-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-09-26",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-09-26-VXhicmlk",
-    "title": "Uxbridge - Three Rocks (Concession Rd 7) moderate, Amir Alemohammad (Sat, September 26, 2026)",
-    "date": "2026-09-26",
-    "time": "12:00pm",
-    "location": "",
-    "description": "Members and non-members welcome. ORTA Map ; 14-15 km; moderate; 4 hours; end by 12 noon. Loop hike from Three Rocks Concession Rd 7. Hilly. Boots mandatory, poles recommended, bring 2 litres of water and snacks ,dress according to weather conditions. Amir is leading this hike for the Toronto Bruce Trail and ORTA members and non-members are welcome. Meet at the at 1120 Concession Rd 7, Uxbridge,…",
-    "category": "Smell",
-    "url": "https://members.oakridgestrail.org/event-6850459",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-09-27-U2N1Z29n",
     "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
@@ -316,6 +280,24 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-arts-2026-10-10-Qm9ybiBp",
+    "title": "Born in a Barn by Gail Collins",
+    "date": "2026-10-10",
+    "time": "10:00am, runs to Nov 8",
+    "location": "",
+    "description": "Scugog Arts presents Born in a Barn, a solo exhibition by Gail Collins, celebrating the beauty, character, and connections found within farm life. A longtime member of the Port Perry Artists Association and Scugog Arts, Gail creates with the simple joy of sharing stories through art. Born in a Barn invites audiences to celebrate the […]",
+    "category": "Sight",
+    "url": "https://scugogarts.ca/events/born-in-a-barn-by-gail-collins/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
     "id": "imp-uxbridge-library-2026-10-12-S25pdHRp",
     "title": "Knitting Classes",
     "date": "2026-10-12",
@@ -500,6 +482,24 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-arts-2026-10-26-UEEgRGF5",
+    "title": "PA Day Creative Club",
+    "date": "2026-10-26",
+    "time": "9:00am – 12:00pm",
+    "location": "",
+    "description": "Give your young artist a morning of creativity, exploration, and fun! Join instructor Jesse Wheelock for a hands-on arts program exploring the elements and principles of art through creative projects and activities. Kids will experiment with colour, line, shape, texture, composition, all while developing their artistic skills and confidence. 9 AM–12 PM | $45 per child, […]",
+    "category": "Sense of Belonging",
+    "url": "https://scugogarts.ca/events/pa-day-creative-club-2/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2026-10-28-T3BlbiBT",
     "title": "Open Studio",
     "date": "2026-10-28",
@@ -652,6 +652,24 @@ window.NDC.data.eventsImported =
     "description": "Join the highly talented Michelle Peraza as she discusses her journey as an artist and educator. This artist talk will explore how artists find their thematic arc’s. Rooted in autobiography and family stories, brown affect and performativity, agnotology (the study of cultural ignorance) and semiotics, Mesoamerican cosmovision and Graeco-Roman Antiquity, plant medicine and prayer, ancestral […]",
     "category": "Sight",
     "url": "https://scugogarts.ca/events/thematic-arc-artist-talk/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-11-13-UEEgRGF5",
+    "title": "PA Day Creative Club",
+    "date": "2026-11-13",
+    "time": "9:00am – 12:00pm",
+    "location": "",
+    "description": "Give your young artist a morning of creativity, exploration, and fun! Join instructor Jesse Wheelock for a hands-on arts program exploring the elements and principles of art through creative projects and activities. Kids will experiment with colour, line, shape, texture, composition, all while developing their artistic skills and confidence. 9 AM–12 PM | $45 per child, […]",
+    "category": "Sense of Belonging",
+    "url": "https://scugogarts.ca/events/pa-day-creative-club-3/",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -987,6 +1005,24 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-arts-2027-01-22-UEEgRGF5",
+    "title": "PA Day Creative Club",
+    "date": "2027-01-22",
+    "time": "9:00am – 12:00pm",
+    "location": "",
+    "description": "Give your young artist a morning of creativity, exploration, and fun! Join instructor Jesse Wheelock for a hands-on arts program exploring the elements and principles of art through creative projects and activities. Kids will experiment with colour, line, shape, texture, composition, all while developing their artistic skills and confidence. 9 AM–12 PM | $45 per child, […]",
+    "category": "Sense of Belonging",
+    "url": "https://scugogarts.ca/events/pa-day-creative-club-4/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2027-01-28-U21hbGwg",
     "title": "Small Town Open Mic",
     "date": "2027-01-28",
@@ -1031,6 +1067,24 @@ window.NDC.data.eventsImported =
     "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
     "category": "Sound",
     "url": "https://scugogarts.ca/events/small-town-open-mic/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2027-02-15-UEEgRGF5",
+    "title": "PA Day Creative Club",
+    "date": "2027-02-15",
+    "time": "9:00am – 12:00pm",
+    "location": "",
+    "description": "Give your young artist a morning of creativity, exploration, and fun! Join instructor Jesse Wheelock for a hands-on arts program exploring the elements and principles of art through creative projects and activities. Kids will experiment with colour, line, shape, texture, composition, all while developing their artistic skills and confidence. 9 AM–12 PM | $45 per child, […]",
+    "category": "Sense of Belonging",
+    "url": "https://scugogarts.ca/events/pa-day-creative-club-5/",
     "recurring": "",
     "contact": "",
     "imported": true,

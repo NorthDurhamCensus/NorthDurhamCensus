@@ -3,30 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-09-27T06:38:20.068Z by tools/fetch-events.mjs
+// Generated 2026-09-28T06:43:39.436Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-09-27-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-09-27",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-09-28-U2N1Z29n",
     "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
@@ -670,6 +652,24 @@ window.NDC.data.eventsImported =
     "description": "Give your young artist a morning of creativity, exploration, and fun! Join instructor Jesse Wheelock for a hands-on arts program exploring the elements and principles of art through creative projects and activities. Kids will experiment with colour, line, shape, texture, composition, all while developing their artistic skills and confidence. 9 AM–12 PM | $45 per child, […]",
     "category": "Sense of Belonging",
     "url": "https://scugogarts.ca/events/pa-day-creative-club-3/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-11-14-Q2hyaXN0",
+    "title": "Christmas Shop",
+    "date": "2026-11-14",
+    "time": "10:00am, runs to Jan 3",
+    "location": "",
+    "description": "Scugog Arts presents the Annual Christmas Shop! Visit the gallery and discover a carefully curated collection of handmade gifts, artworks, ceramics, jewellery, textiles, cards, and one-of-a-kind treasures created by talented local artists and artisans. Join us for our opening reception, on November 14th, enjoy a complimentary warm cider, browse the shop, and take part in […]",
+    "category": "Sight",
+    "url": "https://scugogarts.ca/events/scugog-arts-christmas-shop-3/",
     "recurring": "",
     "contact": "",
     "imported": true,

@@ -1,6 +1,6 @@
 {
-  "at": "2026-09-28T06:43:39.436Z",
-  "kept": 76,
+  "at": "2026-09-29T06:41:21.962Z",
+  "kept": 75,
   "duplicates": 25,
   "sources": [
     {
@@ -16,7 +16,7 @@
       "name": "Scugog Council for the Arts",
       "ok": true,
       "count": 300,
-      "kept": 68,
+      "kept": 67,
       "error": null
     },
     {
@@ -55,10 +55,10 @@
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "kept": 1,
       "error": null,
-      "filtered": 6
+      "filtered": 5
     },
     {
       "id": "ontario-conservation-areas",

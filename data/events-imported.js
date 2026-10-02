@@ -3,48 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-01T06:43:24.754Z by tools/fetch-events.mjs
+// Generated 2026-10-02T06:42:32.950Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-10-01-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-10-01",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-10-01-U21hbGwg",
-    "title": "Small Town Open Mic",
-    "date": "2026-10-01",
-    "time": "7:00pm – 10:00pm",
-    "location": "",
-    "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
-    "category": "Sound",
-    "url": "https://scugogarts.ca/events/small-town-open-mic/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-10-02-U2N1Z29n",
     "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
@@ -410,24 +374,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-scugog-arts-2026-10-29-SGFsbG93",
-    "title": "Hallowed Arts Party",
-    "date": "2026-10-29",
-    "time": "7:00pm – 10:00pm",
-    "location": "",
-    "description": "Scugog Arts presents the Hallowed Arts Party! Thursday October 29th from 7:00pm-10:00pm 2-268 Queen St, Port Perry, ON L9L 1B9 This Fall, step into the shadows of the Scugog Arts space on October 29th for our Hallowed Art party–an immersive Halloween night where art, costumes, and music all collide. From 7:00pm-10:00pm join us in dressing […]",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/hallowed-arts-party/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
     "id": "imp-scugog-arts-2026-10-29-U21hbGwg",
     "title": "Small Town Open Mic",
     "date": "2026-10-29",
@@ -771,6 +717,42 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-arts-2026-11-28-SG9saWRh",
+    "title": "Holiday Mug Cozy Crochet",
+    "date": "2026-11-28",
+    "time": "1:00pm – 4:00pm",
+    "location": "",
+    "description": "Mug Cozy Crochet with Bronwyn Saturday, November 28th, 1-m-4pm $65+ HST Join us in learning how to make a mug cozy for the holiday season. This beginner friendly project is perfect for those wanting to learn to crochet and will make a perfect gift for a loved one.",
+    "category": "Common Sense",
+    "url": "https://scugogarts.ca/events/holiday-mug-cozy-crochet/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-12-01-V3JlYXRo",
+    "title": "Wreath Making with Jesse Wheelock",
+    "date": "2026-12-01",
+    "time": "1:00pm – 4:00pm",
+    "location": "",
+    "description": "Tuesday, December 1st, 1–4 PM $85 +HST Create a beautiful, one-of-a-kind holiday wreath with artist Jesse Wheelock. In this hands-on workshop, you’ll learn how to craft your own felt greenery and use a variety of felt-crafting and textile techniques to build a wreath that’s uniquely yours. Choose your own colours, textures, and decorative elements to […]",
+    "category": "Sight",
+    "url": "https://scugogarts.ca/events/wreath-making-with-jesse-wheelock/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2026-12-03-U21hbGwg",
     "title": "Small Town Open Mic",
     "date": "2026-12-03",
@@ -789,6 +771,42 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-arts-2026-12-05-U2V3aW5n",
+    "title": "Sewing Christmas Stockings",
+    "date": "2026-12-05",
+    "time": "1:00pm – 4:00pm",
+    "location": "",
+    "description": "Sewing Christmas Stockings with Lora Kennedy Saturday, December 5th, 10am-1pm, $85+ HST Get into the holiday spirit with this hands-on sewing workshop! Join us to create a festive, personalized holiday stocking from scratch while learning the basics of using a sewing machine. Your finished stocking will be fully lined and include a loop for […]",
+    "category": "Touch",
+    "url": "https://scugogarts.ca/events/sewing-christmas-stockings/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-12-08-Q29sbGFn",
+    "title": "Collage Cards for Christmas",
+    "date": "2026-12-08",
+    "time": "1:00pm – 4:00pm",
+    "location": "",
+    "description": "Join Suzanne Chasse as she guides participants through a fun and creative process of making custom hand-crafted Christmas Cards. The perfect addition to any Christmas present that adds a personal and sentimental touch and can be used for future card making for any occasion. This workshop is great for anyone who wants to add a […]",
+    "category": "Touch",
+    "url": "https://scugogarts.ca/events/collage-cards-for-christmas/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2026-12-10-U21hbGwg",
     "title": "Small Town Open Mic",
     "date": "2026-12-10",
@@ -797,6 +815,24 @@ window.NDC.data.eventsImported =
     "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
     "category": "Sound",
     "url": "https://scugogarts.ca/events/small-town-open-mic/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2026-12-15-T3JuYW1l",
+    "title": "Ornament Painting Workshop",
+    "date": "2026-12-15",
+    "time": "1:00pm – 4:00pm",
+    "location": "",
+    "description": "Tuesday, December 15th, 1pm-4, $75+ HST Get creative this holiday season and paint beautiful Christmas ornaments to give as thoughtful gifts or use to decorate your own home. Follow along with artist Jesse Wheelock as he guides you through painting festive ornament designs, or let your creativity take over and create your own custom […]",
+    "category": "Sight",
+    "url": "https://scugogarts.ca/events/ornament-painting-workshop/",
     "recurring": "",
     "contact": "",
     "imported": true,

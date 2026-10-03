@@ -3,48 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-02T06:42:32.950Z by tools/fetch-events.mjs
+// Generated 2026-10-03T06:50:04.405Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-10-02-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-10-02",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-10-02-VXhicmlk",
-    "title": "Uxbridge - Countryside Preserve and Uxbridge Urban Provincial Park - Mod to Fast - Sheila King (Fri, October 02, 2026)",
-    "date": "2026-10-02",
-    "time": "1:30pm",
-    "location": "",
-    "description": "Members, guests, and non-members welcome. Pre-registration is required. Non-members and new members are required to contact the hike leader by NOON the day before to discuss the hike in advance and ensure the hike is suitable for them. ORTA Map 5; 10kms+; 2.5+ hrs; moderate to fast pace with minimal hills. Our loop hike will start at the Countryside Preserve Trailhead behind Walmart and continue…",
-    "category": "Smell",
-    "url": "https://members.oakridgestrail.org/event-6846595",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-10-03-Q29sbGFn",
     "title": "Collage Workshop",
@@ -1347,5 +1311,24 @@ window.NDC.data.eventsImported =
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
     }
+  },
+  {
+    "id": "imp-uxbridge-library-2027-05-30-QWx6aGVp",
+    "title": "Alzheimer Society of Durham Region Outreach Event",
+    "date": "2027-05-30",
+    "time": "",
+    "location": "",
+    "description": "Do you have questions about brain health and how to keep your brain active? The Alzheimer Society will be available to offer support! This is a free, drop-in event! Visit Ashley in our Adult Department on May 30th.",
+    "category": "Sense of Security",
+    "url": "https://uxlib.insigniails.com/Library/Event",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-library",
+      "name": "Uxbridge Public Library",
+      "page": "https://uxlib.insigniails.com/Library/Event"
+    },
+    "dateConfidence": "medium"
   }
 ];

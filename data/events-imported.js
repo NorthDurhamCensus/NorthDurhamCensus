@@ -3,48 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-03T06:50:04.405Z by tools/fetch-events.mjs
+// Generated 2026-10-04T13:50:54.781Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-10-03-Q29sbGFn",
-    "title": "Collage Workshop",
-    "date": "2026-10-03",
-    "time": "1:00pm – 4:00pm",
-    "location": "",
-    "description": "Saturday, October 3rd 1pm – 4pm. $65 HST Create an original work of art by transforming found imagery and text into something new. Using images from books, magazines, and decorative papers, explore a wide range of possibilities for both representational and abstract compositions. Through cutting and rearranging, participants will create a finished piece of collaged artwork […]",
-    "category": "Touch",
-    "url": "https://scugogarts.ca/events/collage-workshop-3/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-scugog-arts-2026-10-03-U2N1Z29n",
-    "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",
-    "date": "2026-10-03",
-    "time": "10:00am – 5:00pm",
-    "location": "",
-    "description": "Scugog Council for the Arts presents Fragments, a solo exhibition by Jordan Clements. Through the timeless practice of stone carving, Jordan Clements explores the human experience in Fragments, a powerful solo exhibition examining identity, transformation, and resilience. The sculptures draw on the geological process of metamorphism – a compelling metaphor for the ways of love, loss, memory, and…",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/scugog-arts-presents-fragments-by-jordan-clements/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-10-04-U2N1Z29n",
     "title": "Scugog Arts presents: ‘Fragments’ by Jordan Clements",

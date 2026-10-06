@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-05T06:48:31.285Z by tools/fetch-events.mjs
+// Generated 2026-10-06T06:44:07.051Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -209,6 +209,24 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-10-17-VXhicmlk",
+    "title": "Uxbridge - Glasgow-Secord, Moderate, Barb Anderson (Sat, October 17, 2026)",
+    "date": "2026-10-17",
+    "time": "1:30pm",
+    "location": "",
+    "description": "Members, guests and non-members welcome. Pre-registration is mandatory. New members and non-members are asked to contact the hike leader by noon the day before to discuss if the hike is suitable for them. ORTA Map 5; ~10km; ~2.5+ hrs; h ike speed ~4 km/hr Please join us for a moderately paced hike starting from the Rouge National Urban Park Glasgow Day Use Area . This will be a there and back…",
+    "category": "Smell",
+    "url": "https://members.oakridgestrail.org/event-6867745",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {

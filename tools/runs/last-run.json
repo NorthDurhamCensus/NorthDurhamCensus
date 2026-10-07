@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-06T06:44:07.051Z",
+  "at": "2026-10-07T06:43:31.473Z",
   "kept": 72,
   "duplicates": 25,
   "sources": [
@@ -30,10 +30,10 @@
     {
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
-      "ok": true,
+      "ok": false,
       "count": 0,
       "kept": 0,
-      "error": null
+      "error": "fetch failed"
     },
     {
       "id": "uxbridge-library",

@@ -3,30 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-06T06:44:07.051Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
+// Generated 2026-10-07T06:43:31.473Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-10-06-SnVuayBK",
-    "title": "Junk Journal Workshop",
-    "date": "2026-10-06",
-    "time": "1:00pm – 4:00pm",
-    "location": "",
-    "description": "Tuesday, October 6th 1pm – 4pm. $85 HST Step into the world of junk journaling where collage meets journaling. In this workshop, you will prepare a Junk Journal using a composition book. This will include preparing a new cover, using existing pages within the book for folding pockets, various decoration items, and 2-pocket styles such […]",
-    "category": "Touch",
-    "url": "https://scugogarts.ca/events/junk-journal-workshop/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-10-08-U21hbGwg",
     "title": "Small Town Open Mic",
@@ -217,7 +199,7 @@ window.NDC.data.eventsImported =
     "date": "2026-10-17",
     "time": "1:30pm",
     "location": "",
-    "description": "Members, guests and non-members welcome. Pre-registration is mandatory. New members and non-members are asked to contact the hike leader by noon the day before to discuss if the hike is suitable for them. ORTA Map 5; ~10km; ~2.5+ hrs; h ike speed ~4 km/hr Please join us for a moderately paced hike starting from the Rouge National Urban Park Glasgow Day Use Area . This will be a there and back…",
+    "description": "Members, guests and non-members welcome. Pre-registration is mandatory. New members and non-members are asked to contact the hike leader by noon the day before to discuss if the hike is suitable for them. ORTA Map 5; ~10km; ~2.5+ hrs; h ike speed ~4 km/hr Immerse yourselves in the beautiful Fall colours and join us for a moderately paced hike starting from the Rouge National Urban Park Glasgow…",
     "category": "Smell",
     "url": "https://members.oakridgestrail.org/event-6867745",
     "recurring": "",
@@ -1312,5 +1294,23 @@ window.NDC.data.eventsImported =
       "page": "https://uxlib.insigniails.com/Library/Event"
     },
     "dateConfidence": "medium"
+  },
+  {
+    "id": "imp-scugog-arts-2027-06-03-U21hbGwg",
+    "title": "Small Town Open Mic",
+    "date": "2027-06-03",
+    "time": "7:00pm – 10:00pm",
+    "location": "",
+    "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
+    "category": "Sound",
+    "url": "https://scugogarts.ca/events/small-town-open-mic/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
   }
 ];

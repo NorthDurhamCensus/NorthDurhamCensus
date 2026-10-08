@@ -3,8 +3,8 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-07T06:43:31.473Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
+// Generated 2026-10-08T06:45:42.028Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
@@ -1304,6 +1304,24 @@ window.NDC.data.eventsImported =
     "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
     "category": "Sound",
     "url": "https://scugogarts.ca/events/small-town-open-mic/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2027-06-04-UEEgRGF5",
+    "title": "PA Day Creative Club",
+    "date": "2027-06-04",
+    "time": "9:00am – 12:00pm",
+    "location": "",
+    "description": "Give your young artist a morning of creativity, exploration, and fun! Join instructor Jesse Wheelock for a hands-on arts program exploring the elements and principles of art through creative projects and activities. Kids will experiment with colour, line, shape, texture, composition, all while developing their artistic skills and confidence. 9 AM–12 PM | $45 per child, […]",
+    "category": "Sense of Belonging",
+    "url": "https://scugogarts.ca/events/pa-day-creative-club-6/",
     "recurring": "",
     "contact": "",
     "imported": true,

@@ -3,30 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-08T06:45:42.028Z by tools/fetch-events.mjs
+// Generated 2026-10-09T06:45:42.499Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-10-08-U21hbGwg",
-    "title": "Small Town Open Mic",
-    "date": "2026-10-08",
-    "time": "7:00pm – 10:00pm",
-    "location": "",
-    "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
-    "category": "Sound",
-    "url": "https://scugogarts.ca/events/small-town-open-mic/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-oak-ridges-trail-2026-10-09-U2N1Z29n",
     "title": "Scugog - Skyloft Crow’s Pass, Mod-Fast, Sheila King (Fri, October 09, 2026)",
@@ -88,7 +70,7 @@ window.NDC.data.eventsImported =
     "date": "2026-10-13",
     "time": "1:00pm – 4:00pm",
     "location": "",
-    "description": "Tuesday, October 13th 1pm – 4pm, $120 +HST Relaxed and interactive Watercolour Workshops designed for beginner and intermediate painters in a small group setting, held at the Scugog Arts Space in Port Perry. Come and celebrate the unique qualities of watercolour with instructor Sandra MacPherson. Hands-on practice will focus on using watercolour washes to create […]",
+    "description": "Tuesday, October 13th 1pm – 4pm, $85 +HST Relaxed and interactive Watercolour Workshops designed for beginner and intermediate painters in a small group setting, held at the Scugog Arts Space in Port Perry. Come and celebrate the unique qualities of watercolour with instructor Sandra MacPherson. Hands-on practice will focus on using watercolour washes to create […]",
     "category": "Sight",
     "url": "https://scugogarts.ca/events/watercolour-workshop/",
     "recurring": "",
@@ -577,7 +559,7 @@ window.NDC.data.eventsImported =
     "date": "2026-11-24",
     "time": "1:00pm – 4:00pm",
     "location": "",
-    "description": "Tuesday, November 24th 1pm-4pm. $120 +HST Relaxed and interactive Watercolour Workshops designed for beginner and intermediate painters in a small group setting, held at the Scugog Arts Space in Port Perry. Come and celebrate the unique qualities of watercolour with instructor Sandra MacPherson. Hands-on practice will focus on using watercolour washes to create a simple […]",
+    "description": "Tuesday, November 24th 1pm-4pm. $85+HST Relaxed and interactive Watercolour Workshops designed for beginner and intermediate painters in a small group setting, held at the Scugog Arts Space in Port Perry. Come and celebrate the unique qualities of watercolour with instructor Sandra MacPherson. Hands-on practice will focus on using watercolour washes to create a simple landscape. […]",
     "category": "Sight",
     "url": "https://scugogarts.ca/events/watercolour/",
     "recurring": "",

@@ -3,30 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-09T06:45:42.499Z by tools/fetch-events.mjs
+// Generated 2026-10-10T06:43:15.951Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-oak-ridges-trail-2026-10-09-U2N1Z29n",
-    "title": "Scugog - Skyloft Crow’s Pass, Mod-Fast, Sheila King (Fri, October 09, 2026)",
-    "date": "2026-10-09",
-    "time": "1:30pm",
-    "location": "",
-    "description": "Members, guests and non-members welcome. Pre-registration is mandatory. New members and Non-members must contact the hike leader before 12PM the day before to determine if the hike is suitable for them. ORTA Map 6; 10k+, 2.5 hrs+; moderate to fast pace (~4.5 km per hr) on hilly terrain . This hikes requires a good level of fitness and is not suitable for beginners. Sturdy footwear and poles…",
-    "category": "Smell",
-    "url": "https://members.oakridgestrail.org/event-6865651",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-10-10-Qm9ybiBp",
     "title": "Born in a Barn by Gail Collins",
@@ -63,6 +45,24 @@ window.NDC.data.eventsImported =
       "page": "https://uxlib.insigniails.com/Library/Event"
     },
     "dateConfidence": "medium"
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-10-12-VXhicmlk",
+    "title": "Uxbridge - Countryside Preserve - Slow-Moderate and slow, Brian & Wilma Millage (Mon, October 12, 2026)",
+    "date": "2026-10-12",
+    "time": "1:30pm",
+    "location": "",
+    "description": "Members and non-members welcome. Slow to moderate pace and slow hikes; 2 hrs. Take advantage of this great early fall weather and join us for a Thanksgiving hike on these gentle trails. Fall colours will decorate the trails through forest and meadow sections as the maples and asters put on their annual display. We will walk and share the sights for about 2 hours after which some of you may head…",
+    "category": "Taste",
+    "url": "https://members.oakridgestrail.org/event-6872491",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
+    }
   },
   {
     "id": "imp-scugog-arts-2026-10-13-V2F0ZXJj",

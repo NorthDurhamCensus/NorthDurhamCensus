@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-11T06:43:59.805Z",
-  "kept": 72,
+  "at": "2026-10-12T06:52:06.843Z",
+  "kept": 10,
   "duplicates": 25,
   "sources": [
     {
@@ -14,26 +14,26 @@
     {
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
-      "ok": true,
-      "count": 300,
-      "kept": 62,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "kept": 0,
+      "error": "did not look like an RSS or Atom feed"
     },
     {
       "id": "brock-libraries",
       "name": "Brock Township Public Library",
-      "ok": true,
+      "ok": false,
       "count": 0,
       "kept": 0,
-      "error": null
+      "error": "REST endpoint did not return JSON"
     },
     {
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
-      "ok": true,
+      "ok": false,
       "count": 0,
       "kept": 0,
-      "error": null
+      "error": "REST endpoint did not return JSON"
     },
     {
       "id": "uxbridge-library",
@@ -46,10 +46,10 @@
     {
       "id": "lsrca",
       "name": "Lake Simcoe Region Conservation Authority",
-      "ok": true,
-      "count": 10,
+      "ok": false,
+      "count": 0,
       "kept": 0,
-      "error": null
+      "error": "did not look like an RSS or Atom feed"
     },
     {
       "id": "oak-ridges-trail",

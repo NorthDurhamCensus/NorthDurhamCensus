@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-13T06:50:53.693Z by tools/fetch-events.mjs
+// Generated 2026-10-14T07:08:03.741Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -45,24 +45,6 @@ window.NDC.data.eventsImported =
       "page": "https://uxlib.insigniails.com/Library/Event"
     },
     "dateConfidence": "medium"
-  },
-  {
-    "id": "imp-scugog-arts-2026-10-13-V2F0ZXJj",
-    "title": "Watercolour Basics-Working with Washes",
-    "date": "2026-10-13",
-    "time": "1:00pm – 4:00pm",
-    "location": "",
-    "description": "Tuesday, October 13th 1pm – 4pm, $85 +HST Relaxed and interactive Watercolour Workshops designed for beginner and intermediate painters in a small group setting, held at the Scugog Arts Space in Port Perry. Come and celebrate the unique qualities of watercolour with instructor Sandra MacPherson. Hands-on practice will focus on using watercolour washes to create […]",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/watercolour-workshop/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
   },
   {
     "id": "imp-uxbridge-library-2026-10-14-S25pdHRp",
@@ -147,7 +129,7 @@ window.NDC.data.eventsImported =
     "location": "",
     "description": "Members and non members welcome! Uxbridge town trails and historic neighbourhoods; 12.5 km ; 2.5+ hours; Moderate to fast pace. Arrive at 9:00 a.m. for a 9:15 a.m. start. Please note the extra distance over our usual Friday treks and the start time being 15 minutes earlier. As the trail is largely flat, we will be moving at a quick pace and therefore don't anticipate that total time would much…",
     "category": "Smell",
-    "url": "https://members.oakridgestrail.org/widget/event-6876083",
+    "url": "https://members.oakridgestrail.org/event-6876083",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -183,7 +165,7 @@ window.NDC.data.eventsImported =
     "location": "",
     "description": "Members, guests and non-members welcome. Pre-registration is mandatory. New members and non-members are asked to contact the hike leader by noon the day before to discuss if the hike is suitable for them. ORTA Map 5; ~10km; ~2.5+ hrs; h ike speed ~4 km/hr Immerse yourselves in the beautiful Fall colours and join us for a moderately paced hike starting from the Rouge National Urban Park Glasgow…",
     "category": "Smell",
-    "url": "https://members.oakridgestrail.org/widget/event-6867745",
+    "url": "https://members.oakridgestrail.org/event-6867745",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -227,6 +209,24 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-10-23-VXhicmlk",
+    "title": "Uxbridge - East Walker Woods (Conc. 7) Mod-Fast, Sheila King (Fri, October 23, 2026)",
+    "date": "2026-10-23",
+    "time": "1:30pm",
+    "location": "",
+    "description": "Members, guests and non-members welcome. Pre-registration is mandatory. Non-members and new members are asked to contact the hike leader by noon the day prior to determine if the hike is suitable for them. ORTA Map 5 : 10k+; 2.5hrs; Moderate to fast pace (~4.5k/hr) . 15 hikers maximum. No dogs please. Walker Woods is a beautiful forest to hike in all seasons but let’s hope that some of the Fall…",
+    "category": "Smell",
+    "url": "https://members.oakridgestrail.org/event-6877132",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -1304,6 +1304,24 @@ window.NDC.data.eventsImported =
     "description": "Give your young artist a morning of creativity, exploration, and fun! Join instructor Jesse Wheelock for a hands-on arts program exploring the elements and principles of art through creative projects and activities. Kids will experiment with colour, line, shape, texture, composition, all while developing their artistic skills and confidence. 9 AM–12 PM | $45 per child, […]",
     "category": "Sense of Belonging",
     "url": "https://scugogarts.ca/events/pa-day-creative-club-6/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2027-06-10-U21hbGwg",
+    "title": "Small Town Open Mic",
+    "date": "2027-06-10",
+    "time": "7:00pm – 10:00pm",
+    "location": "",
+    "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
+    "category": "Sound",
+    "url": "https://scugogarts.ca/events/small-town-open-mic/",
     "recurring": "",
     "contact": "",
     "imported": true,

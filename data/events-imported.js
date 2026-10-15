@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-14T07:08:03.741Z by tools/fetch-events.mjs
+// Generated 2026-10-15T11:43:48.556Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -302,12 +302,12 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-scugog-arts-2026-11-03-VHdvLVBh",
-    "title": "Two-Part Primitive Rug Hooking Workshop",
+    "id": "imp-scugog-arts-2026-11-03-UHJpbWl0",
+    "title": "Primitive Rug Hooking Workshop",
     "date": "2026-11-03",
     "time": "1:00pm – 4:00pm",
     "location": "",
-    "description": "Looking to add personal decorative rugs to your space or learn a new skill just for fun? Primitive Rug creation is a personal enterprise where there are no artistic errors. Everything is flexible and open to change as one hooks the work. In this two-part workshop, the artist will bring an idea for the subject […]",
+    "description": "Looking to add personal decorative rugs to your space or learn a new skill just for fun? Primitive Rug creation is a personal enterprise where there are no artistic errors. Everything is flexible and open to change as one hooks the work. In this workshop, the artist will bring an idea for the subject of […]",
     "category": "Touch",
     "url": "https://scugogarts.ca/events/two-part-primitive-rug-hooking-workshop/",
     "recurring": "",

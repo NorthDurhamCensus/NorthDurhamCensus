@@ -1,13 +1,13 @@
 {
-  "at": "2026-10-15T11:43:48.556Z",
-  "kept": 73,
+  "at": "2026-10-16T11:37:35.363Z",
+  "kept": 72,
   "duplicates": 25,
   "sources": [
     {
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "ok": true,
-      "count": 377,
+      "count": 378,
       "kept": 0,
       "error": null
     },
@@ -16,7 +16,7 @@
       "name": "Scugog Council for the Arts",
       "ok": true,
       "count": 300,
-      "kept": 62,
+      "kept": 61,
       "error": null
     },
     {

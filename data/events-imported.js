@@ -3,30 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-16T11:37:35.363Z by tools/fetch-events.mjs
+// Generated 2026-10-17T10:57:34.876Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-10-10-Qm9ybiBp",
-    "title": "Born in a Barn by Gail Collins",
-    "date": "2026-10-10",
-    "time": "10:00am, runs to Nov 8",
-    "location": "",
-    "description": "Scugog Arts presents Born in a Barn, a solo exhibition by Gail Collins, celebrating the beauty, character, and connections found within farm life. A longtime member of the Port Perry Artists Association and Scugog Arts, Gail creates with the simple joy of sharing stories through art. Born in a Barn invites audiences to celebrate the […]",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/born-in-a-barn-by-gail-collins/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-uxbridge-library-2026-10-12-S25pdHRp",
     "title": "Knitting Classes",
@@ -102,24 +84,6 @@ window.NDC.data.eventsImported =
       "page": "https://uxlib.insigniails.com/Library/Event"
     },
     "dateConfidence": "medium"
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-10-16-VXhicmlk",
-    "title": "Uxbridge - Urban / Town Trails hike - Mod-Fast - Anna Sunn (Fri, October 16, 2026)",
-    "date": "2026-10-16",
-    "time": "1:15pm",
-    "location": "",
-    "description": "Members and non members welcome! Uxbridge town trails and historic neighbourhoods; 12.5 km ; 2.5+ hours; Moderate to fast pace. Arrive at 9:00 a.m. for a 9:15 a.m. start. Please note the extra distance over our usual Friday treks and the start time being 15 minutes earlier. As the trail is largely flat, we will be moving at a quick pace and therefore don't anticipate that total time would much…",
-    "category": "Smell",
-    "url": "https://members.oakridgestrail.org/event-6876083",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
   },
   {
     "id": "imp-scugog-arts-2026-10-17-RmxvYXQg",
@@ -284,6 +248,24 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-onstage-uxbridge-2026-11-02-T1NVIEJv",
+    "title": "OSU Board Meeting",
+    "date": "2026-11-02",
+    "time": "7:00pm – 9:00pm",
+    "location": "",
+    "description": "",
+    "category": "Sense of Belonging",
+    "url": "https://onstageuxbridge.com/event/osu-board-meeting-4/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2026-11-03-UHJpbWl0",
     "title": "Primitive Rug Hooking Workshop",
     "date": "2026-11-03",
@@ -338,10 +320,28 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-onstage-uxbridge-2026-11-12-SXJ2aW5n",
+    "title": "Irving Berlin’s White Christmas",
+    "date": "2026-11-12",
+    "time": "7:30pm – 10:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "Opening Night!",
+    "category": "Sound",
+    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2026-11-12-UGlnbWVu",
     "title": "Pigment Making",
     "date": "2026-11-12",
-    "time": "2:00pm – 4:00pm",
+    "time": "1:00am – 3:00am",
     "location": "",
     "description": "Oil paint-making with Michelle Peraza In this workshop, Michelle Peraza will demonstrate oil making practices by outlining the pigment extraction process naturally sourced from organic or inorganic (i.e. plant, bug vs. earth pigments). In a Mesoermicanframework, from either the upper or lower worlds. Participants will grind pigments with a mortar and pestle and learn to bind pigments […]",
     "category": "Sight",
@@ -392,6 +392,24 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-onstage-uxbridge-2026-11-13-SXJ2aW5n",
+    "title": "Irving Berlin’s White Christmas",
+    "date": "2026-11-13",
+    "time": "7:30pm – 10:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Sound",
+    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-2/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2026-11-13-UEEgRGF5",
     "title": "PA Day Creative Club",
     "date": "2026-11-13",
@@ -425,6 +443,24 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2026-11-14-SXJ2aW5n",
+    "title": "Irving Berlin’s White Christmas",
+    "date": "2026-11-14",
+    "time": "2:00pm – 4:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Sound",
+    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-3/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
@@ -464,6 +500,78 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-onstage-uxbridge-2026-11-15-SXJ2aW5n",
+    "title": "Irving Berlin’s White Christmas",
+    "date": "2026-11-15",
+    "time": "2:00pm – 4:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Sound",
+    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-5/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2026-11-15-Um9jayBv",
+    "title": "Rock of Ages Auditions",
+    "date": "2026-11-15",
+    "time": "6:00pm – 10:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Sound",
+    "url": "https://onstageuxbridge.com/event/rock-of-ages-auditions/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2026-11-16-Um9jayBv",
+    "title": "Rock of Ages Auditions",
+    "date": "2026-11-16",
+    "time": "6:00pm – 10:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Sound",
+    "url": "https://onstageuxbridge.com/event/rock-of-ages-auditions-2/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2026-11-17-Um9jayBv",
+    "title": "Rock of Ages Call Backs",
+    "date": "2026-11-17",
+    "time": "6:00pm – 10:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Sound",
+    "url": "https://onstageuxbridge.com/event/rock-of-ages-call-backs/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
     "id": "imp-scugog-arts-2026-11-18-QmFzaWNz",
     "title": "Basics of Oil Painting 2",
     "date": "2026-11-18",
@@ -479,6 +587,24 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2026-11-19-SXJ2aW5n",
+    "title": "Irving Berlin’s White Christmas",
+    "date": "2026-11-19",
+    "time": "7:30pm – 10:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Sound",
+    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-6/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {

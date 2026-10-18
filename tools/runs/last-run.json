@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-17T10:57:34.876Z",
-  "kept": 79,
+  "at": "2026-10-18T11:23:34.551Z",
+  "kept": 77,
   "duplicates": 26,
   "sources": [
     {
@@ -16,7 +16,7 @@
       "name": "Scugog Council for the Arts",
       "ok": true,
       "count": 300,
-      "kept": 60,
+      "kept": 59,
       "error": null
     },
     {
@@ -55,8 +55,8 @@
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "ok": true,
-      "count": 10,
-      "kept": 2,
+      "count": 9,
+      "kept": 1,
       "error": null,
       "filtered": 8
     },

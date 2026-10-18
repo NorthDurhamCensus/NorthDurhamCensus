@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-17T10:57:34.876Z by tools/fetch-events.mjs
+// Generated 2026-10-18T11:23:34.551Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -84,42 +84,6 @@ window.NDC.data.eventsImported =
       "page": "https://uxlib.insigniails.com/Library/Event"
     },
     "dateConfidence": "medium"
-  },
-  {
-    "id": "imp-scugog-arts-2026-10-17-RmxvYXQg",
-    "title": "Float Glass and Enamel",
-    "date": "2026-10-17",
-    "time": "1:00pm – 4:00pm",
-    "location": "",
-    "description": "Join local fused glass artist Paz Cardone for a hands-on workshop where you’ll learn the basics of working with recycled float (window) glass and create your own one-of-a-kind window decoration using vibrant glass enamels. No experience needed—just bring your creativity! Participants will be introduced to enamel painting techniques and will complete a beautiful glass piece […]",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/float-glass-and-enamel/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-10-17-VXhicmlk",
-    "title": "Uxbridge - Glasgow-Secord, Moderate, Barb Anderson (Sat, October 17, 2026)",
-    "date": "2026-10-17",
-    "time": "1:30pm",
-    "location": "",
-    "description": "Members, guests and non-members welcome. Pre-registration is mandatory. New members and non-members are asked to contact the hike leader by noon the day before to discuss if the hike is suitable for them. ORTA Map 5; ~10km; ~2.5+ hrs; h ike speed ~4 km/hr Immerse yourselves in the beautiful Fall colours and join us for a moderately paced hike starting from the Rouge National Urban Park Glasgow…",
-    "category": "Smell",
-    "url": "https://members.oakridgestrail.org/event-6867745",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
   },
   {
     "id": "imp-scugog-arts-2026-10-21-QmFzaWNz",

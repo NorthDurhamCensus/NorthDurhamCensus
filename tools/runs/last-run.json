@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-18T11:23:34.551Z",
-  "kept": 77,
-  "duplicates": 26,
+  "at": "2026-10-19T13:37:58.940Z",
+  "kept": 76,
+  "duplicates": 21,
   "sources": [
     {
       "id": "uxbridge-township",
@@ -40,7 +40,7 @@
       "name": "Uxbridge Public Library",
       "ok": true,
       "count": 43,
-      "kept": 33,
+      "kept": 27,
       "error": null
     },
     {
@@ -55,10 +55,10 @@
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "ok": true,
-      "count": 9,
+      "count": 6,
       "kept": 1,
       "error": null,
-      "filtered": 8
+      "filtered": 5
     },
     {
       "id": "ontario-conservation-areas",

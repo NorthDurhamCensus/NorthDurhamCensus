@@ -3,31 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-18T11:23:34.551Z by tools/fetch-events.mjs
+// Generated 2026-10-19T13:37:58.940Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-library-2026-10-12-S25pdHRp",
-    "title": "Knitting Classes",
-    "date": "2026-10-12",
-    "time": "",
-    "location": "",
-    "description": "October 12 - November 16 (6 Week Series) Hosted by Carol and Barb from Never Enough Wool Project: \"Flax\" by Tin Can Knits, Top Down Sweater",
-    "category": "Touch",
-    "url": "https://uxlib.insigniails.com/Library/Event",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-library",
-      "name": "Uxbridge Public Library",
-      "page": "https://uxlib.insigniails.com/Library/Event"
-    },
-    "dateConfidence": "medium"
-  },
   {
     "id": "imp-uxbridge-library-2026-10-14-S25pdHRp",
     "title": "Knitting Classes",
@@ -519,7 +500,7 @@ window.NDC.data.eventsImported =
   },
   {
     "id": "imp-onstage-uxbridge-2026-11-17-Um9jayBv",
-    "title": "Rock of Ages Call Backs",
+    "title": "Rock of Ages Callbacks",
     "date": "2026-11-17",
     "time": "6:00pm – 10:00pm",
     "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",

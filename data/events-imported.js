@@ -3,31 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-20T11:51:22.957Z by tools/fetch-events.mjs
+// Generated 2026-10-21T12:03:01.680Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-library-2026-10-14-S25pdHRp",
-    "title": "Knitting Classes",
-    "date": "2026-10-14",
-    "time": "",
-    "location": "",
-    "description": "Beginning October 14/26 (6 Week Series) Hosted by Carol and Barb from Never Enough Wool Project: Hat and Cowl",
-    "category": "Touch",
-    "url": "https://uxlib.insigniails.com/Library/Event",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-library",
-      "name": "Uxbridge Public Library",
-      "page": "https://uxlib.insigniails.com/Library/Event"
-    },
-    "dateConfidence": "medium"
-  },
   {
     "id": "imp-uxbridge-library-2026-10-15-TGVhcm4g",
     "title": "Learn to Knit",
@@ -208,6 +189,24 @@ window.NDC.data.eventsImported =
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
       "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-10-31-VXhicmlk",
+    "title": "Uxbridge - Secord Forest (Conc.3) Moderate - Barb Anderson (Sat, October 31, 2026)",
+    "date": "2026-10-31",
+    "time": "1:30pm",
+    "location": "",
+    "description": "Members, guests and non-members welcome. Pre-registration is mandatory. NON-MEMBERS are asked to contact the hike leader by noon the day prior to the hike to discuss if it is suitable for you, and to manually register ORTA Map 5: Secord Forest and Wildlife Area side trail loop and Albright side trail 10km; 2.5 hours; moderate pace (4km/hr) Please join us for a lovely walk through woods and…",
+    "category": "Smell",
+    "url": "https://members.oakridgestrail.org/event-6885740",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -1388,6 +1387,24 @@ window.NDC.data.eventsImported =
     "id": "imp-scugog-arts-2027-06-10-U21hbGwg",
     "title": "Small Town Open Mic",
     "date": "2027-06-10",
+    "time": "7:00pm – 10:00pm",
+    "location": "",
+    "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
+    "category": "Sound",
+    "url": "https://scugogarts.ca/events/small-town-open-mic/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-arts",
+      "name": "Scugog Council for the Arts",
+      "page": "https://scugogarts.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-arts-2027-06-17-U21hbGwg",
+    "title": "Small Town Open Mic",
+    "date": "2027-06-17",
     "time": "7:00pm – 10:00pm",
     "location": "",
     "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",

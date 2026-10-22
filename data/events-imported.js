@@ -3,68 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-21T12:03:01.680Z by tools/fetch-events.mjs
+// Generated 2026-10-22T12:06:10.702Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-library-2026-10-15-TGVhcm4g",
-    "title": "Learn to Knit",
-    "date": "2026-10-15",
-    "time": "",
-    "location": "",
-    "description": "This new knitting class will be Wednesday evenings, 7:00 TO 8:30 starting October 15th, running for 6 weeks at the Uxbridge Public Library.",
-    "category": "Touch",
-    "url": "https://uxlib.insigniails.com/Library/Event",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-library",
-      "name": "Uxbridge Public Library",
-      "page": "https://uxlib.insigniails.com/Library/Event"
-    },
-    "dateConfidence": "medium"
-  },
-  {
-    "id": "imp-uxbridge-library-2026-10-15-TGVhcm4g",
-    "title": "Learn to Knit Lace",
-    "date": "2026-10-15",
-    "time": "",
-    "location": "",
-    "description": "Learn to Knit Lace will be Wednesday evenings, 7:00 TO 8:30 starting October 15th, running for 6 weeks at the Uxbridge Public Library.",
-    "category": "Touch",
-    "url": "https://uxlib.insigniails.com/Library/Event",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-library",
-      "name": "Uxbridge Public Library",
-      "page": "https://uxlib.insigniails.com/Library/Event"
-    },
-    "dateConfidence": "medium"
-  },
-  {
-    "id": "imp-scugog-arts-2026-10-21-QmFzaWNz",
-    "title": "Basics of Oil Painting",
-    "date": "2026-10-21",
-    "time": "1:00pm – 4:00pm",
-    "location": "",
-    "description": "Wednesday, October 21st, 1pm – 4pm. $85 + HST Whether you have oil painted in the past or are looking to start and further your skills, then this is the workshop for you. In this class you will be guided through the alla prima method of painting, wet on wet, finishing a small piece in […]",
-    "category": "Sight",
-    "url": "https://scugogarts.ca/events/basics-of-oil-painting/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-scugog-arts-2026-10-22-U21hbGwg",
     "title": "Small Town Open Mic",

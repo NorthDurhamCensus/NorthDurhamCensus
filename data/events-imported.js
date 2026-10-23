@@ -3,30 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-22T12:06:10.702Z by tools/fetch-events.mjs
+// Generated 2026-10-23T11:50:34.550Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Scugog Council for the Arts, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-scugog-arts-2026-10-22-U21hbGwg",
-    "title": "Small Town Open Mic",
-    "date": "2026-10-22",
-    "time": "7:00pm – 10:00pm",
-    "location": "",
-    "description": "Small Town Open Mic runs every Thursday from 7-10pm at Old Flame Brewery in Port Perry. ✌️Playing cover songs? 2 songs per set! ????Throwing in originals? 3 songs per set! The aim of Small Town Open Mic is to support and connect local songwriters and musicians, inspire creativity, and, of course, have fun! ???? Musicians: […]",
-    "category": "Sound",
-    "url": "https://scugogarts.ca/events/small-town-open-mic/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "scugog-arts",
-      "name": "Scugog Council for the Arts",
-      "page": "https://scugogarts.ca/events/"
-    }
-  },
   {
     "id": "imp-oak-ridges-trail-2026-10-23-VXhicmlk",
     "title": "Uxbridge - East Walker Woods (Conc. 7) Mod-Fast, Sheila King (Fri, October 23, 2026)",

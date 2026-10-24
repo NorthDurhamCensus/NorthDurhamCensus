@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-23T11:50:34.550Z",
-  "kept": 74,
+  "at": "2026-10-24T11:17:12.413Z",
+  "kept": 17,
   "duplicates": 6,
   "sources": [
     {
@@ -14,10 +14,10 @@
     {
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
-      "ok": true,
-      "count": 300,
-      "kept": 58,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "kept": 0,
+      "error": "This operation was aborted"
     },
     {
       "id": "brock-libraries",
@@ -56,8 +56,8 @@
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "ok": true,
-      "count": 10,
-      "kept": 3,
+      "count": 11,
+      "kept": 4,
       "error": null,
       "filtered": 7
     },

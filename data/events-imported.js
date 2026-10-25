@@ -3,30 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-24T11:17:12.413Z by tools/fetch-events.mjs
+// Generated 2026-10-25T11:46:39.771Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-oak-ridges-trail-2026-10-24-VXhicmlk",
-    "title": "Uxbridge - Wilder/Walker/Glen Major Forests, Moderate, Amir Alemohammad (Sat, October 24, 2026)",
-    "date": "2026-10-24",
-    "time": "12:15pm",
-    "location": "",
-    "description": "Members and non-members welcome. Exploring Uxbridge trails (The big loop version) ORTA Map 5; 15-16 km; moderate pace; some hills and uneven surfaces, rocks and roots underfoot. Start time is 8:15 a.m. and end time 12:15 p.m. Join us for a delightful hike in Uxbridge, as we explore Wilder Forest, Walker Woods, and Glen Major Forest on a scenic loop starting from Brock Road. We’ll pass Concession…",
-    "category": "Smell",
-    "url": "https://members.oakridgestrail.org/event-6885031",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
   {
     "id": "imp-oak-ridges-trail-2026-10-31-VXhicmlk",
     "title": "Uxbridge - Secord Forest (Conc.3) Moderate - Barb Anderson (Sat, October 31, 2026)",

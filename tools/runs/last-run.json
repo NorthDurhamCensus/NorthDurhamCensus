@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-24T11:17:12.413Z",
-  "kept": 17,
+  "at": "2026-10-25T11:46:39.771Z",
+  "kept": 16,
   "duplicates": 6,
   "sources": [
     {
@@ -17,7 +17,7 @@
       "ok": false,
       "count": 0,
       "kept": 0,
-      "error": "This operation was aborted"
+      "error": "HTTP 403 Forbidden"
     },
     {
       "id": "brock-libraries",
@@ -56,10 +56,10 @@
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "ok": true,
-      "count": 11,
-      "kept": 4,
+      "count": 9,
+      "kept": 3,
       "error": null,
-      "filtered": 7
+      "filtered": 6
     },
     {
       "id": "ontario-conservation-areas",

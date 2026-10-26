@@ -3,12 +3,30 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events belong in events.js instead.
 //
-// Generated 2026-10-25T11:46:39.771Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
+// Generated 2026-10-26T13:19:14.783Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
+  {
+    "id": "imp-oak-ridges-trail-2026-10-30-VXhicmlk",
+    "title": "Uxbridge - Secord Forest (Conc 3) Mod-Fast, Anna Sunn (Fri, October 30, 2026)",
+    "date": "2026-10-30",
+    "time": "1:30pm",
+    "location": "",
+    "description": "Members and non-members welcome. Non-members are required to contact the hike leader by 6 pm the day before to discuss whether this hike is right for you. ORTA Map 5; 10km; 2.5 hrs; Secord Forest and Goodwood Tract. Enchanting evergreen forest with moss and streams throughout. The area can be quite wet depending on recent precipitation. Good hiking boots with ankle support are recommended but not…",
+    "category": "Smell",
+    "url": "https://members.oakridgestrail.org/event-6891532",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
   {
     "id": "imp-oak-ridges-trail-2026-10-31-VXhicmlk",
     "title": "Uxbridge - Secord Forest (Conc.3) Moderate - Barb Anderson (Sat, October 31, 2026)",

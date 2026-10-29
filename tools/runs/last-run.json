@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-28T13:14:14.313Z",
+  "at": "2026-10-29T13:20:51.764Z",
   "kept": 17,
   "duplicates": 6,
   "sources": [
@@ -46,10 +46,10 @@
     {
       "id": "lsrca",
       "name": "Lake Simcoe Region Conservation Authority",
-      "ok": true,
-      "count": 10,
+      "ok": false,
+      "count": 0,
       "kept": 0,
-      "error": null
+      "error": "This operation was aborted"
     },
     {
       "id": "oak-ridges-trail",

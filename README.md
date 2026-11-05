@@ -1,11 +1,8 @@
 # North Durham Census: the data engine
 
-This repo no longer holds a website. It is the **data and event importer behind
+This repo is the **data and event importer behind 
 [North of the Ridges](https://north-of-the-ridges.lovable.app/)**,
 the community site for Uxbridge, Scugog and Brock Townships, Ontario.
-
-The old Windows 98 Census desktop was retired in November 2026 and is no longer
-in this repo.
 
 ## What runs here
 

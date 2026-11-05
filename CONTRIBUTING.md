@@ -72,7 +72,8 @@ Add a new block inside `data/listings.js`:
 | `address` | yes | Plain address, or how someone would actually find it. |
 | `hours` | yes | Real hours. "Call for hours" is an honest answer. |
 | `description` | yes | A sentence or two. What is it, who is it for, what does it cost? |
-| `contact` | no | Phone, email or website. |
+| `contact` | no | Phone or email. |
+| `website` | no | Full web address, starting with https:// (shows as a Website button). |
 | `lat` / `lng` | yes | Decimal degrees. See below. |
 | `tags` | no | Only from the tag list below, spelled exactly. |
 | `keywords` | no | Anything else worth searching for: `"hall rental"`, `"notary"`. Free text. |

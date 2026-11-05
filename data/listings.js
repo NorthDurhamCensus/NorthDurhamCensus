@@ -12,6 +12,7 @@ window.NDC.data.listings =
     "hours": "1st Wednesday of month, 1–4pm",
     "description": "Free legal aid for low-income residents: tenant rights, lease disputes, eviction notices, and social assistance appeals. Staff travel to Scugog monthly. Spanish interpretation available on request.",
     "contact": "905-728-7321 or 1-888-297-2202 (Oshawa office)",
+    "website": "https://durhamcommunitylegalclinic.ca",
     "lat": 44.1065,
     "lng": -78.9452,
     "tags": [
@@ -58,7 +59,8 @@ window.NDC.data.listings =
       "printing",
       "meeting rooms",
       "notary"
-    ]
+    ],
+    "website": "https://scugoglibrary.ca"
   },
   {
     "id": "10",
@@ -77,7 +79,8 @@ window.NDC.data.listings =
       "EBT",
       "seasonal"
     ],
-    "contact": "portperryfarmersmarket.ca"
+    "contact": "",
+    "website": "https://portperryfarmersmarket.ca"
   },
   {
     "id": "11",
@@ -122,7 +125,8 @@ window.NDC.data.listings =
     "address": "Operates across Durham Region including Scugog",
     "hours": "Monthly member meetings — rotating location",
     "description": "A cooperative connecting small farms with buyers, CSA subscribers, and food businesses across Durham Region. Scugog farmers make up a significant portion of the membership. Open to new farm and community members.",
-    "contact": "durhamfarmconnections.ca",
+    "contact": "",
+    "website": "https://durhamfarmconnections.ca",
     "lat": 44.1041,
     "lng": -78.9433,
     "tags": [],
@@ -150,7 +154,8 @@ window.NDC.data.listings =
       "library",
       "skills"
     ],
-    "contact": "scugoglibrary.ca · 905-985-7686"
+    "contact": "905-985-7686",
+    "website": "https://scugoglibrary.ca"
   },
   {
     "id": "17",
@@ -169,7 +174,8 @@ window.NDC.data.listings =
       "workshops",
       "gallery"
     ],
-    "contact": "scugogarts.ca · 905-982-2121"
+    "contact": "905-982-2121",
+    "website": "https://scugogarts.ca"
   },
   {
     "id": "23",
@@ -195,7 +201,8 @@ window.NDC.data.listings =
     "address": "4560 Devitts Rd, Blackstock, ON (east of Regional Rd 57)",
     "hours": "Open year-round, dawn to dusk",
     "description": "A forested conservation area south of Blackstock with trail access through mixed woodland. Maintained by the Central Lake Ontario Conservation Authority. One of the larger natural areas in the south end of the township.",
-    "contact": "Explore Durham East Cross Forest | Trails and Nature",
+    "contact": "",
+    "website": "https://kawarthaconservation.com/conservation-areas/durham-east-cross-forest",
     "lat": 44.005,
     "lng": -78.93,
     "tags": [],
@@ -252,7 +259,8 @@ window.NDC.data.listings =
     "address": "231 Middle March Rd, Port Perry, ON",
     "hours": "Open year-round",
     "description": "A quiet conservation area south of Port Perry with forested trails, wetlands, and creek corridors. Maintained by CLOCA. Good for a short walk without needing to leave the township.",
-    "contact": "Crow's Pass | CLOCA | Central Lake Ontario Conservation Authority",
+    "contact": "",
+    "website": "https://www.cloca.com/crows-pass",
     "lat": 44.087,
     "lng": -78.981,
     "tags": [],
@@ -271,7 +279,8 @@ window.NDC.data.listings =
     "address": "Beaver River Wetland, Lake Simcoe Region",
     "hours": "Open year-round",
     "description": "A significant wetland conservation area at the northern edge of Scugog's watershed, managed by the Lake Simcoe Region Conservation Authority. Important habitat for migratory birds and rare plant species.",
-    "contact": "Beaver River Wetland — Lake Simcoe Region Conservation Authority",
+    "contact": "",
+    "website": "https://lsrca.on.ca/index.php/enjoy-the-outdoors/conservation-areas/beaver-river-wetland/",
     "lat": 44.35,
     "lng": -79.08,
     "tags": [],
@@ -308,7 +317,8 @@ window.NDC.data.listings =
     "lng": -79.1202,
     "hours": "Call for hours: 905-852-0392",
     "description": "Established 1989, serving all of Uxbridge Township. Community-based, volunteer-run charitable food bank focused on dignified, nutritious food support.",
-    "contact": "uxbridgefoodbank.com",
+    "contact": "",
+    "website": "https://uxbridgefoodbank.com",
     "tags": [],
     "keywords": [
       "food bank",
@@ -325,7 +335,8 @@ window.NDC.data.listings =
     "lng": -79.139,
     "hours": "Call for hours: 705-426-1771",
     "description": "Serves Beaverton, Cannington, and Sunderland. Provides monthly milk vouchers redeemable at local grocery stores.",
-    "contact": "brockcommunityfoodbank.ca",
+    "contact": "",
+    "website": "https://brockcommunityfoodbank.ca",
     "tags": [],
     "keywords": [
       "food bank",
@@ -342,7 +353,8 @@ window.NDC.data.listings =
     "lng": -79.1224,
     "hours": "Mon–Fri 9am–5pm",
     "description": "Lead housing support org for Scugog, Uxbridge, and Brock. Eviction prevention, landlord mediation, LTB support, and emergency rent/utility assistance. Uxbridge/Scugog: 289-640-1929 | Brock: 705-432-8654.",
-    "contact": "northhouse.ca · 1-877-406-8723",
+    "contact": "1-877-406-8723",
+    "website": "https://northhouse.ca",
     "tags": [],
     "keywords": [
       "housing",
@@ -360,7 +372,8 @@ window.NDC.data.listings =
     "lng": -79.1236,
     "hours": "Dawn to dusk, May–October",
     "description": "Organic, inclusive gardening hub at Herrema Park. Fosters community connection, food access, and sustainable practices. Plot applications open each spring.",
-    "contact": "uxbridgecommunitygardens.ca",
+    "contact": "",
+    "website": "https://uxbridgecommunitygardens.ca",
     "tags": [],
     "keywords": [
       "garden",
@@ -378,7 +391,8 @@ window.NDC.data.listings =
     "lng": -79.1189,
     "hours": "Event-dependent; see website",
     "description": "Historic performance venue in downtown Uxbridge known for superior acoustics. Hosts concerts, theatre, and community cultural events year-round.",
-    "contact": "uxbridge.ca",
+    "contact": "",
+    "website": "https://uxbridge.ca",
     "tags": [],
     "keywords": [
       "culture",
@@ -396,7 +410,8 @@ window.NDC.data.listings =
     "lng": -79.0376,
     "hours": "Year-round, dawn to dusk",
     "description": "16+ hectares of parkland in central Cannington with tennis, lawn bowling, and a museum run by the Cannington Historical Society. A community hub for Brock Township.",
-    "contact": "townshipofbrock.ca",
+    "contact": "",
+    "website": "https://townshipofbrock.ca",
     "tags": [],
     "keywords": [
       "park",
@@ -414,7 +429,8 @@ window.NDC.data.listings =
     "lng": -78.9621,
     "hours": "May–October; call for hours",
     "description": "Living history museum with 11 restored 19th-century buildings, heritage gardens, and Ojibway Heritage Interpretive Lands. Community programs and seniors group tours.",
-    "contact": "scugog.ca/museums",
+    "contact": "",
+    "website": "https://scugog.ca/museums",
     "tags": [],
     "keywords": [
       "heritage",
@@ -432,7 +448,8 @@ window.NDC.data.listings =
     "lng": -78.9472,
     "hours": "Mon–Fri 8:30am–4:30pm",
     "description": "Free employment support — computers, job search resources, career counselling, Better Jobs Ontario applications, and Youth Job Connection programs.",
-    "contact": "employmenthelp.ca",
+    "contact": "",
+    "website": "https://employmenthelp.ca",
     "tags": [
       "Free",
       "Youth"
@@ -452,7 +469,8 @@ window.NDC.data.listings =
     "lng": -79.115,
     "hours": "Year-round, dawn to dusk",
     "description": "Over 300 km of trails for hiking, cycling, cross-country skiing, and equestrian use. Connects to the Trans-Canada Trail, Durham Forest, and Oak Ridges Trail. The Trail Capital of Canada.",
-    "contact": "uxbridge.ca/trail-system",
+    "contact": "",
+    "website": "https://uxbridge.ca/trail-system",
     "tags": [],
     "keywords": [
       "trails",
@@ -470,7 +488,8 @@ window.NDC.data.listings =
     "lng": -79.1197,
     "hours": "Mon–Fri 8am–5pm",
     "description": "Interdisciplinary primary care team serving patients across North Durham. Includes family doctors, nurses, social workers, dietitians, and mental health support. Accepts new patients in underserved areas.",
-    "contact": "northdurhamfht.ca",
+    "contact": "",
+    "website": "https://northdurhamfht.ca",
     "tags": [],
     "keywords": [
       "health",
@@ -488,7 +507,8 @@ window.NDC.data.listings =
     "lng": -78.9562,
     "hours": "2nd Tuesday of month, 10am",
     "description": "Social and recreational club for retired and semi-retired residents of North Durham. Monthly meetings with guest speakers, plus interest groups for hiking, cards, book club, and travel. A large and active network for anyone newly retired or recently moved.",
-    "contact": "probusportperry.ca",
+    "contact": "",
+    "website": "https://probusportperry.ca",
     "tags": [
       "Seniors"
     ],
@@ -507,7 +527,8 @@ window.NDC.data.listings =
     "lng": -79.16,
     "hours": "Trails open year-round",
     "description": "Conserves and stewards ecologically sensitive lands across the Oak Ridges Moraine, including properties in Uxbridge and Brock townships. Maintains publicly accessible conservation lands and runs volunteer stewardship events.",
-    "contact": "oakridgesmoraine.org",
+    "contact": "",
+    "website": "https://oakridgesmoraine.org",
     "tags": [],
     "keywords": [
       "conservation",
@@ -526,7 +547,8 @@ window.NDC.data.listings =
     "lng": -78.9465,
     "hours": "Downtown Port Perry coverage — network name: Port Perry WiFi",
     "description": "Free public wifi in downtown Port Perry (60-minute sessions, up to 10 per month), operated by local internet provider Communicate Freely, with low-cost passes for longer use. A rare rural public-access network.",
-    "contact": "portperrywifi.ca",
+    "contact": "",
+    "website": "https://portperrywifi.ca",
     "tags": [
       "Free"
     ],

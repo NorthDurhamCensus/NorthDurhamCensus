@@ -1,9 +1,9 @@
 // North Durham Census — IMPORTED events.
 //
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
-// importer runs. Hand-verified events belong in events.js instead.
+// importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-04T22:12:37.557Z by tools/fetch-events.mjs
+// Generated 2026-11-05T01:20:48.314Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};

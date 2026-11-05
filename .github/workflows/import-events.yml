@@ -9,11 +9,10 @@ on:
     # 06:20 UTC daily — about 2:20am Eastern, so the calendar is fresh by morning.
     # Off-the-hour on purpose: GitHub's shared runners are busiest at :00.
     - cron: "20 6 * * *"
-  workflow_dispatch:          # lets anyone with write access run it on demand
-  push:
-    paths:
-      - "tools/sources.json"  # re-import as soon as a source is added or changed
-      - "tools/**.mjs"
+  workflow_dispatch:          # the "Run workflow" button, for an import on demand
+  # No push trigger on purpose: a push-triggered run is shown under the name of
+  # whoever pushed. Nightly and manual runs only. After changing a source or a
+  # script, press "Run workflow" (logged in as NorthDurhamCensus).
 
 permissions:
   contents: write

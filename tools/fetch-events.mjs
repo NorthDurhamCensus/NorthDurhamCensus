@@ -11,8 +11,7 @@
      node tools/fetch-events.mjs --only=<id>  test a single source
      node tools/fetch-events.mjs --verbose    print every event found
 
-   Imported events are never mixed into data/events.js. That file stays
-   hand-verified — a neighbour checked it. See tools/README.md.
+   Imported events never mix with verified ones (those live in the site database).
    --------------------------------------------------------------------------- */
 
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
@@ -280,7 +279,7 @@ async function main() {
     "// North Durham Census — IMPORTED events.",
     "//",
     "// GENERATED FILE. Do not edit by hand: it is overwritten every time the",
-    "// importer runs. Hand-verified events belong in events.js instead.",
+    "// importer runs. Hand-verified events are added on the site (Submit an Event).",
     "//",
     `// Generated ${now.toISOString()} by tools/fetch-events.mjs`,
     `// Sources: ${report.filter(r => r.ok).map(r => r.name).join(", ") || "none"}`,

@@ -4,7 +4,7 @@ The census keeps **two tiers of events, and never blurs them.**
 
 | | Verified | Imported |
 |---|---|---|
-| **File** | `data/events.js` | `data/events-imported.js` |
+| **Where it lives** | The North of the Ridges site database (Submit an Event) | `data/events-imported.js` |
 | **Where it comes from** | A neighbour checked it, by visit, call or message | Pulled automatically from a calendar an organisation publishes |
 | **Edited by** | People, by hand | `tools/fetch-events.mjs`, overwritten every run |
 | **On the calendar** | Solid colour | Dotted outline, with the source named |

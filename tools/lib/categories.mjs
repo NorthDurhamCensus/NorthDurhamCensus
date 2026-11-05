@@ -1,7 +1,7 @@
 /* ---------------------------------------------------------------------------
    Categories
    ---------------------------------------------------------------------------
-   One list for stories, events and places, shared with the North of the
+   One list for events and places, shared with the North of the
    Ridges site. Keep CATEGORIES in step with the News repo.
 
    Matched on the title first, because the title is what an event is and the

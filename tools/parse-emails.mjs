@@ -248,7 +248,7 @@ function main() {
     "// North Durham Census — events read from newsletters.",
     "//",
     "// GENERATED FILE. Do not edit by hand: it is overwritten whenever someone",
-    "// runs tools/parse-emails.mjs. Hand-verified events belong in events.js.",
+    "// runs tools/parse-emails.mjs. Hand-verified events are added on the site (Submit an Event).",
     "//",
     "// These came from prose in an email rather than a calendar feed, so the",
     "// dates are read rather than given. Treat them as leads to check, not facts.",

@@ -26,9 +26,9 @@ updating `src/lib/importedEvents.ts` in the News site first.
 
 | Folder | Holds |
 |---|---|
-| `data/` | Verified data (listings, events, stories, resources) and the generated imported events. See `data/README.md`. |
+| `data/` | The Census places (`listings.js`, edited by hand) and the imported events (written by a script). See `data/README.md`. |
 | `tools/` | The importer, feed parsers, newsletter reader, North Durham geography filter, the source list, and the letter for asking organisations for a feed. See `tools/README.md`. |
-| `geo/` | GeoJSON layers for the map still to come (parks, trails, schools, health, worship, childcare, seniors, housing, amenities, the Durham boundary). |
+| `geo/` | GeoJSON layers for the North of the Ridges map (parks, trails, schools, health, worship, childcare, seniors, housing, amenities, the Durham boundary). |
 | `.github/workflows/` | The nightly import. |
 
 ## The two-tier rule

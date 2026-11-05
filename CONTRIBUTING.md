@@ -20,7 +20,7 @@ problem and, if you have it, a phone number or address we can check.
 
 ## 3. Edit the data yourself
 
-Everything the site shows lives in four files in `data/`. They are plain text.
+The one file you edit is `data/listings.js` (the places). It is plain text.
 You can edit them in GitHub's own web editor: open the file, click the pencil,
 make your change, and it will offer to open a pull request for you.
 
@@ -84,7 +84,7 @@ Add a new block inside `data/listings.js`:
 
 ### Categories
 
-One list for places, events and stories (the same as the North of the Ridges
+One list for places and events (the same as the North of the Ridges
 site). Pick the one that says what the thing **is**. Spell it exactly.
 
 | Category | For |
@@ -119,80 +119,24 @@ right-click the spot, choose *Show address*. The two numbers appear in the URL.
 North Durham is roughly `lat 44.0–44.4`, `lng -79.3 to -78.8`, so a number far
 outside that range is a typo or a swapped pair.
 
-### Adding an event
+### Events
 
-In `data/events.js`:
+Events don't live here any more. Verified events are added on the North of the
+Ridges site (**Submit an Event**), and land in the site's own database.
 
-```js
-  {
-    "id": "5",
-    "title": "Uxbridge Winter Market",
-    "date": "2026-12-06",
-    "time": "9:00am – 1:00pm",
-    "location": "Uxbridge Arena, 291 Brock St W",
-    "description": "Indoor market: produce, preserves, crafts.",
-    "category": "Food & farms",
-    "tags": ["Free", "Family-friendly"],
-    "url": "https://example.ca",
-    "recurring": "First Saturday, November through March",
-    "contact": ""
-  }
-```
+This repo only holds the **imported** events, which a script writes every night:
 
-- `date` is always `YYYY-MM-DD`.
-- `recurring` is a plain-English note. Anything with one also appears in the
-  **Standing events** panel under the calendar, listed once however many dates
-  it has.
-- For something weekly, one entry with a `recurring` note reads better than one
-  entry per week.
-
-### Two kinds of event: verified and imported
-
-The calendar holds two tiers, and they are never mixed.
-
-| | Verified | Imported |
+| File | Comes from | Edit by hand? |
 |---|---|---|
-| File | `data/events.js` | `data/events-imported.js` |
-| Comes from | A neighbour checked it | A calendar an organisation publishes |
-| Edited by | You, by hand | A script, overwritten every night |
-| On the calendar | Solid colour | Outlined, italic, source named |
+| `data/events-imported.js` | calendars organisations publish | No, overwritten nightly |
+| `data/events-email.js` | newsletters sent to NorthDurhamCensus@outlook.com | No, regenerated |
 
-**Only ever edit `data/events.js`.** The imported file is regenerated every
-morning, so any change you make there is wiped by the next run.
-
-If you check an imported event yourself — you rang the hall, or you were there —
-that is exactly how it should graduate. Copy it into `data/events.js`, drop the
-`imported` and `source` fields, correct anything that was wrong, and it becomes
-part of the census proper.
+On the calendar these show with a dotted outline and name their source. If you
+check one yourself, add it on the site with Submit an Event and it becomes
+verified.
 
 Adding a new calendar source, or asking an organisation for a feed, is covered
 in [tools/README.md](tools/README.md).
-
-### Adding a story
-
-In `data/stories.js`:
-
-```js
-  {
-    "id": "s2",
-    "title": "The headline",
-    "source": "The Standard",
-    "date": "March 2026",
-    "excerpt": "A paragraph or two, quoted from the piece.",
-    "url": "https://..."
-  }
-```
-
-Optionally add `"body"` for a longer piece written for the census itself.
-Blank lines in it become paragraphs.
-
-### Adding a resource link
-
-In `data/resources.js`, under `"local"` (North Durham) or `"organizing"`:
-
-```js
-  { "name": "...", "description": "...", "url": "https://...", "tag": "Housing" }
-```
 
 ---
 
@@ -201,8 +145,7 @@ In `data/resources.js`, under `"local"` (North Durham) or `"organizing"`:
 There is no site in this repo any more, so the check is the data itself.
 
 - A data file is still valid JavaScript if this prints a number:
-  `node -e "global.window={};require('./data/events.js');console.log(window.NDC.data.events.length)"`
-  (swap `events` for `listings`, `stories` or `resources`).
+  `node -e "global.window={};require('./data/listings.js');console.log(window.NDC.data.listings.length)"`
 - For the importer: `node tools/fetch-events.mjs --dry-run`.
 - Once merged, events show up on the North of the Ridges calendar within a day.
 

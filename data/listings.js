@@ -4,35 +4,15 @@
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.listings =
 [
-  {
-    "id": "3",
-    "name": "Durham Community Legal Clinic",
-    "category": "Help & support",
-    "address": "Scugog outreach — call ahead for location",
-    "hours": "1st Wednesday of month, 1–4pm",
-    "description": "Free legal aid for low-income residents: tenant rights, lease disputes, eviction notices, and social assistance appeals. Staff travel to Scugog monthly. Spanish interpretation available on request.",
-    "contact": "905-728-7321 or 1-888-297-2202 (Oshawa office)",
-    "website": "https://durhamcommunitylegalclinic.ca",
-    "lat": 44.1065,
-    "lng": -78.9452,
-    "tags": [
-      "Free",
-      "Other languages"
-    ],
-    "keywords": [
-      "eviction defense",
-      "legal aid"
-    ]
-  },
-  {
+{
     "id": "5",
     "name": "Palmer Park",
     "category": "Outdoors",
     "address": "Water St waterfront at the foot of Queen St, Port Perry, ON",
     "hours": "Open year-round, dawn to dusk",
     "description": "A wide, accessible lakefront park on Lake Scugog with benches, picnic tables, a gazebo, and a community bulletin board. Used year-round — packed in summer, quietly beautiful in winter. One of the few genuinely public gathering spaces in the township.",
-    "lat": 44.10505,
-    "lng": -78.94143,
+    "lat": 44.1051884941835, 
+    "lng": -78.9414588128803,
     "tags": [
       "Accessible"
     ],
@@ -69,8 +49,8 @@ window.NDC.data.listings =
     "address": "Foot of Queen St (Palmer Park waterfront), Port Perry, ON",
     "hours": "Saturdays 8am–3pm, May–October",
     "description": "Weekly market on the Lake Scugog waterfront: local farms and makers selling vegetables, eggs, honey, preserves, baked goods, and crafts, beside one of the oldest grain mills in Canada.",
-    "lat": 44.10505,
-    "lng": -78.94143,
+    "lat": 44.105571766095935,
+    "lng": -78.94210254306176,
     "tags": [],
     "keywords": [
       "produce",
@@ -117,25 +97,6 @@ window.NDC.data.listings =
       "bookable"
     ],
     "contact": "caesareacommunityhall@gmail.com"
-  },
-  {
-    "id": "15",
-    "name": "Durham Farm Connections Co-op",
-    "category": "Food & farms",
-    "address": "Operates across Durham Region including Scugog",
-    "hours": "Monthly member meetings — rotating location",
-    "description": "A cooperative connecting small farms with buyers, CSA subscribers, and food businesses across Durham Region. Scugog farmers make up a significant portion of the membership. Open to new farm and community members.",
-    "contact": "",
-    "website": "https://durhamfarmconnections.ca",
-    "lat": 44.1041,
-    "lng": -78.9433,
-    "tags": [],
-    "keywords": [
-      "CSA",
-      "farmers",
-      "co-op",
-      "Durham Region"
-    ]
   },
   {
     "id": "16",
@@ -543,8 +504,8 @@ window.NDC.data.listings =
     "name": "Port Perry Wifi — Communicate Freely",
     "category": "Help & support",
     "address": "Port Perry and surrounding area, Scugog Township",
-    "lat": 44.107,
-    "lng": -78.9465,
+    "lat": 44.10472432735695,
+    "lng": -78.94428049681413,
     "hours": "Downtown Port Perry coverage — network name: Port Perry WiFi",
     "description": "Free public wifi in downtown Port Perry (60-minute sessions, up to 10 per month), operated by local internet provider Communicate Freely, with low-cost passes for longer use. A rare rural public-access network.",
     "contact": "",

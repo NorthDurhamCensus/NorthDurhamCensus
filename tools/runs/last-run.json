@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-05T01:20:48.314Z",
-  "kept": 73,
+  "at": "2026-11-07T13:10:21.283Z",
+  "kept": 17,
   "duplicates": 6,
   "sources": [
     {
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
-      "ok": true,
-      "count": 381,
-      "kept": 56,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "kept": 0,
+      "error": "blocked by the website's Cloudflare bot protection — ask them to allow the importer (see tools/feed-request-letter.md)"
     },
     {
       "id": "scugog-arts",

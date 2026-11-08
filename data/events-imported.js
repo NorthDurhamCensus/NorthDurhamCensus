@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-07T13:10:21.283Z by tools/fetch-events.mjs
+// Generated 2026-11-08T13:32:08.834Z by tools/fetch-events.mjs
 // Sources: Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -260,6 +260,28 @@ window.NDC.data.eventsImported =
       "page": "https://uxlib.insigniails.com/Library/Event"
     },
     "dateConfidence": "medium"
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-11-29-td_ZMpdm8D",
+    "title": "Uxbridge - Brock Tract (Brock Rd.) Moderate - Barb Anderson (Sun, November 29, 2026)",
+    "date": "2026-11-29",
+    "time": "9:30am",
+    "location": "",
+    "description": "Members only hike. Pre-registration is mandatory. After the hike we will drive to t he Goodwood Community Centre in time for ORTA’S Annual Holiday Part y. ORTA Map 5; ~8km; 2 hrs; Moderate pace; Arrive at 9:15 am for a 9:30 am start. Be prepared with proper footwear and adequate water. Wilder is quite hilly. Meet at the Brock Tract parking lot on the east side of Durham 1/Brock Rd., approximately…",
+    "category": "Outdoors",
+    "tags": [
+      "Free",
+      "Registration required"
+    ],
+    "url": "https://members.oakridgestrail.org/event-6907915",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
+    }
   },
   {
     "id": "imp-oak-ridges-trail-2026-11-29-Pd3frlWxt9",

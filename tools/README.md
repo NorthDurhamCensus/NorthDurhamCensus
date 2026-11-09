@@ -121,6 +121,11 @@ and skipped, and the last good `events-imported.js` stays in place.
 - The Action's log names every failed and empty source.
 - `tools/runs/last-run.json` records what happened, so you can see when a feed
   stopped returning anything.
+- Each source gets one **status** word there (and in the run log):
+  `working` (events kept), `quiet` (events found but none in the window or in North Durham),
+  `empty` (the feed listed nothing; check it by hand, some anti-bot pages look empty),
+  `blocked` (bot protection answered; ask them, never work around it), `failed` (anything else).
+  `statuses` at the top counts them.
 - A source that stays broken should be set `enabled: false` with a note, not
   deleted. The note saves the next person the same investigation.
 

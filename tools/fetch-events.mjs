@@ -119,6 +119,23 @@ async function get(url, label) {
   }
 }
 
+/* --- What happened to a source ------------------------------------------- */
+
+// One word per source in tools/runs/last-run.json, so a quiet failure is easy to spot
+// (a feed that answers "ok" with nothing in it used to look healthy):
+//   working   events found and kept
+//   quiet     events found, but none in the date window or in North Durham
+//   empty     the feed answered but listed no events at all (check it by hand:
+//             some anti-bot pages look like an empty feed)
+//   blocked   bot protection answered instead of the feed (ask; never work around it)
+//   failed    anything else went wrong (network, not a feed, parse error)
+export const STATUS_TAG = { working: "ok   ", quiet: "quiet", empty: "EMPTY", blocked: "BLOCK", failed: "FAIL " };
+export function sourceStatus(line) {
+  if (line.error) return /^blocked by/i.test(line.error) ? "blocked" : "failed";
+  if (!line.count) return "empty";
+  return line.kept ? "working" : "quiet";
+}
+
 /* --- Reading one source ---------------------------------------------------- */
 
 async function readSource(source, windowEnd) {
@@ -184,7 +201,8 @@ async function main() {
   const report = [];
 
   for (const source of sources) {
-    const line = { id: source.id, name: source.name, ok: false, count: 0, kept: 0, error: null };
+    // status: what happened to this source, as one word (see sourceStatus below)
+    const line = { id: source.id, name: source.name, status: "failed", ok: false, count: 0, kept: 0, error: null };
     try {
       const raw = await readSource(source, windowEnd);
       line.ok = true;
@@ -238,7 +256,8 @@ async function main() {
         line.kept += 1;
       }
 
-      console.log(`  ok   ${source.name} — ${line.count} found, ${line.kept} kept` +
+      line.status = sourceStatus(line);
+      console.log(`  ${STATUS_TAG[line.status]} ${source.name} — ${line.count} found, ${line.kept} kept` +
                   (line.filtered ? `, ${line.filtered} outside North Durham` : ""));
       if (verbose) {
         for (const e of collected.filter(c => c.source.id === source.id)) {
@@ -247,7 +266,8 @@ async function main() {
       }
     } catch (error) {
       line.error = error.message;
-      console.log(`  FAIL ${source.name} — ${error.message}`);
+      line.status = sourceStatus(line);
+      console.log(`  ${STATUS_TAG[line.status]} ${source.name} — ${error.message}`);
     }
     report.push(line);
   }
@@ -264,10 +284,12 @@ async function main() {
 
   const duplicates = collected.length - events.length;
   const failed = report.filter(r => !r.ok);
+  const byStatus = report.reduce((n, r) => ({ ...n, [r.status]: (n[r.status] || 0) + 1 }), {});
 
   console.log(`\n${events.length} events kept` +
               (duplicates ? `, ${duplicates} duplicate${duplicates === 1 ? "" : "s"} merged` : "") +
               (failed.length ? `, ${failed.length} source${failed.length === 1 ? "" : "s"} failed` : ""));
+  console.log("Sources: " + Object.entries(byStatus).map(([k, v]) => `${v} ${k}`).join(", "));
 
   if (dryRun) {
     console.log("\nDry run — nothing written.");
@@ -297,7 +319,7 @@ async function main() {
   mkdirSync(resolve(HERE, "runs"), { recursive: true });
   writeFileSync(
     resolve(HERE, "runs", "last-run.json"),
-    JSON.stringify({ at: now.toISOString(), kept: events.length, duplicates, sources: report }, null, 2),
+    JSON.stringify({ at: now.toISOString(), kept: events.length, duplicates, statuses: byStatus, sources: report }, null, 2),
     "utf8"
   );
 

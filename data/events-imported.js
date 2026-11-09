@@ -3,50 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-08T13:32:08.834Z by tools/fetch-events.mjs
+// Generated 2026-11-09T16:29:31.859Z by tools/fetch-events.mjs
 // Sources: Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-oak-ridges-trail-2026-11-09-8CYV8f8qSw",
-    "title": "Uxbridge - Secord Forest (Conc 3)/Goodwood - Slow-Moderate, Brian & Wilma Millage (Mon, November 09, 2026)",
-    "date": "2026-11-09",
-    "time": "9:30am",
-    "location": "",
-    "description": "Members and non-members welcome ORTA Map 5 - Uxbridge; slow-moderate pace for 2 hrs in Secord Forest and Goodwood Tract. There will also be a slow hike offered at the same location. We are looking forward to another great fall hike as the weather gods seem to be doing their best to give us warm and sunny days with red and gold in the trees. This will be a fairly easy walk with ponds, meadows and…",
-    "category": "Outdoors",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6900052",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-09-y9MLObbZgC",
-    "title": "Uxbridge - Secord Forest (Conc 3)/Goodwood - Slow, Noel Bain (Mon, November 09, 2026)",
-    "date": "2026-11-09",
-    "time": "9:30am",
-    "location": "",
-    "description": "Members and non-members welcome ORTA Map 5 - Uxbridge; slow pace for 1.5 hrs in Secord Forest and Goodwood Tract. There will also be a slow-moderate hike offered at the same location. We are looking forward to another great fall hike as the weather gods seem to be doing their best to give us warm and sunny days with red and gold in the trees. This will be a fairly easy walk with ponds, meadows…",
-    "category": "Outdoors",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6900065",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
   {
     "id": "imp-onstage-uxbridge-2026-11-12--_wJlSkpN7",
     "title": "Irving Berlin’s White Christmas",
@@ -86,6 +48,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-oak-ridges-trail-2026-11-13-YJ0t0IWfJx",
+    "title": "Uxbridge - Glen Major West (Aggregate Pit), Mod-fast, Anna Sunn (Fri, November 13, 2026)",
+    "date": "2026-11-13",
+    "time": "9:30am",
+    "location": "",
+    "description": "Members and non-members welcome. New members and n on-members are required to contact the hike leader before 6 pm the previous day to discuss if this hike is suitable for you. ORTA Map 5; 10.5 kms; 2.5 hrs; Moderate-fast pace; Hilly ! Arrive at 9:15 am for a 9:30 am start. Please bring adequate water and wear appropriate footwear. Poles are recommended due to hilly terrain but not required. This…",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://members.oakridgestrail.org/event-6908976",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
     "id": "imp-onstage-uxbridge-2026-11-14-42-Jx4yocM",
     "title": "Irving Berlin’s White Christmas",
     "date": "2026-11-14",
@@ -102,6 +83,25 @@ window.NDC.data.eventsImported =
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
       "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-11-14-EnJ4u0c781",
+    "title": "Uxbridge - Brock Tract (Brock Rd.) moderate, Amir Alemohammad (Sat, November 14, 2026)",
+    "date": "2026-11-14",
+    "time": "8:15am",
+    "location": "",
+    "description": "Members and non-members welcome. ORTA Map 5; 14-15 km; moderate; 4 hours; end by 12 noon. Loop hike through Brock Tract. Hilly. Boots mandatory, poles recommended, bring 2 litres of water and snacks ,dress according to weather conditions. Amir is leading this hike for the Toronto Bruce Trail and ORTA members and non-members are welcome. Meet at the Brock Tract parking lot on the east side of…",
+    "category": "Outdoors",
+    "tags": [],
+    "url": "https://members.oakridgestrail.org/event-6833945",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {

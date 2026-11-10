@@ -567,5 +567,248 @@ window.NDC.data.listings =
       "Brock",
       "outdoor"
     ]
+  },
+  {
+    "id": "47",
+    "name": "Uxbridge Urban Provincial Park",
+    "category": "Outdoors",
+    "address": "565 Old Stouffville Rd, Uxbridge, ON L9P 0M8",
+    "lat": 44.07798,
+    "lng": -79.1403,
+    "hours": "Year-round, day use only",
+    "description": "Ontario's newest year-round day-use provincial park, opened in 2024: 532 hectares on the southwest edge of Uxbridge. Trails for walking, hiking, cycling, mountain biking and horseback riding, and in winter you can ski or snowshoe if you bring your own gear. Leashed dogs are welcome. There are no washrooms or other facilities, and Ontario Parks day-use fees apply.",
+    "contact": "705-750-1438",
+    "website": "https://www.ontarioparks.ca/park/uxbridgeurban",
+    "tags": [
+      "Dog-friendly"
+    ],
+    "keywords": [
+      "provincial park",
+      "trails",
+      "hiking",
+      "mountain biking",
+      "horseback riding",
+      "Uxbridge"
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Durham Regional Forest",
+    "category": "Outdoors",
+    "address": "Main parking lot at the head of the trails, Uxbridge, ON (also Main Landing and the Houston Rd East Gate lot)",
+    "lat": 44.03967,
+    "lng": -79.08969,
+    "hours": "Daily, dawn to dusk",
+    "description": "Six tracts of forest at the top of the Oak Ridges Moraine near Uxbridge, looked after by the Lake Simcoe Region Conservation Authority. The Main Tract alone is almost 600 hectares, with more than 16 km of marked trails in four loops plus plenty of side trails, and it links to the Oak Ridges Trail and the Trans Canada Trail. Good for hiking, mountain biking, horseback riding, skiing, snowshoeing and birding. Dogs on leash. Parking is by paid permit (it funds Uxbridge's Trail Sustainability Fund), only in marked spots, for up to 3 hours. No ATVs.",
+    "contact": "LSRCA 905-895-1281",
+    "website": "https://lsrca.on.ca/index.php/enjoy-the-outdoors/conservation-areas/durham-regional-forest/",
+    "tags": [
+      "Dog-friendly"
+    ],
+    "keywords": [
+      "Durham Forest",
+      "conservation area",
+      "LSRCA",
+      "trails",
+      "mountain biking",
+      "horseback riding",
+      "skiing",
+      "Uxbridge"
+    ]
+  },
+  {
+    "id": "49",
+    "name": "East Duffins Headwaters",
+    "category": "Outdoors",
+    "address": "1469 Concession Rd 6, Goodwood, ON (Aggregate Pit lot; also Three Rocks lot at 1120 Concession Rd 7)",
+    "lat": 44.00773,
+    "lng": -79.10265,
+    "hours": "See TRCA for hours",
+    "description": "About 1,500 hectares of Toronto and Region Conservation Authority land at the top of the Duffins Creek, including Glen Major Forest, Walker Woods and the Dagmar North mountain bike trails. A big web of trails for hiking, cycling, mountain biking, skiing and birding. Parking is by permit at the Aggregate Pit and Three Rocks lots (Uxbridge residents can register for a free permit), and the money goes to the Trail Sustainability Fund. No washrooms or garbage bins, so carry out what you bring in.",
+    "contact": "",
+    "website": "https://trca.ca/parks/east-duffins-headwaters/",
+    "tags": [],
+    "keywords": [
+      "Glen Major",
+      "Walker Woods",
+      "Dagmar North",
+      "TRCA",
+      "conservation area",
+      "mountain biking",
+      "trails",
+      "Uxbridge"
+    ]
+  },
+  {
+    "id": "50",
+    "name": "West Duffins Headwaters",
+    "category": "Outdoors",
+    "address": "2324 Concession Rd 4, Goodwood, ON",
+    "lat": 44.01046,
+    "lng": -79.15912,
+    "hours": "See TRCA for hours",
+    "description": "About 300 hectares of Toronto and Region Conservation Authority land near Goodwood, made up of the Clubine Agreement Forest, the Goodwood Resource Management Tract and the Secord Forest and Wildlife Area. Trails for hiking, cycling, skiing and birding, and a northern gateway to Rouge National Urban Park. Washrooms and bins are scarce (check with TRCA before you go).",
+    "contact": "",
+    "website": "https://trca.ca/parks/west-duffins-headwaters/",
+    "tags": [],
+    "keywords": [
+      "Secord Forest",
+      "Clubine",
+      "Goodwood",
+      "TRCA",
+      "conservation area",
+      "trails",
+      "Uxbridge"
+    ]
+  },
+  {
+    "id": "51",
+    "name": "Uxbridge Countryside Preserve",
+    "category": "Outdoors",
+    "address": "Public parking off Welwood Dr, Uxbridge, ON",
+    "lat": 44.08755,
+    "lng": -79.13164,
+    "hours": "Year-round",
+    "description": "About 140 acres of meadow, woodland, wetland and ponds on the edge of Uxbridge, with about 9 km of easy to moderate trails for walking, hiking, skiing and snowshoeing. Dogs welcome. Parking and benches.",
+    "contact": "",
+    "website": "https://discoveruxbridge.ca/trails/",
+    "tags": [
+      "Dog-friendly"
+    ],
+    "keywords": [
+      "Countryside Preserve",
+      "trails",
+      "meadow",
+      "ponds",
+      "Uxbridge"
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Wilder Forest and Wildlife Preserve",
+    "category": "Outdoors",
+    "address": "Wilder Forest parking lot, between Concession Rd 6 and Brock Rd, Uxbridge, ON",
+    "lat": 44.0195,
+    "lng": -79.13452,
+    "hours": "Year-round",
+    "description": "Part of the Durham Forest trail system, with numbered posts that have maps and blazes to follow. Moderate trails for hiking, cycling, mountain biking, horseback riding, skiing and snowshoeing. Dogs welcome. Parking at the trailhead.",
+    "contact": "",
+    "website": "https://discoveruxbridge.ca/trails/",
+    "tags": [
+      "Dog-friendly"
+    ],
+    "keywords": [
+      "Wilder Forest",
+      "Durham Forest",
+      "trails",
+      "horseback riding",
+      "Uxbridge"
+    ]
+  },
+  {
+    "id": "53",
+    "name": "Kettle Pond Trail",
+    "category": "Outdoors",
+    "address": "Behind Goodwood Community Hall, 270 Regional Hwy 47, Goodwood, ON",
+    "lat": 44.03412,
+    "lng": -79.20213,
+    "hours": "Year-round",
+    "description": "A short, easy 1.1 km loop of gravel and paved path behind the Goodwood hall, around a kettle pond. Good for birdwatching, and for snowshoeing and skiing in winter. Partly wheelchair accessible. Free.",
+    "contact": "",
+    "website": "https://discoveruxbridge.ca/trails/",
+    "tags": [
+      "Free"
+    ],
+    "keywords": [
+      "Goodwood",
+      "pond",
+      "birding",
+      "short walk",
+      "Uxbridge"
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Carolyn Best Trail",
+    "category": "Outdoors",
+    "address": "Behind the Scugog Community Recreation Centre, Port Perry, ON (also from Canterbury Common at Simcoe St and from Old Simcoe Rd)",
+    "lat": 44.11164,
+    "lng": -78.95973,
+    "hours": "Year-round",
+    "description": "A grass and woodchip trail in Port Perry that runs from behind the arena and recreation centre, linking Canterbury Common at Simcoe Street with Old Simcoe Road. For walking, jogging and mountain biking.",
+    "contact": "",
+    "website": "https://ontarionaturetrails.com/trail/carolyn-best-trail/",
+    "tags": [],
+    "keywords": [
+      "Port Perry",
+      "Canterbury Common",
+      "walking",
+      "Scugog"
+    ]
+  },
+  {
+    "id": "55",
+    "name": "Beaverton Walking Trail",
+    "category": "Outdoors",
+    "address": "Starts at the Beaverton fairgrounds, 176 Main St, Beaverton, ON",
+    "lat": 44.42996,
+    "lng": -79.1596,
+    "hours": "Year-round",
+    "description": "A short, easy, paved path from the Beaverton fairgrounds down to Beaverton Harbour on Lake Simcoe. Fine for wheelchairs and strollers. Free.",
+    "contact": "Township of Brock 705-432-2355",
+    "website": "https://ontarionaturetrails.com/trail/beaverton-walking-trail/",
+    "tags": [
+      "Free",
+      "Accessible"
+    ],
+    "keywords": [
+      "Beaverton",
+      "harbour",
+      "Lake Simcoe",
+      "paved",
+      "Brock"
+    ]
+  },
+  {
+    "id": "56",
+    "name": "Lagoon Reserve Walk",
+    "category": "Outdoors",
+    "address": "Starts at Beaverton Harbour, Beaverton, ON",
+    "lat": 44.42966,
+    "lng": -79.16752,
+    "hours": "Year-round",
+    "description": "An easy, paved walk of about 2 km from Beaverton Harbour around the fairgrounds and south past the lagoons. Good birdwatching at the lagoons and a nice dog walk. Free.",
+    "contact": "Township of Brock 705-432-2355",
+    "website": "https://ontarionaturetrails.com/trail/lagoon-reserve-walk/",
+    "tags": [
+      "Free",
+      "Dog-friendly"
+    ],
+    "keywords": [
+      "Beaverton",
+      "lagoon",
+      "birding",
+      "harbour",
+      "Brock"
+    ]
+  },
+  {
+    "id": "57",
+    "name": "Sunderland Lions Walking Trail",
+    "category": "Outdoors",
+    "address": "Sunderland fairgrounds, 20 Park St, Sunderland, ON",
+    "lat": 44.26483,
+    "lng": -79.06961,
+    "hours": "Year-round",
+    "description": "A short walking trail at the Sunderland fairgrounds.",
+    "contact": "",
+    "website": "",
+    "tags": [],
+    "keywords": [
+      "Sunderland",
+      "fairgrounds",
+      "walking",
+      "Brock"
+    ]
   }
 ];

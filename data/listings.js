@@ -520,5 +520,28 @@ window.NDC.data.listings =
       "community-owned",
       "Port Perry"
     ]
+  },
+  {
+    "id": "45",
+    "name": "Oak Ridges Trail",
+    "category": "Outdoors",
+    "address": "Walker Woods, Uxbridge, ON (one of many access points across Uxbridge and Scugog)",
+    "lat": 44.03609,
+    "lng": -79.10388,
+    "hours": "Year-round, dawn to dusk",
+    "description": "A long-distance footpath that follows the Oak Ridges Moraine, from the Niagara Escarpment in the west to Northumberland County in the east. In North Durham it winds east to west across the south of Uxbridge and Scugog, through forests, farm edges and quiet back roads. Marked and looked after by volunteers of the Oak Ridges Trail Association, whose trail map shows every access point and parking spot.",
+    "contact": "",
+    "website": "https://www.oakridgestrail.org/trail-map/",
+    "tags": [
+      "Free"
+    ],
+    "keywords": [
+      "trails",
+      "hiking",
+      "Oak Ridges Moraine",
+      "Uxbridge",
+      "Scugog",
+      "outdoor"
+    ]
   }
 ];

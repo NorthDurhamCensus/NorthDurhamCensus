@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Rather email? (no GitHub account needed)
+    url: mailto:NorthDurhamCensus@outlook.com
+    about: Write to NorthDurhamCensus@outlook.com and a volunteer will add it for you.
+  - name: Add an event
+    url: https://north-of-the-ridges.lovable.app/calendar
+    about: Events go on the North of the Ridges calendar (Submit an Event), not here.

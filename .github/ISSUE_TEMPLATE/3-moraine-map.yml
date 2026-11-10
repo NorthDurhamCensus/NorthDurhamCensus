@@ -1,0 +1,33 @@
+name: Add a hamlet to the Moraine Map
+description: A village, hamlet or crossroads community that's missing from the Moraine Map labels.
+title: "Moraine Map: add "
+labels: ["moraine map"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Moraine Map shows the five main towns in big letters and hamlets in small ones.
+        Notes on the map itself are added on the site (sign in, click a square). This form is only for place names.
+  - type: input
+    id: name
+    attributes:
+      label: Name of the hamlet
+      placeholder: Caesarea
+    validations:
+      required: true
+  - type: dropdown
+    id: town
+    attributes:
+      label: Township
+      options: [Scugog, Uxbridge, Brock]
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where is it?
+      description: |
+        Easiest: open https://www.openstreetmap.org, right-click the centre of the hamlet, choose "Show address" and paste the web address here.
+        Or describe it: "where Scugog Line 8 meets Old Simcoe Road".
+    validations:
+      required: true

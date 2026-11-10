@@ -1,0 +1,31 @@
+name: Suggest a calendar to import
+description: An organisation in North Durham publishes events online. We'll see if it has a feed we're allowed to read.
+title: "Calendar: "
+labels: ["calendar source"]
+body:
+  - type: input
+    id: org
+    attributes:
+      label: Organisation
+      placeholder: Scugog Shores Museum Village
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Link to their events page
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: town
+    attributes:
+      label: Township
+      options: [Uxbridge, Scugog, Brock, More than one]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else? (optional)
+      description: e.g. "they have a Subscribe to calendar button", or "I know the organiser and they'd be happy to share".

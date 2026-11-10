@@ -1,0 +1,32 @@
+name: Fix or close a place
+description: Hours changed, it moved, or it has closed. Tell us what's wrong.
+title: "Fix: "
+labels: ["fix"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Which place?
+      placeholder: Palmer Park
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: What's wrong?
+      options:
+        - The hours are wrong
+        - The address or map pin is wrong
+        - The phone, email or website is wrong
+        - It has closed
+        - The description is wrong
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What should it say instead?
+      description: If you can, say how you know (a sign, a call, their website).
+    validations:
+      required: true

@@ -1,0 +1,96 @@
+name: Add a place
+description: Tell us about a place in Uxbridge, Scugog or Brock that should be in the Census. No files to edit.
+title: "Add a place: "
+labels: ["new place"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! Fill in what you know. A volunteer checks every place by visiting, calling or messaging before it's listed, so "I'm not sure" is a fine answer.
+        Please don't include anyone's personal phone number or home address unless it's the place's public contact.
+  - type: input
+    id: name
+    attributes:
+      label: Name of the place
+      description: What a neighbour would call it.
+      placeholder: Sunderland Legion Branch 357
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: What kind of place is it?
+      options:
+        - Community (halls, clubs, the Legion, worship, local business)
+        - Outdoors (trails, parks, conservation areas, gardens)
+        - Arts & culture (music, theatre, galleries, museums, heritage, books)
+        - Food & farms (markets, farms, co-ops, community gardens)
+        - Sports & rec (teams, arenas, fitness, cards and bingo)
+        - Learning (library programs, classes, schools, makerspaces)
+        - Help & support (food banks, clinics, legal aid, housing, free wifi)
+        - Civic (council, public meetings)
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: address
+    attributes:
+      label: Address, or how to find it
+      placeholder: 76 River St, Sunderland
+    validations:
+      required: true
+  - type: dropdown
+    id: town
+    attributes:
+      label: Township
+      options: [Uxbridge, Scugog, Brock, Not sure]
+    validations:
+      required: true
+  - type: input
+    id: hours
+    attributes:
+      label: Hours
+      description: Real hours, including seasonal closures. "Call for hours" is an honest answer.
+      placeholder: Fri 4-10pm, Sat 2-10pm
+  - type: textarea
+    id: description
+    attributes:
+      label: What is it, who is it for, what does it cost?
+      description: A sentence or two.
+      placeholder: Hall available to community groups. Friday dinners are open to everyone, not just members.
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Public phone, email or website (optional)
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Which of these are true? (only tick what you know)
+      options:
+        - label: Free
+        - label: Pay what you can
+        - label: Family-friendly
+        - label: Kids
+        - label: Youth
+        - label: Seniors
+        - label: 19+
+        - label: Accessible (you checked - step-free entrance, accessible washroom)
+        - label: Drop-in
+        - label: Registration required
+        - label: Dog-friendly
+        - label: Other languages
+        - label: Volunteers needed
+  - type: dropdown
+    id: checked
+    attributes:
+      label: How do you know?
+      options:
+        - I've been there recently
+        - I called or messaged them
+        - It's on their own website or sign
+        - Someone told me
+        - I'm not sure it's still there
+    validations:
+      required: true

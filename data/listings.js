@@ -543,5 +543,29 @@ window.NDC.data.listings =
       "Scugog",
       "outdoor"
     ]
+  },
+  {
+    "id": "46",
+    "name": "Trans Canada Trail",
+    "category": "Outdoors",
+    "address": "Main St N, Uxbridge, ON (where the rail trail heads north out of town)",
+    "lat": 44.11395,
+    "lng": -79.12254,
+    "hours": "Year-round, dawn to dusk",
+    "description": "Canada's coast-to-coast trail network passes right through North Durham. From the south it climbs through the forests of Glen Major and Walker Woods into Uxbridge, then follows the old rail line north as the Uxbridge Rail Trail, a flat gravel path for walking and cycling, past Scugog and Brock and on toward Lindsay. The Trans Canada Trail's map shows every section and access point.",
+    "contact": "",
+    "website": "https://tctrail.ca/explore-the-map/",
+    "tags": [
+      "Free"
+    ],
+    "keywords": [
+      "trails",
+      "hiking",
+      "cycling",
+      "rail trail",
+      "Uxbridge",
+      "Brock",
+      "outdoor"
+    ]
   }
 ];

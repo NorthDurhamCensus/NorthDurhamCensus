@@ -222,6 +222,8 @@ window.NDC.data.listings =
     "description": "A quiet conservation area south of Port Perry with forested trails, wetlands, and creek corridors. Maintained by CLOCA. Good for a short walk without needing to leave the township.",
     "contact": "",
     "website": "https://www.cloca.com/crows-pass",
+    "photo": "photos/crows-pass.jpg",
+    "photoCredit": "The Cosmonaut, CC BY-SA 2.5 CA (resized), common ringlet on an ox-eye daisy, https://commons.wikimedia.org/wiki/File:Common_ringlet_on_an_ox-eye_daisy.jpg",
     "lat": 44.035,
     "lng": -79.0219,
     "tags": [],
@@ -242,6 +244,8 @@ window.NDC.data.listings =
     "description": "A significant wetland conservation area at the northern edge of Scugog's watershed, managed by the Lake Simcoe Region Conservation Authority. Important habitat for migratory birds and rare plant species.",
     "contact": "",
     "website": "https://lsrca.on.ca/index.php/enjoy-the-outdoors/conservation-areas/beaver-river-wetland/",
+    "photo": "photos/beaver-river-wetland.jpg",
+    "photoCredit": "СССР, CC BY-SA 2.5 CA (resized), Beaver River along the trail, https://commons.wikimedia.org/wiki/File:Beaver_River_along_the_Trans_Canada_Trail.jpg",
     "lat": 44.35492,
     "lng": -79.02443,
     "tags": [],
@@ -532,6 +536,8 @@ window.NDC.data.listings =
     "description": "A long-distance footpath that follows the Oak Ridges Moraine, from the Niagara Escarpment in the west to Northumberland County in the east. In North Durham it winds east to west across the south of Uxbridge and Scugog, through forests, farm edges and quiet back roads. Marked and looked after by volunteers of the Oak Ridges Trail Association, whose trail map shows every access point and parking spot.",
     "contact": "",
     "website": "https://www.oakridgestrail.org/trail-map/",
+    "photo": "photos/oak-ridges-trail.jpg",
+    "photoCredit": "Sikander Iqbal, CC BY-SA 4.0 (resized), Glen Major Trail, https://commons.wikimedia.org/wiki/File:Glen_Major_Trail_in_East_Duffins_Headwaters_-_13.jpg",
     "tags": [
       "Free"
     ],
@@ -555,6 +561,8 @@ window.NDC.data.listings =
     "description": "Canada's coast-to-coast trail network passes right through North Durham. From the south it climbs through the forests of Glen Major and Walker Woods into Uxbridge, then follows the old rail line north as the Uxbridge Rail Trail, a flat gravel path for walking and cycling, past Scugog and Brock and on toward Lindsay. The Trans Canada Trail's map shows every section and access point.",
     "contact": "",
     "website": "https://tctrail.ca/explore-the-map/",
+    "photo": "photos/trans-canada-trail.jpg",
+    "photoCredit": "Eric Marshall, CC BY 3.0 (resized), Uxbridge rail trail, https://commons.wikimedia.org/wiki/File:Rail_Trail_-_panoramio_(1).jpg",
     "tags": [
       "Free"
     ],
@@ -602,6 +610,8 @@ window.NDC.data.listings =
     "description": "Six tracts of forest at the top of the Oak Ridges Moraine near Uxbridge, looked after by the Lake Simcoe Region Conservation Authority. The Main Tract alone is almost 600 hectares, with more than 16 km of marked trails in four loops plus plenty of side trails, and it links to the Oak Ridges Trail and the Trans Canada Trail. Good for hiking, mountain biking, horseback riding, skiing, snowshoeing and birding. Dogs on leash. Parking is by paid permit (it funds Uxbridge's Trail Sustainability Fund), only in marked spots, for up to 3 hours. No ATVs.",
     "contact": "LSRCA 905-895-1281",
     "website": "https://lsrca.on.ca/index.php/enjoy-the-outdoors/conservation-areas/durham-regional-forest/",
+    "photo": "photos/durham-regional-forest.jpg",
+    "photoCredit": "The Cosmonaut, CC BY-SA 4.0 (resized), bloodroot in Durham Regional Forest, https://commons.wikimedia.org/wiki/File:Sanguinaria_canadensis_-_Durham_Regional_Forest.jpg",
     "tags": [
       "Dog-friendly"
     ],
@@ -627,6 +637,8 @@ window.NDC.data.listings =
     "description": "About 1,500 hectares of Toronto and Region Conservation Authority land at the top of the Duffins Creek, including Glen Major Forest, Walker Woods and the Dagmar North mountain bike trails. A big web of trails for hiking, cycling, mountain biking, skiing and birding. Parking is by permit at the Aggregate Pit and Three Rocks lots (Uxbridge residents can register for a free permit), and the money goes to the Trail Sustainability Fund. No washrooms or garbage bins, so carry out what you bring in.",
     "contact": "",
     "website": "https://trca.ca/parks/east-duffins-headwaters/",
+    "photo": "photos/east-duffins-headwaters.jpg",
+    "photoCredit": "Sikander Iqbal, CC BY-SA 4.0 (resized), Glen Major Trail, https://commons.wikimedia.org/wiki/File:Glen_Major_Trail_in_East_Duffins_Headwaters_-_16.jpg",
     "tags": [],
     "keywords": [
       "Glen Major",
@@ -672,6 +684,8 @@ window.NDC.data.listings =
     "description": "About 140 acres of meadow, woodland, wetland and ponds on the edge of Uxbridge, with about 9 km of easy to moderate trails for walking, hiking, skiing and snowshoeing. Dogs welcome. Parking and benches.",
     "contact": "",
     "website": "https://discoveruxbridge.ca/trails/",
+    "photo": "photos/uxbridge-countryside-preserve.jpg",
+    "photoCredit": "Mykola Swarnyk, CC BY-SA 3.0 (resized), trillium, https://commons.wikimedia.org/wiki/File:Trillium_grandiflorum_Uxbridge.JPG",
     "tags": [
       "Dog-friendly"
     ],

@@ -861,7 +861,7 @@ window.NDC.data.listings =
     "lat": 44.35108,
     "lng": -79.0374,
     "hours": "Main office (Nourish Community Hub) Mon–Fri 9am–4pm. Call for food bank and program times.",
-    "description": "A Cannington charity, open since 2008, that helps Brock Township and nearby North Durham eat well and get support in one place. Food: Nourish House, a shopping-style food bank where you choose your own groceries; a community market; a kitchen whose chefs and volunteers cook by-donation community lunches and breakfasts; food skills workshops and camps; the Maple Tree Community Garden; a free seed library in the lobby; and a Mobile Food Market. Support: help finding your way through government and agency services, life skills workshops (first aid, CPR, babysitting, money, parenting, mental health), visiting agencies for jobs, income and taxes, and a harm reduction site run with the John Howard Society.",
+    "description": "A Cannington charity, open since 2008, that helps Brock Township and nearby North Durham eat well and get support in one place. Food: Nourish House, a shopping-style food bank where you choose your own groceries; a community market; a kitchen whose chefs and volunteers cook by-donation community lunches and breakfasts; food skills workshops and camps; the Maple Tree Community Garden; a free seed library in the lobby; and a Mobile Food Market. Support: help finding your way through government and agency services, life skills workshops (first aid, CPR, babysitting, money, parenting, mental health), visiting agencies for jobs, income and taxes, and a harm reduction site run with the John Howard Society. TNDF is also a Living Wage employer (a member of the Ontario Living Wage Network).",
     "contact": "705-432-2444 · info@tndf.ca",
     "website": "https://tndf.ca",
     "tags": [
@@ -881,7 +881,8 @@ window.NDC.data.listings =
       "harm reduction",
       "Cannington",
       "Brock",
-      "TNDF"
+      "TNDF",
+      "living wage employer"
     ],
     "featured": true,
     "blurb": "Brock's food-and-support hub: a choose-your-own food bank, by-donation community meals, a garden and help with the paperwork, all in Cannington."

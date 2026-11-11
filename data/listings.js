@@ -11,6 +11,8 @@ window.NDC.data.listings =
     "address": "Water St waterfront at the foot of Queen St, Port Perry, ON",
     "hours": "Open year-round, dawn to dusk",
     "description": "A wide, accessible lakefront park on Lake Scugog with benches, picnic tables, a gazebo, and a community bulletin board. Used year-round — packed in summer, quietly beautiful in winter. One of the few genuinely public gathering spaces in the township.",
+    "photo": "photos/palmer-park.jpg",
+    "photoCredit": "Cantons-de-l'Est, CC BY-SA 4.0 (resized), Palmer Park in winter, by Lake Scugog, https://commons.wikimedia.org/wiki/File:Port_Perry,_Ontario_-_Palmer_Park_-_01.jpg",
     "lat": 44.1051884941835, 
     "lng": -78.9414588128803,
     "tags": [
@@ -29,6 +31,8 @@ window.NDC.data.listings =
     "address": "231 Water St, Port Perry, ON",
     "hours": "Mon–Thu 10am–8pm, Fri–Sat 10am–5pm",
     "description": "Free wifi, printing, notary service, and meeting rooms bookable at no charge. Librarians here are genuinely helpful — they will assist with government forms, job applications, and anything else you are uncertain about.",
+    "photo": "photos/scugog-memorial-public-library.jpg",
+    "photoCredit": "Dillan Payne, CC BY-SA 4.0 (resized), the Scugog Memorial Public Library, https://commons.wikimedia.org/wiki/File:Scugog_Memorial_Library,_July_23_2026.jpg",
     "lat": 44.10686,
     "lng": -78.94236,
     "tags": [
@@ -434,6 +438,8 @@ window.NDC.data.listings =
     "lng": -79.115,
     "hours": "Year-round, dawn to dusk",
     "description": "Over 300 km of trails for hiking, cycling, cross-country skiing, and equestrian use. Connects to the Trans-Canada Trail, Durham Forest, and Oak Ridges Trail. The Trail Capital of Canada.",
+    "photo": "photos/uxbridge-trail-system.jpg",
+    "photoCredit": "Eric Marshall, CC BY 3.0 (resized), the rail trail on the edge of Uxbridge, https://commons.wikimedia.org/wiki/File:Rail_Trail_-_panoramio_(1).jpg",
     "contact": "",
     "website": "https://uxbridge.ca/trail-system",
     "tags": [],

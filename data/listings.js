@@ -237,7 +237,7 @@ window.NDC.data.listings =
     "id": "30",
     "name": "Beaver River Wetland Conservation Area",
     "category": "Outdoors",
-    "address": "Beaver River Wetland, Lake Simcoe Region",
+    "address": "555 Blackwater Rd, Brock, ON",
     "hours": "Open year-round",
     "description": "A significant wetland conservation area at the northern edge of Scugog's watershed, managed by the Lake Simcoe Region Conservation Authority. Important habitat for migratory birds and rare plant species.",
     "contact": "",
@@ -595,7 +595,7 @@ window.NDC.data.listings =
     "id": "48",
     "name": "Durham Regional Forest",
     "category": "Outdoors",
-    "address": "Main parking lot at the head of the trails, Uxbridge, ON (also Main Landing and the Houston Rd East Gate lot)",
+    "address": "Concession Rd 7, Uxbridge, ON (main parking lot at the head of the trails; also Main Landing and the Houston Rd East Gate lot)",
     "lat": 44.03967,
     "lng": -79.08969,
     "hours": "Daily, dawn to dusk",
@@ -809,6 +809,28 @@ window.NDC.data.listings =
       "fairgrounds",
       "walking",
       "Brock"
+    ]
+  },
+  {
+    "id": "58",
+    "name": "Uxbridge Off-Leash Dog Park",
+    "category": "Outdoors",
+    "address": "7239 Concession Rd 6, Uxbridge, ON (beside the Uxbridge Historical Centre)",
+    "lat": 44.10511,
+    "lng": -79.14495,
+    "hours": "Year-round",
+    "description": "A one-hectare, flat, natural-surface off-leash park run by the Township of Uxbridge and kept up by staff, volunteers and the Off-Leash Dog Park Committee. Free to use; donations to the Township help keep it going. Owners are responsible for keeping it safe for everyone.",
+    "contact": "Township of Uxbridge 905-852-9181",
+    "website": "https://www.uxbridge.ca",
+    "tags": [
+      "Free",
+      "Dog-friendly"
+    ],
+    "keywords": [
+      "dog park",
+      "off-leash",
+      "dogs",
+      "Uxbridge"
     ]
   }
 ];

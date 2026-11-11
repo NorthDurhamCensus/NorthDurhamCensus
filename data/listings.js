@@ -205,6 +205,7 @@ window.NDC.data.listings =
     "address": "Main trailhead at 1710 Scugog Line 10 (also Old Simcoe Rd and Scugog Line 12)",
     "hours": "Open year-round — roadside parking only",
     "description": "A provincially significant wildlife area known for waterfowl, amphibians, and wetland habitat. Multiple access points off Scugog Lines 10 and 12. No facilities — come for the birds, the quiet, and the seasonal flooding spectacle.",
+    "links": [{"label": "About the Nonquon River (Kawartha Conservation)", "url": "https://www.kawarthaconservation.com/environmental-sciences/understanding-your-watershed/nonquon-river/"}],
     "contact": "DDSB OEE - Nonquon",
     "lat": 44.14742,
     "lng": -78.9726,
@@ -361,7 +362,7 @@ window.NDC.data.listings =
     "hours": "Event-dependent; see website",
     "description": "Historic performance venue in downtown Uxbridge known for superior acoustics. Hosts concerts, theatre, and community cultural events year-round.",
     "contact": "",
-    "website": "https://uxbridge.ca",
+    "website": "https://uxbridgemusichall.com/",
     "tags": [],
     "keywords": [
       "culture",
@@ -379,6 +380,7 @@ window.NDC.data.listings =
     "lng": -79.03472,
     "hours": "Year-round, dawn to dusk",
     "description": "16+ hectares of parkland in central Cannington with tennis, lawn bowling, and a museum run by the Cannington Historical Society. A community hub for Brock Township.",
+    "links": [{"label": "The Township's 2025 concept plan for the park (PDF)", "url": "https://media-002-ca.cdn.govstack.com/townshipofbrock-011-ca/media/xprpomqf/2025-08-29_macleod-park-concept-plan_aod.pdf"}],
     "contact": "",
     "website": "https://townshipofbrock.ca",
     "tags": [],
@@ -398,6 +400,7 @@ window.NDC.data.listings =
     "lng": -78.92012,
     "hours": "May–October; call for hours",
     "description": "Living history museum with 11 restored 19th-century buildings, heritage gardens, and Ojibway Heritage Interpretive Lands. Community programs and seniors group tours.",
+    "links": [{"label": "Take the virtual tour (Google Arts & Culture)", "url": "https://artsandculture.google.com/story/HgVR2tStaO3fPA"}, {"label": "Lake Scugog Historical Society: the museum", "url": "https://lakescugoghistoricalsociety.com/scugog-shores-museum/"}],
     "contact": "",
     "website": "https://scugog.ca/museums",
     "tags": [],
@@ -591,6 +594,7 @@ window.NDC.data.listings =
     "lng": -79.1403,
     "hours": "Year-round, day use only",
     "description": "Ontario's newest year-round day-use provincial park, opened in 2024: 532 hectares on the southwest edge of Uxbridge. Trails for walking, hiking, cycling, mountain biking and horseback riding, and in winter you can ski or snowshoe if you bring your own gear. Leashed dogs are welcome. There are no washrooms or other facilities, and Ontario Parks day-use fees apply.",
+    "links": [{"label": "Ontario Parks blog: Uxbridge Urban", "url": "https://blog.ontarioparks.ca/uxbridge-urban/"}],
     "contact": "705-750-1438",
     "website": "https://www.ontarioparks.ca/park/uxbridgeurban",
     "tags": [
@@ -666,6 +670,8 @@ window.NDC.data.listings =
     "lng": -79.15912,
     "hours": "See TRCA for hours",
     "description": "About 300 hectares of Toronto and Region Conservation Authority land near Goodwood, made up of the Clubine Agreement Forest, the Goodwood Resource Management Tract and the Secord Forest and Wildlife Area. Trails for hiking, cycling, skiing and birding, and a northern gateway to Rouge National Urban Park. Washrooms and bins are scarce (check with TRCA before you go).",
+    "photo": "photos/west-duffins-headwaters.jpg",
+    "photoCredit": "The Cosmonaut, CC BY-SA 2.5 CA (resized), the headwaters of West Duffins Creek in spring, https://commons.wikimedia.org/wiki/File:West_Duffins_Creek.jpg",
     "contact": "",
     "website": "https://trca.ca/parks/west-duffins-headwaters/",
     "tags": [],
@@ -735,7 +741,7 @@ window.NDC.data.listings =
     "hours": "Year-round",
     "description": "A short, easy 1.1 km loop of gravel and paved path behind the Goodwood hall, around a kettle pond. Good for birdwatching, and for snowshoeing and skiing in winter. Partly wheelchair accessible. Free.",
     "contact": "",
-    "website": "https://discoveruxbridge.ca/trails/",
+    "website": "https://discoveruxbridge.ca/trails/kettle-pond-trail/",
     "tags": [
       "Free"
     ],

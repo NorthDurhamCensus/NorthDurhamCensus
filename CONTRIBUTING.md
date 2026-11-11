@@ -122,6 +122,8 @@ Add a new block inside `data/listings.js`:
 | `featured` | no | `true` puts the place at the top of Places with a star. Keep it to the real gems, about one in five. |
 | `photo` | no | `"photos/palmer-park.jpg"` (see `data/photos/README.md`) or a full https link. No photo? North of the Ridges draws a pixel postcard. |
 | `photoCredit` | no | Who took the photo. Required when there is a photo that isn't yours. |
+| `logo` | no | `true` when the photo is the group's logo: it shows whole on a white card instead of being cropped. Only with the group's permission; credit it as `"Logo © <group>, used with permission"`. |
+| `links` | no | Extra links shown under the place, like a virtual tour: `[{"label": "Take the virtual tour", "url": "https://..."}]` |
 | `blurb` | no | One line for featured places: why it's worth the drive. |
 
 ### Categories

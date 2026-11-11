@@ -12,3 +12,4 @@ address. North of the Ridges loads them straight from GitHub.
 - **Landscape, about 1600px wide, JPEG.** Smaller is kinder to rural internet.
 - **Name files after the place:** `palmer-park.jpg`, `blackstock-general-store.jpg`.
 - No photos of people who haven't said yes, and nothing with kids' faces.
+- **Logos** are fine when the group says yes. Add `"logo": true` so it shows whole on white, and credit it `"Logo © <group>, used with permission"`. Logos belong to their groups and are **not** covered by this repo's MIT licence.

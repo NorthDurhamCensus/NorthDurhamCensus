@@ -31,7 +31,7 @@ import { createHash } from "node:crypto";
 // "11:00pm" and pushed evening events onto the next day. Pin the clock to
 // Eastern before any date is touched.
 process.env.TZ = "America/Toronto";
-import { EMAIL_PARSERS, isNorthDurham } from "./lib/email-parsers.mjs";
+import { EMAIL_PARSERS, isNorthDurham, plainlyElsewhere } from "./lib/email-parsers.mjs";
 import { guessCategory } from "./lib/categories.mjs";
 import { guessTags } from "./lib/tags.mjs";
 
@@ -191,9 +191,11 @@ function main() {
     for (const event of found) {
       if (!event.start || isNaN(event.start)) continue;
       if (event.start < windowStart || event.start > windowEnd) continue;
-      if (shouldFilter &&
-          !isNorthDurham(event.title,
-            `${event.location || ""} ${event.description || ""} ${event.tagText || ""}`)) continue;
+      const where = `${event.location || ""} ${event.description || ""} ${event.tagText || ""}`;
+      if (shouldFilter && !isNorthDurham(event.title, where)) continue;
+      // Even a source kept whole drops a listing that is plainly held elsewhere
+      // (Brock's calendar carries the odd Oshawa event).
+      if (!keepAll && plainlyElsewhere(event.title, where)) continue;
 
       collected.push({
         id: `eml-${newsletter ? newsletter.id : parserId}-${isoDate(event.start)}-${

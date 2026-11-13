@@ -98,6 +98,28 @@ export function isNorthDurham(title, extra) {
   return fromRest === true;
 }
 
+/**
+ * True when an event plainly happens somewhere else: the title names no place
+ * and the rest names only places outside North Durham.
+ *
+ * For sources we otherwise keep whole, like the Township of Brock calendar,
+ * which now and then carries a regional listing (an Oshawa open house). Much
+ * gentler than isNorthDurham: a silent listing, one whose title names a
+ * neighbour ("Brock-Georgina Probus Club"), or one that only mentions a
+ * Lake Simcoe neighbour, is still kept.
+ */
+export function plainlyElsewhere(title, extra) {
+  if (verdict(title) !== null) return false;
+  const haystack = String(extra || "").toLowerCase();
+  const here = NORTH_DURHAM.some(place => haystack.includes(place));
+  // Lake Simcoe neighbours don't count here: Brock clubs share them
+  // ("Georgina-Brock Garden Club") and still meet in Brock.
+  const lakeSimcoe = ["barrie", "newmarket", "aurora", "bradford", "keswick", "sutton",
+    "georgina", "innisfil", "orillia", "holland landing", "east gwillimbury"];
+  const away = NOT_NORTH_DURHAM.some(place => !lakeSimcoe.includes(place) && haystack.includes(place));
+  return away && !here;
+}
+
 /** Which township, for the record. Returns "" when it cannot tell. */
 export function township(text) {
   const haystack = String(text).toLowerCase();

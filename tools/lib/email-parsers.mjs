@@ -15,8 +15,8 @@
      { title, start, end, allDay, location, description, url, uid, recurring }
    --------------------------------------------------------------------------- */
 
-import { isNorthDurham } from "./geography.mjs";
-export { isNorthDurham };
+import { isNorthDurham, plainlyElsewhere } from "./geography.mjs";
+export { isNorthDurham, plainlyElsewhere };
 
 const MONTHS = {
   january: 0, february: 1, march: 2, april: 3, may: 4, june: 5,

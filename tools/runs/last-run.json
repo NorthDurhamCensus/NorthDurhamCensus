@@ -1,11 +1,18 @@
 {
-  "at": "2026-11-09T16:29:31.859Z",
+  "at": "2026-11-13T14:40:23.827Z",
   "kept": 18,
   "duplicates": 6,
+  "statuses": {
+    "blocked": 2,
+    "empty": 2,
+    "working": 3,
+    "quiet": 1
+  },
   "sources": [
     {
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
+      "status": "blocked",
       "ok": false,
       "count": 0,
       "kept": 0,
@@ -14,6 +21,7 @@
     {
       "id": "scugog-arts",
       "name": "Scugog Council for the Arts",
+      "status": "blocked",
       "ok": false,
       "count": 0,
       "kept": 0,
@@ -22,6 +30,7 @@
     {
       "id": "brock-libraries",
       "name": "Brock Township Public Library",
+      "status": "empty",
       "ok": true,
       "count": 0,
       "kept": 0,
@@ -30,6 +39,7 @@
     {
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
+      "status": "working",
       "ok": true,
       "count": 10,
       "kept": 10,
@@ -38,6 +48,7 @@
     {
       "id": "uxbridge-library",
       "name": "Uxbridge Public Library",
+      "status": "working",
       "ok": true,
       "count": 43,
       "kept": 9,
@@ -46,6 +57,7 @@
     {
       "id": "lsrca",
       "name": "Lake Simcoe Region Conservation Authority",
+      "status": "quiet",
       "ok": true,
       "count": 10,
       "kept": 0,
@@ -54,15 +66,17 @@
     {
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
+      "status": "working",
       "ok": true,
-      "count": 13,
+      "count": 12,
       "kept": 5,
       "error": null,
-      "filtered": 8
+      "filtered": 7
     },
     {
       "id": "ontario-conservation-areas",
       "name": "Ontario Conservation Areas",
+      "status": "empty",
       "ok": true,
       "count": 0,
       "kept": 0,

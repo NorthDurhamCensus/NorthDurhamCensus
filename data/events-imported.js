@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-09T16:29:31.859Z by tools/fetch-events.mjs
+// Generated 2026-11-13T14:40:23.827Z by tools/fetch-events.mjs
 // Sources: Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -45,25 +45,6 @@ window.NDC.data.eventsImported =
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
       "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-13-YJ0t0IWfJx",
-    "title": "Uxbridge - Glen Major West (Aggregate Pit), Mod-fast, Anna Sunn (Fri, November 13, 2026)",
-    "date": "2026-11-13",
-    "time": "9:30am",
-    "location": "",
-    "description": "Members and non-members welcome. New members and n on-members are required to contact the hike leader before 6 pm the previous day to discuss if this hike is suitable for you. ORTA Map 5; 10.5 kms; 2.5 hrs; Moderate-fast pace; Hilly ! Arrive at 9:15 am for a 9:30 am start. Please bring adequate water and wear appropriate footwear. Poles are recommended due to hilly terrain but not required. This…",
-    "category": "Food & farms",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6908976",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -293,6 +274,25 @@ window.NDC.data.eventsImported =
     "category": "Outdoors",
     "tags": [],
     "url": "https://members.oakridgestrail.org/event-6907650",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-12-12-DD0sfADXMc",
+    "title": "Uxbridge - Wilder & Walker, Moderate, Barb Anderson (Sat, December 12, 2026)",
+    "date": "2026-12-12",
+    "time": "9:30am",
+    "location": "",
+    "description": "Members, guests and non-members welcome. Non-members and new members unfamiliar with the trails are asked to contact (text or call) the hike leader before noon the day before to determine if this hike is suitable for you. ORTA Map 5; 9-10 km; 2.5hrs; Pace 4k/hr; Join us for a hike in the beautiful Wilder Forest and Walker Woods tracts. Wilder is quite hilly and Walker is more moderate. Please…",
+    "category": "Outdoors",
+    "tags": [],
+    "url": "https://members.oakridgestrail.org/event-6913631",
     "recurring": "",
     "contact": "",
     "imported": true,

@@ -3,31 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-13T14:40:23.827Z by tools/fetch-events.mjs
+// Generated 2026-11-14T13:37:13.903Z by tools/fetch-events.mjs
 // Sources: Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-onstage-uxbridge-2026-11-12--_wJlSkpN7",
-    "title": "Irving Berlin’s White Christmas",
-    "date": "2026-11-12",
-    "time": "7:30pm – 10:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "Opening Night!",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
   {
     "id": "imp-onstage-uxbridge-2026-11-13-QqtqpRuesA",
     "title": "Irving Berlin’s White Christmas",
@@ -211,6 +192,44 @@ window.NDC.data.eventsImported =
     "category": "Arts & culture",
     "tags": [],
     "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-7/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-11-20-z_8kOzubGN",
+    "title": "Uxbridge - Skyloft/Durham Forest, moderate to fast, Anna Sunn (Fri, November 20, 2026)",
+    "date": "2026-11-20",
+    "time": "9:30am",
+    "location": "",
+    "description": "Members and non-members welcome. Non-members and new members are required to contact the hike leader by 6 pm the day before to discuss if this hike is appropriate for you. ORTA Map 6; 10+ km, Approx. 2.5hrs; moderate to fast pace; fairly hilly . Come out to explore the forested Skyloft conservation area and the Durham Forest trails, part of the East Duffins Headwaters. Be prepared with proper…",
+    "category": "Outdoors",
+    "tags": [],
+    "url": "https://members.oakridgestrail.org/event-6915151",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2026-11-21-3K24_RET9R",
+    "title": "Irving Berlin’s White Christmas",
+    "date": "2026-11-21",
+    "time": "7:30pm – 10:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-8/",
     "recurring": "",
     "contact": "",
     "imported": true,

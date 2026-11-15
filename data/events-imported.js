@@ -3,31 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-14T13:37:13.903Z by tools/fetch-events.mjs
+// Generated 2026-11-15T14:00:07.681Z by tools/fetch-events.mjs
 // Sources: Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-onstage-uxbridge-2026-11-13-QqtqpRuesA",
-    "title": "Irving Berlin’s White Christmas",
-    "date": "2026-11-13",
-    "time": "7:30pm – 10:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-2/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
   {
     "id": "imp-onstage-uxbridge-2026-11-14-42-Jx4yocM",
     "title": "Irving Berlin’s White Christmas",
@@ -45,46 +26,6 @@ window.NDC.data.eventsImported =
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
       "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-14-EnJ4u0c781",
-    "title": "Uxbridge - Brock Tract (Brock Rd.) moderate, Amir Alemohammad (Sat, November 14, 2026)",
-    "date": "2026-11-14",
-    "time": "8:15am",
-    "location": "",
-    "description": "Members and non-members welcome. ORTA Map 5; 14-15 km; moderate; 4 hours; end by 12 noon. Loop hike through Brock Tract. Hilly. Boots mandatory, poles recommended, bring 2 litres of water and snacks ,dress according to weather conditions. Amir is leading this hike for the Toronto Bruce Trail and ORTA members and non-members are welcome. Meet at the Brock Tract parking lot on the east side of…",
-    "category": "Outdoors",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6833945",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-14-hpHAaeZry6",
-    "title": "Uxbridge - North Walker Woods (Conc. 6. / Allbright Rd.) Moderate, Barb Anderson (Sat, November 14, 2026)",
-    "date": "2026-11-14",
-    "time": "9:30am",
-    "location": "",
-    "description": "Members, guests, and non-members welcome. Pre-registration is mandatory. Non-members and new members are asked to contact the hike leader by noon the day before to determine if hike is suitable for them. Maximum 15 hikers. No dogs please. ORTA MAP 5; ~10k / ~4k per hr /2.5 hrs . Join me for a moderate paced hike as we explore most of the trails in this scenic forest of deciduous trees with its…",
-    "category": "Outdoors",
-    "tags": [
-      "Registration required"
-    ],
-    "url": "https://members.oakridgestrail.org/event-6899268",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -240,6 +181,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-oak-ridges-trail-2026-11-21-jhw-Rr9nKJ",
+    "title": "Uxbridge - Three Rocks (Concession Rd 7) moderate, Amir Alemohammad (Sat, November 21, 2026)",
+    "date": "2026-11-21",
+    "time": "8:15am",
+    "location": "",
+    "description": "Members and non-members welcome. ORTA Map ; 14-15 km; moderate; 4 hours; end by 12 noon. Loop hike from Three Rocks Concession Rd 7. Hilly. Boots mandatory, poles recommended, bring 2 litres of water and snacks ,dress according to weather conditions. Amir is leading this hike for the Toronto Bruce Trail and ORTA members and non-members are welcome. Meet at the at 1120 Concession Rd 7, Uxbridge,…",
+    "category": "Outdoors",
+    "tags": [],
+    "url": "https://members.oakridgestrail.org/event-6916356",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
     "id": "imp-uxbridge-library-2026-11-26-3_elvhN4Ed",
     "title": "How To Be UnHackable",
     "date": "2026-11-26",
@@ -300,6 +260,25 @@ window.NDC.data.eventsImported =
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2026-11-30-UoQYXR4xAZ",
+    "title": "OSU Board Meeting",
+    "date": "2026-11-30",
+    "time": "7:00pm – 9:00pm",
+    "location": "",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/osu-board-meeting-4/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {

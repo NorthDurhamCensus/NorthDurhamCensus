@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-14T13:37:13.903Z",
-  "kept": 19,
+  "at": "2026-11-15T14:00:07.681Z",
+  "kept": 18,
   "duplicates": 6,
   "statuses": {
     "blocked": 2,
@@ -69,9 +69,9 @@
       "status": "working",
       "ok": true,
       "count": 13,
-      "kept": 6,
+      "kept": 5,
       "error": null,
-      "filtered": 7
+      "filtered": 8
     },
     {
       "id": "ontario-conservation-areas",

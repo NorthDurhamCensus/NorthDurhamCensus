@@ -3,31 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-15T14:00:07.681Z by tools/fetch-events.mjs
+// Generated 2026-11-16T15:55:05.865Z by tools/fetch-events.mjs
 // Sources: Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-onstage-uxbridge-2026-11-14-42-Jx4yocM",
-    "title": "Irving Berlin’s White Christmas",
-    "date": "2026-11-14",
-    "time": "2:00pm – 4:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-3/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
   {
     "id": "imp-onstage-uxbridge-2026-11-15-M1RsfDwnd_",
     "title": "Irving Berlin’s White Christmas",
@@ -298,6 +279,44 @@ window.NDC.data.eventsImported =
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-21-GzHeTNFwRr",
+    "title": "Clue",
+    "date": "2027-01-21",
+    "time": "7:30pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "Opening Night!",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-22-MzMhf9Z9nP",
+    "title": "Clue",
+    "date": "2027-01-22",
+    "time": "7:30pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-2/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {

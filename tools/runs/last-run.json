@@ -1,22 +1,22 @@
 {
-  "at": "2026-11-17T16:07:16.772Z",
-  "kept": 18,
+  "at": "2026-11-18T15:44:54.076Z",
+  "kept": 72,
   "duplicates": 6,
   "statuses": {
-    "blocked": 2,
+    "working": 4,
+    "blocked": 1,
     "empty": 2,
-    "working": 3,
     "quiet": 1
   },
   "sources": [
     {
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
-      "status": "blocked",
-      "ok": false,
-      "count": 0,
-      "kept": 0,
-      "error": "blocked by the website's Cloudflare bot protection — ask them to allow the importer (see tools/feed-request-letter.md)"
+      "status": "working",
+      "ok": true,
+      "count": 381,
+      "kept": 51,
+      "error": null
     },
     {
       "id": "scugog-arts",
@@ -68,8 +68,8 @@
       "name": "Oak Ridges Trail Association",
       "status": "working",
       "ok": true,
-      "count": 11,
-      "kept": 5,
+      "count": 14,
+      "kept": 8,
       "error": null,
       "filtered": 6
     },

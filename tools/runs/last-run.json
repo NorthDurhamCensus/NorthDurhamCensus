@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-18T15:44:54.076Z",
-  "kept": 72,
+  "at": "2026-11-19T15:50:25.359Z",
+  "kept": 71,
   "duplicates": 6,
   "statuses": {
     "working": 4,
@@ -15,7 +15,7 @@
       "status": "working",
       "ok": true,
       "count": 381,
-      "kept": 51,
+      "kept": 50,
       "error": null
     },
     {
@@ -68,10 +68,10 @@
       "name": "Oak Ridges Trail Association",
       "status": "working",
       "ok": true,
-      "count": 14,
+      "count": 12,
       "kept": 8,
       "error": null,
-      "filtered": 6
+      "filtered": 4
     },
     {
       "id": "ontario-conservation-areas",

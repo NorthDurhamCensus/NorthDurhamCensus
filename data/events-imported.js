@@ -3,34 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-18T15:44:54.076Z by tools/fetch-events.mjs
+// Generated 2026-11-19T15:50:25.359Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-township-2026-11-11-emza_tbKBu",
-    "title": "Indoor Walking Trail",
-    "date": "2026-11-11",
-    "time": "6:00pm – 8:00pm",
-    "location": "Uxbridge Secondary School (127 Planks Lane)",
-    "description": "Looking for a fun way to stay active this fall and winter? Join fellow community members on the Indoor Walking Trail! Stay warm while getting your steps in, meeting new people, and enjoying some light exercise. Everyone is welcome, and all ages are invited to participate! $40 membership fee or $5 drop-in fee.",
-    "category": "Sports & rec",
-    "tags": [
-      "Family-friendly",
-      "Drop-in"
-    ],
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
   {
     "id": "imp-uxbridge-township-2026-11-13-h-R_Ij2L3R",
     "title": "Brook Never Sleeps Workshop",
@@ -73,25 +51,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2026-11-17-m981ovAK5t",
-    "title": "Rock of Ages Callbacks",
-    "date": "2026-11-17",
-    "time": "6:00pm – 10:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/rock-of-ages-call-backs/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
@@ -163,7 +122,7 @@ window.NDC.data.eventsImported =
     "description": "Members and non-members welcome. Non-members and new members are required to contact the hike leader by 6 pm the day before to discuss if this hike is appropriate for you. ORTA Map 6; 10+ km, Approx. 2.5hrs; moderate to fast pace; fairly hilly . Come out to explore the forested Skyloft conservation area and the Durham Forest trails, part of the East Duffins Headwaters. Be prepared with proper…",
     "category": "Outdoors",
     "tags": [],
-    "url": "https://members.oakridgestrail.org/widget/event-6915151",
+    "url": "https://members.oakridgestrail.org/event-6915151",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -239,7 +198,7 @@ window.NDC.data.eventsImported =
     "description": "Members and non-members welcome. ORTA Map ; 14-15 km; moderate; 4 hours; end by 12 noon. Loop hike from Three Rocks Concession Rd 7. Hilly. Boots mandatory, poles recommended, bring 2 litres of water and snacks ,dress according to weather conditions. Amir is leading this hike for the Toronto Bruce Trail and ORTA members and non-members are welcome. Meet at the at 1120 Concession Rd 7, Uxbridge,…",
     "category": "Outdoors",
     "tags": [],
-    "url": "https://members.oakridgestrail.org/widget/event-6916356",
+    "url": "https://members.oakridgestrail.org/event-6916356",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -280,7 +239,7 @@ window.NDC.data.eventsImported =
     "description": "Members and non-members welcome. ORTA Map 5; slow to moderate pace. Join us for a hike on hilly, sheltered forest trails south of Uxbridge. This will be a 2hr. loop hike, and there will also be a shorter hike posted from the same location. Bring a friend and join us for lunch at Annina's Cafe after the hike. Arrive at 9:15 a.m. for a 9:30 a.m. start. Meet at the Brock Tract parking lot on the…",
     "category": "Outdoors",
     "tags": [],
-    "url": "https://members.oakridgestrail.org/widget/event-6920012",
+    "url": "https://members.oakridgestrail.org/event-6920012",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -299,7 +258,7 @@ window.NDC.data.eventsImported =
     "description": "Members and non-members welcome. ORTA Map 5; slow hike; 2 hrs; 4.5 km. Bring a friend and join us for lunch at Annina's Cafe after the hike. Arrive at 9:15 a.m. for a 9:30 a.m. start. Meet at the Brock Tract parking lot on the east side of Durham 1/Brock Rd., approximately 5 km south of Coppin’s Corners, Uxbridge or 1 km north of Uxbridge Pickering Town Line. 1401 Brock Rd. (Free parking). Noel…",
     "category": "Outdoors",
     "tags": [],
-    "url": "https://members.oakridgestrail.org/widget/event-6920034",
+    "url": "https://members.oakridgestrail.org/event-6920034",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -384,7 +343,7 @@ window.NDC.data.eventsImported =
       "Free",
       "Registration required"
     ],
-    "url": "https://members.oakridgestrail.org/widget/event-6907915",
+    "url": "https://members.oakridgestrail.org/event-6907915",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -403,7 +362,7 @@ window.NDC.data.eventsImported =
     "description": "This is a unique annual hike as we celebrate our forest wedding, way back on Dec. 3, 2003, when over 70 ORTA friends and family met for our marriage in the woods. Each year we invite ORTA members and guests to join us for a walk on some of our favourite forest trails as we trek to the pond where the ceremony was held. We provide a drink and a treat, reflect on the many years we have hiked with…",
     "category": "Outdoors",
     "tags": [],
-    "url": "https://members.oakridgestrail.org/widget/event-6907650",
+    "url": "https://members.oakridgestrail.org/event-6907650",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -422,7 +381,7 @@ window.NDC.data.eventsImported =
     "description": "Please note that Noel Bain will lead a slow paced hike at the same time. This is a unique annual hike as we celebrate our forest wedding, way back on Dec. 3, 2003, when over 70 ORTA friends and family met for our marriage in the woods. Each year we invite ORTA members and guests to join us for a walk on some of our favourite forest trails as we trek to the pond where the ceremony was held. We…",
     "category": "Outdoors",
     "tags": [],
-    "url": "https://members.oakridgestrail.org/widget/event-6920038",
+    "url": "https://members.oakridgestrail.org/event-6920038",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -586,7 +545,7 @@ window.NDC.data.eventsImported =
     "description": "Members, guests and non-members welcome. Non-members and new members unfamiliar with the trails are asked to contact (text or call) the hike leader before noon the day before to determine if this hike is suitable for you. ORTA Map 5; 9-10 km; 2.5hrs; Pace 4k/hr; Join us for a hike in the beautiful Wilder Forest and Walker Woods tracts. Wilder is quite hilly and Walker is more moderate. Please…",
     "category": "Outdoors",
     "tags": [],
-    "url": "https://members.oakridgestrail.org/widget/event-6913631",
+    "url": "https://members.oakridgestrail.org/event-6913631",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -978,6 +937,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-28-5EfegpwsFo",
+    "title": "Clue",
+    "date": "2027-01-28",
+    "time": "7:30pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-6/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {

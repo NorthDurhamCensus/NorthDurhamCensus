@@ -3,34 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-19T15:50:25.359Z by tools/fetch-events.mjs
+// Generated 2026-11-20T15:32:25.724Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-township-2026-11-13-h-R_Ij2L3R",
-    "title": "Brook Never Sleeps Workshop",
-    "date": "2026-11-13",
-    "time": "9:00am – 3:00pm",
-    "location": "Council Chambers (51 Toronto Street South)",
-    "description": "The Environmental and Sustainability Advisory Committee’s (ESAC) Brook Never Sleeps workshop returns for another year of engaging, hands-on activities. This free, full-day interactive event offers local youth an opportunity to explore the ecology of the Uxbridge Brook in a fun and educational setting. The event is being held in Council Chambers at Town Hall, 51 Toronto St. S. It will take place…",
-    "category": "Learning",
-    "tags": [
-      "Free",
-      "Youth"
-    ],
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
   {
     "id": "imp-uxbridge-township-2026-11-16-6rkdXv1A9Q",
     "title": "Indoor Walking Trail",
@@ -111,25 +89,6 @@ window.NDC.data.eventsImported =
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
       "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-20-z_8kOzubGN",
-    "title": "Uxbridge - Skyloft/Durham Forest, moderate to fast, Anna Sunn (Fri, November 20, 2026)",
-    "date": "2026-11-20",
-    "time": "9:30am",
-    "location": "",
-    "description": "Members and non-members welcome. Non-members and new members are required to contact the hike leader by 6 pm the day before to discuss if this hike is appropriate for you. ORTA Map 6; 10+ km, Approx. 2.5hrs; moderate to fast pace; fairly hilly . Come out to explore the forested Skyloft conservation area and the Durham Forest trails, part of the East Duffins Headwaters. Be prepared with proper…",
-    "category": "Outdoors",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6915151",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {

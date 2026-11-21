@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-20T15:32:25.724Z by tools/fetch-events.mjs
+// Generated 2026-11-21T14:43:28.453Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -51,25 +51,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2026-11-19-l1yLJ7YD4O",
-    "title": "Irving Berlin’s White Christmas",
-    "date": "2026-11-19",
-    "time": "7:30pm – 10:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-6/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
@@ -908,6 +889,25 @@ window.NDC.data.eventsImported =
     "category": "Arts & culture",
     "tags": [],
     "url": "https://onstageuxbridge.com/event/clue-6/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-29-m-kcH2pq63",
+    "title": "Clue",
+    "date": "2027-01-29",
+    "time": "7:30pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-10/",
     "recurring": "",
     "contact": "",
     "imported": true,

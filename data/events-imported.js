@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-21T14:43:28.453Z by tools/fetch-events.mjs
+// Generated 2026-11-22T14:39:56.733Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -51,25 +51,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2026-11-20-HvXPhd5PSg",
-    "title": "Irving Berlin’s White Christmas",
-    "date": "2026-11-20",
-    "time": "7:30pm – 10:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-7/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
@@ -127,25 +108,6 @@ window.NDC.data.eventsImported =
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
       "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-21-jhw-Rr9nKJ",
-    "title": "Uxbridge - Three Rocks (Concession Rd 7) moderate, Amir Alemohammad (Sat, November 21, 2026)",
-    "date": "2026-11-21",
-    "time": "8:15am",
-    "location": "",
-    "description": "Members and non-members welcome. ORTA Map ; 14-15 km; moderate; 4 hours; end by 12 noon. Loop hike from Three Rocks Concession Rd 7. Hilly. Boots mandatory, poles recommended, bring 2 litres of water and snacks ,dress according to weather conditions. Amir is leading this hike for the Toronto Bruce Trail and ORTA members and non-members are welcome. Meet at the at 1120 Concession Rd 7, Uxbridge,…",
-    "category": "Outdoors",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6916356",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -908,6 +870,25 @@ window.NDC.data.eventsImported =
     "category": "Arts & culture",
     "tags": [],
     "url": "https://onstageuxbridge.com/event/clue-10/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-30-_j37Nr1x3C",
+    "title": "Clue",
+    "date": "2027-01-30",
+    "time": "2:00am – 4:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-8/",
     "recurring": "",
     "contact": "",
     "imported": true,

@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-22T14:39:56.733Z by tools/fetch-events.mjs
+// Generated 2026-11-23T18:18:52.493Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -89,25 +89,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2026-11-21-3K24_RET9R",
-    "title": "Irving Berlin’s White Christmas",
-    "date": "2026-11-21",
-    "time": "7:30pm – 10:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/irving-berlins-white-christmas-8/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
@@ -231,6 +212,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-11-27-JpRlYdno5m",
+    "title": "Uxbridge - Countryside Preserve and Uxbridge Urban Provincial Park - mod-fast - Anna Sunn (Fri, November 27, 2026)",
+    "date": "2026-11-27",
+    "time": "9:30am",
+    "location": "",
+    "description": "Members and non-members welcome. New members and non-members are required to contact the hike leader by 6 p.m. the day before to discuss if this is the right hike for you. ORTA Map 5; 10 km; 2.5+ hrs; moderate to fast pace with minimal hills. We will start at the Countryside Preserve trailhead behind Walmart and hike to the new Uxbridge Urban Provincial Park. We prepared with proper footwear and…",
+    "category": "Outdoors",
+    "tags": [],
+    "url": "https://members.oakridgestrail.org/event-6926841",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -436,6 +436,27 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-12-09-mDMLIx2eKL",
+    "title": "Uxbridge - Glen Major (Conc. 6 - aggregate pit) fast, Teri Tworzyanski (Wed, December 09, 2026)",
+    "date": "2026-12-09",
+    "time": "9:30am",
+    "location": "",
+    "description": "Members only hike. Pre-registration mandatory. ORTA Map 5; 15+ km; Fast; 4+hrs; Hike through Glen Major & Walker Woods. We will start a little easier and hike up through Walker for a short loop before heading south. Check the weather forecast and be appropriately equipped. Bring water, lunch and snacks. Come out to explore this area of rolling hills. Formerly the site of a large gravel pit, the…",
+    "category": "Food & farms",
+    "tags": [
+      "Registration required"
+    ],
+    "url": "https://members.oakridgestrail.org/event-6925212",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {

@@ -3,34 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-23T18:18:52.493Z by tools/fetch-events.mjs
+// Generated 2026-11-24T17:51:53.644Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-township-2026-11-16-6rkdXv1A9Q",
-    "title": "Indoor Walking Trail",
-    "date": "2026-11-16",
-    "time": "6:00pm – 8:00pm",
-    "location": "Uxbridge Secondary School (127 Planks Lane)",
-    "description": "Looking for a fun way to stay active this fall and winter? Join fellow community members on the Indoor Walking Trail! Stay warm while getting your steps in, meeting new people, and enjoying some light exercise. Everyone is welcome, and all ages are invited to participate! $40 membership fee or $5 drop-in fee.",
-    "category": "Sports & rec",
-    "tags": [
-      "Family-friendly",
-      "Drop-in"
-    ],
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
   {
     "id": "imp-uxbridge-township-2026-11-18-2bnhajSauh",
     "title": "Indoor Walking Trail",
@@ -111,44 +89,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-23-jYywRcUJ01",
-    "title": "Uxbridge - Brock Tract (Brock Rd.) slow-moderate, Brian & Wilma Millage (Mon, November 23, 2026)",
-    "date": "2026-11-23",
-    "time": "9:30am",
-    "location": "",
-    "description": "Members and non-members welcome. ORTA Map 5; slow to moderate pace. Join us for a hike on hilly, sheltered forest trails south of Uxbridge. This will be a 2hr. loop hike, and there will also be a shorter hike posted from the same location. Bring a friend and join us for lunch at Annina's Cafe after the hike. Arrive at 9:15 a.m. for a 9:30 a.m. start. Meet at the Brock Tract parking lot on the…",
-    "category": "Outdoors",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6920012",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-23-B4Da4Vl4E3",
-    "title": "Uxbridge - Brock Tract (Brock Rd.) slow, Noel Bain (Mon, November 23, 2026)",
-    "date": "2026-11-23",
-    "time": "9:30am",
-    "location": "",
-    "description": "Members and non-members welcome. ORTA Map 5; slow hike; 2 hrs; 4.5 km. Bring a friend and join us for lunch at Annina's Cafe after the hike. Arrive at 9:15 a.m. for a 9:30 a.m. start. Meet at the Brock Tract parking lot on the east side of Durham 1/Brock Rd., approximately 5 km south of Coppin’s Corners, Uxbridge or 1 km north of Uxbridge Pickering Town Line. 1401 Brock Rd. (Free parking). Noel…",
-    "category": "Outdoors",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6920034",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -332,6 +272,25 @@ window.NDC.data.eventsImported =
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
       "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-uxbridge-township-2026-12-01-2rWbsfZad2",
+    "title": "Giving Tuesday Flag Raising",
+    "date": "2026-12-01",
+    "time": "2:00pm – 2:30pm",
+    "location": "Town Hall (51 Toronto St. S.)",
+    "description": "Giving Tuesday is the world’s largest generosity movement, celebrating the power of giving and the impact of every act of kindness. Every act of generosity counts. Join the Township in marking this special occasion!",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-township",
+      "name": "Township of Uxbridge",
+      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
     }
   },
   {

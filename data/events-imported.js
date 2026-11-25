@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-24T17:51:53.644Z by tools/fetch-events.mjs
+// Generated 2026-11-25T17:18:54.454Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -164,6 +164,25 @@ window.NDC.data.eventsImported =
     "category": "Outdoors",
     "tags": [],
     "url": "https://members.oakridgestrail.org/event-6926841",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-11-28-8YEEsM1XNr",
+    "title": "Uxbridge - Goodwood and Secord Forest, Moderate, Amir Alemohammad (Sat, November 28, 2026)",
+    "date": "2026-11-28",
+    "time": "8:15am",
+    "location": "",
+    "description": "Members and non-members welcome. ORTA Map 5; 16 km; moderate pace; some hills and uneven surfaces, rocks and roots underfoot. Start time is 8:15 a.m. and end time 12:15 pm. Join us for a delightful hike in Uxbridge, as we explore Goodwood and Secord Forests. Hiking boots and poles recommended, bring at least 2L of water, snack/lunch (10-20 minute lunch/snack stop). Hiking duration and distance…",
+    "category": "Outdoors",
+    "tags": [],
+    "url": "https://members.oakridgestrail.org/event-6930138",
     "recurring": "",
     "contact": "",
     "imported": true,

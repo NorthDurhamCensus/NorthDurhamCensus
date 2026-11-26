@@ -3,34 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-25T17:18:54.454Z by tools/fetch-events.mjs
+// Generated 2026-11-26T16:58:56.497Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-township-2026-11-18-2bnhajSauh",
-    "title": "Indoor Walking Trail",
-    "date": "2026-11-18",
-    "time": "6:00pm – 8:00pm",
-    "location": "Uxbridge Secondary School (127 Planks Lane)",
-    "description": "Looking for a fun way to stay active this fall and winter? Join fellow community members on the Indoor Walking Trail! Stay warm while getting your steps in, meeting new people, and enjoying some light exercise. Everyone is welcome, and all ages are invited to participate! $40 membership fee or $5 drop-in fee.",
-    "category": "Sports & rec",
-    "tags": [
-      "Family-friendly",
-      "Drop-in"
-    ],
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
   {
     "id": "imp-uxbridge-township-2026-11-20-E0irOR1J9L",
     "title": "Winter Wreathmaking Workshop",

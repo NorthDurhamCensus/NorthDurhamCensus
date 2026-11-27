@@ -6,187 +6,11 @@
 // These came from prose in an email rather than a calendar feed, so the
 // dates are read rather than given. Treat them as leads to check, not facts.
 //
-// Generated 2026-11-20T18:49:55.611Z
+// Generated 2026-11-27T18:54:39.094Z
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsEmail =
 [
-  {
-    "id": "eml-brock-township-2026-11-13-Dk2_TIlJvV",
-    "title": "The SLCT Proudly Presents “The Wizard of Oz”",
-    "date": "2026-11-13",
-    "time": "7:00pm",
-    "location": "",
-    "description": "Marking its 11th season, the Sunderland Lions Community Theatre proudly presents a familiar and exciting musical story – The Wizard of Oz – wherein Dorothy drops into the Land of Oz where only one thing is certain: she’s got to find a way back to Kansas! A funny and fast-paced journey down the yellow brick road ensues, as Dorothy and her new friends travel to the fabled Emerald City to meet the…",
-    "category": "Arts & culture",
-    "tags": [
-      "Youth"
-    ],
-    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-13-1900-The-SLCT-Proudly-Presents-The-Wizard-of-Oz",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "dateConfidence": "high",
-    "source": {
-      "id": "brock-township",
-      "name": "Township of Brock",
-      "page": "https://events.townshipofbrock.ca",
-      "via": "newsletter"
-    }
-  },
-  {
-    "id": "eml-brock-township-2026-11-14-0hrM1tv1bY",
-    "title": "Beaverton Curling Club - Sheet Show Vol. 2 OPEN Bonspiel",
-    "date": "2026-11-14",
-    "time": "8:55am",
-    "location": "",
-    "description": "Round 2 of the Beaverton Curling Club Sheet Show Vol. 2 OPEN Bonspiel on Saturday November 14th, 2026. Minimum of 2 six end games with top 8 teams playing in the playoff. Continental Breakfast, Lunch and Dinner. Cost $240 / team. Cash Prizes. www.beavertoncurlingclub.com",
-    "category": "Sports & rec",
-    "tags": [],
-    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-14-0855-Beaverton-Curling-Club-Sheet-Show-Vol-2-OPEN-Bonsp",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "dateConfidence": "high",
-    "source": {
-      "id": "brock-township",
-      "name": "Township of Brock",
-      "page": "https://events.townshipofbrock.ca",
-      "via": "newsletter"
-    }
-  },
-  {
-    "id": "eml-brock-township-2026-11-15-ZzcMlwObnr",
-    "title": "The SLCT Proudly Presents “The Wizard of Oz”",
-    "date": "2026-11-15",
-    "time": "2:00pm",
-    "location": "",
-    "description": "Marking its 11th season, the Sunderland Lions Community Theatre proudly presents a familiar and exciting musical story – The Wizard of Oz – wherein Dorothy drops into the Land of Oz where only one thing is certain: she’s got to find a way back to Kansas! A funny and fast-paced journey down the yellow brick road ensues, as Dorothy and her new friends travel to the fabled Emerald City to meet the…",
-    "category": "Arts & culture",
-    "tags": [
-      "Youth"
-    ],
-    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-15-1400-The-SLCT-Proudly-Presents-The-Wizard-of-Oz",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "dateConfidence": "high",
-    "source": {
-      "id": "brock-township",
-      "name": "Township of Brock",
-      "page": "https://events.townshipofbrock.ca",
-      "via": "newsletter"
-    }
-  },
-  {
-    "id": "eml-brock-township-2026-11-16-39Amp7YKf9",
-    "title": "Workshops Botanical Art with Bert Liverance - Cannington Horticultural Society",
-    "date": "2026-11-16",
-    "time": "6:00pm",
-    "location": "",
-    "description": "Pre-registration required + material fee. More details in the works. www.canningtonhorticulturalsociety.org",
-    "category": "Arts & culture",
-    "tags": [
-      "Registration required"
-    ],
-    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-16-1800-Workshops-Botanical-Art-with-Bert-Liverance-Cannin",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "dateConfidence": "high",
-    "source": {
-      "id": "brock-township",
-      "name": "Township of Brock",
-      "page": "https://events.townshipofbrock.ca",
-      "via": "newsletter"
-    }
-  },
-  {
-    "id": "eml-brock-township-2026-11-18-FYFUWYcQi7",
-    "title": "Brock-Georgina Probus Club Meeting",
-    "date": "2026-11-18",
-    "time": "10:00am – 12:00pm",
-    "location": "",
-    "description": "Brock-Georgina Probus Club is a group of retired and semi retired individuals in Brock and Georgina, Ontario who are interested in enjoying a fun social network! Come and join us! We meet at Udora Community Centre the third Wednesday of the month. Contact us at lakesimcoearea@gmail.com",
-    "category": "Community",
-    "tags": [],
-    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-18-1000-Brock-Georgina-Probus-Club-Meeting",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "dateConfidence": "high",
-    "source": {
-      "id": "brock-township",
-      "name": "Township of Brock",
-      "page": "https://events.townshipofbrock.ca",
-      "via": "newsletter"
-    }
-  },
-  {
-    "id": "eml-brock-township-2026-11-18-yf3QqSYLRX",
-    "title": "Brock-Georgina Probus Club monthly meeting",
-    "date": "2026-11-18",
-    "time": "10:00am – 12:00pm",
-    "location": "",
-    "description": "",
-    "category": "Community",
-    "tags": [],
-    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-18-1000-Brock-Georgina-Probus-Club-monthly-meeting",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "dateConfidence": "high",
-    "source": {
-      "id": "brock-township",
-      "name": "Township of Brock",
-      "page": "https://events.townshipofbrock.ca",
-      "via": "newsletter"
-    }
-  },
-  {
-    "id": "eml-brock-township-2026-11-19-wloSaHq73_",
-    "title": "Food for Thought Luncheon",
-    "date": "2026-11-19",
-    "time": "10:00am",
-    "location": "",
-    "description": "Three interesting speakers followed by a homemade lunch all for $10.00. RSVP to Anne at 705-357-3637. facebook.com/manillahall",
-    "category": "Community",
-    "tags": [],
-    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-19-1000-Food-for-Thought-Luncheon",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "dateConfidence": "high",
-    "source": {
-      "id": "brock-township",
-      "name": "Township of Brock",
-      "page": "https://events.townshipofbrock.ca",
-      "via": "newsletter"
-    }
-  },
-  {
-    "id": "eml-brock-township-2026-11-20-Yz3tHxMXMW",
-    "title": "Nourish and Discover PA Day Camps",
-    "date": "2026-11-20",
-    "time": "9:30am – 3:00pm",
-    "location": "",
-    "description": "Nourish & Discover workshops combine food, nature, creativity, and play to create memorable learning experiences for children. Through hands-on activities, seasonal projects, and outdoor exploration, participants will discover new skills, build confidence, and deepen their connection to food, the environment, and their community. Visit www.tndf.ca",
-    "category": "Outdoors",
-    "tags": [
-      "Kids"
-    ],
-    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-20-0930-Nourish-and-Discover-PA-Day-Camps",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "dateConfidence": "high",
-    "source": {
-      "id": "brock-township",
-      "name": "Township of Brock",
-      "page": "https://events.townshipofbrock.ca",
-      "via": "newsletter"
-    }
-  },
   {
     "id": "eml-brock-township-2026-11-20-vRVwMgbW74",
     "title": "The SLCT Proudly Presents “The Wizard of Oz”",
@@ -287,6 +111,134 @@ window.NDC.data.eventsEmail =
       "Youth"
     ],
     "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-21-1400-The-SLCT-Proudly-Presents-The-Wizard-of-Oz",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "brock-township",
+      "name": "Township of Brock",
+      "page": "https://events.townshipofbrock.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-brock-township-2026-11-28-P7FGIymhip",
+    "title": "Cannington Lions Santa Claus Parade",
+    "date": "2026-11-28",
+    "time": "11:00am",
+    "location": "",
+    "description": "Let’s make this year’s parade the BIGGEST one yet! Starting at the Rick MacLeish Memorial Community Centre, this years theme is a Red and White Santa Clause Parade. Come and enjoy the day with the whole family",
+    "category": "Community",
+    "tags": [],
+    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-28-1100-Cannington-Lions-Santa-Claus-Parade",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "brock-township",
+      "name": "Township of Brock",
+      "page": "https://events.townshipofbrock.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-brock-township-2026-11-28-Kw7LNVPY3k",
+    "title": "Free Community Concert featuring the Seven Hills Fiddle Band",
+    "date": "2026-11-28",
+    "time": "2:00pm",
+    "location": "",
+    "description": "Community Concert featuring the Seven Hills Fiddle Band. All Welcome Free Admission courtesy of Trinity-St Andrew's United Church Cannington. Refreshments at intermission. Elevator Access available",
+    "category": "Arts & culture",
+    "tags": [
+      "Free"
+    ],
+    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-28-1400-Free-Community-Concert-featuring-the-Seven-Hills-F",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "brock-township",
+      "name": "Township of Brock",
+      "page": "https://events.townshipofbrock.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-brock-township-2026-11-28-whLbTRYuPV",
+    "title": "Holiday Market",
+    "date": "2026-11-28",
+    "time": "10:30am – 2:00pm",
+    "location": "",
+    "description": "Holiday Market - Nourish and Develop 10:30am-2:00pm, 16 York Street, Cannington Join us at TNDF’s annual Holiday Market, held alongside the Santa Claus Parade! Enjoy local shopping, delicious food, family activities, and festive fun. Visit www.tndf.ca",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-28-1030-Holiday-Market",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "brock-township",
+      "name": "Township of Brock",
+      "page": "https://events.townshipofbrock.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-scugog-township-2026-11-28-QxiTIWzIWs",
+    "title": "Port Perry High School Holiday Craft Show",
+    "date": "2026-11-28",
+    "time": "10:00am – 3:00pm",
+    "location": "",
+    "description": "The Port Perry High School Holiday Craft Show is taking place on Saturday, November 28, 10am-3pm This is a fundraiser for the PPHS Music Department. We have 95 vendors selling their handmade crafts: woodworking, jewelry, knitting, pottery, crocheting, paintings, welcome signs, Christmas wreaths, sewing, Christmas decorations and home decor, 3D printing, robots, bird houses, folk art, holiday…",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://events.scugog.ca/default/Detail/2026-11-28-1000-Port-Perry-High-School-Holiday-Craft-Show",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "scugog-township",
+      "name": "Township of Scugog",
+      "page": "https://events.scugog.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-brock-township-2026-11-28-IaSMTKxve7",
+    "title": "Santa Claus Parade and Jingle & Roar Christmas Event",
+    "date": "2026-11-28",
+    "time": "4:00pm – 8:00pm",
+    "location": "",
+    "description": "Mark your calendars! Santa Claus is coming to Beaverton on Saturday, November 28th! Our annual Santa Claus parade will start at 6PM as part of The Lions Club Jingle & Roar Christmas Event. Activities include a festive Lions Club BBQ starting at 4PM, Tree Lighting Ceremony at 5PM, and Santa Meet & Greet + Blue Leopard Face Painting + free hot chocolate following the parade at the Fire Hall! Enjoy…",
+    "category": "Community",
+    "tags": [],
+    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-28-1600-Santa-Claus-Parade-and-Jingle-amp-Roar-Christmas-E",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "brock-township",
+      "name": "Township of Brock",
+      "page": "https://events.townshipofbrock.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-brock-township-2026-11-30-eZVFk4cu8y",
+    "title": "East Lake Simcoe Quilt Guild - Monthly Meeting",
+    "date": "2026-11-30",
+    "time": "1:15pm",
+    "location": "",
+    "description": "We are a group of quilters, new to experienced, who enjoy listening to quilt experts speak and demonstrate. We have workshops and sew days in addition to our monthly meeting. A big part of our guild involves making outreach quilts for those within the community. Contact Jude Yaksich jayaksich@gmail.com for membership information. If you would like to unsubscribe please click the link below:…",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://events.townshipofbrock.ca/default/Detail/2026-11-30-1315-East-Lake-Simcoe-Quilt-Guild-Monthly-Meeting",
     "recurring": "",
     "contact": "",
     "imported": true,

@@ -78,6 +78,16 @@ const NEWSLETTERS = [
     match: /connect@bigworldcreative\.ca|sideroadsofscugog/i,
     page: "https://www.sideroadsofscugog.ca/events",
     filterToNorthDurham: true          // mostly Scugog, but they list the casino and Lindsay too
+  },
+  {
+    id: "scugog-township",
+    name: "Township of Scugog",
+    parser: "govstack-digest",
+    html: true,
+    // Sent from noreply@esolutionsgroup.ca, which mails for many towns, so match on Scugog itself.
+    match: /events\.scugog\.ca|Township of Scugog - What.s happening/i,
+    page: "https://events.scugog.ca",
+    filterToNorthDurham: false            // it is all Scugog
   }
 ];
 

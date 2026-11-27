@@ -278,10 +278,16 @@ async function main() {
   }
 
   /* Collapse duplicates, preferring whichever source we listed first. */
+  // Only across sources: one source listing the same title twice on a day is
+  // a matinee and an evening show, not a duplicate.
   const seen = new Map();
   for (const event of collected) {
     const key = fingerprint(event);
-    if (!seen.has(key)) seen.set(key, event);
+    const first = seen.get(key);
+    if (!first) seen.set(key, event);
+    else if (first.source.id === event.source.id && first.time !== event.time) {
+      seen.set(`${key}|${event.time}`, event);
+    }
   }
   const events = [...seen.values()].sort(
     (a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title)

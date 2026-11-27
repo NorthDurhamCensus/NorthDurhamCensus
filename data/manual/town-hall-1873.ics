@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//North Durham Census//Town Hall 1873 listings//EN
+X-WR-CALNAME:Town Hall 1873 (copied by hand from their box office)
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:townhall1873-351382-202612031900@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261203T190000
+SUMMARY:Take Me Home: Christmas with John Denver and Glen Campbell
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by Rowen Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=351382
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-351152-202612191930@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261219T193000
+SUMMARY:An Elvis Christmas
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by Angel Wing Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=351152
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355927-202612271400@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261227T140000
+SUMMARY:Snow White the Panto
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355927
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355927-202612271900@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261227T190000
+SUMMARY:Snow White the Panto
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355927
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355927-202612281400@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261228T140000
+SUMMARY:Snow White the Panto
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355927
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355927-202612281900@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261228T190000
+SUMMARY:Snow White the Panto
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355927
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355927-202612291400@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261229T140000
+SUMMARY:Snow White the Panto
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355927
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355927-202612301400@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261230T140000
+SUMMARY:Snow White the Panto
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355927
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355927-202612301900@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261230T190000
+SUMMARY:Snow White the Panto
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355927
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355927-202612311400@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261231T140000
+SUMMARY:Snow White the Panto
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355927
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-346834-202701082000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20270108T200000
+SUMMARY:Mudmen in Concert
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by Red Plaid Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=346834
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-381796-202701271930@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20270127T193000
+SUMMARY:In the Air: Phil Collins and Peter Gabriel
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by Rowen Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=381796
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-368033-202701301100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20270130T110000
+SUMMARY:The Royal Princess Gala
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by Kids Corner Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=368033
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-368033-202701301400@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20270130T140000
+SUMMARY:The Royal Princess Gala
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by Kids Corner Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=368033
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-362588-202702211400@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20270221T140000
+SUMMARY:Yellow Submarine in Pepperland
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by Mac Live Music at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=362588
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-355903-202702272000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20270227T200000
+SUMMARY:Totally 80s Night
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:Presented by Miles Management at Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=355903
+END:VEVENT
+BEGIN:VEVENT
+UID:townhall1873-379055-202703181930@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20270318T193000
+SUMMARY:Just One Night - A Celebration of the Music of Eric Clapton
+LOCATION:Town Hall 1873 Theatre\, Port Perry
+DESCRIPTION:At Town Hall 1873 Theatre. Listing from Town Hall 1873\; tickets and full details from their box office (905-985-8181).
+URL:https://app.arts-people.com/?show=379055
+END:VEVENT
+END:VCALENDAR

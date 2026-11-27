@@ -162,13 +162,13 @@
     {
       "id": "town-hall-1873",
       "name": "Town Hall 1873",
-      "type": "jsonld",
-      "url": "",
-      "page": "https://townhalltheatre.ca/calendar/",
+      "type": "ics",
+      "url": "https://raw.githubusercontent.com/NorthDurhamCensus/NorthDurhamCensus/main/data/manual/town-hall-1873.ics",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh",
       "township": "Scugog",
       "defaultCategory": "Arts & culture",
-      "enabled": false,
-      "note": "NEEDS A FEED. Busy theatre, calendar rendered by JavaScript, ticketing through Arts People which may offer an export."
+      "enabled": true,
+      "note": "Listed with permission. They publish no feed, so data/manual/town-hall-1873.ics is copied by hand from their Arts-People box office page (checked 27 Nov 2026, 17 performances to March 2027). Each event links to its own ticket page. Refresh the file when their season changes; the importer drops past dates by itself."
     },
     {
       "id": "durhamregion-com",

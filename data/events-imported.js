@@ -3,8 +3,8 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-27T16:45:20.640Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
+// Generated 2026-11-27T19:36:36.517Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Uxbridge Public Library, Town Hall 1873, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
@@ -92,6 +92,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-theatre-on-the-ridge-2026-11-26-B2QONJJqhX",
+    "title": "Animated Acting",
+    "date": "2026-11-26",
+    "time": "10:30am – 12:00pm",
+    "location": "",
+    "description": "Feel good, have fun and take a refreshed approach to stagecraft with unintimidating theatre games, vocal warm ups and acting exercises. Animated Acting activities are good for general physical and mental well-being, not just for actors honing their craft. By sharpening the mind and waking up the body, a stronger connection is created between the two. Animated Acting the perfect complement to…",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/animated-acting-4/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
     "id": "imp-uxbridge-library-2026-11-26-3_elvhN4Ed",
     "title": "How To Be UnHackable",
     "date": "2026-11-26",
@@ -130,6 +149,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-theatre-on-the-ridge-2026-11-27-a2jDOJEV9w",
+    "title": "Moving Well",
+    "date": "2026-11-27",
+    "time": "9:30am – 11:00am",
+    "location": "",
+    "description": "This is the class to rebalance and re-energize from too much time behind your laptop or the demands of specialized or repetitive activities. Discover the benefits of “moving well” and realizing your full movement potential, including the value of incorporating stretch, strength and breathing into your body maintenance philosophy. This non-aerobic class works with gravity, body weight, breath and…",
+    "category": "Sports & rec",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/moving-well-16/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
     }
   },
   {
@@ -212,6 +250,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-theatre-on-the-ridge-2026-11-30-MEjfaPrBop",
+    "title": "Finding Your Voice",
+    "date": "2026-11-30",
+    "time": "10:00am – 12:00pm",
+    "location": "",
+    "description": "Join Carol Salamone around the piano and learn to sing while exploring the songs of the musical theatre songbook. This class is perfect for those wanting to take the first steps (notes!) to singing ensemble and solo show tunes, or for those who want to revisit their favourites or add new songs to their songlist. 10 am – 12 noon Monday October 19, October 26, November 2, November 9, November 16,…",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/finding-your-voice-7/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-11-30-1uKB8D9hbF",
     "title": "Indoor Walking Trail",
     "date": "2026-11-30",
@@ -234,22 +291,22 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-onstage-uxbridge-2026-11-30-UoQYXR4xAZ",
-    "title": "OSU Board Meeting",
-    "date": "2026-11-30",
-    "time": "7:00pm – 9:00pm",
+    "id": "imp-theatre-on-the-ridge-2026-12-01-1XlLIKaSS7",
+    "title": "First Read",
+    "date": "2026-12-01",
+    "time": "1:00pm – 3:30pm",
     "location": "",
-    "description": "",
+    "description": "Gather around the production table to read plays from a variety of time periods, styles and origins. Scripts provided and participants are welcome to actively participate as a reader or sit back and listen to the story unfold. Discussions afterwards are always lively and interesting! 1 – 3:30 pm Tuesday October 6, November 3, December 1",
     "category": "Arts & culture",
     "tags": [],
-    "url": "https://onstageuxbridge.com/event/osu-board-meeting-4/",
+    "url": "https://theatreontheridge.ca/event/first-read-6/",
     "recurring": "",
     "contact": "",
     "imported": true,
     "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
     }
   },
   {
@@ -272,6 +329,44 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-theatre-on-the-ridge-2026-12-01-DsSHsA0iot",
+    "title": "Potluck Lunch",
+    "date": "2026-12-01",
+    "time": "12:00pm – 1:00pm",
+    "location": "",
+    "description": "The perfect chance to socialize, share a meal and refuel between morning Scene Study and afternoon First Read Club. 12 noon – 1 pm Tuesday October 6, November 3, December 1",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/potluck-lunch-2/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
+    "id": "imp-theatre-on-the-ridge-2026-12-01-SznY-63W1N",
+    "title": "Scene Study",
+    "date": "2026-12-01",
+    "time": "10:30am – 12:00pm",
+    "location": "",
+    "description": "Scene Study with Michael & Annette Weekly acting classes introduce theatre concepts such as play structure, history, character development and presentation, all in an easy-going, light-hearted format. 10:30 – 12 noon Tuesday October 6, October 20, November 3, November 17, December 1 Register Here",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/scene-study-15/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-02-EO-fer7ddQ",
     "title": "Indoor Walking Trail",
     "date": "2026-12-02",
@@ -291,6 +386,44 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2026-12-03-QBrLnUytC-",
+    "title": "Take Me Home: Christmas with John Denver and Glen Campbell",
+    "date": "2026-12-03",
+    "time": "7:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by Rowen Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=351382",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
+    "id": "imp-theatre-on-the-ridge-2026-12-04-WgcPfjnvhL",
+    "title": "Moving Well",
+    "date": "2026-12-04",
+    "time": "9:30am – 11:00am",
+    "location": "",
+    "description": "This is the class to rebalance and re-energize from too much time behind your laptop or the demands of specialized or repetitive activities. Discover the benefits of “moving well” and realizing your full movement potential, including the value of incorporating stretch, strength and breathing into your body maintenance philosophy. This non-aerobic class works with gravity, body weight, breath and…",
+    "category": "Sports & rec",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/moving-well-17/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
     }
   },
   {
@@ -353,6 +486,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-theatre-on-the-ridge-2026-12-07-yWkisCV2Yz",
+    "title": "Finding Your Voice",
+    "date": "2026-12-07",
+    "time": "10:00am – 12:00pm",
+    "location": "",
+    "description": "Join Carol Salamone around the piano and learn to sing while exploring the songs of the musical theatre songbook. This class is perfect for those wanting to take the first steps (notes!) to singing ensemble and solo show tunes, or for those who want to revisit their favourites or add new songs to their songlist. 10 am – 12 noon Monday October 19, October 26, November 2, November 9, November 16,…",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/finding-your-voice-8/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-07-lh2acptWYi",
     "title": "Indoor Walking Trail",
     "date": "2026-12-07",
@@ -372,6 +524,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-theatre-on-the-ridge-2026-12-09-sFCxUh76kR",
+    "title": "Christmas on the Ridge",
+    "date": "2026-12-09",
+    "time": "7:00pm – 9:00pm",
+    "location": "",
+    "description": "Our annual holiday party, Christmas on the Ridge, is just around the corner. We’re excited to welcome everyone this holiday season to our new home and invite you to join us for songs, scenes, stories, special guests, lots of holiday cheer and a visit from Saint Nick himself! Christmas on the Ridge is also our time to celebrate the many accomplishments of 2026 and to recognize the many volunteers…",
+    "category": "Community",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/christmas-on-the-ridge-2/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
     }
   },
   {
@@ -415,6 +586,25 @@ window.NDC.data.eventsImported =
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
+    "id": "imp-theatre-on-the-ridge-2026-12-10-JKn0BIwT67",
+    "title": "Animated Acting",
+    "date": "2026-12-10",
+    "time": "10:30am – 12:00pm",
+    "location": "",
+    "description": "Feel good, have fun and take a refreshed approach to stagecraft with unintimidating theatre games, vocal warm ups and acting exercises. Animated Acting activities are good for general physical and mental well-being, not just for actors honing their craft. By sharpening the mind and waking up the body, a stronger connection is created between the two. Animated Acting the perfect complement to…",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/animated-acting-5/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
     }
   },
   {
@@ -481,6 +671,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-town-hall-1873-2026-12-19-CqmUaHJELj",
+    "title": "An Elvis Christmas",
+    "date": "2026-12-19",
+    "time": "7:30pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by Angel Wing Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=351152",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-21-L-8nV_ykA8",
     "title": "Indoor Walking Trail",
     "date": "2026-12-21",
@@ -525,6 +734,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-town-hall-1873-2026-12-27-4pEK-SCgkm",
+    "title": "Snow White the Panto",
+    "date": "2026-12-27",
+    "time": "2:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355927",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-28-toRwfmOPNA",
     "title": "Indoor Walking Trail",
     "date": "2026-12-28",
@@ -547,6 +775,44 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-town-hall-1873-2026-12-28-rhiYtLZETL",
+    "title": "Snow White the Panto",
+    "date": "2026-12-28",
+    "time": "2:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355927",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2026-12-29-TYC9quatsK",
+    "title": "Snow White the Panto",
+    "date": "2026-12-29",
+    "time": "2:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355927",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-30-ow85k9_D70",
     "title": "Indoor Walking Trail",
     "date": "2026-12-30",
@@ -566,6 +832,44 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2026-12-30-EmpQub76wN",
+    "title": "Snow White the Panto",
+    "date": "2026-12-30",
+    "time": "2:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355927",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2026-12-31-3sdYvDnlNp",
+    "title": "Snow White the Panto",
+    "date": "2026-12-31",
+    "time": "2:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355927",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
     }
   },
   {
@@ -610,6 +914,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2027-01-08-zYZebdWfhe",
+    "title": "Mudmen in Concert",
+    "date": "2027-01-08",
+    "time": "8:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by Red Plaid Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=346834",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
     }
   },
   {
@@ -701,82 +1024,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-onstage-uxbridge-2027-01-21-GzHeTNFwRr",
-    "title": "Clue",
-    "date": "2027-01-21",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "Opening Night!",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-22-MzMhf9Z9nP",
-    "title": "Clue",
-    "date": "2027-01-22",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-2/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-23-QtOcj7U5xi",
-    "title": "Clue",
-    "date": "2027-01-23",
-    "time": "2:00pm – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-3/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-24-ivSfEjD1_X",
-    "title": "Clue",
-    "date": "2027-01-24",
-    "time": "2:00pm – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-4/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
     "id": "imp-uxbridge-township-2027-01-25-ha7kZvQsx7",
     "title": "Indoor Walking Trail",
     "date": "2027-01-25",
@@ -796,6 +1043,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2027-01-27-pXzSG1Vz7S",
+    "title": "In the Air: Phil Collins and Peter Gabriel",
+    "date": "2027-01-27",
+    "time": "7:30pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by Rowen Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=381796",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
     }
   },
   {
@@ -821,60 +1087,24 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-onstage-uxbridge-2027-01-28-5EfegpwsFo",
-    "title": "Clue",
-    "date": "2027-01-28",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-6/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-29-m-kcH2pq63",
-    "title": "Clue",
-    "date": "2027-01-29",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-10/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-30-_j37Nr1x3C",
-    "title": "Clue",
+    "id": "imp-town-hall-1873-2027-01-30-9xOEIoCJu6",
+    "title": "The Royal Princess Gala",
     "date": "2027-01-30",
-    "time": "2:00am – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
+    "time": "11:00am",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by Kids Corner Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
     "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-8/",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://app.arts-people.com/?show=368033",
     "recurring": "",
     "contact": "",
     "imported": true,
     "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
     }
   },
   {
@@ -1032,6 +1262,25 @@ window.NDC.data.eventsImported =
     "dateConfidence": "medium"
   },
   {
+    "id": "imp-town-hall-1873-2027-02-21-mlt7nRf4Bt",
+    "title": "Yellow Submarine in Pepperland",
+    "date": "2027-02-21",
+    "time": "2:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by Mac Live Music at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=362588",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2027-02-22-TJ9bWP0rl1",
     "title": "Indoor Walking Trail",
     "date": "2027-02-22",
@@ -1073,6 +1322,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2027-02-27-6livYuAeyA",
+    "title": "Totally 80s Night",
+    "date": "2027-02-27",
+    "time": "8:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by Miles Management at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355903",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
     }
   },
   {
@@ -1205,6 +1473,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2027-03-18-bwDNJSTGV1",
+    "title": "Just One Night - A Celebration of the Music of Eric Clapton",
+    "date": "2027-03-18",
+    "time": "7:30pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "At Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=379055",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
     }
   },
   {

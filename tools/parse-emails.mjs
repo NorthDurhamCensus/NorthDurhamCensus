@@ -88,6 +88,16 @@ const NEWSLETTERS = [
     match: /events\.scugog\.ca|Township of Scugog - What.s happening/i,
     page: "https://events.scugog.ca",
     filterToNorthDurham: false            // it is all Scugog
+  },
+  {
+    id: "durham-happening",
+    name: "Durham Happening",
+    parser: "durham-happening",
+    html: true,
+    match: /team@news\.durhamhappening\.ca|Your weekend in Durham Region/i,
+    page: "https://durhamhappening.ca/events",
+    filterToNorthDurham: false,           // the parser keeps only Uxbridge, Scugog and Brock
+    lowPriority: true                     // an organiser's own listing wins (see below)
   }
 ];
 
@@ -242,6 +252,35 @@ function main() {
     const key = event.date + "|" + event.title.toLowerCase().replace(/[^a-z0-9]+/g, "");
     if (!seen.has(key)) seen.set(key, event);
   }
+
+  // An aggregator (Durham Happening) often relists an event the organiser or
+  // a township already gave us, under a slightly different title ("Cannington
+  // Santa Claus Parade" vs "Cannington Lions Santa Claus Parade"). Drop the
+  // aggregator's copy when another listing on the same day shares most of its
+  // words, checking the feed importer's file too.
+  const lowIds = new Set(NEWSLETTERS.filter(n => n.lowPriority).map(n => n.id));
+  const words = t => new Set(t.toLowerCase().replace(/&/g, " ").split(/[^a-z0-9]+/)
+    .filter(w => w.length > 2 && !["the", "and", "with", "live", "for"].includes(w)));
+  const alike = (a, b) => {
+    const A = words(a), B = words(b);
+    const shared = [...A].filter(w => B.has(w)).length;
+    return shared >= 2 && shared / Math.max(A.size, B.size) >= 0.7;
+  };
+  const others = [...seen.values()].filter(e => !lowIds.has(e.source.id));
+  try {
+    const feed = readFileSync(resolve(ROOT, "data", "events-imported.js"), "utf8");
+    others.push(...JSON.parse(feed.slice(feed.indexOf("["), feed.lastIndexOf("]") + 1))
+      .filter(e => !lowIds.has(e.source && e.source.id)));
+  } catch { /* no feed file yet: nothing to compare against */ }
+  for (const [key, event] of seen) {
+    if (!lowIds.has(event.source.id)) continue;
+    const twin = others.find(o => o.date === event.date && alike(o.title, event.title));
+    if (twin) {
+      seen.delete(key);
+      console.log(`  (dropped ${event.title} on ${event.date}: already listed as "${twin.title}")`);
+    }
+  }
+
   const events = [...seen.values()].sort(
     (a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title)
   );

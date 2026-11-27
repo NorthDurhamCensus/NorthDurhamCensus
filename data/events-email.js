@@ -6,7 +6,7 @@
 // These came from prose in an email rather than a calendar feed, so the
 // dates are read rather than given. Treat them as leads to check, not facts.
 //
-// Generated 2026-11-27T19:10:44.516Z
+// Generated 2026-11-27T20:08:34.450Z
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsEmail =
@@ -144,6 +144,48 @@ window.NDC.data.eventsEmail =
     }
   },
   {
+    "id": "eml-durham-happening-2026-11-27-0lfBcc7_7K",
+    "title": "Gifts + PJs + Hot Cocoa + S'Mores Workshop",
+    "date": "2026-11-27",
+    "time": "7:00pm",
+    "location": "Bounty from the Boonies Storefront, Uxbridge",
+    "description": "",
+    "category": "Learning",
+    "tags": [],
+    "url": "https://durhamhappening.ca/uxbridge",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-durham-happening-2026-11-28-7U3PBtePHO",
+    "title": "Beaverton Santa Claus Parade",
+    "date": "2026-11-28",
+    "time": "6:00pm",
+    "location": "Beaverton, Brock",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://durhamhappening.ca/brock",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
+      "via": "newsletter"
+    }
+  },
+  {
     "id": "eml-brock-township-2026-11-28-P7FGIymhip",
     "title": "Cannington Lions Santa Claus Parade",
     "date": "2026-11-28",
@@ -161,6 +203,27 @@ window.NDC.data.eventsEmail =
       "id": "brock-township",
       "name": "Township of Brock",
       "page": "https://events.townshipofbrock.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-durham-happening-2026-11-28-OBA9BlCER4",
+    "title": "Fleetwood Mac Mania – Fleetwood Mac Tribute",
+    "date": "2026-11-28",
+    "time": "7:00pm",
+    "location": "The Nest at Great Blue Heron Casino, Scugog",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://durhamhappening.ca/scugog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
       "via": "newsletter"
     }
   },
@@ -209,6 +272,69 @@ window.NDC.data.eventsEmail =
     }
   },
   {
+    "id": "eml-durham-happening-2026-11-28-VRG-w5KPVa",
+    "title": "Holiday Market with Big Brothers and Big Sisters of North Durham",
+    "date": "2026-11-28",
+    "time": "9:00am",
+    "location": "Scugog Community Centre, Scugog",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://durhamhappening.ca/scugog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-durham-happening-2026-11-28-TFoMUuluoG",
+    "title": "Holiday Mug Cozy Crochet",
+    "date": "2026-11-28",
+    "time": "1:00pm",
+    "location": "Scugog Arts, Scugog",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://durhamhappening.ca/scugog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-durham-happening-2026-11-28-lYnfGm7BA-",
+    "title": "Intro to Scratchboard Workshop",
+    "date": "2026-11-28",
+    "time": "10:00am",
+    "location": "META4 Contemporary Craft Gallery, Scugog",
+    "description": "",
+    "category": "Learning",
+    "tags": [],
+    "url": "https://durhamhappening.ca/scugog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
+      "via": "newsletter"
+    }
+  },
+  {
     "id": "eml-scugog-township-2026-11-28-QxiTIWzIWs",
     "title": "Port Perry High School Holiday Craft Show",
     "date": "2026-11-28",
@@ -251,6 +377,69 @@ window.NDC.data.eventsEmail =
     }
   },
   {
+    "id": "eml-durham-happening-2026-11-29-9ONHaUVIOZ",
+    "title": "A Little Advent Music: Renaissance Christmas Advent Music by Praetorius, Gibbons, Byrd",
+    "date": "2026-11-29",
+    "time": "7:00pm",
+    "location": "St. Paul's Anglican Church, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://durhamhappening.ca/uxbridge",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-durham-happening-2026-11-29-hXMZ5jXYPS",
+    "title": "A Merry Market at Applewood Farm & Winery",
+    "date": "2026-11-29",
+    "time": "11:00am",
+    "location": "Applewood Farm & Winery, Scugog",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://durhamhappening.ca/scugog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-durham-happening-2026-11-29-Yfz-jjO1yy",
+    "title": "Brandon Agnew live at The Second Wedge",
+    "date": "2026-11-29",
+    "time": "3:00pm",
+    "location": "The Second Wedge Brewing Co., Uxbridge",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://durhamhappening.ca/uxbridge",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
+      "via": "newsletter"
+    }
+  },
+  {
     "id": "eml-brock-township-2026-11-30-eZVFk4cu8y",
     "title": "East Lake Simcoe Quilt Guild - Monthly Meeting",
     "date": "2026-11-30",
@@ -268,6 +457,27 @@ window.NDC.data.eventsEmail =
       "id": "brock-township",
       "name": "Township of Brock",
       "page": "https://events.townshipofbrock.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-durham-happening-2026-12-04-g51HtFGhhH",
+    "title": "Elf: The Musical Jr.",
+    "date": "2026-12-04",
+    "time": "7:00pm",
+    "location": "Uxbridge Music Hall, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://durhamhappening.ca/uxbridge",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "page": "https://durhamhappening.ca/events",
       "via": "newsletter"
     }
   }

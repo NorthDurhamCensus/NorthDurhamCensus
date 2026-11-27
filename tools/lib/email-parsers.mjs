@@ -297,6 +297,127 @@ export function parseSideroads(html, { emailDate }) {
   return dedupe(out);
 }
 
+/* ---------------------------------------------------------------------------
+   Durham Happening "Your weekend in Durham Region"
+   ---------------------------------------------------------------------------
+   Weekly, Thursday or Wednesday evening. The banner gives the weekend:
+
+     This weekend · Fri Nov 27 – Sun Nov 29
+
+   then a "Town by town" section for the towns we subscribe to (Uxbridge,
+   Scugog, Brock), each a list of day headings and timed rows:
+
+     Uxbridge   3 things this weekend
+     FRIDAY
+     7:00 pm  <a>Gifts + PJs + Hot Cocoa + S'Mores Workshop</a>
+              <div>Bounty from the Boonies Storefront · $75</div>
+
+   and a "Book ahead: next weekend" list of the whole region:
+
+     SAT 5  <a>Christmas Vendor Market</a>  <div>10:00 am · St. Martin's · Pickering</div>
+
+   Only our three towns are kept. Durham Happening writes these listings, so
+   as with Sideroads we keep the facts (what, when, where), copy none of
+   their descriptions, credit them, and link to their town page rather than
+   the email's tracking links (which are tied to our inbox).
+   --------------------------------------------------------------------------- */
+
+const DH_TOWNS = { uxbridge: "Uxbridge", scugog: "Scugog", brock: "Brock" };
+const DH_DAYS = { friday: 5, saturday: 6, sunday: 0, fri: 5, sat: 6, sun: 0,
+                  monday: 1, tuesday: 2, wednesday: 3, thursday: 4,
+                  mon: 1, tue: 2, wed: 3, thu: 4 };
+const DH_BANNER = /This weekend\s*·\s*[A-Za-z]{3}\s+([A-Za-z]{3})\s+(\d{1,2})\s*[–-]\s*[A-Za-z]{3}\s+([A-Za-z]{3})\s+(\d{1,2})/;
+const DH_TIME = /^(\d{1,2}):(\d{2})\s*(am|pm)$/i;
+
+// Strip the price or "Free" off "Venue · $75" / "Venue · Free".
+const dhVenue = text => text.split(/\s*·\s*/)
+  .filter(p => !/^(free|\$[\d.,]+.*|by donation|pwyc)$/i.test(p.trim())).join(", ");
+
+function dhEvent(title, start, venue, town) {
+  return {
+    title,
+    start,
+    end: null,
+    allDay: false,
+    location: [venue, town].filter(Boolean).join(", "),
+    description: "",                       // see the note above
+    url: `https://durhamhappening.ca/${town.toLowerCase()}`,
+    dateConfidence: "high"
+  };
+}
+
+export function parseDurhamHappening(html, { emailDate }) {
+  const text = decode(html);
+  const banner = DH_BANNER.exec(text);
+  if (!banner) return [];
+  const sent = emailDate || new Date();
+  const m1 = MONTHS[banner[1].toLowerCase()];
+  let year = sent.getFullYear();
+  if (m1 < sent.getMonth() - 6) year += 1;               // sent in Dec, weekend in Jan
+  const friday = new Date(year, m1, +banner[2]);
+  // The date of the given weekday within (or just after) the banner's weekend.
+  const dayOfWeekend = dow => {
+    const d = new Date(friday);
+    while (d.getDay() !== dow) d.setDate(d.getDate() + 1);
+    return d;
+  };
+
+  const out = [];
+  const body = String(html);
+  const townStart = body.search(/Town by town/i);
+  const bookStart = body.search(/Book ahead/i);
+
+  // Town by town
+  if (townStart !== -1) {
+    const section = body.slice(townStart, bookStart === -1 ? undefined : bookStart);
+    let town = "", day = null;
+    for (const row of section.split(/<tr[^>]*>/i).slice(1)) {
+      const cells = row.split(/<td[^>]*>/i).slice(1).map(c => c);
+      const first = cells.length ? decode(cells[0]) : "";
+      if (cells.length >= 2 && /things? this weekend/i.test(decode(cells[1]))) {
+        town = DH_TOWNS[first.trim().toLowerCase()] || "";
+        day = null;
+        continue;
+      }
+      if (cells.length === 1 && DH_DAYS[first.trim().toLowerCase()] !== undefined) {
+        day = dayOfWeekend(DH_DAYS[first.trim().toLowerCase()]);
+        continue;
+      }
+      const time = DH_TIME.exec(first.trim());
+      if (!town || !day || !time || cells.length < 2) continue;
+      const link = /<a[^>]*>([\s\S]*?)<\/a>/i.exec(cells[1]);
+      if (!link) continue;
+      const venueDiv = /<\/a>\s*<div[^>]*>([\s\S]*?)<\/div>/i.exec(cells[1]);
+      const start = new Date(day.getFullYear(), day.getMonth(), day.getDate(),
+                             hour24(time[1], time[3]), +time[2]);
+      out.push(dhEvent(decode(link[1]), start, venueDiv ? dhVenue(decode(venueDiv[1])) : "", town));
+    }
+  }
+
+  // Book ahead: next weekend (whole region, so keep only our towns)
+  if (bookStart !== -1) {
+    const section = body.slice(bookStart);
+    for (const row of section.split(/<tr[^>]*>/i).slice(1)) {
+      const dateBox = /<div[^>]*>\s*([A-Za-z]{3})\s*<\/div>\s*<div[^>]*>\s*(\d{1,2})\s*<\/div>/i.exec(row);
+      const link = /<a[^>]*>([\s\S]*?)<\/a>\s*<div[^>]*>([\s\S]*?)<\/div>/i.exec(row);
+      if (!dateBox || !link) continue;
+      const parts = decode(link[2]).split(/\s*·\s*/);
+      const town = DH_TOWNS[(parts[parts.length - 1] || "").trim().toLowerCase()];
+      const time = DH_TIME.exec((parts[0] || "").trim());
+      if (!town || !time) continue;
+      // The day number is after the banner's weekend: same month, or the next.
+      const endMonth = MONTHS[banner[3].toLowerCase()];
+      let d = new Date(year, endMonth, +dateBox[2]);
+      if (+dateBox[2] < +banner[4]) d = new Date(year, endMonth + 1, +dateBox[2]);
+      if (DH_DAYS[dateBox[1].toLowerCase()] !== d.getDay()) continue;   // weekday must agree
+      const start = new Date(d.getFullYear(), d.getMonth(), d.getDate(),
+                             hour24(time[1], time[3]), +time[2]);
+      out.push(dhEvent(decode(link[1]), start, dhVenue(parts.slice(1, -1).join(" · ")), town));
+    }
+  }
+  return dedupe(out);
+}
+
 function dedupe(events) {
   const seen = new Map();
   for (const event of events) {
@@ -311,5 +432,6 @@ export const EMAIL_PARSERS = {
   "durham-tourism": parseDurhamTourism,
   "govstack-digest": parseGovstackDigest,
   "sideroads": parseSideroads,
+  "durham-happening": parseDurhamHappening,
   "generic": parseGenericNewsletter
 };

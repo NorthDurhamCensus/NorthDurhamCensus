@@ -79,12 +79,13 @@
     {
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
-      "type": "rss",
-      "url": "https://www.sideroadsofscugog.ca/events-1?format=rss",
-      "page": "https://www.sideroadsofscugog.ca/events-1",
+      "type": "squarespace",
+      "url": "https://www.sideroadsofscugog.ca/events",
+      "page": "https://www.sideroadsofscugog.ca/events",
       "township": "Scugog",
-      "enabled": false,
-      "note": "Squarespace. If the events page is a real Squarespace Events collection, ?format=rss works — open that URL in a browser to check, then set enabled:true. Could not be verified automatically."
+      "enabled": true,
+      "filterToNorthDurham": true,
+      "note": "Squarespace. Reads the normal events page (checked 27 Nov 2026: robots.txt allows it; only ?format=json and ?format=ical are disallowed, so never use those). Facts only (what, when, where, link back); no descriptions copied. Covers a wider area than ours, so filtered to North Durham. The newsletter still arrives too and is read by parse-emails.mjs."
     },
     {
       "id": "uxbridge-historical-centre",

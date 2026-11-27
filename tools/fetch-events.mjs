@@ -24,7 +24,7 @@ import { fileURLToPath } from "node:url";
 // "11:00pm" and pushed evening events onto the next day. Pin the clock to
 // Eastern before any date is touched.
 process.env.TZ = "America/Toronto";
-import { parseIcs, parseRss, parseTribe, parseJsonLd, stripTags } from "./lib/parsers.mjs";
+import { parseIcs, parseRss, parseTribe, parseJsonLd, parseSquarespaceEvents, stripTags } from "./lib/parsers.mjs";
 import { isNorthDurham } from "./lib/geography.mjs";
 import { guessCategory } from "./lib/categories.mjs";
 import { guessTags } from "./lib/tags.mjs";
@@ -165,6 +165,11 @@ async function readSource(source, windowEnd) {
       const found = parseJsonLd(body);
       if (!found.length) throw new Error("no schema.org Event markup found on the page");
       return found;
+    }
+
+    case "squarespace": {
+      if (!/eventlist/i.test(body)) throw new Error("no Squarespace event list found on the page");
+      return parseSquarespaceEvents(body, { baseUrl: source.url });
     }
 
     default:

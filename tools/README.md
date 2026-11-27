@@ -61,7 +61,7 @@ node tools/fetch-events.mjs --only=your-new-id --verbose --dry-run
 |---|---|---|
 | `id` | yes | Lowercase, hyphens. Used in event ids, so don't change it later. |
 | `name` | yes | Shown to visitors as "Imported from …". |
-| `type` | yes | `ics`, `rss`, `tribe` or `jsonld`. See below. |
+| `type` | yes | `ics`, `rss`, `tribe`, `jsonld` or `squarespace`. See below. |
 | `url` | yes | The feed itself. |
 | `page` | yes | The human page, linked from the source note. |
 | `defaultCategory` | no | Category when the keywords don't decide. One of the eight in `tools/lib/categories.mjs` (see CONTRIBUTING.md). |
@@ -89,6 +89,14 @@ trying on any WordPress site; it either works or 404s.
 **`jsonld`** — `schema.org` Event markup embedded in an ordinary web page.
 Publishers add this so search engines can read their events, so reading it is
 using the page as intended. Squarespace and some Wix sites emit it.
+
+**`squarespace`** — the ordinary events page of a Squarespace site (e.g.
+`https://<site>/events`), read the way a visitor sees it. Squarespace's
+robots.txt disallows `?format=json` and `?format=ical`, so never point a
+source at those; check the site's robots.txt allows the page itself first.
+Times come from each event's "Google Calendar" link. Facts only: no
+description is copied, day labels like "SAT - " are taken off titles, and
+cancelled events are skipped. Used for Sideroads of Scugog.
 
 ## When a date has to be guessed
 

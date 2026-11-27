@@ -268,7 +268,7 @@ writes `data/events-imported.js`. To add one, put a new block in the
 | Field | Notes |
 |---|---|
 | `id` | Short, lowercase, dashes, never reused. It names the source on the calendar. |
-| `type` | `ics` (a calendar feed, the best kind), `rss`, `tribe` (WordPress sites using The Events Calendar) or `jsonld` (events marked up inside the page). More in `tools/README.md`. |
+| `type` | `ics` (a calendar feed, the best kind), `rss`, `tribe` (WordPress sites using The Events Calendar) `jsonld` (events marked up inside the page) or `squarespace` (a Squarespace site's events page, facts only). More in `tools/README.md`. |
 | `url` | The feed itself. Open it in a browser: an `.ics` feed downloads a file or shows lines starting `BEGIN:VCALENDAR`. |
 | `page` | The normal events page people would visit (shown as the source link). |
 | `township` | `Uxbridge`, `Scugog`, `Brock`, `North Durham` if it covers more than one, or `Region` for all of Durham Region. |

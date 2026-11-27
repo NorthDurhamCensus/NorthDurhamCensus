@@ -474,4 +474,118 @@ export function findDateInText(text, today = new Date()) {
   return null;
 }
 
+/* ---------------------------------------------------------------------------
+   Squarespace events page (the normal HTML page, e.g. /events)
+   ---------------------------------------------------------------------------
+   Squarespace sites block their machine formats (?format=json, ?format=ical)
+   in robots.txt but not the events page itself, so this reads the page a
+   person would see. Each event is an <article class="eventlist-event">.
+
+   Times come from the "Google Calendar" link in each event, which carries
+   exact UTC start and end ("dates=20261128T140000Z/20261128T210000Z"). If it
+   is missing, the visible date and times are used instead.
+
+   Organisers write these listings, so only the facts are kept (what, when,
+   where, a link back). No description is copied. Day prefixes used as
+   labels ("SAT - ", "SAT/SUN DEC 5&6: ") are taken off the title, and
+   cancelled events are skipped.
+   --------------------------------------------------------------------------- */
+
+const SQS_DAY = "(?:MON|TUES?|WED|THURS?|FRI|SAT|SUN)";
+const SQS_PREFIX = new RegExp(
+  `^${SQS_DAY}(?:\\s*[/&]\\s*${SQS_DAY})*(?:\\s+[A-Z]{3}\\.?\\s+\\d{1,2}(?:\\s*[&-]\\s*\\d{1,2})?)?\\s*[-–:]\\s*`
+);
+
+/** "SAT/SUN DEC 5&6: Adventures with Santa" → "Adventures with Santa". */
+export function cleanSquarespaceTitle(title) {
+  const clean = String(title).replace(SQS_PREFIX, "").trim();
+  return clean || String(title).trim();
+}
+
+function gcalDate(value) {
+  const m = /^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2})(\d{2})(Z)?)?$/.exec(value || "");
+  if (!m) return null;
+  const [, y, mo, d, h, mi, se, z] = m;
+  if (h === undefined) return { date: new Date(+y, +mo - 1, +d), allDay: true };
+  return {
+    date: z ? new Date(Date.UTC(+y, +mo - 1, +d, +h, +mi, +se))
+            : new Date(+y, +mo - 1, +d, +h, +mi, +se),
+    allDay: false
+  };
+}
+
+/** "9:00 a.m." / "4:00 PM" / "16:00" on a "2026-11-28" day → a Date. */
+function sqsClock(dateText, clockText) {
+  const day = /^(\d{4})-(\d{2})-(\d{2})/.exec(dateText || "");
+  if (!day) return null;
+  const t = /(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?/i.exec(clockText || "") ||
+            /(\d{1,2}):(\d{2})/.exec(clockText || "");
+  let h = t ? +t[1] : 0;
+  if (t && t[3]) { h %= 12; if (/p/i.test(t[3])) h += 12; }
+  return new Date(+day[1], +day[2] - 1, +day[3], h, t ? +(t[2] || 0) : 0);
+}
+
+export function parseSquarespaceEvents(html, { baseUrl = "" } = {}) {
+  const out = [];
+  const articles = String(html).match(/<article[^>]+class="[^"]*\beventlist-event\b[\s\S]*?<\/article>/gi) || [];
+
+  for (const article of articles) {
+    const link = /<a[^>]+href="([^"]+)"[^>]*class="[^"]*eventlist-title-link[^"]*"[^>]*>([\s\S]*?)<\/a>/i.exec(article) ||
+                 /<h1[^>]*eventlist-title[^>]*>([\s\S]*?)<\/h1>/i.exec(article);
+    if (!link) continue;
+    const rawTitle = stripTags(link.length > 2 ? link[2] : link[1]);
+    if (!rawTitle || /^\s*cancel+ed\b/i.test(rawTitle)) continue;
+
+    let start = null, end = null, allDay = false;
+    const gcal = /calendar\/event\?[^"]*?[?&]dates=([0-9TZ]+)(?:%2F|\/)([0-9TZ]+)/i.exec(decodeEntities(article));
+    if (gcal) {
+      const s = gcalDate(gcal[1]), e = gcalDate(gcal[2]);
+      if (s) { start = s.date; allDay = s.allDay; }
+      if (e) end = e.date;
+      // Google's all-day end date is the day after; keep it on the last day.
+      if (allDay && end) end = new Date(end.getTime() - 864e5);
+    }
+    if (!start) {
+      const day = /<time[^>]+class="[^"]*event-date[^"]*"[^>]+datetime="([^"]+)"/i.exec(article);
+      const from = /<time[^>]+class="[^"]*event-time-(?:localized|12hr|24hr)-start[^"]*"[^>]+datetime="([^"]+)"[^>]*>([\s\S]*?)<\/time>/i.exec(article);
+      const to = /<time[^>]+class="[^"]*event-time-(?:localized|12hr|24hr)-end[^"]*"[^>]+datetime="([^"]+)"[^>]*>([\s\S]*?)<\/time>/i.exec(article);
+      if (from) start = sqsClock(from[1], stripTags(from[2]));
+      else if (day) { start = sqsClock(day[1], ""); allDay = true; }
+      if (to) end = sqsClock(to[1], stripTags(to[2]));
+    }
+    if (!start || isNaN(start)) continue;
+
+    const addressItem = /<li[^>]+class="[^"]*eventlist-meta-address[^"]*"[^>]*>([\s\S]*?)<\/li>/i.exec(article);
+    let location = "";
+    if (addressItem) {
+      const venue = stripTags(addressItem[1].replace(/<a[\s\S]*?<\/a>/gi, ""));
+      const map = /maps\.google\.com\?q=([^"]+)"/i.exec(addressItem[1]);
+      const address = map ? decodeEntities(decodeURIComponent(map[1].replace(/\+/g, " "))).replace(/\s+Canada\s*$/i, "").trim() : "";
+      const v = venue.replace(/\s+Canada\s*$/i, "").trim();
+      // With no venue name, Squarespace repeats the address as the venue.
+      location = !address ? v
+        : !v || address.toLowerCase().startsWith(v.toLowerCase()) ? address
+        : v.toLowerCase().includes(address.toLowerCase()) ? v
+        : `${v}, ${address}`;
+    }
+
+    const href = decodeEntities(link.length > 2 ? link[1] : "");
+    let url = "";
+    try { url = href ? new URL(href, baseUrl).href : ""; } catch { url = ""; }
+
+    out.push({
+      title: cleanSquarespaceTitle(rawTitle),
+      description: "",                       // facts only, see the note above
+      url,
+      start,
+      end: end && end > start ? end : null,
+      allDay,
+      location,
+      uid: url || rawTitle,
+      recurring: ""
+    });
+  }
+  return out;
+}
+
 export { stripTags };

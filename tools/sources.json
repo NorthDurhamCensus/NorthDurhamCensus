@@ -259,6 +259,17 @@
       "note": "HIGHEST-LEVERAGE ASK. They already have The Events Calendar installed, but its REST and iCal outputs are switched off. For their webmaster this is a settings checkbox, not a project."
     },
     {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "type": "tribe",
+      "url": "https://theatreontheridge.ca/wp-json/tribe/events/v1/events",
+      "page": "https://theatreontheridge.ca/events/",
+      "township": "Scugog",
+      "defaultCategory": "Arts & culture",
+      "enabled": true,
+      "note": "WordPress + The Events Calendar REST API (checked 27 Nov 2026: 11 upcoming events, first page of 10 returned). Workshops, classes and shows. Venue fields are empty, so events are not filtered by place. No query string on the URL: their robots.txt disallows '/*?', so we read only the first page, which covers the next couple of weeks and refreshes nightly."
+    },
+    {
       "id": "blue-heron-books",
       "name": "Blue Heron Books",
       "type": "jsonld",

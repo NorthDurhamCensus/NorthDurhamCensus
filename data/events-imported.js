@@ -3,8 +3,8 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-27T20:09:12.764Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Uxbridge Public Library, Town Hall 1873, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge
+// Generated 2026-11-27T21:28:36.616Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Sideroads of Scugog, Town Hall 1873, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
@@ -45,6 +45,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-11-21-I3xDRr_4oF",
+    "title": "Uxbridge Santa Claus Parade",
+    "date": "2026-11-21",
+    "time": "11:00am – 1:30pm",
+    "location": "Uxbridge, ON",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/uxbridge-santa-parade",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
     }
   },
   {
@@ -171,6 +190,101 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-sideroads-of-scugog-2026-11-28-7U3PBtePHO",
+    "title": "Beaverton Santa Claus Parade",
+    "date": "2026-11-28",
+    "time": "6:00pm – 9:00pm",
+    "location": "Beaverton, ON",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/beaverton-santa-parade",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-11-28-SS6OsjJVHQ",
+    "title": "Cannington Santa Claus Parade",
+    "date": "2026-11-28",
+    "time": "11:00am – 1:00pm",
+    "location": "Cannington, ON",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/cannington-santa-parade",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-11-28-BUO9wVCcb-",
+    "title": "Fleetwood Mac Mania at Great Blue Heron Casino",
+    "date": "2026-11-28",
+    "time": "5:00pm – 8:00pm",
+    "location": "Great Blue Heron Casino & Hotel, 21777 Island Road Port Perry, Ontario, L9L 1B6",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/fleetwood-mac-mania-gbh",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-11-28-VRG-w5KPVa",
+    "title": "Holiday Market with Big Brothers and Big Sisters of North Durham",
+    "date": "2026-11-28",
+    "time": "9:00am – 4:00pm",
+    "location": "Scugog Community Centre, 1655 Reach Street Port Perry, Ontario, L9L 0C2",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/holiday-market",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-11-28-lYnfGm7BA-",
+    "title": "Intro to Scratchboard Workshop",
+    "date": "2026-11-28",
+    "time": "10:00am – 4:00pm",
+    "location": "META4 Contemporary Craft Gallery, 200 Queen Street Port Perry, ON, L9L 1B9",
+    "description": "",
+    "category": "Learning",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/meta4-scratchboard",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
     "id": "imp-oak-ridges-trail-2026-11-28-8YEEsM1XNr",
     "title": "Uxbridge - Goodwood and Secord Forest, Moderate, Amir Alemohammad (Sat, November 28, 2026)",
     "date": "2026-11-28",
@@ -187,6 +301,25 @@ window.NDC.data.eventsImported =
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-11-29-hXMZ5jXYPS",
+    "title": "A Merry Market at Applewood Farm & Winery",
+    "date": "2026-11-29",
+    "time": "11:00am – 4:00pm",
+    "location": "Applewood Farm & Winery, 2055 Saintfield Road Scugog, Ontario, L0C 1H0",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/sun-a-merry-market-at-applewood-farm-winery",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
     }
   },
   {
@@ -288,6 +421,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2026-11-30-UoQYXR4xAZ",
+    "title": "OSU Board Meeting",
+    "date": "2026-11-30",
+    "time": "7:00pm – 9:00pm",
+    "location": "",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/osu-board-meeting-4/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
@@ -467,6 +619,44 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-sideroads-of-scugog-2026-12-05-Vb0MBQiF6E",
+    "title": "Adventures with Santa at Willowtree Farm",
+    "date": "2026-12-05",
+    "time": "10:00am – 4:00pm",
+    "location": "Willowtree Farm, 975 Durham Regional Road 21 Port Perry, ON, L9L 1B5",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/willowtree-santa-adventure-1",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-12-05-dBkt9FbXGU",
+    "title": "Scugog Santa Claus Parade",
+    "date": "2026-12-05",
+    "time": "5:00pm – 6:00pm",
+    "location": "Port Perry Fairgrounds, 15835 Old Simcoe Road Port Perry, Ontario, L9L 0A2",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/scugog-santa-parade",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-05-D_Zr8jqvsF",
     "title": "Uxbridge's Holiday Trail and Cindy Wood Christmas Crawl",
     "date": "2026-12-05",
@@ -608,6 +798,82 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-sideroads-of-scugog-2026-12-10-XDHS8cNJFO",
+    "title": "Scrooged Again! Interactive Dinner Theatre",
+    "date": "2026-12-10",
+    "time": "6:00pm – 8:30pm",
+    "location": "Jesters Court Pub & Eatery, 279 Queen Street Scugog, Ontario, L9L 1B9",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/jesters-scrooged-1",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-12-11-o8A8FDlcDK",
+    "title": "Vintage Holiday Weekend in Downtown Port Perry",
+    "date": "2026-12-11",
+    "time": "10:00am – 8:00pm",
+    "location": "193 Queen Street Port Perry, ON, L9L 1B9",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/vintage-holiday-weekend-11",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-12-12-qfWCWcK5X5",
+    "title": "Adventures with Santa at Willowtree Farm",
+    "date": "2026-12-12",
+    "time": "10:00am, runs to Dec 13",
+    "location": "Willowtree Farm, 975 Durham Regional Road 21 Port Perry, ON, L9L 1B5",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/willowtree-santa-adventure-2",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-12-12-kJ1TqmI_ZY",
+    "title": "Sunderland Santa Claus Parade",
+    "date": "2026-12-12",
+    "time": "7:00pm – 8:00pm",
+    "location": "Sunderland, ON",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/sunderland-santa-parade",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
     "id": "imp-oak-ridges-trail-2026-12-12-DD0sfADXMc",
     "title": "Uxbridge - Wilder & Walker, Moderate, Barb Anderson (Sat, December 12, 2026)",
     "date": "2026-12-12",
@@ -624,6 +890,44 @@ window.NDC.data.eventsImported =
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "page": "https://www.oakridgestrail.org/hikes/"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-12-12-lfBOYqFE1h",
+    "title": "Vintage Holiday Weekend in Downtown Port Perry",
+    "date": "2026-12-12",
+    "time": "10:00am – 6:00pm",
+    "location": "193 Queen Street Port Perry, ON, L9L 1B9",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/vintage-holiday-weekend-12",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-12-13-RypBB1p9nZ",
+    "title": "Vintage Holiday Weekend in Downtown Port Perry",
+    "date": "2026-12-13",
+    "time": "11:00am – 4:00pm",
+    "location": "193 Queen Street Port Perry, ON, L9L 1B9",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/vintage-holiday-weekend-13",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
     }
   },
   {
@@ -668,6 +972,44 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-12-18-MdlEBv_evJ",
+    "title": "Scrooged Again! Interactive Dinner Theatre",
+    "date": "2026-12-18",
+    "time": "6:00pm – 8:30pm",
+    "location": "Jesters Court Pub & Eatery, 279 Queen Street Scugog, Ontario, L9L 1B9",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/jesters-scrooged-2",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-12-19-RS99SU3yHQ",
+    "title": "Adventures with Santa at Willowtree Farm",
+    "date": "2026-12-19",
+    "time": "10:00am, runs to Dec 20",
+    "location": "Willowtree Farm, 975 Durham Regional Road 21 Port Perry, ON, L9L 1B5",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/willowtree-santa-adventure-2-9wp7c",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
     }
   },
   {
@@ -1024,6 +1366,82 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-onstage-uxbridge-2027-01-21-GzHeTNFwRr",
+    "title": "Clue",
+    "date": "2027-01-21",
+    "time": "7:30pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "Opening Night!",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-22-MzMhf9Z9nP",
+    "title": "Clue",
+    "date": "2027-01-22",
+    "time": "7:30pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-2/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-23-QtOcj7U5xi",
+    "title": "Clue",
+    "date": "2027-01-23",
+    "time": "2:00pm – 4:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-3/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-24-ivSfEjD1_X",
+    "title": "Clue",
+    "date": "2027-01-24",
+    "time": "2:00pm – 4:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-4/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2027-01-25-ha7kZvQsx7",
     "title": "Indoor Walking Trail",
     "date": "2027-01-25",
@@ -1084,6 +1502,63 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-28-5EfegpwsFo",
+    "title": "Clue",
+    "date": "2027-01-28",
+    "time": "7:30pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-6/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-29-m-kcH2pq63",
+    "title": "Clue",
+    "date": "2027-01-29",
+    "time": "7:30pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-10/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
+    }
+  },
+  {
+    "id": "imp-onstage-uxbridge-2027-01-30-_j37Nr1x3C",
+    "title": "Clue",
+    "date": "2027-01-30",
+    "time": "2:00am – 4:00pm",
+    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://onstageuxbridge.com/event/clue-8/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "onstage-uxbridge",
+      "name": "OnStage Uxbridge",
+      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {

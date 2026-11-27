@@ -3,8 +3,8 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-27T21:51:20.441Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Brock Township Public Library, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Sideroads of Scugog, Town Hall 1873, The Uxbridge Cosmos, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge, Lake Scugog Historical Society, Beaverton Town Hall Players
+// Generated 2026-11-27T22:04:04.404Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Brock Township Public Library, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Sideroads of Scugog, Scugog Memorial Public Library, Town Hall 1873, The Uxbridge Cosmos, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge, Lake Scugog Historical Society, Beaverton Town Hall Players
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
@@ -218,7 +218,7 @@ window.NDC.data.eventsImported =
     "time": "3:00pm – 4:00pm",
     "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
     "description": "A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
-    "category": "Help & support",
+    "category": "Learning",
     "tags": [
       "Kids"
     ],
@@ -860,6 +860,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-library-2026-11-30-4ljEULfkh7",
+    "title": "Bakersville: Gingerbread Drop-off",
+    "date": "2026-11-30",
+    "time": "10:00am – 6:00pm",
+    "location": "Kent Farndale Gallery, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Bring your gingerbread creation for the Bakersville village. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
     "id": "imp-theatre-on-the-ridge-2026-11-30-MEjfaPrBop",
     "title": "Finding Your Voice",
     "date": "2026-11-30",
@@ -926,7 +945,7 @@ window.NDC.data.eventsImported =
     "time": "3:00pm – 4:00pm",
     "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
     "description": "A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
-    "category": "Help & support",
+    "category": "Learning",
     "tags": [
       "Kids"
     ],
@@ -938,6 +957,25 @@ window.NDC.data.eventsImported =
       "id": "brock-library-guide",
       "name": "Brock Township Public Library",
       "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-01-B4FXp4nyw6",
+    "title": "Bakersville: Gingerbread Drop-off",
+    "date": "2026-12-01",
+    "time": "10:00am – 9:00pm",
+    "location": "Kent Farndale Gallery, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Bring your gingerbread creation for the Bakersville village. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -1039,6 +1077,112 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-library-2026-12-01-ikWPuH1HUz",
+    "title": "Toddler Time",
+    "date": "2026-12-01",
+    "time": "10:00am – 10:45am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "For toddlers 16 months to 3 years with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-02-sLCPZfG7ZZ",
+    "title": "Babytime",
+    "date": "2026-12-02",
+    "time": "11:00am – 11:30am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Songs, bounces and stories for babies (newborn to 16 months) with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-02-b77kpk4QR8",
+    "title": "Bakersville: Gingerbread Drop-off",
+    "date": "2026-12-02",
+    "time": "10:00am – 6:00pm",
+    "location": "Kent Farndale Gallery, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Bring your gingerbread creation for the Bakersville village. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-02-30ykgkGtZT",
+    "title": "Free 55+ Chair Yoga",
+    "date": "2026-12-02",
+    "time": "2:15pm – 3:15pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: chair yoga for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Sports & rec",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-02-O3KLNHQBnR",
+    "title": "Free 55+ Exercise Class (Falls Prevention)",
+    "date": "2026-12-02",
+    "time": "1:00pm – 2:00pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: exercise class for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
     "id": "imp-brock-library-guide-2026-12-02-oiZkONhkj3",
     "title": "Friendly Fiber Circle",
     "date": "2026-12-02",
@@ -1098,6 +1242,47 @@ window.NDC.data.eventsImported =
       "id": "brock-library-guide",
       "name": "Brock Township Public Library",
       "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-02-qkywHlbqEB",
+    "title": "Toddler Time",
+    "date": "2026-12-02",
+    "time": "10:00am – 10:45am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "For toddlers 16 months to 3 years with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-03-PncmYcejHM",
+    "title": "Bakersville: Gingerbread Drop-off",
+    "date": "2026-12-03",
+    "time": "10:00am – 9:00pm",
+    "location": "Kent Farndale Gallery, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Bring your gingerbread creation for the Bakersville village. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -1179,6 +1364,28 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-cosmos",
       "name": "The Uxbridge Cosmos",
       "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-04-GeJpvXoMAG",
+    "title": "Free 55+ Exercise Class (Falls Prevention)",
+    "date": "2026-12-04",
+    "time": "1:00pm – 2:00pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: exercise class for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -1300,6 +1507,70 @@ window.NDC.data.eventsImported =
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
       "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-05-5jR3Sbuh76",
+    "title": "All Ages Family Fun Saturday",
+    "date": "2026-12-05",
+    "time": "10:30am – 12:00pm",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Crafts, stories and songs for children with their parents or caregivers. Free, drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Family-friendly",
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-05-VGrCVMmuQl",
+    "title": "Annual Snowflake Sale",
+    "date": "2026-12-05",
+    "time": "runs to Dec 28",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Handcrafted gifts by local artists and artisans, during library hours; part of every sale supports the library. Closed Dec 24 to 26. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-05-UOmnDEfu4u",
+    "title": "Bakersville Gingerbread Village",
+    "date": "2026-12-05",
+    "time": "runs to Jan 3",
+    "location": "Kent Farndale Gallery, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "The gallery becomes a gingerbread winter wonderland, open during library hours (opens Dec 5 at 10am). All ages. Library closed Dec 24 to 26 and Jan 1. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Arts & culture",
+    "tags": [
+      "Family-friendly"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -1534,7 +1805,7 @@ window.NDC.data.eventsImported =
     "time": "3:00pm – 4:00pm",
     "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
     "description": "A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
-    "category": "Help & support",
+    "category": "Learning",
     "tags": [
       "Kids"
     ],
@@ -1592,6 +1863,49 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-library-2026-12-08-80bqHVwJhc",
+    "title": "Toddler Time",
+    "date": "2026-12-08",
+    "time": "10:00am – 10:45am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "For toddlers 16 months to 3 years with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-09-4bCSmPOREJ",
+    "title": "Babytime",
+    "date": "2026-12-09",
+    "time": "11:00am – 11:30am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Songs, bounces and stories for babies (newborn to 16 months) with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
     "id": "imp-theatre-on-the-ridge-2026-12-09-sFCxUh76kR",
     "title": "Christmas on the Ridge",
     "date": "2026-12-09",
@@ -1608,6 +1922,50 @@ window.NDC.data.eventsImported =
       "id": "theatre-on-the-ridge",
       "name": "Theatre on the Ridge",
       "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-09-W1Oanst1CM",
+    "title": "Free 55+ Chair Yoga",
+    "date": "2026-12-09",
+    "time": "2:15pm – 3:15pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: chair yoga for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Sports & rec",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-09-547__W-2cd",
+    "title": "Free 55+ Exercise Class (Falls Prevention)",
+    "date": "2026-12-09",
+    "time": "1:00pm – 2:00pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: exercise class for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -1670,6 +2028,28 @@ window.NDC.data.eventsImported =
       "id": "brock-library-guide",
       "name": "Brock Township Public Library",
       "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-09-Ic6mPDEkea",
+    "title": "Toddler Time",
+    "date": "2026-12-09",
+    "time": "10:00am – 10:45am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "For toddlers 16 months to 3 years with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -1754,6 +2134,27 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-library-2026-12-10-VGqQhCvGfD",
+    "title": "Writer in Residence: One-on-One Sessions",
+    "date": "2026-12-10",
+    "time": "4:30pm – 7:30pm",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Individual appointments with writer in residence Lucy E.M. Black about your own writing. Registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Registration required"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
     "id": "imp-beaverton-town-hall-players-2026-12-11-xEYm0DUI13",
     "title": "Characters of Christmas (Beaverton Town Hall Players)",
     "date": "2026-12-11",
@@ -1772,6 +2173,28 @@ window.NDC.data.eventsImported =
       "id": "beaverton-town-hall-players",
       "name": "Beaverton Town Hall Players",
       "page": "https://www.bthp.ca/blog"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-11-7d8Nny4ofQ",
+    "title": "Free 55+ Exercise Class (Falls Prevention)",
+    "date": "2026-12-11",
+    "time": "1:00pm – 2:00pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: exercise class for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -1853,6 +2276,30 @@ window.NDC.data.eventsImported =
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
       "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-12-jrE9xghWTv",
+    "title": "All Ages Family Fun Saturday",
+    "date": "2026-12-12",
+    "time": "10:30am – 12:00pm",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Crafts, stories and songs for children with their parents or caregivers. Free, drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Family-friendly",
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -2125,6 +2572,49 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-library-2026-12-15-mXx-cCW3CE",
+    "title": "Toddler Time",
+    "date": "2026-12-15",
+    "time": "10:00am – 10:45am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "For toddlers 16 months to 3 years with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-16-L3LqM3uOY7",
+    "title": "Babytime",
+    "date": "2026-12-16",
+    "time": "11:00am – 11:30am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Songs, bounces and stories for babies (newborn to 16 months) with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
     "id": "imp-brock-library-guide-2026-12-16-bRuSsqzkqC",
     "title": "Blue Christmas: Cards for First Responders",
     "date": "2026-12-16",
@@ -2144,6 +2634,50 @@ window.NDC.data.eventsImported =
       "id": "brock-library-guide",
       "name": "Brock Township Public Library",
       "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-16-0T1OMzJyab",
+    "title": "Free 55+ Chair Yoga",
+    "date": "2026-12-16",
+    "time": "2:15pm – 3:15pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: chair yoga for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Sports & rec",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-16-KtGHAdzjgQ",
+    "title": "Free 55+ Exercise Class (Falls Prevention)",
+    "date": "2026-12-16",
+    "time": "1:00pm – 2:00pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: exercise class for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -2190,6 +2724,28 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-scugog-library-2026-12-16-HGDuu0UXaP",
+    "title": "Toddler Time",
+    "date": "2026-12-16",
+    "time": "10:00am – 10:45am",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "For toddlers 16 months to 3 years with a parent or caregiver. Drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
+    }
+  },
+  {
     "id": "imp-brock-library-guide-2026-12-17-H3JwebbELN",
     "title": "Blue Christmas: Cards for First Responders",
     "date": "2026-12-17",
@@ -2209,6 +2765,28 @@ window.NDC.data.eventsImported =
       "id": "brock-library-guide",
       "name": "Brock Township Public Library",
       "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-18-WGQMfLrgMU",
+    "title": "Free 55+ Exercise Class (Falls Prevention)",
+    "date": "2026-12-18",
+    "time": "1:00pm – 2:00pm",
+    "location": "Rotary Room, Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Free to attend: exercise class for ages 55 and up, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Seniors"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {
@@ -2311,6 +2889,30 @@ window.NDC.data.eventsImported =
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
       "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-scugog-library-2026-12-19-grXvQZ36K9",
+    "title": "All Ages Family Fun Saturday",
+    "date": "2026-12-19",
+    "time": "10:30am – 12:00pm",
+    "location": "Scugog Memorial Public Library, 231 Water St, Port Perry",
+    "description": "Crafts, stories and songs for children with their parents or caregivers. Free, drop-in, no registration required. From the Scugog Memorial Public Library What's On newsletter, December 2026; details from the Information Desk (905-985-7686 x1010).",
+    "category": "Learning",
+    "tags": [
+      "Free",
+      "Family-friendly",
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://www.scugoglibrary.ca/whats-on/newsletter/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/"
     }
   },
   {

@@ -1,9 +1,9 @@
 {
-  "at": "2026-11-27T21:51:20.441Z",
-  "kept": 181,
+  "at": "2026-11-27T22:04:04.404Z",
+  "kept": 209,
   "duplicates": 5,
   "statuses": {
-    "working": 11,
+    "working": 12,
     "blocked": 1,
     "empty": 2,
     "quiet": 1
@@ -72,6 +72,15 @@
       "kept": 17,
       "error": null,
       "filtered": 10
+    },
+    {
+      "id": "scugog-library",
+      "name": "Scugog Memorial Public Library",
+      "status": "working",
+      "ok": true,
+      "count": 28,
+      "kept": 28,
+      "error": null
     },
     {
       "id": "town-hall-1873",

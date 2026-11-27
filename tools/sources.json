@@ -334,6 +334,16 @@
       "defaultCategory": "Arts & culture",
       "enabled": false,
       "note": "Runs on Tymbrel, which publishes nothing machine-readable. No need to chase it: The Uxbridge Cosmos feed already carries the tour."
+    },
+    {
+      "id": "durham-happening",
+      "name": "Durham Happening",
+      "type": "ics",
+      "url": "https://raw.githubusercontent.com/NorthDurhamCensus/NorthDurhamCensus/main/data/manual/durham-happening.ics",
+      "page": "https://durhamhappening.ca/events",
+      "township": "",
+      "enabled": true,
+      "note": "Listed by the site owner's decision after Durham Happening's 17 Nov 2026 reply. Facts only (title, date, time, venue) taken from their weekly email to the Census inbox; none of their descriptions are copied, and their website is not crawled. Every event is credited 'via Durham Happening' and links to their town page. Listed last so an organiser's own feed wins when both carry the same event."
     }
   ]
 }

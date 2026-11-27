@@ -3,8 +3,8 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-27T20:03:46.195Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Town Hall 1873, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge, Durham Happening
+// Generated 2026-11-27T20:09:12.764Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Uxbridge Public Library, Town Hall 1873, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
@@ -152,25 +152,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-durham-happening-2026-11-27-0lfBcc7_7K",
-    "title": "Gifts + PJs + Hot Cocoa + S'Mores Workshop",
-    "date": "2026-11-27",
-    "time": "7:00pm",
-    "location": "Bounty from the Boonies Storefront, Uxbridge",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Learning",
-    "tags": [],
-    "url": "https://durhamhappening.ca/uxbridge",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
-    }
-  },
-  {
     "id": "imp-theatre-on-the-ridge-2026-11-27-a2jDOJEV9w",
     "title": "Moving Well",
     "date": "2026-11-27",
@@ -190,82 +171,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-durham-happening-2026-11-28-OBA9BlCER4",
-    "title": "Fleetwood Mac Mania – Fleetwood Mac Tribute",
-    "date": "2026-11-28",
-    "time": "7:00pm",
-    "location": "The Nest at Great Blue Heron Casino, Scugog",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Community",
-    "tags": [],
-    "url": "https://durhamhappening.ca/scugog",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
-    }
-  },
-  {
-    "id": "imp-durham-happening-2026-11-28-VRG-w5KPVa",
-    "title": "Holiday Market with Big Brothers and Big Sisters of North Durham",
-    "date": "2026-11-28",
-    "time": "9:00am",
-    "location": "Scugog Community Centre, Port Perry",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Food & farms",
-    "tags": [],
-    "url": "https://durhamhappening.ca/scugog",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
-    }
-  },
-  {
-    "id": "imp-durham-happening-2026-11-28-TFoMUuluoG",
-    "title": "Holiday Mug Cozy Crochet",
-    "date": "2026-11-28",
-    "time": "1:00pm",
-    "location": "Scugog Arts, Port Perry",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://durhamhappening.ca/scugog",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
-    }
-  },
-  {
-    "id": "imp-durham-happening-2026-11-28-lYnfGm7BA-",
-    "title": "Intro to Scratchboard Workshop",
-    "date": "2026-11-28",
-    "time": "10:00am",
-    "location": "META4 Contemporary Craft Gallery, Port Perry",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Learning",
-    "tags": [],
-    "url": "https://durhamhappening.ca/scugog",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
-    }
-  },
-  {
     "id": "imp-oak-ridges-trail-2026-11-28-8YEEsM1XNr",
     "title": "Uxbridge - Goodwood and Secord Forest, Moderate, Amir Alemohammad (Sat, November 28, 2026)",
     "date": "2026-11-28",
@@ -282,63 +187,6 @@ window.NDC.data.eventsImported =
       "id": "oak-ridges-trail",
       "name": "Oak Ridges Trail Association",
       "page": "https://www.oakridgestrail.org/hikes/"
-    }
-  },
-  {
-    "id": "imp-durham-happening-2026-11-29-9ONHaUVIOZ",
-    "title": "A Little Advent Music: Renaissance Christmas Advent Music by Praetorius, Gibbons, Byrd",
-    "date": "2026-11-29",
-    "time": "7:00pm",
-    "location": "St. Paul's Anglican Church, Uxbridge",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://durhamhappening.ca/uxbridge",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
-    }
-  },
-  {
-    "id": "imp-durham-happening-2026-11-29-hXMZ5jXYPS",
-    "title": "A Merry Market at Applewood Farm & Winery",
-    "date": "2026-11-29",
-    "time": "11:00am",
-    "location": "Applewood Farm & Winery, Scugog",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Food & farms",
-    "tags": [],
-    "url": "https://durhamhappening.ca/scugog",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
-    }
-  },
-  {
-    "id": "imp-durham-happening-2026-11-29-Yfz-jjO1yy",
-    "title": "Brandon Agnew live at The Second Wedge",
-    "date": "2026-11-29",
-    "time": "3:00pm",
-    "location": "The Second Wedge Brewing Co., Uxbridge",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Community",
-    "tags": [],
-    "url": "https://durhamhappening.ca/uxbridge",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
     }
   },
   {
@@ -440,25 +288,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2026-11-30-UoQYXR4xAZ",
-    "title": "OSU Board Meeting",
-    "date": "2026-11-30",
-    "time": "7:00pm – 9:00pm",
-    "location": "",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/osu-board-meeting-4/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
@@ -576,25 +405,6 @@ window.NDC.data.eventsImported =
       "id": "town-hall-1873",
       "name": "Town Hall 1873",
       "page": "https://app.arts-people.com/index.php?ticketing=townh"
-    }
-  },
-  {
-    "id": "imp-durham-happening-2026-12-04-g51HtFGhhH",
-    "title": "Elf: The Musical Jr.",
-    "date": "2026-12-04",
-    "time": "7:00pm",
-    "location": "Uxbridge Music Hall, Uxbridge",
-    "description": "Listed via Durham Happening. Full details on their site.",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://durhamhappening.ca/uxbridge",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "durham-happening",
-      "name": "Durham Happening",
-      "page": "https://durhamhappening.ca/events"
     }
   },
   {
@@ -1214,82 +1024,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-onstage-uxbridge-2027-01-21-GzHeTNFwRr",
-    "title": "Clue",
-    "date": "2027-01-21",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "Opening Night!",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-22-MzMhf9Z9nP",
-    "title": "Clue",
-    "date": "2027-01-22",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-2/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-23-QtOcj7U5xi",
-    "title": "Clue",
-    "date": "2027-01-23",
-    "time": "2:00pm – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-3/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-24-ivSfEjD1_X",
-    "title": "Clue",
-    "date": "2027-01-24",
-    "time": "2:00pm – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-4/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
     "id": "imp-uxbridge-township-2027-01-25-ha7kZvQsx7",
     "title": "Indoor Walking Trail",
     "date": "2027-01-25",
@@ -1350,63 +1084,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-28-5EfegpwsFo",
-    "title": "Clue",
-    "date": "2027-01-28",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-6/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-29-m-kcH2pq63",
-    "title": "Clue",
-    "date": "2027-01-29",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-10/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-30-_j37Nr1x3C",
-    "title": "Clue",
-    "date": "2027-01-30",
-    "time": "2:00am – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-8/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {

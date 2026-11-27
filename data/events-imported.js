@@ -3,7 +3,7 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-26T16:58:56.497Z by tools/fetch-events.mjs
+// Generated 2026-11-27T16:45:20.640Z by tools/fetch-events.mjs
 // Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
@@ -130,25 +130,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-oak-ridges-trail-2026-11-27-JpRlYdno5m",
-    "title": "Uxbridge - Countryside Preserve and Uxbridge Urban Provincial Park - mod-fast - Anna Sunn (Fri, November 27, 2026)",
-    "date": "2026-11-27",
-    "time": "9:30am",
-    "location": "",
-    "description": "Members and non-members welcome. New members and non-members are required to contact the hike leader by 6 p.m. the day before to discuss if this is the right hike for you. ORTA Map 5; 10 km; 2.5+ hrs; moderate to fast pace with minimal hills. We will start at the Countryside Preserve trailhead behind Walmart and hike to the new Uxbridge Urban Provincial Park. We prepared with proper footwear and…",
-    "category": "Outdoors",
-    "tags": [],
-    "url": "https://members.oakridgestrail.org/event-6926841",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "oak-ridges-trail",
-      "name": "Oak Ridges Trail Association",
-      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {
@@ -310,6 +291,27 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-oak-ridges-trail-2026-12-04-ylnQS9NgLa",
+    "title": "Uxbridge - Countryside Preserve and Timber Tract - Moderate - Sheila King (Fri, December 04, 2026)",
+    "date": "2026-12-04",
+    "time": "9:30am",
+    "location": "",
+    "description": "Members, guests, and non-members welcome. Pre-registration is required. Non-members and new members are required to contact the hike leader by NOON the day before to discuss the hike in advance and ensure the hike is suitable for them. ORTA Map 5; 8km+; 2.5 hrs; between 4-4.5km/hr pace with minimal hills. Our hike will start at the Countryside Preserve Trailhead behind Walmart and continue into…",
+    "category": "Outdoors",
+    "tags": [
+      "Registration required"
+    ],
+    "url": "https://members.oakridgestrail.org/event-6931934",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "oak-ridges-trail",
+      "name": "Oak Ridges Trail Association",
+      "page": "https://www.oakridgestrail.org/hikes/"
     }
   },
   {

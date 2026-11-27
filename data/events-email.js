@@ -6,7 +6,7 @@
 // These came from prose in an email rather than a calendar feed, so the
 // dates are read rather than given. Treat them as leads to check, not facts.
 //
-// Generated 2026-11-27T18:54:39.094Z
+// Generated 2026-11-27T19:10:44.516Z
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsEmail =
@@ -119,6 +119,27 @@ window.NDC.data.eventsEmail =
       "id": "brock-township",
       "name": "Township of Brock",
       "page": "https://events.townshipofbrock.ca",
+      "via": "newsletter"
+    }
+  },
+  {
+    "id": "eml-durham-region-calendar-2026-11-24-w_zFHCVEwI",
+    "title": "North Durham Chamber Holiday Social (NDCC)",
+    "date": "2026-11-24",
+    "time": "5:30pm – 8:00pm",
+    "location": "",
+    "description": "Get ready to sleigh the season, North Durham. We’re wrapping up an incredible year of wins, growth, and community triumphs, and we’re celebrating it Chamber‑style. Join us on Tuesday, November 24th, 2026 at Castle John’s for our annual Holiday Social — the jolliest networking night of the year.",
+    "category": "Community",
+    "tags": [],
+    "url": "https://calendar.durham.ca/default/Detail/2026-11-24-1730-North-Durham-Chamber-Holiday-Social-NDCC",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "dateConfidence": "high",
+    "source": {
+      "id": "durham-region-calendar",
+      "name": "Durham Region calendar",
+      "page": "https://calendar.durham.ca",
       "via": "newsletter"
     }
   },

@@ -37,6 +37,7 @@ export const NORTH_DURHAM = [
   "glen major", "walker woods", "secord forest", "brock tract",
   "lake scugog", "beaver river", "trent-severn", "pefferlaw",
   "wooden sticks", "old flame", "manilla", "scugog shores",
+  "castle john",          // Castle John's pub, Scugog St, Port Perry (either apostrophe)
   "willowtree farm", "great blue heron"
 ];
 

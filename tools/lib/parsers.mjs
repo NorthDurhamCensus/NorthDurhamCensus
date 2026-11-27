@@ -161,6 +161,12 @@ export function parseIcs(text, { windowEnd } = {}) {
     const startInfo = parseIcsDate(raw.DTSTART.value, raw.DTSTART.params);
     if (!startInfo.date || isNaN(startInfo.date)) continue;
     const endInfo = raw.DTEND ? parseIcsDate(raw.DTEND.value, raw.DTEND.params) : { date: null };
+    // An all-day DTEND is the day AFTER the last day (RFC 5545), so a sale
+    // ending "Dec 29" really ends Dec 28. A one-day event has no real end.
+    if (endInfo.date && endInfo.allDay) {
+      endInfo.date = new Date(endInfo.date.getTime() - 864e5);
+      if (endInfo.date <= startInfo.date) endInfo.date = null;
+    }
 
     const base = {
       title: unescapeText(raw.SUMMARY ? raw.SUMMARY.value : ""),

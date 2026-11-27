@@ -163,13 +163,13 @@
     {
       "id": "scugog-library",
       "name": "Scugog Memorial Public Library",
-      "type": "rss",
-      "url": "",
-      "page": "https://www.scugoglibrary.ca/whats-on/calendar/",
+      "type": "ics",
+      "url": "https://raw.githubusercontent.com/NorthDurhamCensus/NorthDurhamCensus/main/data/manual/scugog-library.ics",
+      "page": "https://www.scugoglibrary.ca/whats-on/newsletter/",
       "township": "Scugog",
       "defaultCategory": "Learning",
-      "enabled": false,
-      "note": "NEEDS A FEED. Full programme calendar published as a monthly PDF; the site blocks automated access."
+      "enabled": true,
+      "note": "The library's site refuses connections from cloud servers (checked 27 Nov 2026), so neither Claude nor GitHub's runner can read it. Jodi downloads the monthly What's On PDF from the newsletter page and Claude copies it into data/manual/scugog-library.ics (December 2026: 28 events). Facts only, in our own words, crediting the library. Refresh every month when the new issue is posted; the importer drops past dates by itself."
     },
     {
       "id": "town-hall-1873",

@@ -1,0 +1,286 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//North Durham Census//Scugog Library What's On//EN
+X-WR-CALNAME:Scugog Memorial Public Library (copied by hand from the December 2026 What's On newsletter)
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:scugoglib-bakersville-gingerbread-drop-off-11301000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261130T100000
+DTEND;TZID=America/Toronto:20261130T180000
+SUMMARY:Bakersville: Gingerbread Drop-off
+LOCATION:Kent Farndale Gallery\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Bring your gingerbread creation for the Bakersville village. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-bakersville-gingerbread-drop-off-12011000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261201T100000
+DTEND;TZID=America/Toronto:20261201T210000
+SUMMARY:Bakersville: Gingerbread Drop-off
+LOCATION:Kent Farndale Gallery\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Bring your gingerbread creation for the Bakersville village. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-toddler-time-12011000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261201T100000
+DTEND;TZID=America/Toronto:20261201T104500
+SUMMARY:Toddler Time
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:For toddlers 16 months to 3 years with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-bakersville-gingerbread-drop-off-12021000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261202T100000
+DTEND;TZID=America/Toronto:20261202T180000
+SUMMARY:Bakersville: Gingerbread Drop-off
+LOCATION:Kent Farndale Gallery\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Bring your gingerbread creation for the Bakersville village. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-toddler-time-12021000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261202T100000
+DTEND;TZID=America/Toronto:20261202T104500
+SUMMARY:Toddler Time
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:For toddlers 16 months to 3 years with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-babytime-12021100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261202T110000
+DTEND;TZID=America/Toronto:20261202T113000
+SUMMARY:Babytime
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Songs\, bounces and stories for babies (newborn to 16 months) with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-exercise-class-falls-prevention-12021300@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261202T130000
+DTEND;TZID=America/Toronto:20261202T140000
+SUMMARY:Free 55+ Exercise Class (Falls Prevention)
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: exercise class for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-chair-yoga-12021415@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261202T141500
+DTEND;TZID=America/Toronto:20261202T151500
+SUMMARY:Free 55+ Chair Yoga
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: chair yoga for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-bakersville-gingerbread-drop-off-12031000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261203T100000
+DTEND;TZID=America/Toronto:20261203T210000
+SUMMARY:Bakersville: Gingerbread Drop-off
+LOCATION:Kent Farndale Gallery\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Bring your gingerbread creation for the Bakersville village. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-exercise-class-falls-prevention-12041300@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261204T130000
+DTEND;TZID=America/Toronto:20261204T140000
+SUMMARY:Free 55+ Exercise Class (Falls Prevention)
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: exercise class for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-annual-snowflake-sale-20261205@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261229
+SUMMARY:Annual Snowflake Sale
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Handcrafted gifts by local artists and artisans\, during library hours\; part of every sale supports the library. Closed Dec 24 to 26. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-bakersville-gingerbread-village-20261205@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20270104
+SUMMARY:Bakersville Gingerbread Village
+LOCATION:Kent Farndale Gallery\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:The gallery becomes a gingerbread winter wonderland\, open during library hours (opens Dec 5 at 10am). All ages. Library closed Dec 24 to 26 and Jan 1. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-all-ages-family-fun-saturday-12051030@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261205T103000
+DTEND;TZID=America/Toronto:20261205T120000
+SUMMARY:All Ages Family Fun Saturday
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Crafts\, stories and songs for children with their parents or caregivers. Free\, drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-toddler-time-12081000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261208T100000
+DTEND;TZID=America/Toronto:20261208T104500
+SUMMARY:Toddler Time
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:For toddlers 16 months to 3 years with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-toddler-time-12091000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261209T100000
+DTEND;TZID=America/Toronto:20261209T104500
+SUMMARY:Toddler Time
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:For toddlers 16 months to 3 years with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-babytime-12091100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261209T110000
+DTEND;TZID=America/Toronto:20261209T113000
+SUMMARY:Babytime
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Songs\, bounces and stories for babies (newborn to 16 months) with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-exercise-class-falls-prevention-12091300@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261209T130000
+DTEND;TZID=America/Toronto:20261209T140000
+SUMMARY:Free 55+ Exercise Class (Falls Prevention)
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: exercise class for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-chair-yoga-12091415@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261209T141500
+DTEND;TZID=America/Toronto:20261209T151500
+SUMMARY:Free 55+ Chair Yoga
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: chair yoga for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-writer-in-residence-one-on-one-sessions-12101630@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261210T163000
+DTEND;TZID=America/Toronto:20261210T193000
+SUMMARY:Writer in Residence: One-on-One Sessions
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Individual appointments with writer in residence Lucy E.M. Black about your own writing. Registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-exercise-class-falls-prevention-12111300@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261211T130000
+DTEND;TZID=America/Toronto:20261211T140000
+SUMMARY:Free 55+ Exercise Class (Falls Prevention)
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: exercise class for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-all-ages-family-fun-saturday-12121030@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261212T103000
+DTEND;TZID=America/Toronto:20261212T120000
+SUMMARY:All Ages Family Fun Saturday
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Crafts\, stories and songs for children with their parents or caregivers. Free\, drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-toddler-time-12151000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261215T100000
+DTEND;TZID=America/Toronto:20261215T104500
+SUMMARY:Toddler Time
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:For toddlers 16 months to 3 years with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-toddler-time-12161000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261216T100000
+DTEND;TZID=America/Toronto:20261216T104500
+SUMMARY:Toddler Time
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:For toddlers 16 months to 3 years with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-babytime-12161100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261216T110000
+DTEND;TZID=America/Toronto:20261216T113000
+SUMMARY:Babytime
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Songs\, bounces and stories for babies (newborn to 16 months) with a parent or caregiver. Drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-exercise-class-falls-prevention-12161300@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261216T130000
+DTEND;TZID=America/Toronto:20261216T140000
+SUMMARY:Free 55+ Exercise Class (Falls Prevention)
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: exercise class for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-chair-yoga-12161415@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261216T141500
+DTEND;TZID=America/Toronto:20261216T151500
+SUMMARY:Free 55+ Chair Yoga
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: chair yoga for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-free-55-exercise-class-falls-prevention-12181300@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261218T130000
+DTEND;TZID=America/Toronto:20261218T140000
+SUMMARY:Free 55+ Exercise Class (Falls Prevention)
+LOCATION:Rotary Room\, Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Free to attend: exercise class for ages 55 and up\, with Community Care. First-timers register with the instructor at the first class. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+BEGIN:VEVENT
+UID:scugoglib-all-ages-family-fun-saturday-12191030@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261219T103000
+DTEND;TZID=America/Toronto:20261219T120000
+SUMMARY:All Ages Family Fun Saturday
+LOCATION:Scugog Memorial Public Library\, 231 Water St\, Port Perry
+DESCRIPTION:Crafts\, stories and songs for children with their parents or caregivers. Free\, drop-in\, no registration required. From the Scugog Memorial Public Library What's On newsletter\, December 2026\; details from the Information Desk (905-985-7686 x1010).
+URL:https://www.scugoglibrary.ca/whats-on/newsletter/
+END:VEVENT
+END:VCALENDAR

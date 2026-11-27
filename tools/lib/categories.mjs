@@ -22,7 +22,7 @@ export const CATEGORIES = [
 
 const RULES = [
   ["Civic",          /\b(council|committee of the whole|public meeting|budget|consultation|open house|by-?law|election|mayor|planning)\b/i],
-  ["Help & support", /\b(clinic|food bank|health|legal|housing|shelter|tax clinic|flu shot|vaccin\w*|counsel\w*|support group|crisis|warming centre|alzheimer|caregiver\w*|employment)\b/i],
+  ["Help & support", /\b(clinic|food bank|health|legal|housing|shelter|tax clinic|flu shot|vaccin\w*|counsel\w*|support group|crisis|warming centre|alzheimer|caregiver support|support for caregivers|employment)\b/i],
   // Before Outdoors, so "Indoor Walking Trail" is not filed as a hike.
   ["Sports & rec",   /\b(indoor|arena|gym|run|race|5k|10k|ski|skate|skating|hockey|soccer|baseball|curling|golf|tournament|swim|cycling|bike|yoga|pickleball|fitness|euchre|bingo|cribbage)\b/i],
   ["Food & farms",   /\b(market|farmers?|farm|harvest|supper|dinner|breakfast|brunch|pancake|bbq|potluck|bake sale|maple|tasting|brewery|winery|agricultural)\b/i],

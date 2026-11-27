@@ -39,11 +39,13 @@ const RULES = [
   ["Family-friendly",       /\b(family[- ]friendly|kid[- ]friendly|all ages|all-ages|for the whole family|families welcome|family (fun|day|event|skate|swim|night))\b/i],
   ["Kids",                  /\b(kids|children|child|toddlers?|preschool|ages? [0-9]{1,2} ?(to|-|–) ?1[0-2])\b/i],
   ["Youth",                 /\b(youth|teens?|teenagers?|ages? 1[2-8])\b/i],
-  ["Seniors",               /\b(seniors?|older adults|55\+|60\+|65\+)\b/i],
+  // "55+" ends in "+", so it can't sit inside \b...\b (it never matched before).
+  ["Seniors",               /\b(seniors?|older adults)\b|\b(55|60|65)\+/i],
   ["19+",                   /\b(19\+|adults only|licensed event|must be 19)\b/i],
   ["Accessible",            /\b(wheelchair[- ]accessible|accessible venue|barrier[- ]free|accessible entrance)\b/i],
   ["Drop-in",               /\b(drop[- ]in|no registration|no need to register)\b/i],
-  ["Registration required", /\b(registration (is )?required|pre-?registration|register (in advance|online|by)|must register|tickets? required|space is limited)\b/i],
+  // Not "no registration required".
+  ["Registration required", /\b((?<!\bno )registration (is )?required|pre-?registration|register (in advance|online|by)|must register|tickets? required|space is limited)\b/i],
   ["Dog-friendly",          /\b(dog[- ]friendly|dogs (are )?welcome|leashed dogs)\b/i],
   ["Other languages",       /\b(en français|in french|french[- ]language|spanish|interpretation available|asl)\b/i],
   ["Volunteers needed",     /\b(volunteers? (needed|wanted)|looking for volunteers|call for volunteers)\b/i]

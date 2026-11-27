@@ -1,11 +1,12 @@
 {
-  "at": "2026-11-27T21:46:38.646Z",
-  "kept": 171,
+  "at": "2026-11-27T21:51:20.441Z",
+  "kept": 181,
   "duplicates": 5,
   "statuses": {
-    "working": 10,
-    "blocked": 4,
-    "empty": 1
+    "working": 11,
+    "blocked": 1,
+    "empty": 2,
+    "quiet": 1
   },
   "sources": [
     {
@@ -29,11 +30,11 @@
     {
       "id": "brock-libraries",
       "name": "Brock Township Public Library",
-      "status": "blocked",
-      "ok": false,
+      "status": "empty",
+      "ok": true,
       "count": 0,
       "kept": 0,
-      "error": "blocked by the website's SiteGround bot protection — ask them to allow the importer (see tools/feed-request-letter.md)"
+      "error": null
     },
     {
       "id": "brock-library-guide",
@@ -47,11 +48,11 @@
     {
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
-      "status": "blocked",
-      "ok": false,
-      "count": 0,
-      "kept": 0,
-      "error": "blocked by the website's SiteGround bot protection — ask them to allow the importer (see tools/feed-request-letter.md)"
+      "status": "working",
+      "ok": true,
+      "count": 10,
+      "kept": 10,
+      "error": null
     },
     {
       "id": "uxbridge-library",
@@ -93,11 +94,11 @@
     {
       "id": "lsrca",
       "name": "Lake Simcoe Region Conservation Authority",
-      "status": "blocked",
-      "ok": false,
-      "count": 0,
+      "status": "quiet",
+      "ok": true,
+      "count": 10,
       "kept": 0,
-      "error": "blocked by the website's SiteGround bot protection — ask them to allow the importer (see tools/feed-request-letter.md)"
+      "error": null
     },
     {
       "id": "oak-ridges-trail",

@@ -1,12 +1,11 @@
 {
-  "at": "2026-11-27T21:28:36.616Z",
-  "kept": 107,
-  "duplicates": 11,
+  "at": "2026-11-27T21:46:38.646Z",
+  "kept": 171,
+  "duplicates": 5,
   "statuses": {
-    "working": 7,
-    "blocked": 1,
-    "empty": 2,
-    "quiet": 1
+    "working": 10,
+    "blocked": 4,
+    "empty": 1
   },
   "sources": [
     {
@@ -30,20 +29,29 @@
     {
       "id": "brock-libraries",
       "name": "Brock Township Public Library",
-      "status": "empty",
-      "ok": true,
+      "status": "blocked",
+      "ok": false,
       "count": 0,
       "kept": 0,
+      "error": "blocked by the website's SiteGround bot protection — ask them to allow the importer (see tools/feed-request-letter.md)"
+    },
+    {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "status": "working",
+      "ok": true,
+      "count": 69,
+      "kept": 48,
       "error": null
     },
     {
       "id": "onstage-uxbridge",
       "name": "OnStage Uxbridge",
-      "status": "working",
-      "ok": true,
-      "count": 10,
-      "kept": 10,
-      "error": null
+      "status": "blocked",
+      "ok": false,
+      "count": 0,
+      "kept": 0,
+      "error": "blocked by the website's SiteGround bot protection — ask them to allow the importer (see tools/feed-request-letter.md)"
     },
     {
       "id": "uxbridge-library",
@@ -74,13 +82,22 @@
       "error": null
     },
     {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "status": "working",
+      "ok": true,
+      "count": 39,
+      "kept": 12,
+      "error": null
+    },
+    {
       "id": "lsrca",
       "name": "Lake Simcoe Region Conservation Authority",
-      "status": "quiet",
-      "ok": true,
-      "count": 10,
+      "status": "blocked",
+      "ok": false,
+      "count": 0,
       "kept": 0,
-      "error": null
+      "error": "blocked by the website's SiteGround bot protection — ask them to allow the importer (see tools/feed-request-letter.md)"
     },
     {
       "id": "oak-ridges-trail",
@@ -108,6 +125,24 @@
       "ok": true,
       "count": 10,
       "kept": 10,
+      "error": null
+    },
+    {
+      "id": "lake-scugog-historical",
+      "name": "Lake Scugog Historical Society",
+      "status": "working",
+      "ok": true,
+      "count": 2,
+      "kept": 2,
+      "error": null
+    },
+    {
+      "id": "beaverton-town-hall-players",
+      "name": "Beaverton Town Hall Players",
+      "status": "working",
+      "ok": true,
+      "count": 6,
+      "kept": 6,
       "error": null
     }
   ]

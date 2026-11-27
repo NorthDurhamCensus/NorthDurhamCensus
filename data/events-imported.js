@@ -3,12 +3,31 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-27T21:28:36.616Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Sideroads of Scugog, Town Hall 1873, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge
+// Generated 2026-11-27T21:46:38.646Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Brock Township Public Library, Uxbridge Public Library, Sideroads of Scugog, Town Hall 1873, The Uxbridge Cosmos, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge, Lake Scugog Historical Society, Beaverton Town Hall Players
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
+  {
+    "id": "imp-uxbridge-cosmos-2026-11-20-s9ssqehQqD",
+    "title": "Holiday Wreath Making at the Uxbridge Historical Centre",
+    "date": "2026-11-20",
+    "time": "6:00pm – 8:00pm",
+    "location": "Uxbridge Historical Centre, 7239 Concession 6 Uxbridge, ON, L9P 1W9",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/holiday-wreath-making-at-the-uxbridge-historical-centre",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
   {
     "id": "imp-uxbridge-township-2026-11-20-E0irOR1J9L",
     "title": "Winter Wreathmaking Workshop",
@@ -45,6 +64,110 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-uxbridge-cosmos-2026-11-21-nEcRYAGmF1",
+    "title": "Hilltop Equestrian Christmas Market",
+    "date": "2026-11-21",
+    "time": "10:00am – 2:00pm",
+    "location": "Hilltop Equestrian, 332 Sandford Road Uxbridge, Ontario, L9P 1R1",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/hilltop-equestrian-christmas-market",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-21-a3bSyjhS3P",
+    "title": "Make and Take: 3D Paper Star Garland",
+    "date": "2026-11-21",
+    "time": "11:00am – 1:30pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-21-IcuNpSapgc",
+    "title": "Make and Take: Acorn Gnome Ornaments",
+    "date": "2026-11-21",
+    "time": "11:00am – 1:30pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-21-Obgk7gJaK8",
+    "title": "Make and Take: Book Page Wreath",
+    "date": "2026-11-21",
+    "time": "11:00am – 1:30pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-uxbridge-cosmos-2026-11-21-bcQcMtyuK5",
+    "title": "Uxbridge Arena Themed Skate - Pop Star Skate",
+    "date": "2026-11-21",
+    "time": "7:00pm – 8:00pm",
+    "location": "Uxbridge Arena, 291 Brock Street West Uxbridge, Ontario, L9P 1G1",
+    "description": "",
+    "category": "Sports & rec",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/uxbridge-arena-themed-skate-movie-magic-3dj62",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
     }
   },
   {
@@ -89,6 +212,91 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-brock-library-guide-2026-11-24-dfq86P4KRb",
+    "title": "After School Adventures (Kindergarten to Grade 5)",
+    "date": "2026-11-24",
+    "time": "3:00pm – 4:00pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Help & support",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-24-9dlL_fjiB3",
+    "title": "Creative Kids (Grades 1 to 5)",
+    "date": "2026-11-24",
+    "time": "6:15pm – 7:00pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Builds, missions and projects for kids. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-24-ZFV74euEjV",
+    "title": "Drop-in Genealogy Workshop",
+    "date": "2026-11-24",
+    "time": "2:30pm – 4:00pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Help with family history research and library genealogy resources. Drop-in. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-25-AIhFcQlS01",
+    "title": "Friendly Fiber Circle",
+    "date": "2026-11-25",
+    "time": "3:30pm – 4:30pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Knitting, crochet and fibre arts social group, all skill levels. Drop-in. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-11-25-f0Xkx8Y9Mw",
     "title": "Indoor Walking Trail",
     "date": "2026-11-25",
@@ -108,6 +316,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-25-DBA9E08jE1",
+    "title": "Storytime Adventures",
+    "date": "2026-11-25",
+    "time": "10:00am – 11:00am",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Stories and activities for little ones, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -152,6 +379,28 @@ window.NDC.data.eventsImported =
     "dateConfidence": "medium"
   },
   {
+    "id": "imp-brock-library-guide-2026-11-26-1LKZqrMhzL",
+    "title": "Reading Circle (SK to Grade 4)",
+    "date": "2026-11-26",
+    "time": "6:15pm – 7:00pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Children read with a trained Reading Buddy, then stories and literacy games. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-11-27-yqhYX93FqW",
     "title": "A Very Merry Movie Outing",
     "date": "2026-11-27",
@@ -171,6 +420,47 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-uxbridge-cosmos-2026-11-27-OiecbhCXz9",
+    "title": "A Very Merry Moving Outing",
+    "date": "2026-11-27",
+    "time": "6:00pm – 9:30pm",
+    "location": "Uxbridge Music Hall, 16 Main Street South Uxbridge, Ontario, L9P 1H1",
+    "description": "",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/a-very-merry-moving-outing",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-27-K6_ZxdMzN3",
+    "title": "Junior Book Club (Grades 4 to 8)",
+    "date": "2026-11-27",
+    "time": "4:00pm – 5:00pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Monthly book club for kids: games, activities and discussion. Space is limited this month; register by email with the library. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-theatre-on-the-ridge-2026-11-27-a2jDOJEV9w",
     "title": "Moving Well",
     "date": "2026-11-27",
@@ -187,6 +477,89 @@ window.NDC.data.eventsImported =
       "id": "theatre-on-the-ridge",
       "name": "Theatre on the Ridge",
       "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-27-YyVMnz0rkT",
+    "title": "Reading Circle (SK to Grade 4)",
+    "date": "2026-11-27",
+    "time": "4:15pm – 5:00pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Children read with a trained Reading Buddy, then stories and literacy games. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-27-I-OWLPiNWu",
+    "title": "Storytime (ages 0 to 5)",
+    "date": "2026-11-27",
+    "time": "10:15am – 11:00am",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-uxbridge-cosmos-2026-11-28-LOupP907GG",
+    "title": "A Rotary Family Christmas - Breakfast with Santa",
+    "date": "2026-11-28",
+    "time": "10:00am – 2:00pm",
+    "location": "Uxbridge Historical Centre, 7239 Conc. 6, Uxbridge Ontario Uxbridge, ON, L9P 1E6",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/a-rotary-family-christmas-breakfast-with-santa",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-28-J2uWN4kk35",
+    "title": "Adult Book Club",
+    "date": "2026-11-28",
+    "time": "10:00am – 11:00am",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Monthly book club. Drop-in; pick up the book at the Sunderland Branch. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -225,6 +598,44 @@ window.NDC.data.eventsImported =
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
       "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-uxbridge-cosmos-2026-11-28-ej9Aod9b8j",
+    "title": "Christmas Market & Bake Sale",
+    "date": "2026-11-28",
+    "time": "10:00am – 2:00pm",
+    "location": "Uxbridge Legion Branch 170, 109 Franklin Street Uxbridge, Ontario, L9P 1J5",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/christmas-market-bake-sale",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
+    "id": "imp-uxbridge-cosmos-2026-11-28-HBITMSdATV",
+    "title": "Family Worship Centre Christmas Market",
+    "date": "2026-11-28",
+    "time": "9:00am – 3:00pm",
+    "location": "Family Worship Centre, 15 Medd Road Port Perry, Ontario, L9P 0L1",
+    "description": "",
+    "category": "Food & farms",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/family-worship-centre-christmas-market",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
     }
   },
   {
@@ -282,6 +693,72 @@ window.NDC.data.eventsImported =
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
       "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-28-yrgQBpoJ2a",
+    "title": "Make and Take: 3D Paper Star Garland",
+    "date": "2026-11-28",
+    "time": "11:00am – 1:30pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-28-0xURYzcY84",
+    "title": "Make and Take: Acorn Gnome Ornaments",
+    "date": "2026-11-28",
+    "time": "11:00am – 1:30pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-11-28-B_3y7_UTas",
+    "title": "Make and Take: Festive Felt Air Freshener",
+    "date": "2026-11-28",
+    "time": "11:00am – 1:30pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -424,22 +901,46 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-onstage-uxbridge-2026-11-30-UoQYXR4xAZ",
-    "title": "OSU Board Meeting",
-    "date": "2026-11-30",
-    "time": "7:00pm – 9:00pm",
-    "location": "",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/osu-board-meeting-4/",
+    "id": "imp-brock-library-guide-2026-12-01-CBLMRAnidh",
+    "title": "After School Adventures (Kindergarten to Grade 5)",
+    "date": "2026-12-01",
+    "time": "3:00pm – 4:00pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Help & support",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
     "recurring": "",
     "contact": "",
     "imported": true,
     "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-01-7k7kpjjJsw",
+    "title": "Creative Kids (Grades 1 to 5)",
+    "date": "2026-12-01",
+    "time": "6:15pm – 7:00pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Builds, missions and projects for kids. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -519,6 +1020,27 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-brock-library-guide-2026-12-02-oiZkONhkj3",
+    "title": "Friendly Fiber Circle",
+    "date": "2026-12-02",
+    "time": "3:30pm – 4:30pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Knitting, crochet and fibre arts social group, all skill levels. Drop-in. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-02-EO-fer7ddQ",
     "title": "Indoor Walking Trail",
     "date": "2026-12-02",
@@ -541,6 +1063,47 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-brock-library-guide-2026-12-02--hYluRoJLv",
+    "title": "Storytime Adventures",
+    "date": "2026-12-02",
+    "time": "10:00am – 11:00am",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Stories and activities for little ones, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-03-xfEDvmVTQe",
+    "title": "Reading Circle (SK to Grade 4)",
+    "date": "2026-12-03",
+    "time": "6:15pm – 7:00pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Children read with a trained Reading Buddy, then stories and literacy games. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-town-hall-1873-2026-12-03-QBrLnUytC-",
     "title": "Take Me Home: Christmas with John Denver and Glen Campbell",
     "date": "2026-12-03",
@@ -560,6 +1123,46 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-beaverton-town-hall-players-2026-12-04-RzYG4uk-8x",
+    "title": "Characters of Christmas (Beaverton Town Hall Players)",
+    "date": "2026-12-04",
+    "time": "",
+    "location": "Beaverton Town Hall, Beaverton",
+    "description": "Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy, in person at Jack's Place For Kids, or cash at the door. Listing from bthp.ca.",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://www.bthp.ca/blog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "beaverton-town-hall-players",
+      "name": "Beaverton Town Hall Players",
+      "page": "https://www.bthp.ca/blog"
+    }
+  },
+  {
+    "id": "imp-uxbridge-cosmos-2026-12-04-CDkz76N4fM",
+    "title": "Downtown Holiday Trail",
+    "date": "2026-12-04",
+    "time": "5:00pm – 8:00pm",
+    "location": "",
+    "description": "",
+    "category": "Outdoors",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/downtown-holiday-trail",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
     "id": "imp-theatre-on-the-ridge-2026-12-04-WgcPfjnvhL",
     "title": "Moving Well",
     "date": "2026-12-04",
@@ -576,6 +1179,49 @@ window.NDC.data.eventsImported =
       "id": "theatre-on-the-ridge",
       "name": "Theatre on the Ridge",
       "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-04-gJwK28ql8x",
+    "title": "Reading Circle (SK to Grade 4)",
+    "date": "2026-12-04",
+    "time": "4:15pm – 5:00pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Children read with a trained Reading Buddy, then stories and literacy games. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-04-J8mxPj1VIZ",
+    "title": "Storytime (ages 0 to 5)",
+    "date": "2026-12-04",
+    "time": "10:15am – 11:00am",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -638,6 +1284,112 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-beaverton-town-hall-players-2026-12-05-mqKZvzzTth",
+    "title": "Characters of Christmas (Beaverton Town Hall Players)",
+    "date": "2026-12-05",
+    "time": "",
+    "location": "Beaverton Town Hall, Beaverton",
+    "description": "Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy, in person at Jack's Place For Kids, or cash at the door. Listing from bthp.ca.",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://www.bthp.ca/blog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "beaverton-town-hall-players",
+      "name": "Beaverton Town Hall Players",
+      "page": "https://www.bthp.ca/blog"
+    }
+  },
+  {
+    "id": "imp-uxbridge-cosmos-2026-12-05-_Zxe0XfBDq",
+    "title": "Downtown Holiday Trail",
+    "date": "2026-12-05",
+    "time": "5:00pm – 8:00pm",
+    "location": "",
+    "description": "",
+    "category": "Outdoors",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/downtown-holiday-trail-rb4br",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-05-NBf6W1nXI1",
+    "title": "Make and Take: Acorn Gnome Ornaments",
+    "date": "2026-12-05",
+    "time": "11:00am – 1:30pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-05-mME99blD-4",
+    "title": "Make and Take: Book Page Wreath",
+    "date": "2026-12-05",
+    "time": "11:00am – 1:30pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-05-fanP7iqShQ",
+    "title": "Make and Take: Festive Felt Air Freshener",
+    "date": "2026-12-05",
+    "time": "11:00am – 1:30pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-sideroads-of-scugog-2026-12-05-dBkt9FbXGU",
     "title": "Scugog Santa Claus Parade",
     "date": "2026-12-05",
@@ -657,6 +1409,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-uxbridge-cosmos-2026-12-05-m00ao29Flh",
+    "title": "Uxbridge Arena Themed Skate - Hockey Night",
+    "date": "2026-12-05",
+    "time": "7:00pm – 8:00pm",
+    "location": "Uxbridge Arena, 291 Brock Street West Uxbridge, Ontario, L9P 1G1",
+    "description": "",
+    "category": "Sports & rec",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/uxbridge-arena-themed-skate-movie-magic-3dj62-dct8n",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-05-D_Zr8jqvsF",
     "title": "Uxbridge's Holiday Trail and Cindy Wood Christmas Crawl",
     "date": "2026-12-05",
@@ -673,6 +1444,27 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-beaverton-town-hall-players-2026-12-06-w4HxrNpuQY",
+    "title": "Characters of Christmas (Beaverton Town Hall Players)",
+    "date": "2026-12-06",
+    "time": "",
+    "location": "Beaverton Town Hall, Beaverton",
+    "description": "Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy, in person at Jack's Place For Kids, or cash at the door. Listing from bthp.ca.",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://www.bthp.ca/blog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "beaverton-town-hall-players",
+      "name": "Beaverton Town Hall Players",
+      "page": "https://www.bthp.ca/blog"
     }
   },
   {
@@ -717,6 +1509,70 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-brock-library-guide-2026-12-08-k0Il1pVhyt",
+    "title": "After School Adventures (Kindergarten to Grade 5)",
+    "date": "2026-12-08",
+    "time": "3:00pm – 4:00pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Help & support",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-08-iCkR2BP-jd",
+    "title": "Creative Kids (Grades 1 to 5)",
+    "date": "2026-12-08",
+    "time": "6:15pm – 7:00pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Builds, missions and projects for kids. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-lake-scugog-historical-2026-12-08-funcZx7OJf",
+    "title": "LSHS Christmas Social",
+    "date": "2026-12-08",
+    "time": "7:00pm",
+    "location": "Lake Scugog Historical Society, Port Perry",
+    "description": "Lake Scugog Historical Society Christmas Social. No registration needed; arrive a few minutes early. Venue and details on the Society's event page.",
+    "category": "Community",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://lakescugoghistoricalsociety.com/event/lshs-christmas-social/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "lake-scugog-historical",
+      "name": "Lake Scugog Historical Society",
+      "page": "https://lakescugoghistoricalsociety.com/events-and-meetings/"
+    }
+  },
+  {
     "id": "imp-theatre-on-the-ridge-2026-12-09-sFCxUh76kR",
     "title": "Christmas on the Ridge",
     "date": "2026-12-09",
@@ -733,6 +1589,27 @@ window.NDC.data.eventsImported =
       "id": "theatre-on-the-ridge",
       "name": "Theatre on the Ridge",
       "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-09-4exeBzPQjQ",
+    "title": "Friendly Fiber Circle",
+    "date": "2026-12-09",
+    "time": "3:30pm – 4:30pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Knitting, crochet and fibre arts social group, all skill levels. Drop-in. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -755,6 +1632,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-09-HZZEMK66Zj",
+    "title": "Storytime Adventures",
+    "date": "2026-12-09",
+    "time": "10:00am – 11:00am",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Stories and activities for little ones, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -798,6 +1694,28 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-brock-library-guide-2026-12-10-QzUolCghbr",
+    "title": "Reading Circle (SK to Grade 4)",
+    "date": "2026-12-10",
+    "time": "6:15pm – 7:00pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Children read with a trained Reading Buddy, then stories and literacy games. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-sideroads-of-scugog-2026-12-10-XDHS8cNJFO",
     "title": "Scrooged Again! Interactive Dinner Theatre",
     "date": "2026-12-10",
@@ -814,6 +1732,70 @@ window.NDC.data.eventsImported =
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
       "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-beaverton-town-hall-players-2026-12-11-xEYm0DUI13",
+    "title": "Characters of Christmas (Beaverton Town Hall Players)",
+    "date": "2026-12-11",
+    "time": "",
+    "location": "Beaverton Town Hall, Beaverton",
+    "description": "Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy, in person at Jack's Place For Kids, or cash at the door. Listing from bthp.ca.",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://www.bthp.ca/blog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "beaverton-town-hall-players",
+      "name": "Beaverton Town Hall Players",
+      "page": "https://www.bthp.ca/blog"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-11-oIDxsnDeun",
+    "title": "Reading Circle (SK to Grade 4)",
+    "date": "2026-12-11",
+    "time": "4:15pm – 5:00pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Children read with a trained Reading Buddy, then stories and literacy games. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-11-7qwab73n5q",
+    "title": "Storytime (ages 0 to 5)",
+    "date": "2026-12-11",
+    "time": "10:15am – 11:00am",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -855,6 +1837,93 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-beaverton-town-hall-players-2026-12-12-D7L-4Nu-a7",
+    "title": "Characters of Christmas (Beaverton Town Hall Players)",
+    "date": "2026-12-12",
+    "time": "",
+    "location": "Beaverton Town Hall, Beaverton",
+    "description": "Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy, in person at Jack's Place For Kids, or cash at the door. Listing from bthp.ca.",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://www.bthp.ca/blog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "beaverton-town-hall-players",
+      "name": "Beaverton Town Hall Players",
+      "page": "https://www.bthp.ca/blog"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-12-nbT6Ldzvie",
+    "title": "Make and Take: 3D Paper Star Garland",
+    "date": "2026-12-12",
+    "time": "11:00am – 1:30pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-12-niirmrRWOn",
+    "title": "Make and Take: Book Page Wreath",
+    "date": "2026-12-12",
+    "time": "11:00am – 1:30pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-12-mfaiwFIG_X",
+    "title": "Make and Take: Festive Felt Air Freshener",
+    "date": "2026-12-12",
+    "time": "11:00am – 1:30pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Make and Take Saturday: a holiday craft to make and take home. Drop-in, while supplies last; children need an adult with them. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-sideroads-of-scugog-2026-12-12-kJ1TqmI_ZY",
     "title": "Sunderland Santa Claus Parade",
     "date": "2026-12-12",
@@ -893,6 +1962,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-uxbridge-cosmos-2026-12-12-4dmf0FpeiP",
+    "title": "Uxbridge Arena Themed Skate - Neon Glow",
+    "date": "2026-12-12",
+    "time": "7:00pm – 8:00pm",
+    "location": "Uxbridge Arena, 291 Brock Street West Uxbridge, Ontario, L9P 1G1",
+    "description": "",
+    "category": "Sports & rec",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/uxbridge-arena-themed-skate-movie-magic-3dj62-dct8n-s3sre",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
     "id": "imp-sideroads-of-scugog-2026-12-12-lfBOYqFE1h",
     "title": "Vintage Holiday Weekend in Downtown Port Perry",
     "date": "2026-12-12",
@@ -909,6 +1997,27 @@ window.NDC.data.eventsImported =
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
       "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-beaverton-town-hall-players-2026-12-13-klhGWUIKH4",
+    "title": "Characters of Christmas (Beaverton Town Hall Players)",
+    "date": "2026-12-13",
+    "time": "",
+    "location": "Beaverton Town Hall, Beaverton",
+    "description": "Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy, in person at Jack's Place For Kids, or cash at the door. Listing from bthp.ca.",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://www.bthp.ca/blog",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "beaverton-town-hall-players",
+      "name": "Beaverton Town Hall Players",
+      "page": "https://www.bthp.ca/blog"
     }
   },
   {
@@ -953,6 +2062,93 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-brock-library-guide-2026-12-15-v2lpxJzWSb",
+    "title": "Blue Christmas: Cards for First Responders",
+    "date": "2026-12-15",
+    "time": "3:00pm – 8:00pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Make holiday cards to thank local police, firefighters, paramedics and dispatchers. Drop-in, all ages. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Learning",
+    "tags": [
+      "Family-friendly",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-15-ipLwYIVdke",
+    "title": "Creative Kids (Grades 1 to 5)",
+    "date": "2026-12-15",
+    "time": "6:15pm – 7:00pm",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Builds, missions and projects for kids. Registration required for the series; spaces are limited. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Kids",
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-16-bRuSsqzkqC",
+    "title": "Blue Christmas: Cards for First Responders",
+    "date": "2026-12-16",
+    "time": "3:00pm – 8:00pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Make holiday cards to thank local police, firefighters, paramedics and dispatchers. Drop-in, all ages. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Learning",
+    "tags": [
+      "Family-friendly",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-16-dLzGONcQio",
+    "title": "Friendly Fiber Circle",
+    "date": "2026-12-16",
+    "time": "3:30pm – 4:30pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Knitting, crochet and fibre arts social group, all skill levels. Drop-in. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-16-GcobQK9g5A",
     "title": "Indoor Walking Trail",
     "date": "2026-12-16",
@@ -975,6 +2171,71 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-brock-library-guide-2026-12-17-H3JwebbELN",
+    "title": "Blue Christmas: Cards for First Responders",
+    "date": "2026-12-17",
+    "time": "3:00pm – 8:00pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Make holiday cards to thank local police, firefighters, paramedics and dispatchers. Drop-in, all ages. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Learning",
+    "tags": [
+      "Family-friendly",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-18-uaFlc0kGy2",
+    "title": "Junior Book Club (Grades 4 to 8)",
+    "date": "2026-12-18",
+    "time": "4:00pm – 5:00pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Monthly book club for kids: games, activities and discussion. Drop-in. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-18-QYh_YY4HSA",
+    "title": "PJ and Pancakes Storytime",
+    "date": "2026-12-18",
+    "time": "10:15am – 11:00am",
+    "location": "Beaverton Branch, Brock Township Public Library, 401 Simcoe St, Beaverton",
+    "description": "Holiday storytime in PJs, with pancakes. Registration required. From the Brock Township Public Library program guide; details from the branch (beavertonbranch@brocklibraries.ca, 705-426-9283).",
+    "category": "Learning",
+    "tags": [
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
     "id": "imp-sideroads-of-scugog-2026-12-18-MdlEBv_evJ",
     "title": "Scrooged Again! Interactive Dinner Theatre",
     "date": "2026-12-18",
@@ -991,6 +2252,27 @@ window.NDC.data.eventsImported =
       "id": "sideroads-of-scugog",
       "name": "Sideroads of Scugog",
       "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-19-oGS7BJwoFS",
+    "title": "A Cozy Cookie Storytime",
+    "date": "2026-12-19",
+    "time": "10:00am – 11:00am",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Holiday stories, cookie decorating and a salt dough ornament. Registration required. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -1032,6 +2314,68 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-brock-library-guide-2026-12-19-Yr3l3YFgyV",
+    "title": "Blue Christmas: Cards for First Responders",
+    "date": "2026-12-19",
+    "time": "10:00am – 2:00pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Make holiday cards to thank local police, firefighters, paramedics and dispatchers. Drop-in, all ages. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Learning",
+    "tags": [
+      "Family-friendly",
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-19-XnYK-aRjI_",
+    "title": "BYOB: Bring Your Own Book",
+    "date": "2026-12-19",
+    "time": "10:00am – 11:00am",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Share what you're reading and help pick the 2027 book club books. Drop-in. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Arts & culture",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-uxbridge-cosmos-2026-12-19-3yEU8r2Raa",
+    "title": "Uxbridge Arena Themed Skate - Winter Wonderland",
+    "date": "2026-12-19",
+    "time": "7:00pm – 8:00pm",
+    "location": "Uxbridge Arena, 291 Brock Street West Uxbridge, Ontario, L9P 1G1",
+    "description": "",
+    "category": "Sports & rec",
+    "tags": [],
+    "url": "https://www.thecosmos.ca/events/uxbridge-arena-themed-skate-movie-magic-3dj62-dct8n-s3sre-fl4yr",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "uxbridge-cosmos",
+      "name": "The Uxbridge Cosmos",
+      "page": "https://www.thecosmos.ca/events"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-21-L-8nV_ykA8",
     "title": "Indoor Walking Trail",
     "date": "2026-12-21",
@@ -1051,6 +2395,48 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-22-eQtmU1-u-6",
+    "title": "Drop-in Genealogy Workshop",
+    "date": "2026-12-22",
+    "time": "2:30pm – 4:00pm",
+    "location": "Cannington Branch (Timothy Findley), Brock Township Public Library, 38 Laidlaw St S, Cannington",
+    "description": "Help with family history research and library genealogy resources. Drop-in. From the Brock Township Public Library program guide; details from the branch (canningtonbranch@brocklibraries.ca, 705-432-2867).",
+    "category": "Learning",
+    "tags": [
+      "Drop-in"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
+    }
+  },
+  {
+    "id": "imp-brock-library-guide-2026-12-22-U_dpAL9q-z",
+    "title": "Gnome for the Holidays PJ Storytime",
+    "date": "2026-12-22",
+    "time": "6:00pm – 7:00pm",
+    "location": "Sunderland Branch, Brock Township Public Library, 41 Albert St S, Sunderland",
+    "description": "Holiday storytime in PJs, with treats. Registration required. From the Brock Township Public Library program guide; details from the branch (sunderlandbranch@brocklibraries.ca, 705-357-3109).",
+    "category": "Learning",
+    "tags": [
+      "Registration required"
+    ],
+    "url": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
     }
   },
   {
@@ -1095,6 +2481,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-town-hall-1873-2026-12-27-vYkT-uITkN",
+    "title": "Snow White the Panto",
+    "date": "2026-12-27",
+    "time": "7:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355927",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
     "id": "imp-uxbridge-township-2026-12-28-toRwfmOPNA",
     "title": "Indoor Walking Trail",
     "date": "2026-12-28",
@@ -1121,6 +2526,25 @@ window.NDC.data.eventsImported =
     "title": "Snow White the Panto",
     "date": "2026-12-28",
     "time": "2:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355927",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2026-12-28-vx8j3H7PaC",
+    "title": "Snow White the Panto",
+    "date": "2026-12-28",
+    "time": "7:00pm",
     "location": "Town Hall 1873 Theatre, Port Perry",
     "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
     "category": "Arts & culture",
@@ -1181,6 +2605,25 @@ window.NDC.data.eventsImported =
     "title": "Snow White the Panto",
     "date": "2026-12-30",
     "time": "2:00pm",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://app.arts-people.com/?show=355927",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2026-12-30-UjfQdwRKDC",
+    "title": "Snow White the Panto",
+    "date": "2026-12-30",
+    "time": "7:00pm",
     "location": "Town Hall 1873 Theatre, Port Perry",
     "description": "Presented by DreamCo Theatre at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
     "category": "Arts & culture",
@@ -1366,82 +2809,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-onstage-uxbridge-2027-01-21-GzHeTNFwRr",
-    "title": "Clue",
-    "date": "2027-01-21",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "Opening Night!",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-22-MzMhf9Z9nP",
-    "title": "Clue",
-    "date": "2027-01-22",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-2/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-23-QtOcj7U5xi",
-    "title": "Clue",
-    "date": "2027-01-23",
-    "time": "2:00pm – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-3/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-24-ivSfEjD1_X",
-    "title": "Clue",
-    "date": "2027-01-24",
-    "time": "2:00pm – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-4/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
     "id": "imp-uxbridge-township-2027-01-25-ha7kZvQsx7",
     "title": "Indoor Walking Trail",
     "date": "2027-01-25",
@@ -1505,67 +2872,31 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-onstage-uxbridge-2027-01-28-5EfegpwsFo",
-    "title": "Clue",
-    "date": "2027-01-28",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-6/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-29-m-kcH2pq63",
-    "title": "Clue",
-    "date": "2027-01-29",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-10/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-30-_j37Nr1x3C",
-    "title": "Clue",
-    "date": "2027-01-30",
-    "time": "2:00am – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-8/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
     "id": "imp-town-hall-1873-2027-01-30-9xOEIoCJu6",
     "title": "The Royal Princess Gala",
     "date": "2027-01-30",
     "time": "11:00am",
+    "location": "Town Hall 1873 Theatre, Port Perry",
+    "description": "Presented by Kids Corner Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
+    "category": "Arts & culture",
+    "tags": [
+      "Kids"
+    ],
+    "url": "https://app.arts-people.com/?show=368033",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "town-hall-1873",
+      "name": "Town Hall 1873",
+      "page": "https://app.arts-people.com/index.php?ticketing=townh"
+    }
+  },
+  {
+    "id": "imp-town-hall-1873-2027-01-30-TAfRUfcpek",
+    "title": "The Royal Princess Gala",
+    "date": "2027-01-30",
+    "time": "2:00pm",
     "location": "Town Hall 1873 Theatre, Port Perry",
     "description": "Presented by Kids Corner Productions at Town Hall 1873 Theatre. Listing from Town Hall 1873; tickets and full details from their box office (905-985-8181).",
     "category": "Arts & culture",
@@ -1624,6 +2955,25 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
+    }
+  },
+  {
+    "id": "imp-lake-scugog-historical-2027-02-06-YjdlXm91EZ",
+    "title": "LSHS Antique Show & Sale",
+    "date": "2027-02-06",
+    "time": "10:00am",
+    "location": "Lake Scugog Historical Society, Port Perry",
+    "description": "Lake Scugog Historical Society Antique Show and Sale. Tickets at the door. Venue and details on the Society's event page.",
+    "category": "Arts & culture",
+    "tags": [],
+    "url": "https://lakescugoghistoricalsociety.com/event/lshs-antique-show-sale/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "lake-scugog-historical",
+      "name": "Lake Scugog Historical Society",
+      "page": "https://lakescugoghistoricalsociety.com/events-and-meetings/"
     }
   },
   {

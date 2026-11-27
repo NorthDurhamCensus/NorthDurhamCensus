@@ -51,7 +51,18 @@
       "township": "Brock",
       "defaultCategory": "Learning",
       "enabled": true,
-      "note": "WordPress + The Events Calendar REST API. Since ~Oct 2026 SiteGround's anti-bot page answers automated requests instead of JSON. Left enabled; ask the library to allow the importer (SiteGround > Security > Anti-Bot, or whitelist our user agent)."
+      "note": "WordPress + The Events Calendar REST API. Checked 27 Nov 2026: NOT blocked any more; the feed answers properly but their online calendar is genuinely empty (\"There are no upcoming events\"). Their programs are published as a PDF program guide instead, listed through brock-library-guide. Left enabled in case they start using the calendar again."
+    },
+    {
+      "id": "brock-library-guide",
+      "name": "Brock Township Public Library",
+      "type": "ics",
+      "url": "https://raw.githubusercontent.com/NorthDurhamCensus/NorthDurhamCensus/main/data/manual/brock-library.ics",
+      "page": "https://brocklibraries.ca/download-our-november-december-program-guide/",
+      "township": "Brock",
+      "defaultCategory": "Learning",
+      "enabled": true,
+      "note": "Copied by hand from the library's Nov/Dec 2026 PDF program guide (69 sessions across Beaverton, Cannington and Sunderland). Facts only, in our own words, crediting the library and linking to the guide. Weekly programs listed to mid-December; check the January guide when it comes out and refresh data/manual/brock-library.ics. The importer drops past dates by itself."
     },
     {
       "id": "onstage-uxbridge",
@@ -235,7 +246,7 @@
       "page": "https://discoveruxbridge.ca/events/",
       "township": "Uxbridge",
       "enabled": false,
-      "note": "BLOCKED. The feed URL now returns a SiteGround bot-protection captcha page (HTTP 202 with an sgcaptcha redirect) rather than RSS. It parsed once, so the block may be new or intermittent. Their calendar content was a year stale anyway. Leave off unless they confirm they are happy for us to read it."
+      "note": "Checked 27 Nov 2026: the captcha is gone, but events now load through a Haven Destinations widget (a hidden data request from the page, not a feed). Ask them for a feed or permission before reading it."
     },
     {
       "id": "artists-of-uxbridge",
@@ -246,7 +257,7 @@
       "township": "Uxbridge",
       "defaultCategory": "Arts & culture",
       "enabled": false,
-      "note": "NEEDS A FEED. Very active — shows, AGM, monthly figure-drawing workshops — but every event is hand-typed. They already run WordPress, so an events plugin would give them a feed for free."
+      "note": "Checked 27 Nov 2026: the events page is readable, but it lists members' Zoom workshops and members-only socials, not public events. Leave off unless they post public shows."
     },
     {
       "id": "town-hall-1873-restapi",
@@ -279,29 +290,29 @@
       "township": "Uxbridge",
       "defaultCategory": "Arts & culture",
       "enabled": false,
-      "note": "Many author events plus the Book Drunkard Festival. The page is drawn by JavaScript so no feed could be confirmed — open it in a browser and view source before emailing them."
+      "note": "Checked 27 Nov 2026: the shop runs on Bookmanager, and the events page is drawn by JavaScript from Bookmanager's own data service, not a feed. Ask them; the Book Drunkard Festival is also on Sideroads (no venue given there)."
     },
     {
       "id": "lake-scugog-historical",
       "name": "Lake Scugog Historical Society",
-      "type": "rss",
-      "url": "https://lakescugoghistoricalsociety.com/?post_type=mec-events&feed=rss2",
+      "type": "ics",
+      "url": "https://raw.githubusercontent.com/NorthDurhamCensus/NorthDurhamCensus/main/data/manual/lake-scugog-historical.ics",
       "page": "https://lakescugoghistoricalsociety.com/events-and-meetings/",
       "township": "Scugog",
       "defaultCategory": "Arts & culture",
-      "enabled": false,
-      "note": "The feed URL returns valid RSS with zero items, and their plain blog feed is also empty, so it is unclear whether the plugin is installed. Three real 2026 events sit on the page. Re-test before emailing."
+      "enabled": true,
+      "note": "Their MEC feed returns zero items, but the Events and Meetings page lists upcoming events. data/manual/lake-scugog-historical.ics is copied by hand from it (checked 27 Nov 2026: Christmas Social Dec 8, Antique Show & Sale Feb 6 2027; venues not given on the site). Refresh when they post the 2027 speaker series."
     },
     {
       "id": "beaverton-town-hall-players",
       "name": "Beaverton Town Hall Players",
-      "type": "rss",
-      "url": "",
+      "type": "ics",
+      "url": "https://raw.githubusercontent.com/NorthDurhamCensus/NorthDurhamCensus/main/data/manual/beaverton-town-hall-players.ics",
       "page": "https://www.bthp.ca/blog",
       "township": "Brock",
       "defaultCategory": "Arts & culture",
-      "enabled": false,
-      "note": "Full 2026 season, blog only, no feed tags. They sell through Eventbrite, which may be an easier route to ask about than their website."
+      "enabled": true,
+      "note": "Blog only, no feed. data/manual/beaverton-town-hall-players.ics is copied by hand from their blog (checked 27 Nov 2026: Characters of Christmas, Dec 4-6 and 11-13; the post gives dates but not show times, so they are listed as all-day). Their 2027 season dates are still to be confirmed; check bthp.ca/blog and refresh the file."
     },
     {
       "id": "ontario-nature",

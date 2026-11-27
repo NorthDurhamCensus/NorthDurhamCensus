@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//North Durham Census//Lake Scugog Historical Society (copied by hand from their website)//EN
+X-WR-CALNAME:Lake Scugog Historical Society (copied by hand from their website)
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:lshs-christmas-social-202612081900@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261208T190000
+SUMMARY:LSHS Christmas Social
+LOCATION:Lake Scugog Historical Society\, Port Perry
+DESCRIPTION:Lake Scugog Historical Society Christmas Social. No registration needed\; arrive a few minutes early. Venue and details on the Society's event page.
+URL:https://lakescugoghistoricalsociety.com/event/lshs-christmas-social/
+END:VEVENT
+BEGIN:VEVENT
+UID:lshs-antique-show-sale-202702061000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20270206T100000
+SUMMARY:LSHS Antique Show & Sale
+LOCATION:Lake Scugog Historical Society\, Port Perry
+DESCRIPTION:Lake Scugog Historical Society Antique Show and Sale. Tickets at the door. Venue and details on the Society's event page.
+URL:https://lakescugoghistoricalsociety.com/event/lshs-antique-show-sale/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//North Durham Census//Beaverton Town Hall Players (copied by hand from bthp.ca)//EN
+X-WR-CALNAME:Beaverton Town Hall Players (copied by hand from bthp.ca)
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:bthp-characters-of-christmas-20261204@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261204
+SUMMARY:Characters of Christmas (Beaverton Town Hall Players)
+LOCATION:Beaverton Town Hall\, Beaverton
+DESCRIPTION:Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy\, in person at Jack's Place For Kids\, or cash at the door. Listing from bthp.ca.
+URL:https://www.bthp.ca/blog
+END:VEVENT
+BEGIN:VEVENT
+UID:bthp-characters-of-christmas-20261205@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261205
+SUMMARY:Characters of Christmas (Beaverton Town Hall Players)
+LOCATION:Beaverton Town Hall\, Beaverton
+DESCRIPTION:Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy\, in person at Jack's Place For Kids\, or cash at the door. Listing from bthp.ca.
+URL:https://www.bthp.ca/blog
+END:VEVENT
+BEGIN:VEVENT
+UID:bthp-characters-of-christmas-20261206@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261206
+SUMMARY:Characters of Christmas (Beaverton Town Hall Players)
+LOCATION:Beaverton Town Hall\, Beaverton
+DESCRIPTION:Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy\, in person at Jack's Place For Kids\, or cash at the door. Listing from bthp.ca.
+URL:https://www.bthp.ca/blog
+END:VEVENT
+BEGIN:VEVENT
+UID:bthp-characters-of-christmas-20261211@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261211
+SUMMARY:Characters of Christmas (Beaverton Town Hall Players)
+LOCATION:Beaverton Town Hall\, Beaverton
+DESCRIPTION:Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy\, in person at Jack's Place For Kids\, or cash at the door. Listing from bthp.ca.
+URL:https://www.bthp.ca/blog
+END:VEVENT
+BEGIN:VEVENT
+UID:bthp-characters-of-christmas-20261212@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261212
+SUMMARY:Characters of Christmas (Beaverton Town Hall Players)
+LOCATION:Beaverton Town Hall\, Beaverton
+DESCRIPTION:Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy\, in person at Jack's Place For Kids\, or cash at the door. Listing from bthp.ca.
+URL:https://www.bthp.ca/blog
+END:VEVENT
+BEGIN:VEVENT
+UID:bthp-characters-of-christmas-20261213@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261213
+SUMMARY:Characters of Christmas (Beaverton Town Hall Players)
+LOCATION:Beaverton Town Hall\, Beaverton
+DESCRIPTION:Holiday show with songs and puppets by the Beaverton Town Hall Players. Check show times with the Players. Tickets online through Zeffy\, in person at Jack's Place For Kids\, or cash at the door. Listing from bthp.ca.
+URL:https://www.bthp.ca/blog
+END:VEVENT
+END:VCALENDAR

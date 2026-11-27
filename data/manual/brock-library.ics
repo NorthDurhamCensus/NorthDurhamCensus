@@ -1,0 +1,696 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//North Durham Census//Brock Library program guide//EN
+X-WR-CALNAME:Brock Township Public Library (copied by hand from their Nov/Dec 2026 program guide)
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:brocklib-after-school-adventures-kindergarten-to--sunderland-202611031500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261103T150000
+DTEND;TZID=America/Toronto:20261103T160000
+SUMMARY:After School Adventures (Kindergarten to Grade 5)
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-creative-kids-grades-1-to-5-beaverton-202611031815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261103T181500
+DTEND;TZID=America/Toronto:20261103T190000
+SUMMARY:Creative Kids (Grades 1 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Builds\, missions and projects for kids. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-adventures-cannington-202611041000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261104T100000
+DTEND;TZID=America/Toronto:20261104T110000
+SUMMARY:Storytime Adventures
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Stories and activities for little ones\, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-friendly-fiber-circle-sunderland-202611041530@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261104T153000
+DTEND;TZID=America/Toronto:20261104T163000
+SUMMARY:Friendly Fiber Circle
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Knitting\, crochet and fibre arts social group\, all skill levels. Drop-in. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-beaverton-202611051815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261105T181500
+DTEND;TZID=America/Toronto:20261105T190000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-ages-0-to-5-beaverton-202611061015@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261106T101500
+DTEND;TZID=America/Toronto:20261106T110000
+SUMMARY:Storytime (ages 0 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-cannington-202611061615@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261106T161500
+DTEND;TZID=America/Toronto:20261106T170000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-after-school-adventures-kindergarten-to--sunderland-202611101500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261110T150000
+DTEND;TZID=America/Toronto:20261110T160000
+SUMMARY:After School Adventures (Kindergarten to Grade 5)
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-creative-kids-grades-1-to-5-beaverton-202611101815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261110T181500
+DTEND;TZID=America/Toronto:20261110T190000
+SUMMARY:Creative Kids (Grades 1 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Builds\, missions and projects for kids. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-adventures-cannington-202611111000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261111T100000
+DTEND;TZID=America/Toronto:20261111T110000
+SUMMARY:Storytime Adventures
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Stories and activities for little ones\, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-friendly-fiber-circle-sunderland-202611111530@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261111T153000
+DTEND;TZID=America/Toronto:20261111T163000
+SUMMARY:Friendly Fiber Circle
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Knitting\, crochet and fibre arts social group\, all skill levels. Drop-in. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-beaverton-202611121815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261112T181500
+DTEND;TZID=America/Toronto:20261112T190000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-ages-0-to-5-beaverton-202611131015@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261113T101500
+DTEND;TZID=America/Toronto:20261113T110000
+SUMMARY:Storytime (ages 0 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-cannington-202611131615@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261113T161500
+DTEND;TZID=America/Toronto:20261113T170000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-after-school-adventures-kindergarten-to--sunderland-202611171500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261117T150000
+DTEND;TZID=America/Toronto:20261117T160000
+SUMMARY:After School Adventures (Kindergarten to Grade 5)
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-creative-kids-grades-1-to-5-beaverton-202611171815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261117T181500
+DTEND;TZID=America/Toronto:20261117T190000
+SUMMARY:Creative Kids (Grades 1 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Builds\, missions and projects for kids. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-adventures-cannington-202611181000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261118T100000
+DTEND;TZID=America/Toronto:20261118T110000
+SUMMARY:Storytime Adventures
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Stories and activities for little ones\, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-friendly-fiber-circle-sunderland-202611181530@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261118T153000
+DTEND;TZID=America/Toronto:20261118T163000
+SUMMARY:Friendly Fiber Circle
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Knitting\, crochet and fibre arts social group\, all skill levels. Drop-in. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-beaverton-202611191815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261119T181500
+DTEND;TZID=America/Toronto:20261119T190000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-ages-0-to-5-beaverton-202611201015@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261120T101500
+DTEND;TZID=America/Toronto:20261120T110000
+SUMMARY:Storytime (ages 0 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-cannington-202611201615@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261120T161500
+DTEND;TZID=America/Toronto:20261120T170000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-acorn-gnome-ornaments-sunderland-202611211100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261121T110000
+DTEND;TZID=America/Toronto:20261121T133000
+SUMMARY:Make and Take: Acorn Gnome Ornaments
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-3d-paper-star-garland-cannington-202611211100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261121T110000
+DTEND;TZID=America/Toronto:20261121T133000
+SUMMARY:Make and Take: 3D Paper Star Garland
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-book-page-wreath-beaverton-202611211100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261121T110000
+DTEND;TZID=America/Toronto:20261121T133000
+SUMMARY:Make and Take: Book Page Wreath
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-drop-in-genealogy-workshop-cannington-202611241430@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261124T143000
+DTEND;TZID=America/Toronto:20261124T160000
+SUMMARY:Drop-in Genealogy Workshop
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Help with family history research and library genealogy resources. Drop-in. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-after-school-adventures-kindergarten-to--sunderland-202611241500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261124T150000
+DTEND;TZID=America/Toronto:20261124T160000
+SUMMARY:After School Adventures (Kindergarten to Grade 5)
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-creative-kids-grades-1-to-5-beaverton-202611241815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261124T181500
+DTEND;TZID=America/Toronto:20261124T190000
+SUMMARY:Creative Kids (Grades 1 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Builds\, missions and projects for kids. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-adventures-cannington-202611251000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261125T100000
+DTEND;TZID=America/Toronto:20261125T110000
+SUMMARY:Storytime Adventures
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Stories and activities for little ones\, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-friendly-fiber-circle-sunderland-202611251530@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261125T153000
+DTEND;TZID=America/Toronto:20261125T163000
+SUMMARY:Friendly Fiber Circle
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Knitting\, crochet and fibre arts social group\, all skill levels. Drop-in. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-beaverton-202611261815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261126T181500
+DTEND;TZID=America/Toronto:20261126T190000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-ages-0-to-5-beaverton-202611271015@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261127T101500
+DTEND;TZID=America/Toronto:20261127T110000
+SUMMARY:Storytime (ages 0 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-junior-book-club-grades-4-to-8-cannington-202611271600@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261127T160000
+DTEND;TZID=America/Toronto:20261127T170000
+SUMMARY:Junior Book Club (Grades 4 to 8)
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Monthly book club for kids: games\, activities and discussion. Space is limited this month\; register by email with the library. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-cannington-202611271615@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261127T161500
+DTEND;TZID=America/Toronto:20261127T170000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-adult-book-club-sunderland-202611281000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261128T100000
+DTEND;TZID=America/Toronto:20261128T110000
+SUMMARY:Adult Book Club
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Monthly book club. Drop-in\; pick up the book at the Sunderland Branch. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-acorn-gnome-ornaments-cannington-202611281100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261128T110000
+DTEND;TZID=America/Toronto:20261128T133000
+SUMMARY:Make and Take: Acorn Gnome Ornaments
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-3d-paper-star-garland-beaverton-202611281100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261128T110000
+DTEND;TZID=America/Toronto:20261128T133000
+SUMMARY:Make and Take: 3D Paper Star Garland
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-festive-felt-air-freshener-sunderland-202611281100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261128T110000
+DTEND;TZID=America/Toronto:20261128T133000
+SUMMARY:Make and Take: Festive Felt Air Freshener
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-after-school-adventures-kindergarten-to--sunderland-202612011500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261201T150000
+DTEND;TZID=America/Toronto:20261201T160000
+SUMMARY:After School Adventures (Kindergarten to Grade 5)
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-creative-kids-grades-1-to-5-beaverton-202612011815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261201T181500
+DTEND;TZID=America/Toronto:20261201T190000
+SUMMARY:Creative Kids (Grades 1 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Builds\, missions and projects for kids. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-adventures-cannington-202612021000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261202T100000
+DTEND;TZID=America/Toronto:20261202T110000
+SUMMARY:Storytime Adventures
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Stories and activities for little ones\, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-friendly-fiber-circle-sunderland-202612021530@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261202T153000
+DTEND;TZID=America/Toronto:20261202T163000
+SUMMARY:Friendly Fiber Circle
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Knitting\, crochet and fibre arts social group\, all skill levels. Drop-in. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-beaverton-202612031815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261203T181500
+DTEND;TZID=America/Toronto:20261203T190000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-ages-0-to-5-beaverton-202612041015@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261204T101500
+DTEND;TZID=America/Toronto:20261204T110000
+SUMMARY:Storytime (ages 0 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-cannington-202612041615@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261204T161500
+DTEND;TZID=America/Toronto:20261204T170000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-acorn-gnome-ornaments-beaverton-202612051100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261205T110000
+DTEND;TZID=America/Toronto:20261205T133000
+SUMMARY:Make and Take: Acorn Gnome Ornaments
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-book-page-wreath-sunderland-202612051100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261205T110000
+DTEND;TZID=America/Toronto:20261205T133000
+SUMMARY:Make and Take: Book Page Wreath
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-festive-felt-air-freshener-cannington-202612051100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261205T110000
+DTEND;TZID=America/Toronto:20261205T133000
+SUMMARY:Make and Take: Festive Felt Air Freshener
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-after-school-adventures-kindergarten-to--sunderland-202612081500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261208T150000
+DTEND;TZID=America/Toronto:20261208T160000
+SUMMARY:After School Adventures (Kindergarten to Grade 5)
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:A themed story and a hands-on STEAM activity for kids. Children 9 and under need a caregiver on site. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-creative-kids-grades-1-to-5-beaverton-202612081815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261208T181500
+DTEND;TZID=America/Toronto:20261208T190000
+SUMMARY:Creative Kids (Grades 1 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Builds\, missions and projects for kids. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-adventures-cannington-202612091000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261209T100000
+DTEND;TZID=America/Toronto:20261209T110000
+SUMMARY:Storytime Adventures
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Stories and activities for little ones\, ages 0 and up. Bring your own snacks. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-friendly-fiber-circle-sunderland-202612091530@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261209T153000
+DTEND;TZID=America/Toronto:20261209T163000
+SUMMARY:Friendly Fiber Circle
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Knitting\, crochet and fibre arts social group\, all skill levels. Drop-in. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-beaverton-202612101815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261210T181500
+DTEND;TZID=America/Toronto:20261210T190000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-storytime-ages-0-to-5-beaverton-202612111015@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261211T101500
+DTEND;TZID=America/Toronto:20261211T110000
+SUMMARY:Storytime (ages 0 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:A story and play time for children ages 0 to 5. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-reading-circle-sk-to-grade-4-cannington-202612111615@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261211T161500
+DTEND;TZID=America/Toronto:20261211T170000
+SUMMARY:Reading Circle (SK to Grade 4)
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Children read with a trained Reading Buddy\, then stories and literacy games. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-3d-paper-star-garland-sunderland-202612121100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261212T110000
+DTEND;TZID=America/Toronto:20261212T133000
+SUMMARY:Make and Take: 3D Paper Star Garland
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-book-page-wreath-cannington-202612121100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261212T110000
+DTEND;TZID=America/Toronto:20261212T133000
+SUMMARY:Make and Take: Book Page Wreath
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-make-and-take-festive-felt-air-freshener-beaverton-202612121100@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261212T110000
+DTEND;TZID=America/Toronto:20261212T133000
+SUMMARY:Make and Take: Festive Felt Air Freshener
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Make and Take Saturday: a holiday craft to make and take home. Drop-in\, while supplies last\; children need an adult with them. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-blue-christmas-cards-for-first-responder-sunderland-202612151500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261215T150000
+DTEND;TZID=America/Toronto:20261215T200000
+SUMMARY:Blue Christmas: Cards for First Responders
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Make holiday cards to thank local police\, firefighters\, paramedics and dispatchers. Drop-in\, all ages. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-creative-kids-grades-1-to-5-beaverton-202612151815@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261215T181500
+DTEND;TZID=America/Toronto:20261215T190000
+SUMMARY:Creative Kids (Grades 1 to 5)
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Builds\, missions and projects for kids. Registration required for the series\; spaces are limited. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-blue-christmas-cards-for-first-responder-sunderland-202612161500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261216T150000
+DTEND;TZID=America/Toronto:20261216T200000
+SUMMARY:Blue Christmas: Cards for First Responders
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Make holiday cards to thank local police\, firefighters\, paramedics and dispatchers. Drop-in\, all ages. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-friendly-fiber-circle-sunderland-202612161530@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261216T153000
+DTEND;TZID=America/Toronto:20261216T163000
+SUMMARY:Friendly Fiber Circle
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Knitting\, crochet and fibre arts social group\, all skill levels. Drop-in. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-blue-christmas-cards-for-first-responder-sunderland-202612171500@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261217T150000
+DTEND;TZID=America/Toronto:20261217T200000
+SUMMARY:Blue Christmas: Cards for First Responders
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Make holiday cards to thank local police\, firefighters\, paramedics and dispatchers. Drop-in\, all ages. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-pj-and-pancakes-storytime-beaverton-202612181015@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261218T101500
+DTEND;TZID=America/Toronto:20261218T110000
+SUMMARY:PJ and Pancakes Storytime
+LOCATION:Beaverton Branch\, Brock Township Public Library\, 401 Simcoe St\, Beaverton
+DESCRIPTION:Holiday storytime in PJs\, with pancakes. Registration required. From the Brock Township Public Library program guide\; details from the branch (beavertonbranch@brocklibraries.ca\, 705-426-9283).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-junior-book-club-grades-4-to-8-cannington-202612181600@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261218T160000
+DTEND;TZID=America/Toronto:20261218T170000
+SUMMARY:Junior Book Club (Grades 4 to 8)
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Monthly book club for kids: games\, activities and discussion. Drop-in. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-byob-bring-your-own-book-sunderland-202612191000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261219T100000
+DTEND;TZID=America/Toronto:20261219T110000
+SUMMARY:BYOB: Bring Your Own Book
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Share what you're reading and help pick the 2027 book club books. Drop-in. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-blue-christmas-cards-for-first-responder-sunderland-202612191000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261219T100000
+DTEND;TZID=America/Toronto:20261219T140000
+SUMMARY:Blue Christmas: Cards for First Responders
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Make holiday cards to thank local police\, firefighters\, paramedics and dispatchers. Drop-in\, all ages. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-a-cozy-cookie-storytime-cannington-202612191000@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261219T100000
+DTEND;TZID=America/Toronto:20261219T110000
+SUMMARY:A Cozy Cookie Storytime
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Holiday stories\, cookie decorating and a salt dough ornament. Registration required. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-drop-in-genealogy-workshop-cannington-202612221430@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261222T143000
+DTEND;TZID=America/Toronto:20261222T160000
+SUMMARY:Drop-in Genealogy Workshop
+LOCATION:Cannington Branch (Timothy Findley)\, Brock Township Public Library\, 38 Laidlaw St S\, Cannington
+DESCRIPTION:Help with family history research and library genealogy resources. Drop-in. From the Brock Township Public Library program guide\; details from the branch (canningtonbranch@brocklibraries.ca\, 705-432-2867).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+BEGIN:VEVENT
+UID:brocklib-gnome-for-the-holidays-pj-storytime-sunderland-202612221800@northdurhamcensus
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=America/Toronto:20261222T180000
+DTEND;TZID=America/Toronto:20261222T190000
+SUMMARY:Gnome for the Holidays PJ Storytime
+LOCATION:Sunderland Branch\, Brock Township Public Library\, 41 Albert St S\, Sunderland
+DESCRIPTION:Holiday storytime in PJs\, with treats. Registration required. From the Brock Township Public Library program guide\; details from the branch (sunderlandbranch@brocklibraries.ca\, 705-357-3109).
+URL:https://brocklibraries.ca/download-our-november-december-program-guide/
+END:VEVENT
+END:VCALENDAR

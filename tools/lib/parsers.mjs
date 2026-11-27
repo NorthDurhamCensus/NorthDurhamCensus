@@ -567,6 +567,8 @@ export function parseSquarespaceEvents(html, { baseUrl = "" } = {}) {
         : !v || address.toLowerCase().startsWith(v.toLowerCase()) ? address
         : v.toLowerCase().includes(address.toLowerCase()) ? v
         : `${v}, ${address}`;
+      // A stray fragment ("ada") is a typo, not a place.
+      if (location.replace(/[^a-z0-9]/gi, "").length < 4) location = "";
     }
 
     const href = decodeEntities(link.length > 2 ? link[1] : "");

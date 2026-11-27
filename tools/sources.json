@@ -195,12 +195,13 @@
     {
       "id": "uxbridge-cosmos",
       "name": "The Uxbridge Cosmos",
-      "type": "rss",
-      "url": "https://www.thecosmos.ca/events?format=rss",
+      "type": "squarespace",
+      "url": "https://www.thecosmos.ca/events",
       "page": "https://www.thecosmos.ca/events",
       "township": "Uxbridge",
-      "enabled": false,
-      "note": "ASK THEM. The best aggregator in Uxbridge — it already carries the Studio Tour, the Fall Fair, the Historical Centre, the horticultural society and guided trail walks. But their Squarespace RSS publishes the date each entry was POSTED, not the date of the event, so importing it would put everything on the wrong day. The dates do exist at ?format=json, and Squarespace's robots.txt explicitly disallows that URL, so we do not use it. Worth emailing to ask whether they would share their listings another way."
+      "enabled": true,
+      "note": "Squarespace. Reads the normal /events page (checked 27 Nov 2026: robots.txt allows it; only ?format=json and ?format=ical are disallowed, never use those). Switched on 27 Nov 2026 with Jodi's go-ahead. Facts only (what, when, where, link back to the Cosmos); no descriptions copied. Not filtered: the Cosmos lists local events only, and the filter was dropping Uxbridge's Downtown Holiday Trail (no town in its title or address). Still worth telling them we list their events, credited.",
+      "filterToNorthDurham": false
     },
     {
       "id": "lsrca",

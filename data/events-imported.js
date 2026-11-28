@@ -3,50 +3,12 @@
 // GENERATED FILE. Do not edit by hand: it is overwritten every time the
 // importer runs. Hand-verified events are added on the site (Submit an Event).
 //
-// Generated 2026-11-27T22:04:04.404Z by tools/fetch-events.mjs
-// Sources: Township of Uxbridge, Brock Township Public Library, Brock Township Public Library, OnStage Uxbridge, Uxbridge Public Library, Sideroads of Scugog, Scugog Memorial Public Library, Town Hall 1873, The Uxbridge Cosmos, Lake Simcoe Region Conservation Authority, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge, Lake Scugog Historical Society, Beaverton Town Hall Players
+// Generated 2026-11-28T15:37:13.063Z by tools/fetch-events.mjs
+// Sources: Township of Uxbridge, Brock Township Public Library, Uxbridge Public Library, Sideroads of Scugog, Scugog Memorial Public Library, Town Hall 1873, The Uxbridge Cosmos, Oak Ridges Trail Association, Ontario Conservation Areas, Theatre on the Ridge, Lake Scugog Historical Society, Beaverton Town Hall Players
 
 window.NDC = window.NDC || {}; window.NDC.data = window.NDC.data || {};
 window.NDC.data.eventsImported =
 [
-  {
-    "id": "imp-uxbridge-cosmos-2026-11-20-s9ssqehQqD",
-    "title": "Holiday Wreath Making at the Uxbridge Historical Centre",
-    "date": "2026-11-20",
-    "time": "6:00pm – 8:00pm",
-    "location": "Uxbridge Historical Centre, 7239 Concession 6 Uxbridge, ON, L9P 1W9",
-    "description": "",
-    "category": "Community",
-    "tags": [],
-    "url": "https://www.thecosmos.ca/events/holiday-wreath-making-at-the-uxbridge-historical-centre",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-cosmos",
-      "name": "The Uxbridge Cosmos",
-      "page": "https://www.thecosmos.ca/events"
-    }
-  },
-  {
-    "id": "imp-uxbridge-township-2026-11-20-E0irOR1J9L",
-    "title": "Winter Wreathmaking Workshop",
-    "date": "2026-11-20",
-    "time": "6:00pm – 8:00pm",
-    "location": "Uxbridge Historical Centre",
-    "description": "Join us at the Uxbridge Historical Centre for an exciting a cozy evening of wreath making, celebrating winter! Feel free to bring any foraged greenery or charms you 'd like to add to your wreath. Peppermint mocha not included.",
-    "category": "Learning",
-    "tags": [],
-    "url": "https://www.uxbridge.ca/explore-and-play/events/events-calendar",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-township",
-      "name": "Township of Uxbridge",
-      "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
   {
     "id": "imp-uxbridge-township-2026-11-21-d7o_CWTrO9",
     "title": "65th Annual Uxbridge Santa Claus Parade",
@@ -64,25 +26,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-uxbridge-cosmos-2026-11-21-nEcRYAGmF1",
-    "title": "Hilltop Equestrian Christmas Market",
-    "date": "2026-11-21",
-    "time": "10:00am – 2:00pm",
-    "location": "Hilltop Equestrian, 332 Sandford Road Uxbridge, Ontario, L9P 1R1",
-    "description": "",
-    "category": "Food & farms",
-    "tags": [],
-    "url": "https://www.thecosmos.ca/events/hilltop-equestrian-christmas-market",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "uxbridge-cosmos",
-      "name": "The Uxbridge Cosmos",
-      "page": "https://www.thecosmos.ca/events"
     }
   },
   {
@@ -335,25 +278,6 @@ window.NDC.data.eventsImported =
       "id": "brock-library-guide",
       "name": "Brock Township Public Library",
       "page": "https://brocklibraries.ca/download-our-november-december-program-guide/"
-    }
-  },
-  {
-    "id": "imp-theatre-on-the-ridge-2026-11-26-B2QONJJqhX",
-    "title": "Animated Acting",
-    "date": "2026-11-26",
-    "time": "10:30am – 12:00pm",
-    "location": "",
-    "description": "Feel good, have fun and take a refreshed approach to stagecraft with unintimidating theatre games, vocal warm ups and acting exercises. Animated Acting activities are good for general physical and mental well-being, not just for actors honing their craft. By sharpening the mind and waking up the body, a stronger connection is created between the two. Animated Acting the perfect complement to…",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://theatreontheridge.ca/event/animated-acting-4/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "theatre-on-the-ridge",
-      "name": "Theatre on the Ridge",
-      "page": "https://theatreontheridge.ca/events/"
     }
   },
   {
@@ -639,15 +563,34 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-sideroads-of-scugog-2026-11-28-BUO9wVCcb-",
+    "id": "imp-sideroads-of-scugog-2026-11-28-BKMmWuQCD0",
     "title": "Fleetwood Mac Mania at Great Blue Heron Casino",
     "date": "2026-11-28",
-    "time": "5:00pm – 8:00pm",
+    "time": "4:00pm – 5:00pm",
     "location": "Great Blue Heron Casino & Hotel, 21777 Island Road Port Perry, Ontario, L9L 1B6",
     "description": "",
     "category": "Community",
     "tags": [],
     "url": "https://www.sideroadsofscugog.ca/events/fleetwood-mac-mania-gbh",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "sideroads-of-scugog",
+      "name": "Sideroads of Scugog",
+      "page": "https://www.sideroadsofscugog.ca/events"
+    }
+  },
+  {
+    "id": "imp-sideroads-of-scugog-2026-11-28-OmGpNW1EvO",
+    "title": "Fleetwood Mac Mania at Great Blue Heron Casino",
+    "date": "2026-11-28",
+    "time": "7:00pm – 8:00pm",
+    "location": "Great Blue Heron Casino & Hotel, 21777 Island Road Port Perry, Ontario, L9L 1B6",
+    "description": "",
+    "category": "Community",
+    "tags": [],
+    "url": "https://www.sideroadsofscugog.ca/events/fleetwood-mac-mania-2",
     "recurring": "",
     "contact": "",
     "imported": true,
@@ -917,25 +860,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2026-11-30-UoQYXR4xAZ",
-    "title": "OSU Board Meeting",
-    "date": "2026-11-30",
-    "time": "7:00pm – 9:00pm",
-    "location": "",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/osu-board-meeting-4/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
@@ -2198,6 +2122,25 @@ window.NDC.data.eventsImported =
     }
   },
   {
+    "id": "imp-theatre-on-the-ridge-2026-12-11-IXBAv-Z3kr",
+    "title": "Moving Well",
+    "date": "2026-12-11",
+    "time": "9:30am – 11:00am",
+    "location": "",
+    "description": "This is the class to rebalance and re-energize from too much time behind your laptop or the demands of specialized or repetitive activities. Discover the benefits of “moving well” and realizing your full movement potential, including the value of incorporating stretch, strength and breathing into your body maintenance philosophy. This non-aerobic class works with gravity, body weight, breath and…",
+    "category": "Sports & rec",
+    "tags": [],
+    "url": "https://theatreontheridge.ca/event/moving-well-18/",
+    "recurring": "",
+    "contact": "",
+    "imported": true,
+    "source": {
+      "id": "theatre-on-the-ridge",
+      "name": "Theatre on the Ridge",
+      "page": "https://theatreontheridge.ca/events/"
+    }
+  },
+  {
     "id": "imp-brock-library-guide-2026-12-11-oIDxsnDeun",
     "title": "Reading Circle (SK to Grade 4)",
     "date": "2026-12-11",
@@ -3430,101 +3373,6 @@ window.NDC.data.eventsImported =
     }
   },
   {
-    "id": "imp-onstage-uxbridge-2027-01-21-GzHeTNFwRr",
-    "title": "Clue",
-    "date": "2027-01-21",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "Opening Night!",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-22-MzMhf9Z9nP",
-    "title": "Clue",
-    "date": "2027-01-22",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-2/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-23-QtOcj7U5xi",
-    "title": "Clue",
-    "date": "2027-01-23",
-    "time": "2:00pm – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-3/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-23-MgvQzfsc7W",
-    "title": "Clue",
-    "date": "2027-01-23",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-5/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-24-ivSfEjD1_X",
-    "title": "Clue",
-    "date": "2027-01-24",
-    "time": "2:00pm – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-4/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
     "id": "imp-uxbridge-township-2027-01-25-ha7kZvQsx7",
     "title": "Indoor Walking Trail",
     "date": "2027-01-25",
@@ -3585,82 +3433,6 @@ window.NDC.data.eventsImported =
       "id": "uxbridge-township",
       "name": "Township of Uxbridge",
       "page": "https://www.uxbridge.ca/explore-and-play/events/events-calendar"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-28-5EfegpwsFo",
-    "title": "Clue",
-    "date": "2027-01-28",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-6/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-29-m-kcH2pq63",
-    "title": "Clue",
-    "date": "2027-01-29",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-10/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-30-_j37Nr1x3C",
-    "title": "Clue",
-    "date": "2027-01-30",
-    "time": "2:00am – 4:00pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-8/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
-    }
-  },
-  {
-    "id": "imp-onstage-uxbridge-2027-01-30-e39QmhXzaz",
-    "title": "Clue",
-    "date": "2027-01-30",
-    "time": "7:30pm – 9:30pm",
-    "location": "Uxbridge Music Hall, 16 Main St S, Uxbridge",
-    "description": "",
-    "category": "Arts & culture",
-    "tags": [],
-    "url": "https://onstageuxbridge.com/event/clue-9/",
-    "recurring": "",
-    "contact": "",
-    "imported": true,
-    "source": {
-      "id": "onstage-uxbridge",
-      "name": "OnStage Uxbridge",
-      "page": "https://onstageuxbridge.com/events/list/"
     }
   },
   {
